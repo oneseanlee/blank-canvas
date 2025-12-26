@@ -1,0 +1,2048 @@
+Use Case,Prompt,Category,Tool Compatibility,Prompt Type,Description/Notes,Tab
+Building AI-first funnel with full automation,"Design a fully AI-automated sales funnel for [product/service] with minimal human intervention:
+
+1. AI components:
+   - Chatbot for lead qualification (24/7)
+   - Predictive lead scoring and routing
+   - Dynamic content personalization
+   - Automated email responses
+   - AI-powered recommendations
+   - Smart scheduling and follow-ups
+
+2. Human handoff points:
+   - High-value opportunity thresholds
+   - Complex question escalation
+   - Final negotiation and closing
+   - VIP customer handling
+
+3. AI training and optimization:
+   - Initial training data requirements
+   - Continuous learning from interactions
+   - Performance monitoring and tuning
+   - Edge case handling
+
+4. Technical architecture:
+   - AI platform selection (OpenAI, Anthropic, etc.)
+   - Integration with existing tools
+   - Data pipeline and storage
+   - Security and privacy considerations
+
+Provide complete AI funnel architecture, implementation roadmap, and code examples. Include ROI calculations and scaling projections. Target: 80%+ automation of funnel interactions.",AI & Automation,"ChatGPT, Replit, Lovable, Make.com",Strategy,Creates cutting-edge funnel leveraging latest AI capabilities. Can handle 80%+ of interactions without human involvement while maintaining personalization. Represents future of sales funnel automation and scalability.,💎 UI/UX Excellence
+Building API endpoints with validation,"Create a REST API endpoint that:
+- Accepts POST requests at /api/users
+- Validates input (name, email, age)
+- Stores data in [database]
+- Returns appropriate status codes
+- Includes error handling for duplicate emails
+- Implements rate limiting
+
+Use [Express/FastAPI/Django] and include input sanitization.",API Integration,"Cursor, Replit, Windsurf",Training Wheels,"API endpoint creation with comprehensive requirements. Specify the framework, validation rules, and security measures needed.",💎 UI/UX Excellence
+Third-party API integration,"Set up API integration with [service]:
+- Create service layer for API calls
+- Implement authentication headers
+- Error handling with retry logic
+- Request/response interceptors
+- Loading states management
+- Data caching strategy
+
+Use Axios or Fetch with proper TypeScript types.",API Integration,"Cursor, Replit, Windsurf",Training Wheels,API integration with robust error handling. Create a service layer to centralize API logic.,🛠️ Feature Development
+Designing a team or about section with engaging member profiles,"Create an appealing team section that humanizes your brand and builds connection. Team section structure: (1) Section header: 'Meet the Team' or 'Our Team' headline, Brief intro about team culture or values, Optional team photo/group shot, (2) Team member cards: Grid layout (3-4 columns desktop, 2 tablet, 1 mobile), Consistent card size and styling, Professional photos (same style/background), Member name and title, Brief bio or personal fun fact (2-3 lines), Social media links (LinkedIn, Twitter), Optional 'Meet [Name]' link to full bio, (3) Visual design: Circular or rounded square photos, Hover effects (color overlay, flip to reveal more info), Grayscale photos with color on hover, Consistent brand colors in card design, (4) Content strategy: Show personality (not just credentials), Diversity and inclusion representation, Behind-the-scenes candid photos option, Team values or culture highlights, (5) Interactive elements: Filter by department or role, Expandable cards for full bios, Photo gallery or carousel option. Ensure accessibility with proper alt text. Keep photos current and professional yet personable.",About & Team Design,"Lovable, Replit, ChatGPT, Cursor, v0",Design,Creates engaging team sections that build trust and human connection. Showing real team members increases trust by 25%+ and helps visitors connect with the brand. Important for service businesses and B2B companies.,🎨 Visual Design & Modern Aesthetics
+Keyboard navigation and shortcuts,"Add keyboard shortcuts:
+- Define shortcuts for common actions
+- Show shortcuts panel (? key)
+- Support Mac and Windows key combos
+- Prevent conflicts with browser shortcuts
+- Add visual feedback when triggered
+
+Accessible for screen readers.",Accessibility,All tools,No Training Wheels,Keyboard shortcuts for power users. Document shortcuts and make them discoverable.,🎨 Visual Design & Modern Aesthetics
+Creating an accessible and inclusive homepage meeting WCAG AA standards,"Design a fully accessible homepage that meets WCAG 2.1 AA compliance and ensures inclusive user experiences. Requirements: (1) Color contrast: Minimum 4.5:1 for normal text, 3:1 for large text (18px+), never rely on color alone for information, (2) Keyboard navigation: All interactive elements accessible via Tab key, visible focus indicators with 3px outline, logical tab order, (3) Screen reader support: Semantic HTML5 elements, descriptive alt text for all images (or alt='' for decorative), ARIA labels for interactive components, heading hierarchy (H1-H6) properly structured, (4) Forms: Clear labels, error messages, and instructions, (5) Responsive to user preferences: Respect prefers-reduced-motion, support dark mode with prefers-color-scheme, (6) Minimum touch targets: 44x44px for mobile, (7) Readable typography: 16px minimum, resizable text up to 200% without breaking layout. Test with WAVE, axe DevTools, and actual screen readers.",Accessibility & Inclusive Design,"Lovable, Replit, ChatGPT, v0, Bolt",Strategy,"Ensures homepage is usable by everyone, including users with disabilities. Accessibility is increasingly required for awards consideration and expands potential audience by 15%+. Based on WCAG standards and inclusive design principles.",✨ Award-Winning Homepage Designs
+Building analytics dashboard for funnel performance tracking,"Create a comprehensive analytics tracking system for [sales funnel] with:
+
+1. Key metrics to track:
+   - Funnel stage conversion rates
+   - Average time in each stage
+   - Drop-off points and abandonment rates
+   - Traffic source performance
+   - Customer acquisition cost by channel
+   - Lifetime value projections
+
+2. Dashboard design:
+   - Real-time monitoring widgets
+   - Trend analysis charts
+   - Alert systems for anomalies
+   - Cohort analysis views
+
+3. Implementation:
+   - Google Analytics 4 setup guide
+   - Custom event tracking code
+   - UTM parameter strategy
+   - Heatmap and session recording tools
+
+4. Reporting:
+   - Weekly performance report template
+   - Monthly optimization recommendations
+   - Quarterly strategic review format
+
+Provide code snippets for tracking implementation and dashboard creation. Include sample SQL queries for advanced analysis.",Analytics & Tracking,"ChatGPT, Google Analytics, Replit, Tableau",Analysis,Establishes comprehensive tracking and reporting for data-driven funnel optimization. Provides visibility into performance at every stage. Essential for identifying opportunities and measuring ROI.,💎 UI/UX Excellence
+Implementing predictive analytics for funnel optimization,"Set up predictive analytics system to optimize [sales funnel]:
+
+1. Data collection:
+   - User behavior tracking
+   - Conversion event logging
+   - Feature usage monitoring
+   - Customer attribute data
+
+2. Predictive models:
+   - Lead scoring (conversion probability)
+   - Churn prediction
+   - Lifetime value forecasting
+   - Next best action recommendations
+
+3. Activation and automation:
+   - Real-time scoring and segmentation
+   - Automated nurture path assignment
+   - Dynamic content personalization
+   - Sales alert triggers
+
+4. Continuous improvement:
+   - Model performance monitoring
+   - Feedback loop implementation
+   - Regular retraining schedule
+   - A/B testing of predictions
+
+Provide technical architecture, implementation guide with code samples, and KPI dashboard design. Include tool recommendations (Python, TensorFlow, cloud ML services).",Analytics & Tracking,"ChatGPT, Replit, Google Cloud AI, AWS SageMaker",Analysis,Uses machine learning to predict outcomes and optimize funnel in real-time. Can increase conversion rates by 20-40% through better targeting. Requires data infrastructure but provides significant competitive advantage.,💎 UI/UX Excellence
+Creating post-purchase satisfaction survey for continuous improvement,"Design a post-purchase feedback system that drives funnel optimization:
+
+1. Survey design:
+   - Net Promoter Score (NPS) question
+   - Customer Satisfaction (CSAT) rating
+   - Customer Effort Score (CES)
+   - Open-ended feedback questions
+   - Specific funnel touchpoint ratings
+
+2. Timing and delivery:
+   - Immediate post-purchase survey
+   - Post-delivery/onboarding survey
+   - 30-day experience survey
+   - Channel selection (email, SMS, in-app)
+
+3. Data analysis:
+   - Sentiment analysis
+   - Common theme identification
+   - Correlation with conversion metrics
+   - Detractor follow-up protocol
+
+4. Action and optimization:
+   - Feedback-driven funnel improvements
+   - Quick wins implementation
+   - Long-term optimization roadmap
+   - Closing the loop with respondents
+
+Provide survey templates, analysis framework, and action planning guide. Include code for automated survey delivery and analysis.",Analytics & Tracking,"ChatGPT, Typeform, SurveyMonkey, Replit",Analysis,Creates systematic process for capturing customer feedback and using it for optimization. Identifies blind spots and improvement opportunities. Essential for continuous funnel improvement and customer-centric approach.,💎 UI/UX Excellence
+Building a homepage with scroll-triggered number animations and data reveals,"Design an impactful statistics section with scroll-triggered animations that highlight key metrics. Animation implementation: (1) Number counter animations: Numbers that count up from 0 when scrolled into view, Use easing function for natural feel (start slow, accelerate, slow at end), Duration: 1.5-2.5 seconds depending on number size, Format large numbers with commas (1,000,000), Include + or % symbols where appropriate, (2) Trigger mechanics: Use Intersection Observer API for scroll detection, Trigger when element is 20-30% in viewport, Animate once (don't repeat on scroll up/down), Fallback: Show final numbers if JavaScript disabled, (3) Visual design: Large, bold numbers (56-80px), Descriptive labels below numbers (16-20px), Icons or illustrations accompanying stats, Grid layout for multiple stats (3-4 per row), Background section to highlight importance, (4) Additional effects: Fade-in animation combined with counting, Slide-up entrance animation, Progress bars that fill to percentage, Chart animations (bar heights, pie fills), (5) Content strategy: Use impressive, round numbers, Be specific with metrics ('50,000+', not 'thousands'), Include context or comparison. Ensure animations are smooth on all devices. Test performance with many animated elements.",Animation & Data Visualization,"Lovable, Replit, ChatGPT, Cursor, v0",Design,Creates engaging data presentations that capture attention and communicate scale. Animated statistics increase information retention by 40%+ and create wow moments. Commonly used in About pages and marketing homepages.,✨ Award-Winning Homepage Designs
+Adding animations and interactions,"Add smooth scroll animations using:
+- Intersection Observer for fade-in effects
+- Parallax scrolling for hero section
+- Stagger animations for list items
+- Page transitions
+
+Use Framer Motion or CSS animations. Keep animations subtle and performance-friendly.",Animation & Interactivity,All tools,No Training Wheels,Animation implementation with performance considerations. Specify animation library preference and performance constraints.,✨ Award-Winning Homepage Designs
+Cursor interactions,"Implement cursor/pointer effects:
+- Custom cursor design
+- Hover effects on interactive elements
+- Magnetic cursor on buttons
+- Trailing effects
+- Smooth transitions
+- Disable on touch devices
+
+Keep subtle and not distracting.",Animation & Interactivity,All tools,No Training Wheels,Custom cursor effects. Use sparingly and ensure it doesn't hurt usability.,🚀 Interactive & Immersive Elements
+Implementing secure authentication,"Add user authentication to this app using [Supabase/Auth0/Firebase]. Include:
+- Sign up with email/password
+- Login with email/password
+- Password reset functionality
+- Protected routes that redirect to login
+- Secure session management
+
+Use environment variables for API keys. Follow OWASP security guidelines.",Authentication & Security,"Lovable, Cursor, Replit, Bolt.new",Training Wheels,Comprehensive authentication prompt with security best practices. Always specify the auth provider and security requirements.,💎 UI/UX Excellence
+Social authentication,"Implement OAuth social login:
+- Sign in with [Google/GitHub/Twitter]
+- Handle OAuth flow
+- Link multiple accounts
+- Fallback to email/password
+- Request minimal permissions
+- Secure token storage
+
+Use NextAuth or Passport.js.",Authentication & Security,"Cursor, Replit, Windsurf",Training Wheels,OAuth social login integration. Use established library for security and ease of implementation.,🛠️ Feature Development
+Implementing Awwwards-winning minimalist design with maximalist interactions,"Create a homepage that embodies the 2025 award-winning trend of minimalist aesthetics with rich interactions. Design approach: (1) Visual simplicity: Clean white/light backgrounds, ample whitespace (40%+ of layout), limited color palette (2-3 colors), simple geometric shapes, (2) Typography-focused: Large, bold typography as the main visual element, creative text animations (split text reveals, gradient fills), hierarchy through size and weight alone, (3) Sophisticated micro-interactions: Hover effects with smooth transitions (300ms ease-out), Cursor changes with custom cursors, Button morphing and ripple effects, Smooth page transitions between sections, (4) Subtle animations: Elements that respond to scroll position, Parallax effects on backgrounds, Staggered fade-ins for lists, (5) Performance: Despite rich interactions, maintain fast load times using CSS transforms, Respect prefers-reduced-motion. Reference: Apple's product pages, Stripe's homepage, Awwwards SOTD winners.",Award-Winning Design Patterns,"Lovable, Replit, ChatGPT, Cursor, v0",Design,Implements the leading trend in award-winning web design combining clean aesthetics with delightful interactions. This approach wins Awwwards recognition while maintaining usability and performance. Based on 2025 design trends from Seahawkmedia research.,✨ Award-Winning Homepage Designs
+Implementing account-based marketing funnel for B2B,"Create an account-based marketing (ABM) funnel for [B2B product/service]:
+
+1. Account selection:
+   - Ideal customer profile definition
+   - Account scoring and prioritization
+   - Stakeholder mapping within accounts
+   - Research and intelligence gathering
+
+2. Personalized engagement:
+   - Account-specific landing pages
+   - Personalized content and messaging
+   - Multi-threaded outreach strategy
+   - Executive-level engagement tactics
+
+3. Channel orchestration:
+   - LinkedIn advertising to target accounts
+   - Direct mail campaigns
+   - Personalized email sequences
+   - Events and networking
+
+4. Sales enablement:
+   - Account insights and intelligence
+   - Trigger event notifications
+   - Buying committee engagement tracking
+   - Handoff optimization to sales
+
+Provide ABM playbook, personalization templates, and account journey maps. Target: 3x higher close rates vs traditional funnel.",B2B Funnel,"ChatGPT, 6sense, Demandbase, LinkedIn",Strategy,Creates highly targeted funnel for specific high-value accounts. More effective than broad funnel for enterprise sales. Can reduce sales cycles by 40% and increase deal sizes significantly.,🎯 Conversion & Funnel Optimization
+Establishing strong brand identity and visual consistency across homepage,"Create a homepage that powerfully communicates brand identity with absolute consistency. Brand elements: (1) Logo: Prominent placement in top-left, consistent sizing across pages (150-200px width), proper spacing (minimum 20px clearance), (2) Color palette: Define primary brand colors (2-3 colors) used consistently across all elements, create a color system with documented hex codes, (3) Typography: Establish brand font families (heading + body), consistent sizes and weights, (4) Imagery style: Consistent photography style (e.g., lifestyle, product shots, illustrations), unified filters or color treatments, (5) Voice and tone: Consistent copywriting style reflecting brand personality (professional, playful, authoritative), (6) Design elements: Signature shapes, patterns, or graphic elements used throughout, (7) Spacing system: Consistent padding and margins using 8px baseline grid. Create a cohesive emotional experience that users can instantly recognize as your brand.",Brand Identity & Consistency,"Lovable, Replit, ChatGPT, Cursor, v0",Design,Builds strong brand recognition and trust through consistent visual identity. Consistent branding can increase revenue by 33% and improves memorability. Essential for award-winning designs that stand out while maintaining cohesion.,🎯 START HERE - Pre-Session Setup
+Implementing seasonal campaign funnels with urgency,"Create seasonal/holiday campaign funnel for [product/service] maximizing limited-time urgency:
+
+1. Campaign planning:
+   - Calendar of key dates (Black Friday, holidays, etc.)
+   - Campaign themes and angles
+   - Offer structure and discounting strategy
+   - Inventory and capacity planning
+
+2. Pre-launch sequence:
+   - Teaser campaigns building anticipation
+   - Early access for VIP customers
+   - Waitlist and notification signup
+   - Countdown and reminder sequence
+
+3. Launch execution:
+   - High-impact launch messaging
+   - Multi-channel coordination
+   - Real-time inventory and urgency updates
+   - Deal progression (increasing urgency)
+
+4. Post-campaign:
+   - Last chance messaging
+   - Non-buyer win-back attempts
+   - Thank you and retention focus
+   - Data analysis and lessons learned
+
+Provide campaign calendar, email sequences, ad creative briefs, and performance tracking dashboard. Include year-round promotional calendar template.",Campaign Strategy,"ChatGPT, Klaviyo, Lovable, Google Analytics",Strategy,Maximizes revenue during key seasonal periods. Seasonal campaigns can drive 30-50% of annual revenue for many businesses. Requires careful planning and execution across multiple channels.,💎 UI/UX Excellence
+Creating a color psychology-driven homepage with strategic palette selection,"Design a homepage using color psychology principles tailored to the brand's emotional goals. Research-backed color applications: (1) For trust/security brands: Navy blue (#1E3A8A) primary with green (#10B981) accents for CTAs, (2) For energy/urgency brands: Orange (#F97316) primary with yellow (#FCD34D) highlights, (3) For luxury/sophistication: Black (#0F172A) with gold (#F59E0B) or silver (#94A3B8) accents, (4) For health/wellness: Sage green (#84CC16) with earth tones. Implement: 60-30-10 color rule (60% dominant, 30% secondary, 10% accent), high contrast ratio (minimum 4.5:1 for WCAG AA) between text and backgrounds, color gradients for depth, color blocking to group related content, consistent brand colors across all elements. Use bright colors sparingly for CTA emphasis. Include hover states with color transitions.",Color Psychology & Design,"Lovable, Replit, ChatGPT, Cursor, v0",Design,Applies evidence-based color psychology to evoke specific emotions and drive actions. Colors can increase brand recognition by 80% and improve readability when properly contrasted. Based on award-winning design patterns from Awwwards and CSSDA.,✨ Award-Winning Homepage Designs
+Building a contact section with interactive map and multiple contact methods,"Design a comprehensive contact section that makes reaching out easy and appealing. Contact components: (1) Contact form: Fields: Name, Email, Phone (optional), Subject dropdown, Message textarea, Submit button with loading state, Success message on submission, Email notification to business, Auto-reply to user, Form validation with helpful error messages, (2) Interactive map: Embedded Google Maps showing location, Custom pin with brand colors, 'Get Directions' link, Satellite/street view toggle, (3) Contact information grid: Office address with map icon, Phone number (clickable tel: link), Email (clickable mailto: link), Business hours with clock icon, Social media links with brand icons, (4) Alternative contact methods: Live chat widget integration, WhatsApp button (mobile), Schedule call/meeting button, (5) Design elements: Contact section with distinct background color, Office photo or team photo, Quick response time promise, 'We typically respond within 24 hours'. Ensure form is accessible and mobile-friendly. Implement reCAPTCHA for spam prevention.",Contact & Engagement,"Lovable, Replit, ChatGPT, v0, Bolt",Design,Creates effective contact sections that increase inquiry rates by making communication easy and trustworthy. Multiple contact options accommodate different user preferences. Well-designed contact forms can increase submissions by 120%.,🎨 Visual Design & Modern Aesthetics
+Creating a blog-focused homepage with content discovery features,"Design a homepage optimized for blog content discovery and readership. Layout structure: (1) Featured post: Large hero card with cover image, Headline, excerpt (2-3 lines), Author, date, read time, Category tag, (2) Recent posts grid: 3-column grid on desktop, 1-column on mobile, Smaller cards with images, titles, excerpts, Hover effects (image zoom, shadow lift), (3) Category navigation: Horizontal category pills/tabs, Filter content by category without page reload, Visual category icons, (4) Sidebar elements: Author bio with photo, Newsletter signup form, Popular posts list, Social media links, Tag cloud or search, (5) Pagination or infinite scroll: 'Load More' button, Smooth loading animation, Progress indicator, (6) Post metadata: Reading time estimate, Comment count, Social share buttons. Optimize for content readability: use serif fonts for articles, maintain 720px max-width for post content, generous line height. Include RSS feed link.",Content & Publishing Design,"Lovable, Replit, ChatGPT, Cursor, v0",Design,Creates engaging blog homepages that maximize content discovery and readership. Well-designed blog homepages can increase pageviews by 40%+ and time-on-site. Based on successful publishing site patterns.,✨ Award-Winning Homepage Designs
+Designing a FAQ section with accordion interface and search,"Create a comprehensive, user-friendly FAQ section for homepage inclusion. FAQ structure: (1) Section header: 'Frequently Asked Questions' heading, Brief intro text, Search bar for FAQ filtering, (2) Accordion interface: Questions as clickable headers with + icon, Smooth expand/collapse animation (300ms), Only one open at a time or allow multiple, Answers in readable paragraph format with bullets if needed, (3) Organization: Group by category with category headers, Most asked questions at top, Logical flow from general to specific, (4) Content strategy: Questions written in natural language (how users ask), Answers concise but complete (100-200 words), Include links to detailed articles, Address common objections or concerns, (5) Functionality: Jump links from navigation to FAQ section, 'Was this helpful?' voting on answers, Contact CTA if question not answered, (6) Accessibility: Keyboard navigation (Enter to expand), ARIA labels for screen readers, Heading hierarchy for structure. Mobile-optimized with larger touch targets.",Content & UX Strategy,"Lovable, Replit, ChatGPT, Cursor, v0",Design,Creates efficient self-service support that reduces friction in the buying process. Well-designed FAQs can reduce support tickets by 30% and improve conversions by addressing objections. Essential for SaaS and e-commerce sites.,✨ Award-Winning Homepage Designs
+Building content marketing funnel with SEO focus,"Design a content-driven funnel optimized for organic search:
+
+1. Content strategy:
+   - Top of funnel: Informational keywords and blog posts
+   - Middle of funnel: Comparison and solution content
+   - Bottom of funnel: Product and buying guide content
+   - Topic cluster architecture
+
+2. SEO optimization:
+   - Keyword research and mapping
+   - On-page SEO elements
+   - Internal linking strategy
+   - Technical SEO requirements
+
+3. Conversion optimization:
+   - Content upgrades and lead magnets
+   - Strategic CTA placement
+   - Email capture strategies
+   - Retargeting pixel implementation
+
+4. Content promotion:
+   - Initial traffic generation
+   - Link building strategy
+   - Social media amplification
+   - Email newsletter integration
+
+Provide content calendar, SEO checklist, and funnel mapping. Target: 50,000+ monthly organic visitors within 12 months.",Content Marketing,"ChatGPT, Surfer SEO, Ahrefs, Lovable",Strategy,"Creates sustainable organic traffic source that feeds sales funnel. SEO content can have 10x better ROI than paid advertising. Essential for long-term, scalable growth.",💎 UI/UX Excellence
+Creating emotional connection storytelling funnel,"Build a story-driven funnel for [brand] that creates emotional connection:
+
+1. Brand story framework:
+   - Origin story and 'why'
+   - Founder journey and struggles
+   - Customer transformation stories
+   - Brand values and mission
+
+2. Storytelling across funnel:
+   - Awareness: Share relatable problem stories
+   - Interest: Demonstrate transformation possibilities
+   - Consideration: Detailed case studies and journeys
+   - Decision: Personal connection and shared values
+   - Loyalty: Community and belonging
+
+3. Content formats:
+   - Written narratives
+   - Video testimonials and documentaries
+   - Audio stories/podcasts
+   - Interactive story experiences
+
+4. Emotional triggers:
+   - Identify key emotions to evoke
+   - Story arcs that resonate
+   - Authentic vulnerability
+   - Hero's journey framework
+
+Provide storytelling playbook, story templates, and content production guide. Include examples of emotional storytelling that drives conversions.",Content Marketing,"ChatGPT, StoryBrand, Lovable, Vimeo",Content,Creates deeper brand connection through narrative and emotion. Story-driven marketing can increase conversion by 30%+ and build lasting loyalty. Particularly effective for purpose-driven brands.,✨ Award-Winning Homepage Designs
+Building a comparison table section for pricing or feature comparison,"Design a clear, conversion-optimized comparison table for homepage inclusion. Table structure: (1) Layout: 3-4 columns comparing options (tiers, products, plans), Highlight recommended or most popular option with: Different background color, 'Most Popular' badge, Slightly larger size or border, (2) Row organization: Header row with plan names and pricing, 'Sign Up' CTA button in each column, Feature rows with checkmarks/x marks, Category separators for grouped features, (3) Visual elements: Icon indicators (✓ checkmark, ✗ cross, ~ partial), Color coding (green for yes, gray for no), Tooltips for complex features on hover, Collapsible sections for extensive features, (4) Responsive design: Horizontal scroll on mobile with sticky first column, Or: Stack columns vertically on mobile, Card-style layout for mobile, (5) Interactive features: Toggle between monthly/annual pricing, 'See all features' expansion link, Highlight differences between tiers. Ensure high contrast for readability. Include summary row at bottom. Make CTAs prominent in popular column.",Conversion & Comparison,"Lovable, Replit, ChatGPT, v0, Bolt",Design,"Creates effective comparison tables that aid decision-making and increase conversions. Clear feature comparison can reduce sales cycle time by 40%. Essential for SaaS, e-commerce, and service-based businesses.",✨ Award-Winning Homepage Designs
+Creating a countdown timer section for launches or limited offers,"Design an engaging countdown timer that creates urgency and drives action. Timer components: (1) Display format: Large numbers showing: Days, Hours, Minutes, Seconds, Labels below each unit, Use flip animation or smooth counting, (2) Visual design: Bold, large numbers (48-72px), High contrast colors, Background distinct from page (accent color or gradient), Optional circular progress rings around numbers, (3) Context: Headline explaining what's counting down ('Launch in', 'Offer ends in', 'Event starts in'), Subtext with date/time in words, CTA button below timer ('Notify Me', 'Reserve Spot'), (4) Functionality: Live JavaScript countdown, Time zone handling, Action when countdown reaches zero (reveal content, redirect, show message), Optional recurring countdown for regular sales, (5) Design variations: Inline timer in header bar, Full-section timer for major events, Floating timer badge. Save user's timezone preference. Include fallback for disabled JavaScript. Create urgency without being pushy.",Conversion & Urgency,"Lovable, Replit, ChatGPT, Cursor, v0",Design,"Implements urgency tactics that can increase conversions by 20%+ through FOMO (fear of missing out). Countdown timers are effective for launches, sales, and event promotions. Based on conversion optimization research.",🎨 Visual Design & Modern Aesthetics
+Optimizing CTAs for maximum click-through rates,"Design 10 high-converting CTA variations for [specific funnel stage] targeting [audience]. For each CTA provide:
+- Button text (action-oriented, under 5 words)
+- Supporting microcopy (value statement)
+- Visual design suggestions (color, size, placement)
+- Contextual triggers (when/where to show)
+- A/B test hypothesis
+
+Include CTAs for different user intent levels (high, medium, low) and different devices (desktop, mobile). Focus on reducing friction and increasing urgency. Provide psychological reasoning for each variation.",Conversion Optimization,"ChatGPT, Lovable, Replit, Figma",Design,Generates diverse CTA options optimized for different scenarios and user psychology. Includes testing framework for continuous optimization. Best for improving conversion rates at critical decision points.,🎨 Visual Design & Modern Aesthetics
+Setting up A/B testing framework for funnel optimization,"Create a comprehensive A/B testing strategy for [specific funnel element] with:
+
+1. Hypothesis framework:
+   - Current performance baseline: [metrics]
+   - Proposed changes and rationale
+   - Expected impact and minimum detectable effect
+
+2. Test variations:
+   - Control version description
+   - 3-5 challenger variations with specific changes
+   - Prioritization based on potential impact
+
+3. Testing parameters:
+   - Sample size calculation
+   - Test duration and traffic allocation
+   - Success metrics and statistical significance threshold
+
+4. Implementation plan:
+   - Technical setup requirements
+   - Tool recommendations (free and paid)
+   - Monitoring and iteration strategy
+
+Provide code examples for implementation and analysis dashboards. Include common pitfalls to avoid.",Conversion Optimization,"ChatGPT, Google Optimize, Optimizely, Replit",Analysis,Establishes a scientific testing framework for continuous funnel improvement. Includes statistical rigor and practical implementation guidance. Best for data-driven optimization of any funnel element.,💎 UI/UX Excellence
+Implementing urgency and scarcity tactics ethically,"Design ethical urgency and scarcity mechanisms for [offer/product] that increase conversions without manipulating users:
+
+1. Time-based urgency:
+   - Limited-time offer copy templates
+   - Countdown timer implementations (code)
+   - Deadline communication strategy
+
+2. Quantity scarcity:
+   - Stock level displays
+   - Limited availability messaging
+   - Waitlist strategies
+
+3. Social proof urgency:
+   - 'Others are viewing' notifications
+   - Recent purchase popups
+   - Trending product indicators
+
+4. FOMO triggers:
+   - Bonus expiration notices
+   - Early-bird pricing tiers
+   - Exclusive access frameworks
+
+Ensure all tactics are genuine and transparent. Provide A/B testing framework to measure impact. Include psychological principles behind each tactic.",Conversion Optimization,"ChatGPT, Lovable, Replit, Proof",Strategy,Creates urgency mechanisms that drive action while maintaining ethical standards. Balances persuasion with transparency. Can increase conversion rates by 15-30% when implemented correctly.,💎 UI/UX Excellence
+Optimizing checkout process to reduce cart abandonment,"Redesign the checkout/signup flow for [product/service] to minimize friction and maximize completions:
+
+1. Flow optimization:
+   - Reduce form fields to absolute minimum
+   - Implement autofill and smart validation
+   - Add progress indicator for multi-step forms
+   - Enable guest checkout option
+   - Optimize payment gateway integration
+
+2. Trust elements:
+   - Security badges and SSL indicators
+   - Money-back guarantee prominence
+   - Clear pricing and no hidden fees
+   - Customer support visibility
+
+3. Mobile optimization:
+   - One-column layouts
+   - Large input fields and buttons
+   - Native mobile payment options (Apple Pay, Google Pay)
+   - Minimal typing required
+
+4. Abandonment prevention:
+   - Exit-intent popups with offers
+   - Cart abandonment email sequence
+   - SMS recovery campaigns
+   - Retargeting ad strategy
+
+Provide wireframes, code examples, and before/after conversion projections. Target: <10% abandonment rate.",Conversion Optimization,"Lovable, Replit, ChatGPT, Stripe",Design,Streamlines the final conversion step to reduce abandonment. Focuses on removing friction and building trust. Can increase completion rates by 20-40% with proper optimization.,💎 UI/UX Excellence
+Implementing exit-intent optimization strategies,"Create a comprehensive exit-intent strategy to recover abandoning visitors:
+
+1. Exit-intent popup variations:
+   - Discount offer popup (with urgency)
+   - Lead magnet offer (value-first)
+   - Survey popup (objection discovery)
+   - Content recommendation (engagement)
+   - Chat invitation (support offer)
+
+2. Segmentation:
+   - First-time vs returning visitors
+   - Time on site (engaged vs bounce)
+   - Pages visited (interest level)
+   - Cart value (for e-commerce)
+
+3. Copywriting:
+   - Attention-grabbing headlines
+   - Value propositions
+   - Urgency and scarcity language
+   - Clear CTA copy
+   - Easy dismissal option
+
+4. Technical implementation:
+   - Exit-intent detection code
+   - Display frequency rules
+   - Mobile optimization
+   - A/B testing framework
+   - Performance tracking
+
+Provide popup copy variations, design mockups, and code snippets. Include ethical considerations and best practices. Target: 10-15% conversion of exit-intent visitors.",Conversion Optimization,"Lovable, Replit, OptinMonster, ChatGPT",Design,Captures leaving visitors before they abandon the funnel. Provides last-chance conversion opportunity. Can recover 10-15% of abandoning traffic when implemented strategically.,💎 UI/UX Excellence
+Implementing AI-powered dynamic pricing in funnel,"Create a dynamic pricing strategy using AI for [product/service]:
+
+1. Pricing intelligence:
+   - Competitor price monitoring
+   - Demand forecasting
+   - Customer willingness to pay analysis
+   - Seasonal and trend adjustments
+
+2. Personalization:
+   - User segment-based pricing
+   - Behavioral pricing triggers
+   - Location-based adjustments
+   - Time-sensitive offers
+
+3. Implementation:
+   - AI pricing algorithm design
+   - A/B testing framework
+   - Price display strategies
+   - Anchor pricing techniques
+
+4. Optimization:
+   - Revenue vs conversion balance
+   - Price sensitivity testing
+   - Psychological pricing rules ($99 vs $100)
+   - Bundle and tier pricing
+
+Provide pricing algorithm logic, implementation code, and ethical guidelines. Include profit margin and conversion rate projections.",Conversion Optimization,"ChatGPT, Replit, Price Intelligently, Custom AI",Strategy,Uses AI to optimize pricing for maximum revenue while maintaining conversions. Balances profit margins with conversion rates dynamically. Can increase revenue by 15-25% compared to static pricing.,💎 UI/UX Excellence
+Optimizing thank you page for post-purchase engagement,"Transform the thank you page into a revenue and engagement driver:
+
+1. Immediate upsells:
+   - One-click order bumps
+   - Complementary product recommendations
+   - Upgrade offers
+   - Time-limited bonuses
+
+2. Engagement mechanisms:
+   - Social media follow encourages
+   - Referral program introduction
+   - Community/group invitations
+   - Content recommendations
+
+3. Value delivery:
+   - Next steps and expectations
+   - Onboarding resource links
+   - Support contact information
+   - Personal video message
+
+4. Data collection:
+   - Feedback and survey requests
+   - Additional profile information
+   - Preference center
+   - Communication opt-ins
+
+Provide thank you page templates for different offer types, upsell strategies, and implementation code. Target: 20-30% take rate on post-purchase offers.",Conversion Optimization,"Lovable, Replit, ChatGPT, ClickFunnels",Design,Maximizes value of high-intent moment post-purchase. Most neglected but highest-converting page in funnel. Can increase average order value by 15-25% with strategic optimization.,🎯 Conversion & Funnel Optimization
+Creating crisis/objection handling content library,"Build a comprehensive objection handling library for [product/service]:
+
+1. Objection identification:
+   - Survey existing customers and prospects
+   - Analyze sales call recordings
+   - Review support tickets and FAQs
+   - Competitor comparison concerns
+
+2. Response framework:
+   - For each objection, create:
+     * Empathy statement
+     * Educational response
+     * Evidence/proof points
+     * Reframe/perspective shift
+     * Call to action
+
+3. Content formats:
+   - FAQ page
+   - Objection handling scripts
+   - Email templates
+   - Video responses
+   - Case studies addressing specific concerns
+
+4. Strategic placement:
+   - Pre-emptive objection handling in copy
+   - Chat bot responses
+   - Sales enablement materials
+   - Targeted content for different funnel stages
+
+Provide complete objection library with 15-20 common objections and responses. Include testing methodology to improve over time.",Conversion Optimization,"ChatGPT, Gong, Lovable, Notion",Content,Addresses concerns proactively to reduce friction and increase trust. Proper objection handling can increase conversions by 30-50%. Essential resource for sales team and automated touchpoints.,💎 UI/UX Excellence
+Building a conversion-focused homepage with 1:1 attention ratio,"Design a laser-focused homepage with a singular conversion goal and 1:1 attention ratio. Create a minimalist layout centered on one primary action (sign-up, purchase, or inquiry). Include: (1) A powerful above-the-fold hero section with a clear unique value proposition in 8-12 words, (2) One prominent CTA button using high-contrast colors with action-oriented copy like 'Start Your Free Trial' or 'Get Instant Access', (3) Benefit-focused subheadline addressing user pain points, (4) Trust signals (badges, testimonials, or social proof) positioned near the CTA, (5) Remove all distracting elements - no multiple CTAs or competing actions. Use ample white space (30%+ of layout) to direct focus. Ensure the CTA is above the fold and repeated once after key content. Mobile-optimized with sticky CTA.",Conversion-Focused Elements,"Lovable, Replit, ChatGPT, v0, Bolt",Strategy,Creates ultra-focused conversion-centered homepages following Unbounce's attention ratio principle. This approach can increase conversion rates by 20-50% by eliminating distractions and maintaining singular focus on one user action.,✨ Award-Winning Homepage Designs
+Implementing a terminal/command-line styled homepage for tech brands,"Design a unique terminal-style homepage that appeals to technical audiences. Terminal aesthetic: (1) Visual theme: Dark background (#0a0e14 or similar terminal black), Monospace font (Fira Code, Source Code Pro, Courier), Green (#00ff00) or amber (#ffb000) text for retro terminal feel, Blinking cursor animation, (2) Interactive command interface: Command input field that accepts typed commands, Auto-suggestions for available commands, Command history (up/down arrows), Help command listing available actions, (3) Homepage commands: 'about' - Display company info, 'projects' or 'portfolio' - Show work, 'skills' or 'services' - List offerings, 'contact' - Show contact form, 'help' - List all commands, 'clear' - Clear terminal screen, (4) ASCII art: Logo rendered in ASCII, Decorative ASCII borders or dividers, (5) Output formatting: Syntax-highlighted code blocks, Indented structured output, Loading animations with ASCII spinners. Include option to switch to 'GUI mode' for broader accessibility. Reference: Terminal-style portfolio in Codecademy Lovable article.",Creative & Themed Design,"Lovable, Replit, ChatGPT, v0, Bolt",Design,"Creates memorable, distinctive homepages for developer tools, tech startups, or personal portfolios. Terminal interfaces resonate with technical audiences and demonstrate technical prowess. Unique approach that stands out in portfolios.",✨ Award-Winning Homepage Designs
+Admin panel development,"Create an admin dashboard with:
+- Sidebar navigation (collapsible on mobile)
+- Top bar with user profile, notifications, search
+- Main content area with data tables
+- Charts using [Chart.js/Recharts]
+- CRUD operations for [entity]
+- Role-based access control
+
+Use React Admin or build custom.",Dashboard & Admin Panels,"Lovable, Cursor, Bolt.new",Training Wheels,"Full admin dashboard structure. Start with layout, then add features iteratively to avoid overwhelming the AI.",💎 UI/UX Excellence
+Data table with advanced features,"Implement data table with:
+- Sorting by columns
+- Pagination controls
+- Search/filter functionality
+- Row selection (checkbox)
+- Bulk actions
+- Export to CSV
+- Responsive mobile view
+
+Use TanStack Table or AG Grid.",Dashboard & Admin Panels,All tools,Training Wheels,Feature-rich data table. Consider using a library for complex requirements. Build incrementally.,💎 UI/UX Excellence
+Kanban project management,"Build a kanban board:
+- Drag and drop cards between columns
+- Add/edit/delete cards
+- Card details modal
+- Filter and search cards
+- User assignments
+- Due dates
+
+Use react-beautiful-dnd or dnd-kit.",Dashboard & Admin Panels,"Cursor, Lovable, Replit",Training Wheels,Project management board. Complex drag-and-drop feature best implemented with a library.,💎 UI/UX Excellence
+Content moderation system,"Implement content moderation:
+- Flag inappropriate content
+- Admin review queue
+- Approve/reject actions
+- Ban user functionality
+- Automated content filtering
+- Appeal process
+
+Log all moderation actions for audit trail.",Dashboard & Admin Panels,"Cursor, Replit, Windsurf",Training Wheels,Moderation system for UGC. Include both automated and manual review processes.,📊 Dashboard & Admin Panels
+Customizable dashboard,"Build a dashboard with widgets:
+- Draggable/resizable widgets
+- Widget library to choose from
+- Save custom layout per user
+- Data refresh intervals
+- Export individual widgets
+- Responsive grid layout
+
+Use react-grid-layout or similar.",Dashboard & Admin Panels,"Cursor, Lovable, Windsurf",Training Wheels,Customizable dashboard with widgets. Complex feature requiring grid system and state management.,💎 UI/UX Excellence
+Data visualization,"Create data visualizations:
+- Charts for [data type]
+- Interactive legends
+- Tooltips on hover
+- Export chart as image
+- Responsive sizing
+- Real-time data updates
+
+Use Chart.js, Recharts, or D3.js.",Dashboard & Admin Panels,All tools,Training Wheels,Data visualization with charts. Choose library based on complexity and customization needs.,🎨 Visual Design & Modern Aesthetics
+Building a data-driven homepage with animated statistics and metrics,"Design a homepage that showcases impressive statistics and data through engaging visualizations. Data presentation: (1) Animated counters: Numbers that count up when scrolled into view, Large font size (48-72px) for impact, Supporting labels below numbers, Format: '50,000+ Customers', '$2M+ Revenue', '98% Satisfaction', (2) Progress bars: Animated skill bars or metric bars, Color-coded by category, Percentage labels, Smooth fill animation on reveal, (3) Charts and graphs: Simple, clean chart designs using Chart.js or similar, Bar charts for comparisons, Line graphs for growth trends, Pie charts for distributions, Interactive tooltips on hover, (4) Icon-based stats: Combine icons with numbers for visual interest, Grid layout of key metrics, Subtle entrance animations (fade + slide), (5) Live data: Real-time updates for dynamic metrics, 'Last updated' timestamp. Use data visualization best practices: limit decimals, use appropriate chart types, maintain consistent color coding. Ensure all data has text alternatives for accessibility.",Data Visualization & Metrics,"Lovable, Replit, ChatGPT, v0, Bolt",Design,Creates impactful data-driven homepages that build credibility through numbers. Animated statistics capture attention and communicate scale effectively. Increases trust and perceived success by showcasing impressive metrics.,✨ Award-Winning Homepage Designs
+Secure database integration,"Connect to [PostgreSQL/MongoDB/MySQL] database using environment variables. Create a function to:
+1. Establish connection with error handling
+2. Execute CRUD operations with parameterized queries
+3. Handle connection pooling
+4. Include transaction support
+5. Log errors without exposing sensitive data",Database Integration,"Cursor, Replit, Windsurf",Training Wheels,Database connection with security best practices. Always use parameterized queries and environment variables for credentials.,🛠️ Feature Development
+Debugging with explanation,I'm getting this error: [paste error message]. Explain what's causing it and provide a fix. Then explain why the fix works.,Debugging,All tools,No Training Wheels,Error-Forward prompting that feeds error messages to AI for targeted fixes. Always include the full error stack trace for best results.,🧪 Testing & Debugging
+Error handling implementation,"Set up comprehensive error handling:
+- Try-catch blocks for async operations
+- Error boundaries for React components
+- Global error handler
+- User-friendly error messages
+- Error logging to [service]
+- Retry logic for failed requests
+
+Don't expose sensitive information in errors.",Debugging,All tools,Training Wheels,"Comprehensive error handling strategy. Implement at different levels: component, API, global.",🛠️ Feature Development
+Getting an overview before implementation,"Before making any changes, provide me with a detailed plan outlining:
+1. What files will be modified
+2. What specific changes will be made to each file
+3. Any potential side effects or dependencies
+4. Wait for my confirmation before proceeding",Development,"Cursor, Windsurf, Lovable, Bolt.new, Replit",No Training Wheels,Overview First technique that requires AI to explain changes before implementing. Prevents unexpected modifications and helps you understand the approach.,🛠️ Feature Development
+E-commerce product display,"Create a product card component with:
+- Product image with lazy loading
+- Product name, price, rating
+- Add to cart button with loading state
+- Wishlist heart icon toggle
+- Hover effects and transitions
+- Responsive grid layout
+
+Use React, Tailwind CSS, and include PropTypes.",E-commerce,All tools,Training Wheels,E-commerce component with common features. Specify all interactive elements and states needed for complete functionality.,🚀 Interactive & Immersive Elements
+Shopping cart functionality,"Build a shopping cart that:
+1. Stores items in localStorage
+2. Calculates subtotal, tax, shipping
+3. Allows quantity updates
+4. Removes items
+5. Shows empty state with CTA
+6. Persists across sessions
+
+Include unit tests for calculations.",E-commerce,"Cursor, Replit, Windsurf",Training Wheels,Complete shopping cart with state management. Break into smaller prompts if too complex for single implementation.,💎 UI/UX Excellence
+Payment processing,"Add payment integration:
+- [Stripe/PayPal] checkout
+- Payment method storage
+- Subscription management
+- Invoices generation
+- Refund processing
+- Webhook handling
+
+PCI compliant. Handle edge cases like failed payments.",E-commerce,"Cursor, Replit, Windsurf",Training Wheels,Payment integration with subscription support. Never store card details directly. Use payment provider's SDK.,💰 E-commerce & Product Pages
+Creating an e-commerce homepage optimized for product discovery and sales,"Design a high-converting e-commerce homepage that maximizes product visibility and drives purchases. Homepage elements: (1) Hero banner: Seasonal promotion or new collection highlight, Large product images with lifestyle photography, 'Shop Now' CTA with urgency (limited time, while supplies last), (2) Category navigation: Visual category cards with images, Hover effects showing subcategories, Quick access to popular categories, (3) Featured products: Grid layout of best-sellers, Quick view modal on hover, Add to cart button, Product rating stars, Sale badges for discounted items, (4) Social proof: Customer photos in an Instagram-style grid, Reviews count and average rating, 'Shop the Look' functionality, (5) Trust signals: Free shipping threshold banner, Return policy highlight, Secure checkout badges, Payment method icons, (6) Email capture: Exit-intent popup with discount offer. Ensure fast loading with optimized product images. Include size guide links. Reference: Zillow's dynamic listing approach for inspiration.",E-commerce & Conversion,"Lovable, Replit, ChatGPT, Cursor, v0",Strategy,Implements e-commerce best practices that drive online sales. Optimized product presentation and trust signals can increase conversion rates by 25-50%. Based on successful e-commerce patterns and conversion optimization research.,✨ Award-Winning Homepage Designs
+Developing an automated email nurture sequence for leads,"Create a 7-email nurture sequence for [product/service] targeting [audience segment]. Each email should:
+
+Email 1 (Day 0): Welcome & deliver lead magnet + set expectations
+Email 2 (Day 2): Educational content addressing [pain point 1]
+Email 3 (Day 4): Case study/success story with social proof
+Email 4 (Day 6): Educational content addressing [pain point 2]
+Email 5 (Day 9): Product/service introduction with unique value proposition
+Email 6 (Day 12): Objection handling + FAQ
+Email 7 (Day 15): Strong CTA with urgency/bonus
+
+For each email provide: Subject line (with A/B variant), preview text, body copy, CTA, and P.S. Include personalization tokens and segmentation triggers for optimization.",Email Marketing,"ChatGPT, Claude, Mailchimp AI, ActiveCampaign",Content,Creates a complete automated nurture sequence with timing strategy. Balances education and promotion for optimal engagement. Best for warming cold leads and moving them through the funnel systematically.,📄 Landing Pages & Lead Generation
+Optimizing for voice search and conversational commerce,"Adapt my sales funnel for voice search and conversational commerce:
+
+1. Voice search optimization:
+   - Natural language keyword targeting
+   - FAQ content optimization
+   - Featured snippet strategies
+   - Local SEO for voice queries
+
+2. Conversational commerce:
+   - Voice-activated ordering
+   - Smart speaker integration
+   - Conversational AI for recommendations
+   - Voice authentication for returning customers
+
+3. Content adaptation:
+   - Conversational tone and structure
+   - Question-based content organization
+   - Simplified navigation for voice
+   - Audio content strategy
+
+4. Technical implementation:
+   - Schema markup for voice results
+   - Voice app development (Alexa Skills, Google Actions)
+   - API integrations
+   - Testing and optimization
+
+Provide optimization checklist, content templates, and implementation guide. Include future-proofing strategies as voice commerce grows.",Emerging Technologies,"ChatGPT, Replit, Dialogflow, Alexa Skills",Strategy,Prepares funnel for voice-first interactions and smart speaker commerce. Positions business for emerging channel that's growing 35% annually. Essential for staying competitive as voice commerce expands.,💎 UI/UX Excellence
+Implementing gamification in funnel for increased engagement,"Add gamification elements to [sales funnel] to boost engagement:
+
+1. Gamification mechanics:
+   - Points system for desired actions
+   - Badges and achievements
+   - Progress bars and levels
+   - Leaderboards and competition
+   - Rewards and unlockables
+
+2. Application across funnel:
+   - Awareness: Share and engagement points
+   - Interest: Content consumption rewards
+   - Consideration: Quiz and assessment games
+   - Decision: Purchase incentive games (spin to win)
+   - Loyalty: Repeat purchase rewards
+
+3. Psychology:
+   - Intrinsic vs extrinsic motivation
+   - Variable reward schedules
+   - Loss aversion mechanics
+   - Social proof and competition
+
+4. Technical implementation:
+   - Platform and tool selection
+   - Points tracking system
+   - Reward fulfillment automation
+   - Mobile app integration
+
+Provide gamification strategy document, mechanics design, and implementation guide. Include ethical considerations and addiction prevention.",Engagement & Retention,"Lovable, Replit, ChatGPT, Gleam",Design,Uses game mechanics to increase engagement and motivation. Can boost conversion rates by 30% and improve retention significantly. Particularly effective for younger audiences and SaaS products.,💎 UI/UX Excellence
+Building complex features step by step,"Build a [feature name] that:
+1. Does [specific action]
+2. Includes [required elements]
+3. Uses [technology/framework]
+
+Break this down into 5-7 smaller steps, and let me know what you'll do first.",Feature Development,All tools,No Training Wheels,Feature Builder prompt that breaks complex features into manageable steps. Use when building multi-component features to maintain clarity and control.,💎 UI/UX Excellence
+User onboarding experience,"Implement user onboarding flow:
+1. Welcome screen with benefits
+2. Multi-step form (personal info, preferences, verification)
+3. Progress indicator
+4. Skip option with reminder
+5. Completion celebration screen
+
+Store progress in database. Add analytics tracking.",Feature Development,All tools,Training Wheels,"Multi-step onboarding process. Break into smaller prompts if needed: screen design, form logic, progress tracking, data persistence.",🛠️ Feature Development
+Real-time chat functionality,"Create a real-time chat feature using [WebSocket/Socket.io/Pusher]:
+- Message sending and receiving
+- Online status indicators
+- Typing indicators
+- Message timestamps
+- Read receipts
+- Message history pagination
+
+Handle reconnection and offline queuing.",Feature Development,"Cursor, Replit, Windsurf",Training Wheels,Real-time communication feature. Complex feature that benefits from step-by-step implementation. Start with basic messaging.,💎 UI/UX Excellence
+Infinite scroll implementation,"Implement infinite scroll for [content type]:
+- Load initial batch of items
+- Detect scroll to bottom
+- Fetch next batch with loading indicator
+- Handle end of content
+- Show skeleton loaders
+- Optimize with virtualization if list is very long
+
+Use Intersection Observer or library like react-window.",Feature Development,All tools,Training Wheels,Infinite scroll with performance optimization. Consider virtualization for large lists to maintain performance.,🚀 Interactive & Immersive Elements
+File upload functionality,"Build a file upload component:
+- Drag and drop support
+- File type validation
+- Size limit checking
+- Upload progress indicator
+- Preview for images
+- Multiple file support
+- Cancel upload functionality
+
+Upload to [S3/Cloudinary/Supabase Storage].",Feature Development,All tools,Training Wheels,Complete file upload solution. Specify storage service and validation requirements. Add security measures.,💎 UI/UX Excellence
+Search functionality,"Create a search feature with:
+- Debounced search input
+- Search suggestions/autocomplete
+- Filters and sorting options
+- Results highlighting
+- Empty state for no results
+- Search history (optional)
+
+Implement client-side or call [API endpoint].",Feature Development,All tools,Training Wheels,Search feature with autocomplete. Specify whether client-side or API-based. Include debouncing for performance.,🛠️ Feature Development
+Multi-language support,"Add internationalization (i18n) support:
+- Multiple language support for [languages]
+- Language switcher in UI
+- Translation files for all text
+- RTL support if needed
+- Date/number formatting per locale
+- Use react-i18next or next-i18next",Feature Development,"Cursor, Lovable, Windsurf",Training Wheels,"Internationalization implementation. Start with framework, then add translations, then formatting.",💎 UI/UX Excellence
+Notification system,"Create a notification system:
+- Toast notifications (success, error, warning, info)
+- In-app notification center
+- Unread count badge
+- Mark as read functionality
+- Delete notifications
+- Real-time updates if applicable
+
+Store in database or state management.",Feature Development,All tools,Training Wheels,"Complete notification system. Start with UI components, then add state management, then persistence.",🛠️ Feature Development
+Calendar and scheduling,"Implement calendar/scheduling feature:
+- Month/week/day views
+- Event creation and editing
+- Recurring events
+- Event categories/colors
+- Reminders
+- Export to iCal format
+
+Use FullCalendar or build custom with date-fns.",Feature Development,"Cursor, Replit",Training Wheels,Calendar functionality. Complex feature best implemented with a library. Focus on integration and customization.,🎨 Visual Design & Modern Aesthetics
+Social media sharing,"Add social sharing features:
+- Share buttons for [platforms]
+- Custom share text and images
+- Copy link to clipboard
+- Open Graph meta tags
+- Twitter Cards
+- WhatsApp sharing
+
+Track share events with analytics.",Feature Development,All tools,No Training Wheels,Social sharing implementation. Include meta tags for proper preview rendering on social platforms.,🛠️ Feature Development
+Blog functionality,"Build a blog system:
+- Post listing with pagination
+- Individual post pages
+- Categories and tags
+- Author profiles
+- Related posts section
+- Comments section
+- RSS feed
+
+Use markdown for content. SEO optimized.",Feature Development,"Cursor, Lovable, Windsurf",Training Wheels,"Blog system with CMS features. Build incrementally: post display, categories, comments, SEO.",💎 UI/UX Excellence
+User profile features,"Implement user profile management:
+- View profile page
+- Edit profile form
+- Avatar upload with cropping
+- Password change
+- Email preferences
+- Account deletion
+- Activity history
+
+Validate all inputs. Add confirmation dialogs for destructive actions.",Feature Development,All tools,Training Wheels,User profile CRUD operations. Include security measures for password changes and account deletion.,🎯 Conversion & Funnel Optimization
+Analytics implementation,"Add analytics tracking:
+- Page view tracking
+- Event tracking for key actions
+- User journey tracking
+- Conversion funnel
+- Error tracking
+- Performance monitoring
+
+Integrate [Google Analytics/Mixpanel/Plausible]. GDPR compliant.",Feature Development,All tools,Training Wheels,Analytics integration with privacy compliance. Include consent management if in EU.,🎯 Conversion & Funnel Optimization
+Email template system,"Create an email template system:
+- Transactional emails (welcome, reset password, notifications)
+- Responsive HTML email templates
+- Variable substitution
+- Preview functionality
+- Send via [SendGrid/Mailgun/Resend]
+
+Test across email clients.",Feature Development,"Cursor, Replit, Windsurf",Training Wheels,Email system with templates. Use MJML or similar for cross-client compatibility.,💎 UI/UX Excellence
+Review and rating system,"Build a feedback/rating system:
+- Star rating component
+- Written review submission
+- Rating distribution display
+- Helpful votes on reviews
+- Report inappropriate reviews
+- Filter and sort reviews
+
+Store in database with moderation flags.",Feature Development,All tools,Training Wheels,Review system with moderation. Include spam prevention and content moderation features.,💎 UI/UX Excellence
+PWA implementation,"Implement Progressive Web App (PWA) features:
+- Service worker for offline support
+- App manifest
+- Install prompt
+- Push notifications
+- Background sync
+- Offline fallback page
+
+Test with Lighthouse PWA audit.",Feature Development,"Cursor, Windsurf",Training Wheels,"PWA functionality. Start with manifest and service worker, then add advanced features.",🛠️ Feature Development
+A/B testing framework,"Implement A/B testing:
+- Variant assignment logic
+- Feature flags
+- Track conversion metrics
+- Statistical significance calculation
+- Admin UI to view results
+- Gradual rollout support
+
+Integrate with analytics platform.",Feature Development,"Cursor, Windsurf, Replit",Training Wheels,A/B testing infrastructure. Consider using a service like LaunchDarkly for complex needs.,💎 UI/UX Excellence
+Video playback,"Add video player:
+- Embed [YouTube/Vimeo] or custom player
+- Play/pause, seek, volume controls
+- Fullscreen mode
+- Playback speed options
+- Captions/subtitles support
+- Thumbnail preview on hover
+
+Optimize for performance and accessibility.",Feature Development,All tools,Training Wheels,Video player with controls. Use native HTML5 video or a library like Video.js for advanced features.,🚀 Interactive & Immersive Elements
+Referral/affiliate system,"Create a referral program:
+- Unique referral codes/links
+- Track referrals
+- Reward system (credits, discounts)
+- Referral dashboard for users
+- Share on social media
+- Email invitations
+
+Store referral data in database.",Feature Development,"Cursor, Replit, Windsurf",Training Wheels,Referral tracking system. Include fraud prevention measures and clear reward terms.,📊 Dashboard & Admin Panels
+Quiz or survey,"Build a quiz/survey tool:
+- Multiple question types (multiple choice, text, rating)
+- Progress indicator
+- Skip/back functionality
+- Results page with scoring
+- Save partial responses
+- Export results to CSV
+
+Mobile-friendly design.",Feature Development,All tools,Training Wheels,Interactive quiz system. Focus on UX flow and data collection. Add branching logic if needed.,💎 UI/UX Excellence
+Real-time data updates,"Implement WebSocket real-time updates:
+- Establish connection with fallback
+- Handle connection status
+- Reconnect on disconnect
+- Update UI on incoming messages
+- Send heartbeat pings
+- Queue messages when offline
+
+Use [Socket.io/native WebSocket].",Feature Development,"Cursor, Replit, Windsurf",Training Wheels,WebSocket implementation with reliability. Handle edge cases like network disruptions.,💎 UI/UX Excellence
+Bookmarking functionality,"Build a bookmark/favorites system:
+- Add/remove items to favorites
+- Organize into collections
+- Search saved items
+- Share collections
+- Sync across devices
+- Export as list
+
+Store in database with user association.",Feature Development,All tools,Training Wheels,Bookmark management system. Include tagging and organization features for better UX.,💎 UI/UX Excellence
+Activity stream,"Create an activity feed:
+- Stream of recent activities
+- Different activity types (post, comment, like)
+- User avatars and timestamps
+- Load more functionality
+- Real-time updates
+- Filter by activity type
+
+Optimize for performance with pagination.",Feature Development,All tools,Training Wheels,Activity feed like social platforms. Consider using virtual scrolling for large feeds.,🎯 Conversion & Funnel Optimization
+Tagging and categorization,"Build a tag/category system:
+- Create tags with colors
+- Assign multiple tags to items
+- Filter items by tag
+- Tag autocomplete in input
+- Tag cloud visualization
+- Manage tags (edit, delete, merge)
+
+Store tag relationships in database.",Feature Development,All tools,Training Wheels,Tag management system. Include tag suggestions and hierarchical categories if needed.,🎨 Visual Design & Modern Aesthetics
+Data export,"Add export functionality:
+- Export data as [CSV/JSON/PDF]
+- Select columns to export
+- Apply current filters to export
+- Generate filename with timestamp
+- Progress indicator for large exports
+- Email export if too large
+
+Handle special characters in CSV.",Feature Development,"Cursor, Replit, Windsurf",Training Wheels,Data export functionality. Consider backend generation for large datasets.,🛠️ Feature Development
+Undo/redo operations,"Implement undo/redo functionality:
+- Track state changes
+- Undo/redo buttons
+- Keyboard shortcuts (Ctrl+Z, Ctrl+Y)
+- Limit history size
+- Show action description
+- Works across different features
+
+Use command pattern for implementation.",Feature Development,"Cursor, Windsurf",Training Wheels,Undo/redo system for editors. Implement using command pattern or time-travel debugging.,🎯 Conversion & Funnel Optimization
+QR code generation,"Add QR code generation:
+- Generate QR codes for URLs/text
+- Customizable size and colors
+- Download as image
+- Embed in page
+- Error correction level options
+- Logo in center (optional)
+
+Use qrcode library.",Feature Development,All tools,No Training Wheels,QR code generator. Use a library like qrcode or qrcode.react for easy implementation.,🎨 Visual Design & Modern Aesthetics
+Version control,"Build version history:
+- Track changes to items
+- Show diff between versions
+- Restore previous version
+- Timestamp and user who made changes
+- Compare any two versions
+- Search version history
+
+Store versions in database.",Feature Development,"Cursor, Replit, Windsurf",Training Wheels,Version history like Google Docs. Store snapshots or diffs depending on data size.,💎 UI/UX Excellence
+Map visualization,"Add map integration:
+- Embed interactive map ([Google Maps/Mapbox/Leaflet])
+- Show markers for locations
+- Custom marker icons
+- Info windows on click
+- Geolocation to show user position
+- Directions between points
+
+Handle API key securely.",Feature Development,All tools,Training Wheels,Interactive map integration. Choose provider based on features needed and pricing.,🎨 Visual Design & Modern Aesthetics
+Real-time collaboration,"Implement collaborative editing:
+- Real-time concurrent editing
+- Show other users' cursors
+- Conflict resolution
+- Presence indicators
+- Change notifications
+- Version history
+
+Use operational transforms or CRDTs.",Feature Development,"Cursor, Windsurf, Replit",Training Wheels,Collaborative editing like Google Docs. Complex feature requiring OT or CRDT for conflict resolution.,🛠️ Feature Development
+Audio recording,"Add voice/audio features:
+- Record audio messages
+- Playback with controls
+- Waveform visualization
+- Upload to storage
+- Transcription (optional)
+- Compress before upload
+
+Handle browser permissions properly.",Feature Development,"Cursor, Replit",Training Wheels,Audio recording functionality. Use Web Audio API or a library for recording and processing.,🎨 Visual Design & Modern Aesthetics
+Gamification,"Add gamification elements:
+- Points/XP system
+- Badges and achievements
+- Leaderboards
+- Progress levels
+- Daily streaks
+- Rewards redemption
+
+Motivate user engagement.",Feature Development,All tools,Training Wheels,Gamification for user engagement. Design reward system that motivates desired behaviors.,📄 Landing Pages & Lead Generation
+Polls and voting,"Create a poll/voting system:
+- Create polls with options
+- Vote with single or multiple choices
+- Real-time vote counts
+- Prevent duplicate voting
+- Show results with percentages
+- Close poll at set time
+
+Anonymous or authenticated voting.",Feature Development,All tools,Training Wheels,Poll creation and voting. Include fraud prevention measures for accurate results.,🛠️ Feature Development
+Autocomplete functionality,"Implement autocomplete search:
+- Search as user types
+- Highlight matching text
+- Keyboard navigation (arrow keys)
+- Recent searches
+- Search suggestions from API
+- Debounce input
+
+Accessible with ARIA attributes.",Feature Development,All tools,Training Wheels,Search autocomplete like Google. Improve UX with suggestions and keyboard navigation.,💎 UI/UX Excellence
+User settings management,"Build a settings page:
+- Organized by sections
+- Save changes button or auto-save
+- Reset to defaults option
+- Confirmation for sensitive changes
+- Form validation
+- Show unsaved changes warning
+
+Store settings in database or localStorage.",Feature Development,All tools,Training Wheels,Settings page with sections. Group related settings and show clear save/cancel actions.,💎 UI/UX Excellence
+Markdown editing,"Add markdown editor:
+- Live preview as you type
+- Toolbar with formatting buttons
+- Syntax highlighting
+- Image upload and embed
+- Table support
+- Code blocks with language selection
+
+Use SimpleMDE or build with CodeMirror.",Feature Development,"Cursor, Windsurf",Training Wheels,"Markdown editor with preview. Great for content creation in blogs, docs, or forums.",💎 UI/UX Excellence
+Content embedding,"Create an embed system:
+- Generate embed code for content
+- Responsive iframe
+- Customizable dimensions
+- Theme options (light/dark)
+- Copy embed code button
+- Preview of embed
+
+Handle CORS and security.",Feature Development,"Cursor, Replit, Windsurf",Training Wheels,Embed code generation for sharing content. Allow customization and ensure secure embedding.,💎 UI/UX Excellence
+Comment system,"Build a commenting system:
+- Nested replies (threading)
+- Like/upvote comments
+- Edit and delete own comments
+- Markdown support in comments
+- Sort by newest/oldest/popular
+- Mention other users (@username)
+
+Moderation features for admins.",Feature Development,All tools,Training Wheels,Comment system with threading. Include moderation tools to handle spam and abuse.,💎 UI/UX Excellence
+Background jobs,"Add background job processing:
+- Queue long-running tasks
+- Process asynchronously
+- Retry failed jobs
+- Job status tracking
+- Priority queue
+- Schedule recurring jobs
+
+Use Bull, Agenda, or cloud functions.",Feature Development,"Cursor, Replit, Windsurf",Training Wheels,Background job queue for async processing. Essential for tasks like email sending or data processing.,🛠️ Feature Development
+Feature flags,"Build a feature flag system:
+- Toggle features on/off
+- Gradual rollout percentage
+- User/team targeting
+- A/B test variants
+- Admin UI to manage flags
+- SDK for checking flags
+
+Integrate with analytics.",Feature Development,"Cursor, Windsurf, Replit",Training Wheels,Feature flag system for controlled rollouts. Essential for testing features in production safely.,💎 UI/UX Excellence
+Advanced search,"Implement content search with filters:
+- Full-text search across [content]
+- Filter by [categories/tags/date]
+- Sort options
+- Search result highlighting
+- Pagination or infinite scroll
+- Search analytics
+
+Use Algolia, Elasticsearch, or database full-text.",Feature Development,"Cursor, Replit, Windsurf",Training Wheels,Advanced search with filters. Choose search solution based on scale and requirements.,🚀 Interactive & Immersive Elements
+Data import,"Add CSV import functionality:
+- Upload CSV file
+- Preview data before import
+- Column mapping
+- Validation with error reporting
+- Batch import with progress
+- Rollback on errors
+
+Handle large files with streaming.",Feature Development,"Cursor, Replit, Windsurf",Training Wheels,CSV import with validation. Essential for bulk data entry. Include clear error messages and preview.,🛠️ Feature Development
+Form validation with accessibility,"Add client-side form validation for:
+- Email: valid format check
+- Password: minimum 8 characters, uppercase, lowercase, number
+- Name: not empty, 2-50 characters
+- Phone: valid format for [country]
+
+Show real-time error messages as user types. Use accessible error announcements.",Form Validation,All tools,No Training Wheels,Comprehensive form validation prompt with accessibility considerations. Specify all validation rules and UX requirements upfront.,💎 UI/UX Excellence
+Multi-step form wizard,"Build a wizard/stepper form:
+- Multi-step form with [X] steps
+- Step validation before proceeding
+- Progress indicator
+- Previous/Next navigation
+- Summary review step
+- Form data persistence
+- Save draft functionality
+
+Use Formik or React Hook Form.",Form Validation,All tools,Training Wheels,"Complex multi-step form. Break into: stepper UI, form validation, data persistence, navigation logic.",💎 UI/UX Excellence
+Designing a multi-step form or wizard interface for complex processes,"Create a user-friendly multi-step form that breaks complex processes into manageable steps. Wizard structure: (1) Progress indicator: Step numbers with labels (e.g., '1. Contact Info, 2. Preferences, 3. Payment'), Visual progress bar showing completion percentage, Highlight current step, completed steps, and upcoming steps, Allow clicking previous steps to return, (2) Step design: One clear step per screen, 3-5 steps maximum (break longer forms differently), Question or heading at top, Relevant form fields, 'Next' and 'Back' buttons, Auto-save progress locally, (3) Form optimization: Group related fields logically, Use appropriate input types (dropdown, radio, checkbox), Inline validation with helpful errors, Show character counts for text areas, Optional/required field indicators, (4) User experience: Prevent loss of data with browser navigation, 'Save and continue later' option for long forms, Summary/review step before submission, Success confirmation page, (5) Mobile optimization: Larger input fields, One field per row, Number pads for numeric inputs. Maintain state in URL or localStorage. Show time estimate ('2 minutes to complete').",Forms & User Flow,"Lovable, Replit, ChatGPT, v0, Bolt",Strategy,Creates frictionless multi-step experiences that increase completion rates by 30%+ compared to long single-page forms. Breaking forms into steps reduces cognitive load and abandonment. Essential for onboarding and applications.,🎨 Visual Design & Modern Aesthetics
+Creating a complete sales funnel blueprint for a new product launch,"Design a comprehensive 5-stage sales funnel for [product/service] targeting [audience]. Include:
+1. Awareness stage: Content strategy and channels
+2. Interest stage: Lead magnets and engagement tactics
+3. Consideration stage: Nurturing sequences and value propositions
+4. Decision stage: Conversion triggers and offers
+5. Retention stage: Loyalty programs and upsell strategies
+
+For each stage, provide specific tactics, recommended tools, key metrics to track, and estimated conversion rates. Make it scalable and focused on building trust.",Funnel Design,"ChatGPT, Claude, Lovable, Replit",Strategy,Generates a complete funnel architecture with stage-specific strategies. Best for planning new funnels or redesigning existing ones. Ensures comprehensive coverage of customer journey with actionable tactics for each stage.,💎 UI/UX Excellence
+Creating value ladder funnel with multiple product tiers,"Design a value ladder funnel for [business type] with multiple offers at increasing price points:
+
+1. Funnel structure:
+   - Free lead magnet (entry point)
+   - Tripwire offer: $7-27 (commitment device)
+   - Core offer: $47-197 (main product)
+   - Upsell 1: $197-497 (enhanced version)
+   - Upsell 2: $497-997 (premium/done-for-you)
+   - Continuity: $X/month (recurring revenue)
+
+2. Offer positioning:
+   - Unique value proposition for each tier
+   - Logical progression and relationship between offers
+   - Pricing psychology and anchoring strategies
+
+3. Implementation:
+   - Sales page templates for each offer
+   - Order bump strategies
+   - One-click upsell sequences
+   - Downsell fallback offers
+
+4. Automation:
+   - Email sequences between tiers
+   - Behavioral triggers for upgrade offers
+   - Segmentation based on purchase history
+
+Provide complete funnel map, offer descriptions, and projected average order value calculations.",Funnel Design,"ChatGPT, ClickFunnels, Lovable, Stripe",Strategy,Creates multi-tier funnel that maximizes customer lifetime value. Uses psychological pricing and logical progression. Can increase average order value by 2-5x compared to single-product funnels.,💎 UI/UX Excellence
+Designing webinar funnel for high-ticket sales,"Create a complete webinar funnel for [high-ticket offer $1000+] including:
+
+1. Pre-webinar sequence:
+   - Registration page copy and design
+   - Confirmation email with value building
+   - Reminder sequence (3 days, 1 day, 1 hour, 15 min)
+   - Pre-webinar content to increase show-up rate
+
+2. Webinar structure:
+   - Hook and introduction (5 min)
+   - Origin story and credibility (10 min)
+   - Content delivery (30-40 min teaching)
+   - Transition to pitch (5 min)
+   - Offer presentation (15-20 min)
+   - Q&A and close (10 min)
+
+3. Post-webinar sequence:
+   - Replay availability strategy
+   - Application/booking emails
+   - Scarcity and urgency messaging
+   - Follow-up call scheduling
+
+4. Technical setup:
+   - Platform recommendations (Zoom, Demio, etc.)
+   - Slide deck templates
+   - Chat engagement strategies
+   - Conversion tracking setup
+
+Provide complete scripts, email sequences, and conversion optimization tactics. Target: 5-15% conversion to high-ticket offer.",Funnel Design,"ChatGPT, Lovable, Zoom, Demio",Content,Creates comprehensive webinar funnel for selling premium offers. Includes all touchpoints from registration to sale. Effective for building trust and demonstrating value before asking for significant commitment.,💎 UI/UX Excellence
+Creating micro-commitment funnel for complex products,"Design a micro-commitment funnel for [complex/high-consideration product] that builds trust gradually:
+
+1. Commitment ladder:
+   - Level 1: Content consumption (blog read, video watch)
+   - Level 2: Lead magnet download (email capture)
+   - Level 3: Tool/calculator usage (engagement)
+   - Level 4: Quiz/assessment completion (qualification)
+   - Level 5: Free trial/demo signup
+   - Level 6: Purchase decision
+
+2. Psychology:
+   - Consistency principle application
+   - Progressive profiling strategy
+   - Value delivery at each step
+   - Trust-building sequence
+
+3. Content for each stage:
+   - Educational assets
+   - Interactive tools
+   - Case studies and proof
+   - Trial/demo materials
+
+4. Automation:
+   - Behavioral email triggers
+   - Scoring and segmentation
+   - Sales-ready notification system
+   - Nurture paths for non-advancing leads
+
+Provide complete funnel map, content outlines, and automation rules. Target: 60%+ progression through stages.",Funnel Design,"ChatGPT, HubSpot, Lovable, Replit",Strategy,"Reduces resistance to high-commitment decisions through series of smaller commitments. Particularly effective for complex, expensive, or unfamiliar products. Increases final conversion by 40-60%.",🚀 Interactive & Immersive Elements
+Creating video funnel with interactive elements,"Design a video-centric sales funnel with interactive elements:
+
+1. Video strategy:
+   - Awareness: Educational/entertaining videos (1-3 min)
+   - Interest: Product demo/explainer videos (3-5 min)
+   - Consideration: Case study/testimonial videos (2-4 min)
+   - Decision: Personalized video messages
+
+2. Interactive elements:
+   - Clickable CTAs within videos
+   - Branching video paths based on choices
+   - Lead capture forms at key moments
+   - Quizzes and assessments in video
+
+3. Personalization:
+   - Dynamic video content based on viewer data
+   - Personalized thumbnails and titles
+   - Customized video messaging
+   - Automated video follow-ups
+
+4. Technical implementation:
+   - Interactive video platform selection (Wistia, Vidyard)
+   - Hosting and delivery optimization
+   - Analytics and engagement tracking
+   - Integration with email and CRM
+
+Provide video scripts, interactive element suggestions, and technical setup guide. Target: 2-3x engagement vs static content.",Funnel Design,"ChatGPT, Wistia, Vidyard, Loom",Design,Leverages video's high engagement rates with interactive conversion elements. Videos can increase conversion by 80%+ when interactive elements are added. Ideal for visual products and complex explanations.,🚀 Interactive & Immersive Elements
+Building omnichannel funnel with consistent experience,"Design an omnichannel sales funnel with seamless experience across platforms:
+
+1. Channel strategy:
+   - Website/landing pages
+   - Email marketing
+   - Social media (Facebook, Instagram, LinkedIn)
+   - SMS/WhatsApp
+   - In-app experiences
+   - Offline touchpoints
+
+2. Consistency framework:
+   - Unified messaging and brand voice
+   - Design system across channels
+   - Customer data synchronization
+   - Cross-channel attribution
+
+3. Customer journey mapping:
+   - Entry points for each channel
+   - Cross-channel progression paths
+   - Handoff optimization
+   - Preference management
+
+4. Technical integration:
+   - CDP (Customer Data Platform) selection
+   - API integrations
+   - Unified analytics
+   - Marketing automation workflows
+
+Provide channel-specific strategies, integration architecture, and customer journey maps. Target: 30%+ higher conversion for omnichannel customers.",Funnel Design,"ChatGPT, HubSpot, Salesforce, Segment",Strategy,Creates seamless experience across all customer touchpoints. Omnichannel customers typically have 30% higher lifetime value. Essential for modern marketing in multi-device world.,💎 UI/UX Excellence
+Optimizing for accessibility and inclusive design,"Audit and optimize my sales funnel for accessibility and inclusion:
+
+1. Technical accessibility:
+   - WCAG 2.1 AA compliance
+   - Screen reader optimization
+   - Keyboard navigation
+   - Color contrast requirements
+
+2. Content accessibility:
+   - Alt text for images
+   - Video captions and transcripts
+   - Clear and simple language
+   - Semantic HTML structure
+
+3. Form accessibility:
+   - Clear labels and instructions
+   - Error message clarity
+   - Fieldset and legend use
+   - Progressive enhancement
+
+4. Testing and validation:
+   - Automated accessibility testing tools
+   - Manual testing with assistive technologies
+   - User testing with disabled users
+   - Ongoing monitoring and improvement
+
+Provide accessibility audit checklist, remediation guide, and implementation code. Include legal compliance considerations (ADA, Section 508).",Funnel Optimization,"ChatGPT, Lovable, Replit, WAVE Tool",Design,"Ensures funnel is usable by people with disabilities, expanding addressable market by 15-20%. Also improves overall UX for all users. Reduces legal risk and demonstrates social responsibility.",🎨 Visual Design & Modern Aesthetics
+Preventing unintended changes during iterative development,"Only make the exact changes I request—do not modify, remove, or alter any other code, styling, or page elements unless explicitly instructed.",General Best Practices,"Cursor, Windsurf, Bolt.new, Lovable, Replit",No Training Wheels,Guardrail prompt that ensures AI makes only requested changes. Use this as a constraint in all prompts to maintain control and prevent AI drift. Add this to every prompt when making specific changes.,🎯 START HERE - Pre-Session Setup
+Setting code quality standards,"You are a senior [language] developer focused on clean, maintainable code. Follow these principles:
+- SOLID design patterns
+- DRY (Don't Repeat Yourself)
+- Clear naming conventions
+- Comprehensive error handling
+- Write code as if it will be reviewed
+
+Apply these to all code you generate.",General Best Practices,"Cursor, Windsurf, Replit",No Training Wheels,Role assignment prompt that sets persona and coding standards. Add to .cursorrules or global rules for consistency.,🎯 START HERE - Pre-Session Setup
+Building viral referral loop into existing funnel,"Design a referral program for [product/service] that creates viral growth:
+
+1. Incentive structure:
+   - Reward for referrer (discount, cash, points)
+   - Reward for referee (welcome bonus)
+   - Tier system for multiple referrals
+   - Special rewards for high-value referrers
+
+2. Mechanics:
+   - Unique referral link generation
+   - Easy sharing options (email, social, SMS)
+   - Tracking and attribution system
+   - Automated reward fulfillment
+
+3. Promotional strategy:
+   - In-app/website referral prompts
+   - Email campaigns encouraging sharing
+   - Post-purchase referral requests
+   - Gamification elements (leaderboards, badges)
+
+4. Technical implementation:
+   - Referral tracking code
+   - Dashboard for users to track referrals
+   - Integration with existing funnel
+   - Anti-fraud measures
+
+Provide code examples, promotional copy templates, and viral coefficient calculations. Target: 1.5+ viral coefficient (each user brings 1.5 new users).",Growth & Scaling,"Replit, ChatGPT, ReferralCandy, Lovable",Strategy,Creates self-perpetuating growth engine through customer referrals. Reduces customer acquisition costs while increasing trust through word-of-mouth. Can contribute 20-40% of new customer acquisition.,💎 UI/UX Excellence
+Creating partner/affiliate funnel for channel expansion,"Design a partner/affiliate program funnel that scales lead generation:
+
+1. Partner recruitment:
+   - Partner landing page and application
+   - Qualification criteria
+   - Onboarding process
+   - Training materials
+
+2. Partner enablement:
+   - Marketing asset library
+   - Swipe copy and creatives
+   - Unique tracking links and codes
+   - Performance dashboard
+
+3. Commission structure:
+   - Tiered commission rates
+   - Performance bonuses
+   - Recurring commissions
+   - Payment terms and methods
+
+4. Management system:
+   - Affiliate tracking software
+   - Communication cadence
+   - Performance monitoring
+   - Top partner recognition program
+
+Provide partner recruitment materials, commission calculator, and program documentation. Target: 20-30% of revenue from partner channel.",Growth & Scaling,"ChatGPT, PartnerStack, Rewardful, Lovable",Strategy,Creates scalable channel for customer acquisition through partners. Leverages other people's audiences for growth. Can become 30-50% of customer acquisition at maturity.,💎 UI/UX Excellence
+Designing a high-converting hero section with optimal above-the-fold content,"Create a hero section optimized for maximum impact and conversions, visible above the 1080px fold. Structure: (1) Headline: 8-12 words addressing the main user benefit, using power words and emotional triggers, 40-48px font size, (2) Subheadline: 15-25 words elaborating on the value proposition, addressing pain points, (3) Primary CTA: High-contrast button with action-oriented text ('Get Started Free', 'See It In Action'), positioned in F-pattern hot spot, 48-56px height for easy clicking, (4) Hero visual: High-quality image/video showing product in use or aspirational outcome, positioned on right side (Z-pattern) or as background, (5) Trust indicators: Display 'As seen in' logos, customer count ('Join 50,000+ users'), or 5-star rating, (6) Secondary CTA or social proof: Subtle 'Learn More' link or testimonial snippet. Ensure content is scannable in 3-5 seconds. A/B test CTA colors and copy.",Hero Sections & Above-Fold,"Lovable, Replit, ChatGPT, v0, Bolt",Design,"Optimizes the most critical screen real estate for maximum conversion impact. Strong hero sections can increase sign-ups by 20-40%. Based on analysis of Apple, Mailchimp, and other conversion-optimized homepages.",✨ Award-Winning Homepage Designs
+Designing a restaurant/hospitality homepage with immersive atmosphere,"Create an atmospheric, reservation-driving homepage for restaurants or hospitality businesses. Design approach: (1) Visual hero: Full-screen video of dining experience or signature dish preparation, Overlay text with restaurant name and tagline, 'Reserve a Table' CTA prominently displayed, Current availability indicator, (2) Menu preview: Featured dishes with professional food photography, Prices displayed, Dietary indicator icons (vegan, gluten-free), Link to full menu PDF, (3) Atmosphere section: Gallery of interior and ambiance photos, Virtual tour option, Instagram feed integration, (4) Reservation system: Integrated booking widget (OpenTable, Resy), Time slot availability, Party size selector, Special occasion notes option, (5) Location & hours: Embedded map, Hours of operation, Parking information, Contact details, (6) Chef/story section: About the chef/establishment, Culinary philosophy, Awards and recognition. Use warm, appetizing color palette. Ensure mobile booking is seamless. Reference: Sirenis Hotels & Resorts (CSS Design Award winner).",Hospitality & Service Design,"Lovable, Replit, ChatGPT, v0, Bolt",Design,Creates immersive hospitality homepages that drive reservations and convey atmosphere. High-quality visuals and seamless booking increase online reservations by 30%+. Based on award-winning hospitality sites like Sirenis Hotels.,✨ Award-Winning Homepage Designs
+Building an interactive product configurator or customizer on homepage,"Design an engaging product configurator that lets users customize products visually. Configurator components: (1) Product preview: Large, high-quality image of product, Live preview updating with selections, 360-degree view capability, Zoom functionality, Multiple angle views, (2) Configuration options: Categories of options (Color, Size, Material, Features), Visual selectors (color swatches, image thumbnails), Dropdown or radio buttons for text options, Option descriptions and upcharges, Dependency handling (some options affect others), (3) Pricing display: Base price clearly shown, Live price updates with selections, Subtotal and option breakdowns, Save/favorite configuration option, (4) User flow: Logical progression through options, Progress indicator for complex configurators, Summary of selections, 'Add to Cart' or 'Get Quote' CTA, Option to save/share configuration, (5) Mobile optimization: Swipe between product images, Collapsible option sections, Fixed footer with price and CTA. Save configuration to URL for sharing. Provide default/popular configurations as starting points. Include reset button.",Interactive & E-commerce,"Lovable, Replit, ChatGPT, Cursor",Design,"Creates powerful product customization experiences that increase engagement and average order value by 20%+. Interactive configurators reduce decision paralysis and increase confidence in purchases. Popular in furniture, fashion, and tech e-commerce.",✨ Award-Winning Homepage Designs
+Designing an interactive hero section with micro-animations and scroll effects,"Create an immersive, award-winning hero section with sophisticated animations and scroll-triggered effects. Implementation: (1) Parallax scrolling background with foreground content moving at different speeds (z-axis depth), (2) Fade-in animations for headline and CTA on page load (0.5s delay with ease-out), (3) Micro-interactions on hover: CTA button with scale transform (1.05x) and shadow depth increase, (4) Scroll-triggered reveals: Elements fade in with upward slide animation as user scrolls (use Intersection Observer API), (5) Subtle floating animation for hero image or illustrations, (6) Mouse-tracking spotlight effect that follows cursor, (7) Smooth scroll for anchor links with offset, (8) Video background (muted autoplay) or animated gradient background. Ensure all animations respect prefers-reduced-motion for accessibility. Optimize performance: use CSS transforms (not position) and will-change property sparingly.",Interactive & Immersive Elements,"Lovable, Replit, ChatGPT, Cursor, v0",Design,"Implements cutting-edge animation techniques seen in Awwwards Site of the Day winners. Creates engaging, delightful user experiences while maintaining performance. Animations should enhance, not overwhelm, with respect for accessibility preferences.",✨ Award-Winning Homepage Designs
+Implementing a full-screen video background homepage with overlay content,"Design a cinematic homepage featuring full-screen video background with content overlay. Technical implementation: (1) Video specifications: MP4 format for broad compatibility, 1920x1080 minimum resolution, 30-60 seconds loop, Muted autoplay on page load, Fallback image for mobile or slow connections, (2) Video optimization: Compress to under 5MB for fast loading, Lazy load video after critical content, Use poster attribute for instant display, (3) Content overlay: Semi-transparent dark overlay (rgba(0,0,0,0.5)) for text readability, White text for maximum contrast, Centered content: headline, subheadline, CTA, Minimal text to avoid competing with video, (4) Controls: Pause/play button in corner, Mute/unmute toggle, Skip to content anchor link, (5) Accessibility: Provide text alternative for video content, Ensure video doesn't trigger motion sickness (avoid rapid movement), Test with prefers-reduced-motion preference. Use cases: Brand storytelling, Product demonstrations, Lifestyle branding, Event promotion.",Interactive & Immersive Elements,"Lovable, Replit, ChatGPT, Cursor, v0",Design,"Creates dramatic, engaging homepage experiences with full-screen video. Video backgrounds can increase engagement by 80% when properly optimized. Common in Awwwards winners, requires careful performance optimization.",✨ Award-Winning Homepage Designs
+Designing a homepage with 3D elements and immersive graphics,"Create a cutting-edge homepage featuring 3D graphics and interactive elements. 3D implementation: (1) Hero 3D element: 3D product model that rotates on mouse movement, Three.js or similar WebGL library, Smooth camera movements, Option to click and drag for manual rotation, (2) 3D illustrations: Floating isometric illustrations, Layered depth creating parallax effect, Shadows and lighting for realism, (3) Interactive scenes: Elements that respond to scroll position, Morphing 3D shapes, Particles or confetti effects on interactions, (4) Performance optimization: Lazy load 3D assets after page load, Reduced 3D complexity on mobile devices, Fallback to 2D images if WebGL unavailable, (5) Integration with content: 3D elements complement, not overwhelm content, Text overlays on 3D backgrounds remain readable, Smooth integration between 3D and flat sections. Use Spline, Three.js, or React Three Fiber for implementation. Ensure 3D doesn't block main content. Test performance across devices. Reference: Gallery of Emerging Species (Awwwards winner) for inspiration.",Interactive & Immersive Elements,"Lovable, Replit, ChatGPT, Cursor",Design,Implements cutting-edge 3D design seen in 2025 award-winning sites. 3D elements create memorable experiences and demonstrate technical sophistication. Increases engagement but requires careful performance optimization.,✨ Award-Winning Homepage Designs
+Creating a homepage with cursor-following interactive elements,"Design subtle, sophisticated cursor-following effects that enhance interactivity. Interactive cursor elements: (1) Custom cursor design: Replace default cursor with custom design, Scale changes on hover over interactive elements, Color changes based on element hovered, Smooth follow animation (use transform, not position), (2) Cursor follower elements: Circular element that follows cursor with delay, Size: 20-40px diameter, Opacity: 20-40% for subtlety, Blends with page content, Grows on hover over clickable elements, (3) Magnetic effects: Elements that slightly move toward cursor on hover, Buttons with magnetic pull effect (within 100px radius), Smooth animation using lerp (linear interpolation), (4) Spotlight effect: Circular highlight that follows cursor, Darkens rest of page slightly, Useful for image reveals or emphasis, Toggle on/off with button, (5) Implementation: Use requestAnimationFrame for smooth performance, Track mouse position with event listeners, Apply transforms for smooth animations, Disable on mobile (touch devices), Respect prefers-reduced-motion. Keep effects subtle - enhance, don't distract. Test performance impact. Ensure site is fully usable without effects.",Interactive & Immersive Elements,"Lovable, Replit, ChatGPT, Cursor",Design,Implements sophisticated cursor interactions seen in award-winning portfolio sites. Custom cursors create unique brand experiences and demonstrate technical prowess. Popular in creative agency and designer portfolios.,🎯 START HERE - Pre-Session Setup
+Creating a homepage with horizontal scrolling sections or galleries,"Design an engaging homepage with horizontal scrolling sections that create unique navigation experiences. Horizontal scroll implementation: (1) Section structure: Container with overflow-x: scroll or auto, Content wider than viewport, Flex or grid layout for items, Smooth scrolling behavior enabled, Snap points for item alignment (CSS scroll-snap), (2) Use cases: Project/portfolio gallery, Product showcase carousel, Timeline visualization, Feature comparison, Testimonial slider, Image galleries, (3) User experience: Scroll indicators (arrows, dots, or progress bar), Mouse wheel hijacking for horizontal scroll (optional), Drag to scroll functionality, Keyboard navigation (arrow keys), Touch/swipe gestures on mobile, 'Scroll to explore' indicator, (4) Visual design: Items with consistent sizing or varied for interest, Spacing between items (24-40px), Fade-out edges to indicate more content, Center-focused design (highlight middle item), Momentum scrolling for natural feel, (5) Responsive behavior: Maintain horizontal scroll on tablet, Convert to vertical stack on mobile, Or: Reduce items per view on smaller screens. Ensure keyboard accessibility. Provide alternative navigation for users who prefer it. Don't overuse - one horizontal section per page maximum.",Interactive & Navigation,"Lovable, Replit, ChatGPT, Cursor, v0",Design,Creates distinctive horizontal scrolling experiences that break traditional vertical flow. Horizontal sections add visual interest and are particularly effective for galleries and timelines. Popular in Awwwards winners like Nomadic Tribe.,✨ Award-Winning Homepage Designs
+Creating a language/region selector for international homepages,"Design an intuitive language and region selection interface for global sites. Selector components: (1) Trigger placement: Globe icon in header/footer, Flag icons showing current language, Text link ('EN | 中文 | ES'), Footer position common, (2) Selection modal: List of available languages, Region/country selection if relevant, Search/filter for long lists, Show language in native script (español, not Spanish), Flag icons for visual recognition, (3) User experience: Remember user's choice (cookie/localStorage), Redirect to appropriate language version, Preserve user's current page (switch language, not page), Show warning if content not available in chosen language, Option to auto-detect language from browser, (4) Design: Clean, simple modal or dropdown, Organized by regions if many languages, Current language highlighted, Hover/focus states, (5) Mobile optimization: Bottom sheet modal on mobile, Larger touch targets, Grouped by region for easier scanning. Update URL to reflect language (/en/, /es/). Include RTL support for Arabic, Hebrew. Test translations thoroughly. Default to browser language when possible.",Internationalization & UX,"Lovable, Replit, ChatGPT, v0, Bolt",Strategy,Implements effective internationalization that expands global reach. Proper language selection can increase international conversions by 30%+. Essential for global businesses and SaaS platforms serving multiple markets.,✨ Award-Winning Homepage Designs
+Creating landing page copy that converts cold traffic,"Write conversion-optimized landing page copy for [product/service] targeting [audience] with [specific pain point]. Structure:
+
+1. Headline: Attention-grabbing promise (under 12 words)
+2. Subheadline: Clarify the transformation
+3. Hero section: Emotional hook and credibility
+4. Problem agitation: 3-5 specific pain points
+5. Solution presentation: How you solve it uniquely
+6. Features & benefits: 5-7 key points
+7. Social proof: Testimonial framework
+8. Risk reversal: Guarantee language
+9. CTA: Primary and secondary calls-to-action
+10. Urgency/scarcity elements
+
+Use conversational tone, power words, and ensure mobile-readability. Include A/B testing suggestions for key elements.",Landing Page Design,"ChatGPT, Claude, Lovable, Copy.ai",Content,"Generates complete landing page copy following proven conversion frameworks. Incorporates psychological triggers and persuasion principles. Ideal for PPC campaigns, product launches, and lead generation pages.",✨ Award-Winning Homepage Designs
+Building a complete landing page from scratch,"Context: You are an expert full-stack developer using modern web technologies.
+Task: Create a responsive landing page for a SaaS product with a hero section, features grid, pricing table, and contact form.
+Guidelines: Use React and Tailwind CSS. Design should be minimalistic and follow modern UI trends. Include smooth scroll animations.
+Constraints: Mobile-first approach, ensure accessibility (WCAG 2.1 AA), do not use external libraries beyond React and Tailwind.",Landing Pages,"Lovable, Cursor, Bolt.new, Replit",Training Wheels,"Structured prompt using labeled sections (Context, Task, Guidelines, Constraints) for clarity. Best for complex tasks where you need precise control over requirements.",✨ Award-Winning Homepage Designs
+Pricing page design,"Create a pricing page with:
+- 3 pricing tiers (cards)
+- Monthly/annual toggle with discount
+- Feature comparison table
+- Highlighted recommended plan
+- CTA buttons for each tier
+- FAQ section below
+
+Make it conversion-optimized and mobile responsive.",Landing Pages,"Lovable, Bolt.new, v0",No Training Wheels,Marketing-focused pricing page. Focus on conversion optimization and clear value propositions.,💎 UI/UX Excellence
+FAQ section,"Create a FAQ section with:
+- Accordion UI for questions
+- Search functionality
+- Categories for topics
+- Smooth expand/collapse animations
+- Schema markup for SEO
+- Link to contact support
+
+Make it scannable and user-friendly.",Landing Pages,All tools,No Training Wheels,FAQ with search and categories. Include structured data for rich snippets in search results.,🚀 Interactive & Immersive Elements
+Feature comparison,"Build a comparison table:
+- Compare [products/plans/features]
+- Sticky header on scroll
+- Highlight differences
+- Responsive: horizontal scroll on mobile
+- CTA buttons in table
+- Filter by criteria
+
+Visually distinguish the recommended option.",Landing Pages,All tools,No Training Wheels,Comparison table for decision-making. Make it scannable with visual hierarchy.,🎨 Visual Design & Modern Aesthetics
+Documentation website,"Create a documentation site:
+- Sidebar navigation with sections
+- Search functionality
+- Code syntax highlighting
+- Copy code button
+- Next/previous page navigation
+- Version selector
+- Dark mode
+
+Use Docusaurus, VitePress, or build custom.",Landing Pages,"Cursor, Lovable, Windsurf",Training Wheels,Documentation site structure. Use a docs framework for consistent experience and built-in features.,💎 UI/UX Excellence
+Product changelog,"Build a changelog page:
+- Version releases with dates
+- Categorized changes (features, fixes, breaking)
+- Markdown rendering for descriptions
+- Filter by version or category
+- RSS feed for updates
+- Email notifications option
+
+Use semantic versioning.",Landing Pages,All tools,No Training Wheels,Changelog for product updates. Keep users informed about new features and fixes.,💎 UI/UX Excellence
+Service status page,"Create a status page:
+- System status indicators
+- Incident history
+- Subscribe to status updates
+- Uptime percentages
+- Component status breakdown
+- Maintenance schedule
+
+Update via API or admin panel.",Landing Pages,All tools,No Training Wheels,Status page for service health. Use services like Statuspage or build custom.,📄 Landing Pages & Lead Generation
+Product waitlist,"Build a waitlist/early access:
+- Sign up form with email
+- Referral program integration
+- Position in queue display
+- Email notifications when invited
+- Admin panel to manage invites
+- Export waitlist data
+
+GDPR compliant.",Landing Pages,All tools,Training Wheels,Waitlist for product launches. Include referral incentives to grow list organically.,💎 UI/UX Excellence
+Help center/knowledge base,"Create a help center:
+- Searchable knowledge base
+- Article categories
+- Helpful/not helpful voting
+- Related articles
+- Contact support CTA
+- Analytics on popular articles
+
+SEO optimized for discoverability.",Landing Pages,All tools,Training Wheels,Self-service help center. Reduce support burden by providing searchable documentation.,🎯 Conversion & Funnel Optimization
+Designing an irresistible lead magnet for top-of-funnel lead capture,"I need to create a high-converting lead magnet for [niche/audience] who struggle with [specific problem]. Design a [ebook/checklist/quiz/toolkit] that:
+- Provides immediate, actionable value
+- Addresses the core pain point: [problem]
+- Positions my solution as the next logical step
+- Is scannable and easy to consume
+- Includes compelling visuals and examples
+
+Provide a detailed outline with chapter/section titles, key points for each section, visual suggestions, and a persuasive title under 10 words. Include opt-in page copy and post-download nurturing email sequence.",Lead Generation,"ChatGPT, Claude, Canva AI, Lovable",Content,Creates complete lead magnet with supporting materials. Focuses on value delivery and conversion optimization. Best for building email lists and establishing authority in the awareness stage.,🎨 Visual Design & Modern Aesthetics
+Developing interactive quiz funnel for product recommendations,"Create an interactive quiz funnel for [product category] that:
+
+1. Quiz structure:
+   - 5-10 engaging questions that segment users
+   - Question types: multiple choice, image selection, slider scales
+   - Logic branching based on answers
+   - Personality/product match algorithm
+
+2. Personalized results:
+   - Custom product recommendations
+   - Explanation of why products match
+   - Social sharing capabilities
+   - Email capture for detailed results
+
+3. Implementation:
+   - Quiz builder tool recommendations
+   - Code structure for custom builds
+   - Design mockups and user flow
+   - Mobile optimization considerations
+
+4. Conversion optimization:
+   - Progress indicators
+   - Compelling result page with CTAs
+   - Follow-up email sequence
+   - Retargeting strategy for quiz takers
+
+Provide complete quiz copy, result templates, and technical implementation guide. Target: 40%+ quiz completion rate.",Lead Generation,"Lovable, Replit, ChatGPT, Typeform",Design,Creates engaging interactive experience that qualifies leads while collecting data. Quizzes typically have 30-50% higher engagement than static forms. Excellent for personalized product recommendations.,🚀 Interactive & Immersive Elements
+Implementing chatbot for automated lead qualification,"Design an AI chatbot conversation flow for [business type] that qualifies leads and books appointments:
+
+1. Conversation structure:
+   - Welcoming greeting and value proposition
+   - Qualifying questions sequence (5-7 questions)
+   - Pain point identification
+   - Budget/timeline qualification
+   - Next step recommendation
+
+2. Branching logic:
+   - Qualified lead → Book appointment
+   - Unqualified lead → Nurture sequence
+   - Hot lead → Immediate call option
+   - Needs more info → Resource library
+
+3. Personality and tone:
+   - Brand voice guidelines
+   - Response templates for common scenarios
+   - Empathy and relationship-building phrases
+   - Handling objections and FAQs
+
+4. Technical implementation:
+   - Platform recommendations (ManyChat, Drift, custom)
+   - Integration with CRM and calendar
+   - Lead scoring and routing rules
+   - Handoff to human agents protocol
+
+Provide complete conversation scripts, flowcharts, and performance metrics to track. Target: 30%+ lead qualification rate.",Lead Generation,"ChatGPT, ManyChat, Replit, Dialogflow",Strategy,Automates initial lead qualification 24/7 while maintaining personalized experience. Frees up sales team for high-value conversations. Can handle 80%+ of initial inquiries without human intervention.,💎 UI/UX Excellence
+Implementing progressive profiling in multi-step forms,"Design a progressive profiling strategy for [sales funnel] that collects user data gradually:
+
+1. Data collection strategy:
+   - Stage 1: Essential data only (name, email)
+   - Stage 2: Qualification data (company, role)
+   - Stage 3: Preference data (interests, goals)
+   - Stage 4: Behavioral data (actions, engagement)
+
+2. Form optimization:
+   - Multi-step form design
+   - Progress indicators
+   - Save and return functionality
+   - Smart field visibility rules
+
+3. Timing and triggers:
+   - When to ask for each data point
+   - Behavioral triggers for additional questions
+   - Value exchange for data sharing
+   - Balance between data collection and friction
+
+4. Technical implementation:
+   - Form builder tool selection
+   - CRM integration for data enrichment
+   - Cookie-based returning user detection
+   - Data security and privacy compliance
+
+Provide form structures, field prioritization, and code examples. Target: 40%+ higher completion rates than single-step forms.",Lead Generation,"Lovable, Replit, Typeform, ChatGPT",Design,Reduces form abandonment by collecting data over time rather than all at once. Respects user privacy while building complete profiles. Can increase form completion by 40-60%.,💎 UI/UX Excellence
+Building an email newsletter signup section with lead magnet offer,"Design a high-converting email signup section that builds your subscriber list. Signup components: (1) Value proposition: Compelling headline (e.g., 'Get Weekly Design Tips'), Specific benefits of subscribing (list 2-3 bullets), Frequency promise ('Every Tuesday', 'Weekly', 'No spam ever'), (2) Lead magnet: Free resource offer (ebook, template, guide, checklist), Visual thumbnail of the resource, Clear title and description, Immediate delivery promise ('Instant access'), (3) Form design: Email input field only (reduce friction), Optional name field, Large, prominent 'Subscribe' button, Action-oriented button text ('Get My Free Guide'), Privacy assurance ('We respect your privacy'), (4) Visual elements: Relevant illustration or image, Background color to distinguish section, Icon of email or newsletter, (5) Post-signup: Thank you message, Confirmation email requirement notification, Social media follow options. Integrate with email service (Mailchimp, ConvertKit). Include GDPR-compliant checkbox if required. A/B test different lead magnets.",Lead Generation & Conversion,"Lovable, Replit, ChatGPT, Cursor, v0",Strategy,Creates effective email capture that can increase signup rates by 50%+ with compelling lead magnets. Email list building is crucial for long-term marketing success. Lead magnets increase perceived value exchange.,🎨 Visual Design & Modern Aesthetics
+Cookie consent,"Add cookie consent banner:
+- GDPR/CCPA compliant
+- Granular cookie preferences
+- Remember user choice
+- Block non-essential cookies until consent
+- Link to privacy policy
+- Accessible and non-intrusive
+
+Use cookie consent library or build custom.",Legal & Compliance,All tools,Training Wheels,Privacy-compliant cookie banner. Check local regulations for specific requirements.,💎 UI/UX Excellence
+Creating a cookie consent banner with GDPR compliance,"Design a user-friendly cookie consent banner that meets legal requirements. Banner components: (1) Placement options: Bottom banner (most common), Top banner, Modal overlay (for first visit), Corner popup, (2) Content: Clear headline ('We use cookies'), Brief explanation of cookie usage (1-2 sentences), Link to full Privacy Policy, Link to Cookie Policy, (3) Action buttons: 'Accept All' button (prominent, primary color), 'Reject All' or 'Necessary Only' option, 'Customize' or 'Manage Preferences' button, (4) Preferences modal (if customizable): Cookie categories: Necessary (always on), Analytics, Marketing, Personalization, Toggle switches for each category, Description of each category's purpose, Save preferences button, (5) Technical implementation: Set consent cookie on choice, Respect user's choice, Remember choice for X days/months, Load tracking scripts only after consent, Re-show banner if consent expires. Design should not obstruct critical content. Make consent genuine, not coercive. Include reject option equal to accept. Test across devices.",Legal & Compliance,"Lovable, Replit, ChatGPT, v0, Bolt",Strategy,Implements legally compliant cookie consent meeting GDPR and privacy requirements. Proper implementation protects from legal issues and builds user trust. Essential for sites serving EU visitors and increasingly important globally.,🎨 Visual Design & Modern Aesthetics
+Designing local business funnel with geo-targeting,"Create a location-based funnel for [local business type] with multiple locations:
+
+1. Local SEO strategy:
+   - Google Business Profile optimization
+   - Location-specific landing pages
+   - Local keyword targeting
+   - Local link building
+
+2. Geo-targeted advertising:
+   - Radius targeting for each location
+   - Location-specific ad copy
+   - Mobile optimization for 'near me' searches
+   - Call and direction extensions
+
+3. Conversion optimization:
+   - Click-to-call prominently displayed
+   - Map integration and directions
+   - Local testimonials and reviews
+   - Location-specific offers
+
+4. Multi-location management:
+   - Centralized tracking and reporting
+   - Location-specific promotions
+   - Local inventory displays
+   - Franchise/multi-location best practices
+
+Provide local funnel blueprint, location page templates, and local marketing playbook. Target: Top 3 ranking for key local searches.",Local Marketing,"ChatGPT, Google My Business, Lovable, BrightLocal",Strategy,Optimizes funnel for local search and foot traffic. Local SEO delivers 28% conversion rate (vs 1-3% for traditional). Critical for businesses with physical locations.,💎 UI/UX Excellence
+Prompt refinement and improvement,"Review my last prompt and identify:
+1. Any ambiguous requirements
+2. Missing information
+3. Potential edge cases not covered
+4. Suggestions for making it more concise and precise
+
+Then rewrite the prompt with improvements.",Meta Prompting,All tools,Meta Prompting,Meta prompt that uses AI to improve your prompts. Use when your prompts aren't producing desired results or need refinement.,🎯 START HERE - Pre-Session Setup
+Documenting solutions for reuse,"Summarize the solution we just implemented for [feature/bug fix]. Include:
+- What the problem was
+- How we solved it
+- Key code changes made
+- Lessons learned
+
+Then create a reusable prompt I can use for similar tasks in the future.",Meta Prompting,All tools,Reverse Meta Prompting,Reverse meta prompting that documents solutions and creates reusable prompts. Builds a knowledge base of working solutions.,🎯 START HERE - Pre-Session Setup
+Designing mobile-first funnel experience,"Optimize my sales funnel for mobile users visiting from [traffic source]. Address:
+
+1. Mobile UX improvements:
+   - Touch-friendly navigation and buttons (minimum 44x44px)
+   - Simplified forms with smart defaults
+   - Progressive disclosure for complex information
+   - Thumb-zone optimized layouts
+
+2. Page speed optimization:
+   - Image compression and lazy loading strategies
+   - Critical CSS and above-the-fold optimization
+   - Minimize HTTP requests
+
+3. Mobile-specific content:
+   - Scannable copy with short paragraphs
+   - Click-to-call and map integration
+   - Mobile-optimized CTAs
+
+4. Technical implementation:
+   - Responsive design breakpoints
+   - Mobile-first CSS framework
+   - Performance testing checklist
+
+Provide code snippets and mobile preview mockups. Target: <3 second load time, >50% mobile conversion rate.",Mobile Optimization,"Lovable, Replit, ChatGPT, Figma",Design,Creates a mobile-optimized funnel that converts effectively on smaller screens. Addresses technical and UX considerations for mobile users. Critical as mobile traffic often exceeds 60% of total visitors.,💎 UI/UX Excellence
+Building an intuitive navigation system with modern information architecture,"Design a comprehensive navigation system that balances simplicity with depth of content. Components: (1) Primary navigation: Horizontal menu with 5-7 main items, mega-menu dropdowns for complex hierarchies showing visual previews, (2) Mobile navigation: Hamburger menu that expands to full-screen overlay with large touch targets, (3) Sticky header that condenses on scroll, (4) Breadcrumbs for deep pages showing user location, (5) Search functionality with autocomplete, (6) Secondary footer navigation with sitemap structure, (7) Visual indicators for current page (active state highlighting). Organize content using card sorting principles: group related items, use clear labels (not clever/vague wording), limit dropdown depth to 2 levels maximum. Include icons beside navigation labels for visual recognition. Ensure keyboard navigation support (Tab key) and ARIA labels for screen readers.",Navigation & Information Architecture,"Lovable, Replit, ChatGPT, v0, Bolt",Design,Creates intuitive navigation following NN/G usability guidelines. Good navigation reduces bounce rates by up to 40% and helps users quickly find content. Based on patterns from CSS Design Award winners emphasizing usability and user flow.,🎨 Visual Design & Modern Aesthetics
+Creating a mega-menu navigation for complex site hierarchies,"Design a sophisticated mega-menu that handles deep site hierarchies elegantly. Mega-menu structure: (1) Trigger: Hover or click on main nav item to reveal, Smooth dropdown animation (fade + slide down), Backdrop overlay dimming page content, (2) Menu layout: Full-width dropdown panel (or section-width), Multi-column grid layout (3-5 columns), Column categories with bold headers, Link lists under each category, Visual separator between columns, (3) Enhanced features: Thumbnail images for featured items, Icons beside links for visual recognition, Featured content card highlighting popular pages, 'View All' links at column bottoms, Recent or trending items section, (4) Design elements: Subtle background color difference, Consistent padding and spacing, Hover states on individual links, Smooth transitions on menu close, (5) Mobile adaptation: Convert to accordion-style menu, Category headers expandable, Nested levels revealed on tap. Ensure keyboard navigation works (Tab through links). Include close button in mobile version. Limit depth to 2-3 levels maximum for usability.",Navigation & Information Architecture,"Lovable, Replit, ChatGPT, Cursor, v0",Design,"Creates powerful navigation for content-rich sites with many pages. Mega-menus improve discoverability and reduce clicks to content by 30%. Essential for large e-commerce sites, universities, and content portals.",🎨 Visual Design & Modern Aesthetics
+Designing a homepage footer with comprehensive navigation and information,"Create a feature-rich footer that serves as a sitemap and information hub. Footer structure: (1) Multi-column layout: 4-5 columns on desktop, Stack vertically on mobile, Column headers (bold, slightly larger), Link lists under each header (8-12 links max per column), (2) Column categories: Products/Services, Company (About, Careers, Press), Support (FAQ, Contact, Help), Legal (Privacy, Terms, Cookies), Resources (Blog, Guides, Case Studies), (3) Footer top section: Newsletter signup form, Social media icon links, Award badges or certifications, Trust signals or payment icons, (4) Footer bottom: Copyright notice, Business registration details, Language/region selector, Back to top button, (5) Visual design: Distinct background color (darker than body), Ample padding (60-80px top/bottom), Subtle divider line above footer, Consistent link styling with hover effects, (6) Additional elements: Contact information, Business hours, Map or location, Mobile app download buttons. Ensure all links are accessible and functional. Footer should be scannable and organized. Include sitemap link for SEO.",Navigation & Information Architecture,"Lovable, Replit, ChatGPT, v0, Bolt",Design,Creates comprehensive footers that improve navigation and SEO. Well-organized footers help users find information and can reduce support requests by 15%. Essential for larger sites with extensive page hierarchies.,✨ Award-Winning Homepage Designs
+Designing a one-page scrolling website with smooth section navigation,"Create a single-page scrolling website with distinct sections and smooth navigation. Structure: (1) Fixed navigation: Sticky header with anchor links to sections, Active section indicator in nav (current section highlighted), Logo that scales down on scroll, (2) Section design: Full-height sections (100vh) for impact, Distinct visual theme for each section (colors, backgrounds), Smooth scroll behavior with CSS scroll-snap, Scroll progress indicator (top or side), (3) Section types: Hero/intro, About/mission, Services/features, Portfolio/work, Team, Testimonials, Contact/footer, (4) Transitions: Fade-in animations as sections enter viewport, Parallax backgrounds between sections, Section dividers (angled edges, waves, curves), (5) Navigation aids: 'Scroll to explore' indicator on hero, Floating 'Back to top' button, Section pagination dots on side, Keyboard navigation support (arrow keys). Optimize for mobile with shorter sections. Ensure all content is accessible via keyboard Tab navigation.",Navigation & UX,"Lovable, Replit, ChatGPT, Cursor, v0",Design,Creates seamless one-page experiences that keep users engaged through smooth scrolling. Single-page sites reduce bounce rates and create cohesive narratives. Popular format for portfolios and small business sites.,✨ Award-Winning Homepage Designs
+Creating a sticky header that transforms on scroll with smart behavior,"Design an intelligent sticky header that adapts as users scroll for optimal UX. Header behavior: (1) Initial state (top of page): Full-height header (80-100px), Large logo, Full navigation menu, Optional tagline or contact info, Background transparent or subtle, (2) Scrolled state: Condenses to 60-70px height, Logo scales down by 20-30%, Background becomes solid or gains shadow, Hide secondary elements (tagline, social icons), Smooth transition animation (300ms), (3) Smart features: Hide header on scroll down (save screen space), Show header on scroll up (quick access), Threshold: trigger after 100px scroll, Breakpoint: different behavior on mobile, (4) Navigation updates: Active page indicator, Search icon/bar in header, CTA button remains prominent, Mobile hamburger menu, (5) Additional elements: Progress bar showing page scroll position, Skip to content link for accessibility. Implement using Intersection Observer API or scroll event. Ensure no layout shift when header changes. Test on different scroll speeds.",Navigation & UX,"Lovable, Replit, ChatGPT, v0, Bolt",Design,Implements smart sticky navigation that improves UX by staying accessible while maximizing screen space. Smart headers reduce navigation time by 50% and improve mobile experience. Common pattern in award-winning responsive designs.,🚀 Interactive & Immersive Elements
+Performance optimization,"Optimize this component for performance:
+[paste code]
+
+Apply these techniques:
+- Implement React.memo or useMemo where appropriate
+- Reduce unnecessary re-renders
+- Lazy load images and components
+- Code split large bundles
+
+Explain the performance impact of each change.",Optimization,"Cursor, Windsurf",Training Wheels,Performance optimization prompt for React components. Use when components are slow or cause unnecessary re-renders.,🎯 Conversion & Funnel Optimization
+Performance optimization,"Implement lazy loading:
+- Lazy load images below fold
+- Skeleton loaders for content
+- Infinite scroll implementation
+- Code splitting for routes
+- Dynamic imports for heavy components
+- Prefetch on hover
+
+Measure performance improvements.",Optimization,All tools,Training Wheels,Comprehensive lazy loading strategy. Use Intersection Observer API for efficient implementation.,🚀 Interactive & Immersive Elements
+Optimizing homepage for maximum performance and loading speed,"Create a performance-optimized homepage that loads in under 2 seconds. Implementation checklist: (1) Image optimization: Use WebP format with fallbacks, implement lazy loading for below-fold images, use responsive images with srcset for different screen sizes, compress images to under 100KB each, (2) Code optimization: Minimize CSS/JS files, remove unused code, defer non-critical JavaScript, inline critical CSS, (3) Font loading: Use font-display: swap, subset fonts to include only used characters, limit to 2 font families, (4) Reduce HTTP requests: Combine files where possible, use CSS sprites for small icons, (5) Enable compression (Gzip/Brotli), (6) Implement browser caching with appropriate cache headers, (7) Use CDN for static assets, (8) Optimize Core Web Vitals: LCP under 2.5s, FID under 100ms, CLS under 0.1. Monitor with Lighthouse and PageSpeed Insights.",Performance & Optimization,"Lovable, Replit, ChatGPT, Cursor, v0",Strategy,Implements comprehensive performance optimization strategies. Sites loading in under 3 seconds retain 70% more users. Fast loading is crucial for Awwwards recognition and user satisfaction. Based on Core Web Vitals and modern performance best practices.,✨ Award-Winning Homepage Designs
+Designing a loading screen with branded animation and progress indicator,"Create an engaging loading screen that entertains users during page load. Loading design: (1) Loading animation: Branded spinner or logo animation, Smooth, looping animation, Represents brand personality (playful, professional, etc.), Use CSS animations or Lottie files, (2) Progress indication: Percentage counter (0-100%), Loading bar with smooth fill, Estimated time remaining (if calculable), Loading stage messages ('Loading assets...', 'Almost there...'), (3) Content priority: Show skeleton screens for main content, Progressive loading (show content as it loads), Fade out loading screen when ready, Don't block interaction if some content is ready, (4) Design elements: Background color matching site theme, Centered animation, Optional tagline or message, (5) Technical implementation: Lazy load non-critical assets, Preload critical resources, Set maximum loading time (5 seconds), Fallback for slow connections. Avoid splash screens on fast loads (show content immediately). Use loading screen only when necessary (initial load, large content). Test loading experience on slow connections.",Performance & UX,"Lovable, Replit, ChatGPT, Cursor, v0",Design,Creates branded loading experiences that reduce perceived wait time and maintain engagement. Well-designed loaders improve user patience and brand recall. Should complement overall performance optimization strategy.,🎨 Visual Design & Modern Aesthetics
+Implementing AI-powered personalization across funnel stages,"Create a hyper-personalization strategy for my sales funnel that:
+- Segments users based on [behavioral data/demographics/psychographics]
+- Delivers dynamic content based on user intent signals
+- Implements predictive analytics for user behavior
+- Personalizes email sequences and web experiences
+- Uses real-time data to adjust offers and messaging
+
+Provide specific AI tools for each personalization tactic, implementation steps, and expected conversion rate improvements. Target audience: [describe audience].",Personalization,"ChatGPT, Replit, Custom AI Tools",Strategy,Develops a comprehensive personalization framework using AI. Increases conversion rates by 20-50% through targeted experiences. Best combined with CRM integration and behavioral tracking tools.,🎯 Conversion & Funnel Optimization
+Optimizing funnel for different traffic temperatures,"Create customized funnel experiences for different audience temperatures:
+
+1. Cold traffic (unaware):
+   - Educational content-first approach
+   - Longer nurture sequences
+   - Low-commitment first offers
+   - Trust-building emphasis
+
+2. Warm traffic (problem-aware):
+   - Solution-focused messaging
+   - Comparison and alternatives content
+   - Social proof prominence
+   - Mid-level engagement asks
+
+3. Hot traffic (solution-aware):
+   - Direct offer presentation
+   - Strong CTAs and urgency
+   - Streamlined path to purchase
+   - Immediate value demonstration
+
+4. Implementation:
+   - URL parameter tracking for source
+   - Dynamic content based on referrer
+   - Segmented email sequences
+   - Ad creative variations
+
+For each temperature, provide: Landing page structure, headline formulas, offer positioning, and expected conversion rates. Include code for dynamic content switching.",Personalization,"ChatGPT, Lovable, Replit, Unbounce",Strategy,Matches funnel experience to visitor awareness level for maximum relevance. Dramatically improves conversion rates by meeting users where they are. Essential for multi-channel marketing campaigns.,💎 UI/UX Excellence
+Optimizing for different personality types (DISC/Myers-Briggs),"Create personality-based funnel variations for different buyer types:
+
+1. Personality frameworks:
+   - DISC profiles (Dominant, Influential, Steady, Conscientious)
+   - Myers-Briggs types
+   - Customer temperaments
+   - Decision-making styles
+
+2. Funnel customization:
+   - For analytical buyers:
+     * Data-heavy content
+     * Detailed specifications
+     * Comparison charts
+     * ROI calculators
+   
+   - For emotional buyers:
+     * Story-driven content
+     * Social proof emphasis
+     * Visual and experiential
+     * Community and belonging
+   
+   - For action-oriented buyers:
+     * Quick decision paths
+     * Clear CTAs
+     * Minimal steps
+     * Results-focused messaging
+   
+   - For relationship buyers:
+     * Human connection emphasis
+     * Personalized communication
+     * Support availability
+     * Trust-building content
+
+3. Identification methods:
+   - Quiz or assessment
+   - Behavioral inference from actions
+   - Survey questions
+   - Purchase history analysis
+
+4. Implementation:
+   - Dynamic content switching
+   - Segmented email paths
+   - Personalized landing pages
+   - Sales script variations
+
+Provide personality mapping guide, content variations, and identification quiz. Target: 25%+ conversion improvement through personalization.",Personalization,"ChatGPT, Lovable, Replit, Crystal",Strategy,Matches funnel experience to buyer personality for maximum resonance. Addresses how different people make decisions. Sophisticated personalization that can significantly improve conversion rates.,🎨 Visual Design & Modern Aesthetics
+Building marketplace/platform two-sided funnel,"Design a two-sided funnel for [marketplace/platform] balancing supply and demand:
+
+1. Supply side (sellers/service providers):
+   - Recruitment and onboarding
+   - Quality standards and vetting
+   - Incentive structure
+   - Success enablement
+
+2. Demand side (buyers/users):
+   - Discovery and browsing experience
+   - Trust and safety mechanisms
+   - Purchase/booking flow
+   - Repeat usage drivers
+
+3. Balance mechanisms:
+   - Dynamic pricing and incentives
+   - Supply/demand monitoring
+   - Geographic expansion strategy
+   - Quality control systems
+
+4. Network effects:
+   - Viral growth loops
+   - Cross-side referrals
+   - Value creation at scale
+   - Defensibility and moats
+
+Provide marketplace funnel architecture, chicken-and-egg solution strategies, and growth playbook. Include metrics for monitoring marketplace health.",Platform & Marketplace,"ChatGPT, Replit, Lovable, Sharetribe",Strategy,Addresses unique challenges of two-sided marketplaces. Requires careful balancing of supply and demand. Successful marketplace funnels create powerful network effects and sustainable competitive advantages.,💎 UI/UX Excellence
+Designing a portfolio homepage with creative project showcase,"Create a stunning portfolio homepage that showcases creative work in an award-worthy presentation. Portfolio structure: (1) Hero introduction: Large name/brand as headline, Professional photo or logo, Concise positioning statement (one line), Animated tagline or role title, (2) Project grid: Masonry or equal-height grid layout, Hover effects revealing project titles and categories, Click-through to detailed case studies, Filter buttons by category/skill, (3) Project cards: High-quality cover images (3:2 or 16:9 ratio), Project title and client/company, Brief one-line description, Tech stack or tools used icons, (4) Case study previews: Before/after sliders, Featured metric or outcome, 'View Project' CTA, (5) About section: Personal photo, Expertise areas, Contact CTA. Include a downloadable resume/CV. Add smooth page transitions. Reference award winners: David Langarica's portfolio, Unseen Studio, Curious & Company websites for inspiration.",Portfolio & Showcase Design,"Lovable, Replit, ChatGPT, Cursor, v0",Design,Creates professional portfolio homepages that win design awards and attract clients. Portfolio design should showcase both work quality and design skills. Based on Awwwards-winning portfolio sites with innovative presentations.,✨ Award-Winning Homepage Designs
+Designing a feature announcement banner for new products or updates,"Create an attention-grabbing announcement banner for homepage promotions. Banner design: (1) Placement: Top of page above header, Slide-in from top on page load, Optional dismissible close button, (2) Content: Concise announcement (10-15 words max), Use urgency ('Limited Time', 'New', 'Just Launched'), Action-oriented ('Learn More', 'Try Now'), Optional countdown timer, (3) Visual design: Background color contrasting with site (not matching), Icon or emoji for visual interest, Bold, readable typography, Subtle animation (slide, pulse), (4) User experience: Don't show on every page visit (use cookies), Auto-hide after X seconds with smooth exit, Reappear after X days if dismissed, Link to relevant landing page, (5) Mobile optimization: Shorter text for mobile, Collapsible on mobile, Sticky positioning option. Track click-through rates. A/B test different messages. Don't overuse - reserve for important announcements. Ensure banner doesn't significantly increase page height on mobile.",Promotion & Conversion,"Lovable, Replit, ChatGPT, Cursor, v0",Design,Creates effective announcement banners that can increase promotion awareness by 60%+ and drive traffic to new features. Temporary banners create urgency and highlight important updates without permanent site changes.,✨ Award-Winning Homepage Designs
+Code refactoring with documentation,"Refactor this [language] code to improve readability and maintainability:
+[paste code]
+
+Apply these improvements:
+- Extract repeated logic into functions
+- Add clear variable names
+- Include JSDoc comments
+- Follow [style guide] conventions
+
+Explain each change you make.",Refactoring,"Cursor, Windsurf, Replit",Training Wheels,Structured refactoring prompt that improves code quality while maintaining functionality. Use when cleaning up code or preparing for code reviews.,💎 UI/UX Excellence
+Creating crisis management funnel for reputation recovery,"Design a crisis response funnel for reputation management and customer recovery:
+
+1. Crisis identification:
+   - Monitoring systems for negative sentiment
+   - Trigger thresholds for activation
+   - Crisis categorization (severity levels)
+   - Response team and protocols
+
+2. Immediate response:
+   - Acknowledgment messaging
+   - Transparency and honesty approach
+   - Action plan communication
+   - Channel selection and coordination
+
+3. Recovery funnel:
+   - Affected customer identification
+   - Personalized outreach and compensation
+   - Trust rebuilding content
+   - Positive story amplification
+
+4. Prevention systems:
+   - Regular reputation monitoring
+   - Proactive issue resolution
+   - Customer satisfaction improvements
+   - Crisis simulation and preparation
+
+Provide crisis response playbook, message templates, and monitoring dashboard. Include case studies of successful crisis management.",Reputation Management,"ChatGPT, Mention, Brandwatch, Zendesk",Strategy,"Prepares for and responds to reputation crises that can damage funnel performance. Quick, transparent response can minimize damage and even strengthen brand. Essential insurance policy for digital businesses.",💎 UI/UX Excellence
+Designing a mobile-first responsive homepage with optimal touch targets,"Create a fully responsive, mobile-first homepage that adapts seamlessly across all breakpoints. Design specifications: (1) Mobile layout (320px-767px): Single column, 44px minimum touch target size, thumb-zone optimized navigation, sticky header with hamburger menu, (2) Tablet layout (768px-1023px): Two-column grid with flexible images, (3) Desktop layout (1024px+): Multi-column with max-width container. Implement: Front-loaded key navigation elements, simplified mobile typography (16px body minimum for readability), optimized images with lazy loading, reduced animations on mobile for performance, easily tappable CTAs with adequate spacing (minimum 8px between elements). Use CSS Grid and Flexbox for fluid responsiveness. Test at breakpoints: 375px, 768px, 1024px, 1440px. Prioritize core web vitals: LCP under 2.5s, FID under 100ms.",Responsive & Mobile-First Design,"Lovable, Replit, ChatGPT, v0, Bolt",Design,Implements mobile-first design principles that can increase mobile transactions by 29% (Cocohanee case study). Follows Awwwards Mobile Excellence criteria requiring 70%+ mobile usability scores and ensures accessibility across all devices.,✨ Award-Winning Homepage Designs
+Responsive design implementation,"Make this design mobile-responsive using Tailwind CSS breakpoints:
+- Mobile (< 640px): Stack elements vertically
+- Tablet (640px - 1024px): 2-column grid
+- Desktop (> 1024px): 3-column grid
+
+Ensure touch targets are at least 44px. Test with Chrome DevTools.",Responsive Design,All tools,No Training Wheels,Mobile-first responsive design prompt with specific breakpoints. Include accessibility requirements like minimum touch target sizes.,💎 UI/UX Excellence
+Creating retargeting campaign for funnel drop-offs,"Design a multi-channel retargeting strategy for users who dropped off at [funnel stage]. Include:
+
+1. Segmentation:
+   - Define audience segments based on behavior
+   - Create custom audiences for each drop-off point
+   - Prioritize by likelihood to convert
+
+2. Campaign structure:
+   - Facebook/Instagram ad sequences (3-5 ads)
+   - Google Display Network remarketing
+   - Email win-back campaigns
+   - SMS retargeting (if applicable)
+
+3. Creative strategy:
+   - Ad copy addressing specific objections
+   - Visual concepts and formats
+   - Offer/incentive recommendations
+   - Frequency and timing guidelines
+
+4. Technical setup:
+   - Pixel implementation code
+   - Audience creation steps
+   - Budget allocation recommendations
+   - Success metrics and optimization triggers
+
+Provide campaign examples for 3 different drop-off scenarios. Include cost projections and ROI targets.",Retention & Re-engagement,"ChatGPT, Facebook Ads, Google Ads, Klaviyo",Strategy,Creates targeted campaigns to recover lost prospects at various funnel stages. Addresses specific objections and provides incentives for return. Can recover 15-30% of abandoned conversions.,🎨 Visual Design & Modern Aesthetics
+Building community-driven funnel for brand loyalty,"Design a community-centric funnel that builds brand loyalty and reduces churn:
+
+1. Community structure:
+   - Onboarding to community (post-purchase)
+   - Engagement mechanisms (discussions, events)
+   - Gamification and rewards
+   - User-generated content encouragement
+
+2. Integration with funnel:
+   - Community as retention tool
+   - Member referral incentives
+   - Exclusive community offers
+   - Early access and beta testing
+
+3. Platform strategy:
+   - Platform selection (Facebook Group, Discord, Circle, custom)
+   - Moderation and management plan
+   - Content calendar for community
+   - Success metrics and KPIs
+
+4. Monetization:
+   - Premium community tiers
+   - Community-exclusive products
+   - Upsell opportunities within community
+   - Advocacy and ambassador programs
+
+Provide community guidelines, engagement strategies, and funnel integration points. Target: 30%+ increase in customer lifetime value.",Retention & Re-engagement,"ChatGPT, Discord, Circle, Slack",Strategy,"Creates engaged community that drives retention, referrals, and repeat purchases. Transforms customers into brand advocates. Reduces churn by 25-40% and increases LTV significantly.",💎 UI/UX Excellence
+SEO implementation,"Add SEO optimization to this page:
+- Dynamic meta tags (title, description, OG tags)
+- Structured data for [type]
+- Semantic HTML elements
+- Alt text for all images
+- Proper heading hierarchy (h1-h6)
+- XML sitemap integration
+
+Use Next.js metadata API or React Helmet.",SEO & Accessibility,"Lovable, Cursor, Bolt.new",Training Wheels,"Comprehensive SEO prompt covering meta tags, structured data, and semantic HTML. Specify the framework for framework-specific implementations.",💎 UI/UX Excellence
+SEO sitemap,"Create a sitemap generator:
+- Generate XML sitemap of all pages
+- Update automatically on content changes
+- Include priority and change frequency
+- Split large sitemaps
+- Submit to search engines
+- Generate robots.txt
+
+Exclude admin and private pages.",SEO & Accessibility,"Cursor, Replit, Windsurf",Training Wheels,SEO sitemap generation. Automate updates when pages are added or modified.,💎 UI/UX Excellence
+Building a product-focused SaaS homepage with feature highlights,"Design a conversion-optimized SaaS homepage that clearly communicates product value. Page structure: (1) Above-fold hero: Product screenshot or demo GIF showing key interface, Benefit-driven headline (not feature list), 'Start Free Trial' CTA with no credit card required message, Trusted by logos of recognized brands, (2) Feature sections: 3-4 key features with icons, titles, descriptions, Each feature with supporting visual (screenshot, diagram, or illustration), Alternating left-right layout for visual variety, (3) How it works: 3-step process with numbered steps, Simple illustrations or icons, Progression arrows connecting steps, (4) Social proof section: Customer testimonials with specific metrics, Star rating with review count, ROI calculator or savings estimator, (5) Pricing preview: Simple tier comparison (Starter, Pro, Enterprise), Highlight most popular tier, Link to full pricing page, (6) FAQ section: 5-8 common objections addressed, Accordion format to save space. Include live demo or product tour CTA.",SaaS & Product Design,"Lovable, Replit, ChatGPT, v0, Bolt",Strategy,Creates high-converting SaaS homepages following proven patterns from successful products. Clear product communication and social proof can increase trial sign-ups by 40%+. Based on analysis of top SaaS homepages.,✨ Award-Winning Homepage Designs
+Creating SaaS free trial funnel with activation focus,"Design a free trial funnel for [SaaS product] optimized for activation and conversion:
+
+1. Trial signup:
+   - Frictionless signup (no credit card vs credit card required)
+   - Trial length optimization (7, 14, or 30 days)
+   - Feature access strategy (full vs limited)
+   - Onboarding questionnaire
+
+2. Activation sequence:
+   - Welcome email with quick wins
+   - In-app onboarding tour
+   - Time-to-value optimization
+   - Success milestone tracking
+
+3. Nurture during trial:
+   - Educational email sequence
+   - Feature spotlight messages
+   - Use case examples
+   - Success team touchpoints
+
+4. Conversion optimization:
+   - Upgrade prompts and timing
+   - Trial expiration strategy
+   - Discount offers for immediate upgrade
+   - Post-trial follow-up sequence
+
+Provide complete trial funnel documentation, email sequences, and in-app messaging. Target: 15-25% trial-to-paid conversion rate.",SaaS Funnel,"ChatGPT, Lovable, Replit, Intercom",Strategy,Optimizes SaaS trial experience for maximum activation and conversion. Focuses on demonstrating value quickly. Proper trial funnel can double conversion rates from industry averages.,💎 UI/UX Excellence
+Building a homepage with advanced search functionality and filters,"Design a powerful search interface that helps users find content quickly. Search components: (1) Search input: Prominent search bar in header or hero section, Magnifying glass icon, Placeholder text ('Search products, articles...'), Click to expand (if space-constrained), Keyboard shortcut (Cmd+K or Ctrl+K), (2) Search features: Autocomplete suggestions as user types, Search history (recent searches), Popular/trending searches, Typo tolerance and fuzzy matching, Category filters (Articles, Products, Pages), (3) Results display: Search results page or modal overlay, Highlighted search terms in results, Result previews (title, excerpt, image), Filter/sort options on results page, Faceted search (filter by category, date, price), Results count ('54 results for 'design''), Pagination or infinite scroll, (4) Advanced search: Boolean operators support (AND, OR, NOT), Filter by date ranges, Price range sliders for e-commerce, Multi-select category filters, 'Save search' or alert option, (5) Mobile optimization: Full-screen search modal on mobile, Voice search option, Recent searches for easy access. Use search analytics to improve results. Implement search API (Algolia, Elasticsearch). Show 'no results' page with alternatives.",Search & Discovery,"Lovable, Replit, ChatGPT, Cursor",Design,Implements powerful search that improves content discovery and user satisfaction. Good search can increase conversions by 50% on content-heavy or e-commerce sites. Essential for large catalogs and knowledge bases.,✨ Award-Winning Homepage Designs
+API rate limiting,"Implement rate limiting:
+- Limit API requests per user/IP
+- Return 429 status with retry-after
+- Different limits for auth/unauth users
+- Time-window based (per minute/hour)
+- Dashboard to monitor limits
+- Whitelist certain IPs
+
+Use Redis for distributed limiting.",Security,"Cursor, Replit, Windsurf",Training Wheels,Rate limiting for API protection. Essential for preventing abuse and ensuring fair usage.,📊 Dashboard & Admin Panels
+Content moderation,"Implement content filtering:
+- Profanity filter
+- Spam detection
+- Moderate user-generated content
+- Blocklist/allowlist words
+- Report abuse mechanism
+- Admin review queue
+
+Use AI moderation API or rule-based.",Security,"Cursor, Replit, Windsurf",Training Wheels,Automated content moderation. Combine automated filtering with human review for best results.,📊 Dashboard & Admin Panels
+Integrating social proof and testimonials for credibility boost,"Design a compelling social proof section that builds trust and drives conversions. Components: (1) Testimonial cards: Include authentic customer photo (not stock), full name and title/company, specific outcome or metric ('increased sales by 40%'), 3-4 lines of detailed feedback, 5-star rating displayed prominently, (2) Layout options: Carousel with auto-rotate (5s intervals) and manual controls, Masonry grid for varied testimonial lengths, Video testimonials with play buttons, (3) Strategic placement: Near primary CTA, after key features, in dedicated section mid-page, (4) Additional social proof: Customer logos in a separate 'Trusted by' section, Real-time notification popup ('John from NYC just signed up'), Total user count or satisfaction metric ('4.9/5 stars from 10,000+ reviews'), Case study preview cards with 'Read Full Story' links. Ensure testimonials feel authentic (avoid overly polished language). Link to third-party review sites like G2, Trustpilot for verification.",Social Proof & Testimonials,"Lovable, Replit, ChatGPT, Cursor, v0",Design,Leverages social proof to reduce purchase anxiety and increase conversions. Testimonials can increase conversion rates by 34% when displayed prominently with specific outcomes. Based on research from VWO and conversion optimization studies.,💎 UI/UX Excellence
+Designing subscription box funnel with retention focus,"Create a subscription funnel for [product category] optimized for retention:
+
+1. Acquisition funnel:
+   - Quiz for personalization
+   - Trial offer structure
+   - Onboarding sequence
+   - First box experience optimization
+
+2. Retention strategies:
+   - Skip/pause options to reduce churn
+   - Customization and flexibility
+   - Surprise and delight elements
+   - Regular communication and engagement
+
+3. Monetization:
+   - Upsell opportunities (add-ons, upgrades)
+   - Gift subscriptions
+   - Referral incentives
+   - Annual plan conversions
+
+4. Churn prevention:
+   - At-risk customer identification
+   - Win-back campaigns
+   - Cancellation flow optimization (save offers)
+   - Feedback collection and action
+
+Provide complete funnel documentation, email sequences, and retention playbook. Target: <5% monthly churn rate.",Subscription & Recurring Revenue,"ChatGPT, ReCharge, Lovable, Klaviyo",Strategy,Builds sustainable subscription business with focus on long-term retention. Addresses unique challenges of recurring revenue model. Proper retention strategies can increase LTV by 3-5x.,💎 UI/UX Excellence
+Creating a homepage with integrated live chat or chatbot,"Design an effective live chat interface that provides instant support and improves conversions. Chat components: (1) Chat trigger: Floating button in bottom-right corner, Brand-colored circle with chat icon, Unread message indicator badge, Collapse/expand animation, Optional proactive message after X seconds, (2) Chat window: Slides up from trigger button, Header with agent name/photo or chatbot name, Chat history area with scroll, Message input field at bottom, Typing indicators ('Agent is typing...'), Timestamp on messages, (3) User experience: Greeting message on open, Quick reply buttons for common questions, File/image upload capability, Emoji support, Chat transcript option (email on close), Offline message form when unavailable, Mobile: Full-screen chat on small devices, (4) Visual design: Brand colors for agent messages, User messages in contrasting color, Avatar icons for participants, Smooth message animations, 'Sound on' notification option, (5) Functionality: Connect to support team or AI chatbot, Auto-responses for common queries, Route to specific departments, Collect user info before starting, Show business hours. Balance helpfulness with non-intrusiveness. Allow easy dismissal. Track chat-to-conversion rates.",Support & Engagement,"Lovable, Replit, ChatGPT, v0, Bolt",Strategy,"Implements live chat that can increase conversions by 20% and improve customer satisfaction. Instant support reduces friction and abandonment. Popular in SaaS, e-commerce, and service industries for real-time assistance.",✨ Award-Winning Homepage Designs
+Test suite generation,"Write comprehensive tests for [component/function]:
+- Unit tests for all functions
+- Integration tests for user flows
+- Edge cases and error scenarios
+- Accessibility tests
+- Performance tests
+
+Use Jest and React Testing Library. Aim for 80%+ coverage.",Testing,"Cursor, Replit, Windsurf",Training Wheels,Comprehensive testing prompt. Specify testing framework and coverage goals. Generate tests incrementally for complex features.,💎 UI/UX Excellence
+Creating a trust-building homepage with comprehensive credibility elements,"Design a homepage that maximizes trust and credibility through strategic placement of trust elements. Include: (1) Trust badges and security certifications in the header or near CTAs, (2) A dedicated testimonial section with authentic customer photos, names, and specific outcomes (not generic praise), (3) Prominent display of award logos (Awwwards, CSS Design Awards, Webby) in the footer or sidebar, (4) Real-time social proof like 'Join 50,000+ users' or live activity feed, (5) Case study previews with measurable results, (6) Media mentions or 'As Featured In' section, (7) Money-back guarantee or risk-reversal statement, (8) About Us preview with team photos for humanization. Use review stars at enlarged sizes (150%+) for visibility. Maintain consistent branding throughout with cohesive colors, logos, and typography.",Trust & Credibility,"Lovable, Replit, ChatGPT, Cursor, v0",Strategy,Implements comprehensive trust-building strategies proven to reduce friction and increase conversions by 33%+ (RubberStamps.net case study). Combines multiple credibility signals for maximum impact based on conversion optimization research.,✨ Award-Winning Homepage Designs
+Building trust through social proof elements,"Design a comprehensive social proof strategy for [product/service] funnel including:
+
+1. Testimonial framework:
+   - Structure for collecting high-impact testimonials
+   - 5 testimonial templates for different objections
+   - Placement strategy across funnel stages
+
+2. Trust badges and certifications:
+   - Relevant industry credentials to display
+   - Security and guarantee seals
+   - Media mentions and awards
+
+3. Real-time social proof:
+   - Live visitor/purchase notifications
+   - User-generated content displays
+   - Review aggregation and display
+
+4. Case studies:
+   - 3 detailed case study outlines
+   - Measurable results and ROI focus
+
+Provide implementation code snippets and design mockups for each element. Prioritize by impact on conversion rates.",Trust Building,"ChatGPT, Lovable, Replit, Proof API",Strategy,Creates a multi-layered trust-building framework that addresses different trust barriers. Combines static and dynamic social proof for maximum credibility. Essential for increasing conversion rates across all funnel stages.,✨ Award-Winning Homepage Designs
+Building a homepage with variable fonts and dynamic typography,"Design a homepage leveraging variable fonts for dynamic, responsive typography. Variable font implementation: (1) Font selection: Choose variable font (Google Fonts variable or custom), Verify browser support (90%+ as of 2025), Include fallback fonts, Common variable fonts: Inter, Roboto Flex, Source Sans Variable, (2) Variable axes: Weight (wght): 100-900, Width (wdth): 75-125, Optical size (opsz): 8-144, Custom axes depending on font, (3) Dynamic applications: Headings that adjust weight on viewport size, Text that responds to user interaction (hover weight change), Animated weight transitions for emphasis, Responsive optical sizing based on font size, Width adjustments for better fit on mobile, (4) Implementation: Use font-variation-settings CSS property, Animate with transitions or keyframes, Respond to viewport with CSS clamp() or media queries, Fine-tune tracking and line-height with variable fonts, (5) Performance benefits: Single font file instead of multiple weights, Reduce file size compared to traditional font families, Faster loading and better performance. Create unique typographic experiences. Test thoroughly across browsers. Balance creativity with readability. Demonstrate technical sophistication.",Typography & Innovation,"Lovable, Replit, ChatGPT, Cursor, v0",Design,"Implements cutting-edge variable font technology for dynamic, efficient typography. Variable fonts reduce load times while enabling creative effects. Shows technical expertise and aligns with modern performance optimization.",✨ Award-Winning Homepage Designs
+Optimizing typography for maximum readability and hierarchy,"Create a typography system that ensures optimal readability and establishes clear hierarchy. Specifications: (1) Heading hierarchy: H1 (40-48px, bold, 1.2 line-height), H2 (32-36px), H3 (24-28px), H4 (20-22px), (2) Body text: 16-18px with 1.6-1.8 line-height for comfortable reading, (3) Font pairing: Combine serif headlines (Georgia, Playfair Display) with sans-serif body (Inter, Roboto) or vice versa, (4) Maximum line length: 60-75 characters for optimal readability, (5) Paragraph spacing: 1.5em between paragraphs, (6) Use font weights for emphasis: bold (700) for headings, medium (500) for subheadings, regular (400) for body, (7) Ensure mobile typography scales proportionally (reduce by 15-20% on mobile). Implement responsive typography using clamp() or fluid type scales. Maintain consistent rhythm with modular scale (1.25 or 1.333 ratio).",Typography & Readability,"Lovable, Replit, ChatGPT, v0, Bolt",Design,"Creates accessible, readable typography systems that improve comprehension and user experience. Award-winning sites typically use 18-29px for headings with carefully calculated line heights. Based on typography best practices from top design awards.",🎨 Visual Design & Modern Aesthetics
+Rapid UI prototyping with specific audience,"Create a dashboard for a health tracking app for college students. Use colorful, modern colors and fonts. Include sections for daily steps, water intake, sleep hours, and mood tracking. Make it responsive and visually engaging.",UI/UX Design,"Lovable, Bolt.new, v0",No Training Wheels,High-level vibe prompt focusing on aesthetics and user experience. Best for initial prototypes where you want AI to make design decisions.,🎨 Visual Design & Modern Aesthetics
+Emotion-driven UI design,"A cozy landing page for a mental health app. Inviting, soft colors (pastels), comforting tone. Include hero section with calming imagery, feature cards with icons, testimonials section, and gentle call-to-action. Typography should be easy to read.",UI/UX Design,"Lovable, Bolt.new, v0",No Training Wheels,Vibe design prompt focusing on emotional outcomes. Use when the feeling/atmosphere is more important than specific technical requirements.,✨ Award-Winning Homepage Designs
+Building design system,"Generate a reusable UI component library with:
+- Button variants (primary, secondary, outline, ghost)
+- Input fields with validation states
+- Cards with different layouts
+- Modal/Dialog components
+- Toast notifications
+- Loading spinners and skeletons
+
+Use Tailwind CSS or styled-components. Include TypeScript types.",UI/UX Design,"Cursor, Lovable, Bolt.new",Training Wheels,"Design system creation prompt. Build incrementally, starting with basic components before adding variants.",💎 UI/UX Excellence
+Dark mode implementation,"Add dark mode support:
+- CSS variables for colors
+- Toggle switch in header
+- Persist user preference in localStorage
+- System preference detection
+- Smooth transition between modes
+
+Ensure all colors meet WCAG contrast ratios.",UI/UX Design,All tools,No Training Wheels,"Dark mode with accessibility considerations. Specify color system (CSS variables, Tailwind dark mode, etc.).",🎨 Visual Design & Modern Aesthetics
+Image carousel,"Create a carousel/slider component:
+- Auto-play with pause on hover
+- Navigation arrows and dots
+- Touch/swipe support
+- Lazy load images
+- Accessible keyboard navigation
+- Responsive breakpoints
+
+Use Swiper or build custom.",UI/UX Design,All tools,No Training Wheels,Carousel with accessibility. Consider using a library for cross-device compatibility.,🚀 Interactive & Immersive Elements
+Timeline visualization,"Build a timeline component:
+- Chronological event display
+- Vertical or horizontal layout
+- Expandable event details
+- Filter by category/date
+- Smooth scroll to events
+- Milestone markers
+
+Responsive for all devices.",UI/UX Design,All tools,No Training Wheels,Timeline component for displaying chronological data. Use CSS Grid or Flexbox for layout.,🎨 Visual Design & Modern Aesthetics
+Breadcrumb navigation,"Implement breadcrumb navigation:
+- Show current page hierarchy
+- Clickable parent pages
+- Schema markup for SEO
+- Truncate long paths on mobile
+- Last item not clickable (current page)
+
+Generate dynamically from route.",UI/UX Design,All tools,No Training Wheels,Breadcrumbs for site navigation. Include structured data for search engine rich results.,💎 UI/UX Excellence
+Image gallery,"Add image gallery with lightbox:
+- Grid of thumbnails
+- Click to open fullscreen
+- Navigation arrows in lightbox
+- Zoom functionality
+- Close on escape or outside click
+- Keyboard navigation
+
+Lazy load images for performance.",UI/UX Design,All tools,No Training Wheels,Image gallery with lightbox. Consider using a library like PhotoSwipe for advanced features.,💎 UI/UX Excellence
+Color selection tool,"Create a color picker component:
+- Visual color selector (hue, saturation, lightness)
+- HEX, RGB, HSL input fields
+- Preset color swatches
+- Recent colors history
+- Copy to clipboard
+- Opacity slider
+
+Accessible with keyboard navigation.",UI/UX Design,All tools,Training Wheels,Color picker for design tools. Consider using a library like react-color for full features.,🎨 Visual Design & Modern Aesthetics
+Print optimization,"Add print stylesheet:
+- Optimize layout for printing
+- Hide navigation and footer
+- Adjust colors for grayscale
+- Page breaks at logical points
+- Show URLs for links
+- Expand collapsed content
+
+Test in print preview.",UI/UX Design,All tools,No Training Wheels,Print-friendly styling. Use @media print CSS queries for print-specific styles.,🎨 Visual Design & Modern Aesthetics
+Progress tracking,"Create a progress tracker:
+- Multi-step completion tracking
+- Visual progress bar/circle
+- Completed steps checkmark
+- Lock future steps until current complete
+- Save progress to resume later
+- Celebration on completion
+
+Store progress in database.",UI/UX Design,All tools,Training Wheels,"Progress tracking for multi-step processes. Use for onboarding, courses, or checklists.",🎨 Visual Design & Modern Aesthetics
+Product tour,"Create a tour/onboarding overlay:
+- Step-by-step product tour
+- Highlight UI elements
+- Tooltips with instructions
+- Skip tour option
+- Remember if completed
+- Trigger on first visit
+
+Use Shepherd.js or Intro.js.",UI/UX Design,All tools,No Training Wheels,Interactive product tour. Guide new users through key features with highlighted tooltips.,💎 UI/UX Excellence
+Before/after comparison,"Build a comparison slider:
+- Before/after image comparison
+- Draggable slider to reveal
+- Touch support for mobile
+- Labels for before/after
+- Smooth animations
+- Lazy load images
+
+Use react-compare-image or build custom.",UI/UX Design,All tools,No Training Wheels,Image comparison slider. Great for showcasing transformations or changes.,🚀 Interactive & Immersive Elements
+Tooltips and popovers,"Add tooltip/popover system:
+- Show on hover or click
+- Position intelligently (avoid overflow)
+- Delay before showing
+- Close on outside click
+- Arrow pointer to anchor
+- Accessible with focus trap
+
+Use Tippy.js or Radix UI.",UI/UX Design,All tools,No Training Wheels,Tooltip system for contextual help. Ensure accessibility with proper ARIA labels.,🚀 Interactive & Immersive Elements
+Loading states,"Implement skeleton screens:
+- Loading placeholders for content
+- Match actual content structure
+- Subtle shimmer animation
+- Replace with real content on load
+- Different skeletons for content types
+- Improve perceived performance
+
+Better UX than spinners for content areas.",UI/UX Design,All tools,No Training Wheels,Skeleton screens for better loading UX. Show content structure while data loads.,🚀 Interactive & Immersive Elements
+Creating immersive storytelling homepage with scroll-triggered narrative,"Design a narrative-driven homepage that tells a compelling brand story through scroll interactions. Story structure: (1) Opening scene: Full-screen hero with bold statement or question, cinematic entrance animation, (2) Chapter-based sections: 4-6 distinct sections each telling part of the story, Full-screen or near-full-screen sections with scroll snap, Unique visual for each chapter (image, video, or illustration), (3) Scroll-triggered reveals: Text and images fade in as user scrolls, Parallax backgrounds at different speeds, Numbers counting up when in viewport, (4) Progressive disclosure: Information revealed gradually to maintain engagement, 'Show More' expansions for deeper content, (5) Story elements: Problem > Solution > Transformation narrative arc, Emotional connection through authentic imagery, Strong conclusion with CTA as the story resolution. Use smooth scrolling and Intersection Observer API for triggers. Optimize for mobile with adapted vertical storytelling.",UX/UI Strategy,"Lovable, Replit, ChatGPT, v0, Bolt",Strategy,Creates engaging narrative experiences that increase time-on-page by 50%+ and emotional connection with brands. Storytelling is a key differentiator in Awwwards winners like Nomadic Tribe. Based on immersive design patterns.,✨ Award-Winning Homepage Designs
+Designing a homepage with gradient mesh and modern color transitions,"Create a visually stunning homepage utilizing gradient meshes and smooth color transitions. Gradient implementation: (1) Gradient types: Linear gradients for backgrounds, Radial gradients for focal points, Conic gradients for dynamic effects, Mesh gradients for complex multi-color blends, Animated gradients with CSS or canvas, (2) Color strategy: 2-4 colors maximum per gradient, Use brand colors as gradient base, Add complementary colors for depth, Consider color psychology, Ensure text readability on gradients (overlay or high contrast), (3) Application areas: Hero section background, Section dividers with gradient overlays, Button hover effects, Card backgrounds with subtle gradients, Text gradients for headlines, Border gradients for modern accents, (4) Animation effects: Gradient position shifts on scroll, Rotating gradient angles, Color value interpolation, Morphing between gradient states, (5) Technical implementation: Use CSS gradients for performance, Canvas or WebGL for complex effects, Optimize gradient stops (3-5 stops ideal), Test on different displays (gradients can look different), Provide fallback solid colors. Create depth without overwhelming content. Modern trend in 2025 web design. Reference: Stripe's website, modern SaaS homepages.",Visual Design & Color,"Lovable, Replit, ChatGPT, v0, Bolt",Design,"Implements modern gradient aesthetics that create depth and visual interest. Gradient meshes are dominating 2025 design trends and appear in many award-winning sites. Creates dynamic, memorable visual experiences.",✨ Award-Winning Homepage Designs
+Creating a geometric pattern and shape-based homepage design,"Design a modern homepage utilizing geometric shapes and patterns as core visual elements. Design system: (1) Shape library: Define 3-5 signature shapes (circles, triangles, hexagons, custom shapes), Use shapes as: Section dividers, Image masks/frames, Background patterns, Decorative accents, (2) Pattern application: Repeating geometric patterns as backgrounds, Gradient overlays on shapes, Shapes that respond to scroll or mouse position, Morphing shape transitions, (3) Color blocking: Use shapes for color section separation, Overlapping shapes with transparency, Contrast between shape colors and content, (4) Content integration: Text wrapped around custom shape paths, Images clipped to geometric shapes, Icons designed with consistent geometric style, (5) Animation: Shapes that float or rotate subtly, Entrance animations for shapes on scroll, Hover effects with shape transformations. Maintain balance - shapes should enhance, not distract from content. Use CSS clip-path and SVG for shapes. Create consistent shape system throughout design.",Visual Design & Graphics,"Lovable, Replit, ChatGPT, v0, Bolt",Design,Implements contemporary geometric design trends seen in award-winning sites. Geometric patterns add visual interest and modernity while maintaining professionalism. Popular in CSS Design Awards for innovative visual approaches.,✨ Award-Winning Homepage Designs
+Implementing an editorial-style homepage with magazine layout aesthetics,"Design a content-rich, editorial-style homepage inspired by high-end digital magazines. Layout principles: (1) Asymmetrical grid: Mix of full-width, half-width, and offset content blocks, Featured content in large hero card, Secondary content in varied-size cards, (2) Typography emphasis: Large, serif headlines (48-64px) for editorial feel, Generous line spacing (1.8-2.0), Dropcaps for article intros, Pull quotes highlighted in larger font, (3) Rich media: High-quality editorial photography, Full-bleed images that break grid, Image galleries with lightbox, Inline videos or GIFs, (4) Content hierarchy: Featured story at top, Category sections (Latest, Trending, Editor's Picks), Tag-based filtering or navigation, Author bylines with photos, Publication dates, (5) White space: Generous margins and padding, Content max-width 720px for readability. Use serif fonts like Playfair Display or Lora for sophistication. Include subtle hover effects on article cards.",Visual Design & Layout,"Lovable, Replit, ChatGPT, v0, Bolt",Design,"Creates sophisticated, content-forward homepages suitable for blogs, media sites, or thought-leadership brands. Editorial design elevates perceived quality and authority, commonly seen in CSS Design Award winners for content sites.",✨ Award-Winning Homepage Designs
+Building a dark mode homepage with elegant light/dark theme switching,"Design a stunning dark mode homepage with smooth theme switching capability. Dark mode specifications: (1) Color palette: Background: #0F172A or #1E293B (dark navy), Text: #F1F5F9 or #E2E8F0 (light gray, not pure white), Accents: Vibrant colors (blue #3B82F6, purple #A855F7, green #10B981), (2) Contrast considerations: Ensure 4.5:1 contrast ratio for readability, Reduce pure white to prevent eye strain, Use subtle borders (#334155) instead of shadows, (3) Theme toggle: Sun/moon icon toggle in header, Smooth transition animation (300ms) on theme change, Remember user preference with localStorage, Respect prefers-color-scheme media query, (4) Adapted elements: Reduce shadow intensity in dark mode, Adjust image brightness (-10% to -20%), Invert icon colors automatically, Lighten card backgrounds (#1E293B), (5) Accessibility: Test contrast in both modes, Ensure all interactive elements visible in both themes. Popular in award-winning portfolio sites like David Langarica.",Visual Design & UX,"Lovable, Replit, ChatGPT, v0, Bolt",Design,Implements sophisticated dark mode design that's increasingly popular in award-winning sites. Dark mode reduces eye strain and is preferred by 70%+ of users in certain contexts. Shows design sophistication and user consideration.,✨ Award-Winning Homepage Designs
+Designing a homepage with glassmorphism and blur effects,"Create a modern homepage utilizing glassmorphism design trend with frosted glass aesthetics. Glassmorphism implementation: (1) Core glass effect: Semi-transparent background (rgba with 10-30% opacity), Backdrop blur filter (10-30px), Subtle border (1px with 20-40% opacity), Light background highlights on edges, Optional subtle shadow for depth, (2) Element application: Card components, Navigation header, Modal overlays, Feature sections, Button hover states, (3) Color considerations: Works best with gradient backgrounds, Use light colors for glass elements on dark backgrounds, Use dark glass on light/colorful backgrounds, Ensure sufficient text contrast (minimum 4.5:1), (4) Layering strategy: Create depth with multiple glass layers, Vary opacity levels for hierarchy, Use blur intensity to distinguish importance, Combine with regular solid elements for balance, (5) Performance: Use backdrop-filter (check browser support), Provide fallback for unsupported browsers (solid colors), Optimize number of blur effects for performance, Test on lower-end devices. Popular in 2025 design trends. Creates modern, elegant aesthetic. Use sparingly for maximum impact. Reference: Apple's design language, macOS Big Sur aesthetics.",Visual Design Trends,"Lovable, Replit, ChatGPT, v0, Bolt",Design,Implements trendy glassmorphism aesthetic that creates depth and sophistication. Glass effects are popular in modern UI design and award-winning sites. Creates visual interest while maintaining content readability.,✨ Award-Winning Homepage Designs
+Building a homepage with neumorphism soft UI elements,"Design a homepage featuring neumorphism (soft UI) design style with subtle depth and shadows. Neumorphism specifications: (1) Core aesthetic: Soft, extruded elements that appear to rise from background, Same color as background with subtle variation, Dual shadows: light source (top-left) and dark shadow (bottom-right), Subtle, low contrast overall appearance, Rounded corners for all elements (16-24px), (2) Shadow formula: Light shadow: -5px -5px 10px rgba(255,255,255,0.7), Dark shadow: 5px 5px 10px rgba(0,0,0,0.2), Adjust values based on element size, Combine shadows on single element, (3) Background colors: Light mode: #e0e5ec or similar light grays, Dark mode: #2c2f33 or similar dark grays, Avoid pure white or pure black, Use slight color tints for warmth, (4) Interactive states: Pressed state: inset shadows (reverse direction), Hover: slightly increase shadow intensity, Active elements: more prominent elevation, (5) Element application: Buttons and form inputs, Card containers, Icon backgrounds, Toggle switches, Sliders and progress bars. Ensure accessibility - neumorphism can have contrast issues. Use sparingly - full neumorphism sites can be hard to read. Combine with higher contrast elements for balance.",Visual Design Trends,"Lovable, Replit, ChatGPT, Cursor, v0",Design,"Implements neumorphism soft UI trend that creates subtle, tactile interfaces. While trendy, requires careful implementation for accessibility. Best used for accent elements rather than entire layouts.",✨ Award-Winning Homepage Designs
+Creating an Awwwards-style homepage with optimal visual hierarchy using F-pattern layout,"Design a homepage that implements the F-pattern reading flow with a focus on visual hierarchy. Start with a bold headline in the top-left corner (40-48px), followed by a compelling subheadline (18-24px). Place the primary CTA prominently in the upper-left hot spot with high-contrast colors. Use strategic white space (minimum 20% of layout) to guide the eye naturally through content. Include a secondary horizontal scan line with key benefits using icons and concise text. Ensure the design follows Awwwards' principles with size variations creating clear importance hierarchy - make headlines 2-3x larger than body text. Apply the rule of thirds for placing critical elements at grid intersections.",Visual Hierarchy & Layout,"Lovable, Replit, ChatGPT, v0, Bolt",Design,"Creates award-winning homepage layouts following the F-pattern scanning behavior with optimal visual hierarchy, proven to improve comprehension by 20% through strategic spacing and element sizing. Based on NN/G research and Awwwards winners.",✨ Award-Winning Homepage Designs
+Designing a Z-pattern homepage layout for product showcases or portfolios,"Create a homepage using the Z-pattern layout optimized for guiding users through a visual journey. Position the logo and primary navigation in the top-left, with a striking hero image or video in the top-right. Place a diagonal content flow from top-right to bottom-left using directional cues like arrows, eye-gaze imagery, or pathway illustrations. Position the main CTA button in the bottom-right corner with contrasting colors (use green for trust or orange for urgency). Include 3-4 content blocks along the Z-path with progressive disclosure. Implement smooth scroll animations that follow the Z-flow. Design should be mobile-responsive, converting to a vertical flow on smaller screens.",Visual Hierarchy & Layout,"Lovable, Replit, ChatGPT, Cursor, v0",Design,"Implements the Z-pattern visual hierarchy ideal for simpler layouts and storytelling, commonly used in CSS Design Award winners. Guides users' attention diagonally across the page for maximum engagement and conversion.",✨ Award-Winning Homepage Designs
+Designing a card-based layout system for content-heavy homepages,"Create a modern card-based homepage layout that organizes complex content intuitively. Card specifications: (1) Card structure: Rounded corners (8-12px border-radius), Subtle shadow for depth (0 2px 8px rgba(0,0,0,0.1)), Consistent padding (24-32px), White or light background on darker page background, (2) Layout options: CSS Grid with responsive columns (4 columns desktop, 2 tablet, 1 mobile), Masonry layout for varied card heights, Horizontal scroll cards on mobile for featured content, (3) Card anatomy: Icon or image at top (16:9 ratio), Headline (20-24px), Description (2-3 lines), CTA link or button at bottom, (4) Hover effects: Lift on hover (translateY(-4px)), Shadow intensification, Border color change or glow effect, (5) Content types: Feature cards, Product/service cards, Blog post previews, Team member cards, Case study cards. Ensure cards are keyboard accessible with focus states. Use semantic HTML with proper heading hierarchy within cards.",Visual Hierarchy & Layout,"Lovable, Replit, ChatGPT, Cursor, v0",Design,"Implements versatile card-based design pattern that scales well for content-rich sites. Cards improve scanability and organization, commonly used in CSS Design Award winners. Provides flexible, responsive content structure.",✨ Award-Winning Homepage Designs
+Creating a split-screen homepage layout for dual offerings or before/after,"Design a dynamic split-screen homepage that showcases two distinct offerings or contrasts. Layout structure: (1) Screen division: 50/50 vertical split on desktop, Stack vertically on mobile/tablet (each section full-width), Use clip-path or CSS Grid for clean division, (2) Left section: Distinct background color or image, Headline, description, and CTA for first offering, Hover effect: Section expands slightly (55/45 ratio), (3) Right section: Contrasting background, Parallel content structure for comparison, Mirror hover effect, (4) Middle divider: Thin divider line (2px) or none for seamless look, Optional draggable slider to reveal more of either side, Logo or icon positioned at center split, (5) Use cases: Before/After transformations, Two product tiers (Free vs. Premium), Personal vs. Business offerings, Services comparison. Ensure each side is self-contained with all necessary info. Add subtle animations on scroll reveal.",Visual Hierarchy & Layout,"Lovable, Replit, ChatGPT, Cursor, v0",Design,Creates striking visual impact through symmetry and contrast. Split-screen layouts are popular in portfolio sites and dual-offering businesses. Provides clear differentiation while maintaining visual balance.,✨ Award-Winning Homepage Designs
+"Building a homepage with Bento Grid layout for modern, modular design","Design a contemporary homepage using the Bento Grid layout pattern popularized by Apple and modern design trends. Bento Grid structure: (1) Grid system: CSS Grid with varying cell sizes, Mix of 1x1, 1x2, 2x1, 2x2 cells, Asymmetrical but balanced layout, Consistent gap spacing (16-24px), (2) Card design: Each cell is a distinct card/module, Rounded corners (12-16px), Subtle shadows or borders for separation, Cohesive background colors (use 2-3 from palette), Padding: 24-32px, (3) Content types: Feature highlights, Product showcases, Testimonial snippets, Statistic cards, Image galleries, Video previews, CTA modules, Blog post previews, (4) Visual hierarchy: Larger cells for important content, Mix of text-heavy and image-heavy cards, Varied content types for interest, Hover effects (lift, glow) on interactive cards, (5) Responsive behavior: Reflow to fewer columns on tablet, Single column on mobile, Maintain card aspect ratios. Ensure consistent content density across cards. Use white space effectively. Reference: Apple's homepage, iOS design patterns.",Visual Hierarchy & Layout,"Lovable, Replit, ChatGPT, v0, Bolt",Design,"Implements trendy Bento Grid layout that's dominating modern web design in 2025. Creates modular, scannable layouts that organize diverse content types elegantly. Popular in tech, portfolio, and design-forward brands.",✨ Award-Winning Homepage Designs

@@ -1,0 +1,362 @@
+[
+  {
+    "use_case": "Creating a complete sales funnel blueprint for a new product launch",
+    "prompt": "Design a comprehensive 5-stage sales funnel for [product/service] targeting [audience]. Include:\n1. Awareness stage: Content strategy and channels\n2. Interest stage: Lead magnets and engagement tactics\n3. Consideration stage: Nurturing sequences and value propositions\n4. Decision stage: Conversion triggers and offers\n5. Retention stage: Loyalty programs and upsell strategies\n\nFor each stage, provide specific tactics, recommended tools, key metrics to track, and estimated conversion rates. Make it scalable and focused on building trust.",
+    "category": "Funnel Design",
+    "tool_compatibility": ["ChatGPT", "Claude", "Lovable", "Replit"],
+    "prompt_type": "Strategy",
+    "description": "Generates a complete funnel architecture with stage-specific strategies. Best for planning new funnels or redesigning existing ones. Ensures comprehensive coverage of customer journey with actionable tactics for each stage."
+  },
+  {
+    "use_case": "Implementing AI-powered personalization across funnel stages",
+    "prompt": "Create a hyper-personalization strategy for my sales funnel that:\n- Segments users based on [behavioral data/demographics/psychographics]\n- Delivers dynamic content based on user intent signals\n- Implements predictive analytics for user behavior\n- Personalizes email sequences and web experiences\n- Uses real-time data to adjust offers and messaging\n\nProvide specific AI tools for each personalization tactic, implementation steps, and expected conversion rate improvements. Target audience: [describe audience].",
+    "category": "Personalization",
+    "tool_compatibility": ["ChatGPT", "Replit", "Custom AI Tools"],
+    "prompt_type": "Strategy",
+    "description": "Develops a comprehensive personalization framework using AI. Increases conversion rates by 20-50% through targeted experiences. Best combined with CRM integration and behavioral tracking tools."
+  },
+  {
+    "use_case": "Designing an irresistible lead magnet for top-of-funnel lead capture",
+    "prompt": "I need to create a high-converting lead magnet for [niche/audience] who struggle with [specific problem]. Design a [ebook/checklist/quiz/toolkit] that:\n- Provides immediate, actionable value\n- Addresses the core pain point: [problem]\n- Positions my solution as the next logical step\n- Is scannable and easy to consume\n- Includes compelling visuals and examples\n\nProvide a detailed outline with chapter/section titles, key points for each section, visual suggestions, and a persuasive title under 10 words. Include opt-in page copy and post-download nurturing email sequence.",
+    "category": "Lead Generation",
+    "tool_compatibility": ["ChatGPT", "Claude", "Canva AI", "Lovable"],
+    "prompt_type": "Content",
+    "description": "Creates complete lead magnet with supporting materials. Focuses on value delivery and conversion optimization. Best for building email lists and establishing authority in the awareness stage."
+  },
+  {
+    "use_case": "Creating landing page copy that converts cold traffic",
+    "prompt": "Write conversion-optimized landing page copy for [product/service] targeting [audience] with [specific pain point]. Structure:\n\n1. Headline: Attention-grabbing promise (under 12 words)\n2. Subheadline: Clarify the transformation\n3. Hero section: Emotional hook and credibility\n4. Problem agitation: 3-5 specific pain points\n5. Solution presentation: How you solve it uniquely\n6. Features & benefits: 5-7 key points\n7. Social proof: Testimonial framework\n8. Risk reversal: Guarantee language\n9. CTA: Primary and secondary calls-to-action\n10. Urgency/scarcity elements\n\nUse conversational tone, power words, and ensure mobile-readability. Include A/B testing suggestions for key elements.",
+    "category": "Landing Page Design",
+    "tool_compatibility": ["ChatGPT", "Claude", "Lovable", "Copy.ai"],
+    "prompt_type": "Content",
+    "description": "Generates complete landing page copy following proven conversion frameworks. Incorporates psychological triggers and persuasion principles. Ideal for PPC campaigns, product launches, and lead generation pages."
+  },
+  {
+    "use_case": "Developing an automated email nurture sequence for leads",
+    "prompt": "Create a 7-email nurture sequence for [product/service] targeting [audience segment]. Each email should:\n\nEmail 1 (Day 0): Welcome & deliver lead magnet + set expectations\nEmail 2 (Day 2): Educational content addressing [pain point 1]\nEmail 3 (Day 4): Case study/success story with social proof\nEmail 4 (Day 6): Educational content addressing [pain point 2]\nEmail 5 (Day 9): Product/service introduction with unique value proposition\nEmail 6 (Day 12): Objection handling + FAQ\nEmail 7 (Day 15): Strong CTA with urgency/bonus\n\nFor each email provide: Subject line (with A/B variant), preview text, body copy, CTA, and P.S. Include personalization tokens and segmentation triggers for optimization.",
+    "category": "Email Marketing",
+    "tool_compatibility": ["ChatGPT", "Claude", "Mailchimp AI", "ActiveCampaign"],
+    "prompt_type": "Content",
+    "description": "Creates a complete automated nurture sequence with timing strategy. Balances education and promotion for optimal engagement. Best for warming cold leads and moving them through the funnel systematically."
+  },
+  {
+    "use_case": "Optimizing CTAs for maximum click-through rates",
+    "prompt": "Design 10 high-converting CTA variations for [specific funnel stage] targeting [audience]. For each CTA provide:\n- Button text (action-oriented, under 5 words)\n- Supporting microcopy (value statement)\n- Visual design suggestions (color, size, placement)\n- Contextual triggers (when/where to show)\n- A/B test hypothesis\n\nInclude CTAs for different user intent levels (high, medium, low) and different devices (desktop, mobile). Focus on reducing friction and increasing urgency. Provide psychological reasoning for each variation.",
+    "category": "Conversion Optimization",
+    "tool_compatibility": ["ChatGPT", "Lovable", "Replit", "Figma"],
+    "prompt_type": "Design",
+    "description": "Generates diverse CTA options optimized for different scenarios and user psychology. Includes testing framework for continuous optimization. Best for improving conversion rates at critical decision points."
+  },
+  {
+    "use_case": "Building trust through social proof elements",
+    "prompt": "Design a comprehensive social proof strategy for [product/service] funnel including:\n\n1. Testimonial framework:\n   - Structure for collecting high-impact testimonials\n   - 5 testimonial templates for different objections\n   - Placement strategy across funnel stages\n\n2. Trust badges and certifications:\n   - Relevant industry credentials to display\n   - Security and guarantee seals\n   - Media mentions and awards\n\n3. Real-time social proof:\n   - Live visitor/purchase notifications\n   - User-generated content displays\n   - Review aggregation and display\n\n4. Case studies:\n   - 3 detailed case study outlines\n   - Measurable results and ROI focus\n\nProvide implementation code snippets and design mockups for each element. Prioritize by impact on conversion rates.",
+    "category": "Trust Building",
+    "tool_compatibility": ["ChatGPT", "Lovable", "Replit", "Proof API"],
+    "prompt_type": "Strategy",
+    "description": "Creates a multi-layered trust-building framework that addresses different trust barriers. Combines static and dynamic social proof for maximum credibility. Essential for increasing conversion rates across all funnel stages."
+  },
+  {
+    "use_case": "Setting up A/B testing framework for funnel optimization",
+    "prompt": "Create a comprehensive A/B testing strategy for [specific funnel element] with:\n\n1. Hypothesis framework:\n   - Current performance baseline: [metrics]\n   - Proposed changes and rationale\n   - Expected impact and minimum detectable effect\n\n2. Test variations:\n   - Control version description\n   - 3-5 challenger variations with specific changes\n   - Prioritization based on potential impact\n\n3. Testing parameters:\n   - Sample size calculation\n   - Test duration and traffic allocation\n   - Success metrics and statistical significance threshold\n\n4. Implementation plan:\n   - Technical setup requirements\n   - Tool recommendations (free and paid)\n   - Monitoring and iteration strategy\n\nProvide code examples for implementation and analysis dashboards. Include common pitfalls to avoid.",
+    "category": "Conversion Optimization",
+    "tool_compatibility": ["ChatGPT", "Google Optimize", "Optimizely", "Replit"],
+    "prompt_type": "Analysis",
+    "description": "Establishes a scientific testing framework for continuous funnel improvement. Includes statistical rigor and practical implementation guidance. Best for data-driven optimization of any funnel element."
+  },
+  {
+    "use_case": "Designing mobile-first funnel experience",
+    "prompt": "Optimize my sales funnel for mobile users visiting from [traffic source]. Address:\n\n1. Mobile UX improvements:\n   - Touch-friendly navigation and buttons (minimum 44x44px)\n   - Simplified forms with smart defaults\n   - Progressive disclosure for complex information\n   - Thumb-zone optimized layouts\n\n2. Page speed optimization:\n   - Image compression and lazy loading strategies\n   - Critical CSS and above-the-fold optimization\n   - Minimize HTTP requests\n\n3. Mobile-specific content:\n   - Scannable copy with short paragraphs\n   - Click-to-call and map integration\n   - Mobile-optimized CTAs\n\n4. Technical implementation:\n   - Responsive design breakpoints\n   - Mobile-first CSS framework\n   - Performance testing checklist\n\nProvide code snippets and mobile preview mockups. Target: <3 second load time, >50% mobile conversion rate.",
+    "category": "Mobile Optimization",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "Figma"],
+    "prompt_type": "Design",
+    "description": "Creates a mobile-optimized funnel that converts effectively on smaller screens. Addresses technical and UX considerations for mobile users. Critical as mobile traffic often exceeds 60% of total visitors."
+  },
+  {
+    "use_case": "Implementing urgency and scarcity tactics ethically",
+    "prompt": "Design ethical urgency and scarcity mechanisms for [offer/product] that increase conversions without manipulating users:\n\n1. Time-based urgency:\n   - Limited-time offer copy templates\n   - Countdown timer implementations (code)\n   - Deadline communication strategy\n\n2. Quantity scarcity:\n   - Stock level displays\n   - Limited availability messaging\n   - Waitlist strategies\n\n3. Social proof urgency:\n   - 'Others are viewing' notifications\n   - Recent purchase popups\n   - Trending product indicators\n\n4. FOMO triggers:\n   - Bonus expiration notices\n   - Early-bird pricing tiers\n   - Exclusive access frameworks\n\nEnsure all tactics are genuine and transparent. Provide A/B testing framework to measure impact. Include psychological principles behind each tactic.",
+    "category": "Conversion Optimization",
+    "tool_compatibility": ["ChatGPT", "Lovable", "Replit", "Proof"],
+    "prompt_type": "Strategy",
+    "description": "Creates urgency mechanisms that drive action while maintaining ethical standards. Balances persuasion with transparency. Can increase conversion rates by 15-30% when implemented correctly."
+  },
+  {
+    "use_case": "Building analytics dashboard for funnel performance tracking",
+    "prompt": "Create a comprehensive analytics tracking system for [sales funnel] with:\n\n1. Key metrics to track:\n   - Funnel stage conversion rates\n   - Average time in each stage\n   - Drop-off points and abandonment rates\n   - Traffic source performance\n   - Customer acquisition cost by channel\n   - Lifetime value projections\n\n2. Dashboard design:\n   - Real-time monitoring widgets\n   - Trend analysis charts\n   - Alert systems for anomalies\n   - Cohort analysis views\n\n3. Implementation:\n   - Google Analytics 4 setup guide\n   - Custom event tracking code\n   - UTM parameter strategy\n   - Heatmap and session recording tools\n\n4. Reporting:\n   - Weekly performance report template\n   - Monthly optimization recommendations\n   - Quarterly strategic review format\n\nProvide code snippets for tracking implementation and dashboard creation. Include sample SQL queries for advanced analysis.",
+    "category": "Analytics & Tracking",
+    "tool_compatibility": ["ChatGPT", "Google Analytics", "Replit", "Tableau"],
+    "prompt_type": "Analysis",
+    "description": "Establishes comprehensive tracking and reporting for data-driven funnel optimization. Provides visibility into performance at every stage. Essential for identifying opportunities and measuring ROI."
+  },
+  {
+    "use_case": "Creating retargeting campaign for funnel drop-offs",
+    "prompt": "Design a multi-channel retargeting strategy for users who dropped off at [funnel stage]. Include:\n\n1. Segmentation:\n   - Define audience segments based on behavior\n   - Create custom audiences for each drop-off point\n   - Prioritize by likelihood to convert\n\n2. Campaign structure:\n   - Facebook/Instagram ad sequences (3-5 ads)\n   - Google Display Network remarketing\n   - Email win-back campaigns\n   - SMS retargeting (if applicable)\n\n3. Creative strategy:\n   - Ad copy addressing specific objections\n   - Visual concepts and formats\n   - Offer/incentive recommendations\n   - Frequency and timing guidelines\n\n4. Technical setup:\n   - Pixel implementation code\n   - Audience creation steps\n   - Budget allocation recommendations\n   - Success metrics and optimization triggers\n\nProvide campaign examples for 3 different drop-off scenarios. Include cost projections and ROI targets.",
+    "category": "Retention & Re-engagement",
+    "tool_compatibility": ["ChatGPT", "Facebook Ads", "Google Ads", "Klaviyo"],
+    "prompt_type": "Strategy",
+    "description": "Creates targeted campaigns to recover lost prospects at various funnel stages. Addresses specific objections and provides incentives for return. Can recover 15-30% of abandoned conversions."
+  },
+  {
+    "use_case": "Developing interactive quiz funnel for product recommendations",
+    "prompt": "Create an interactive quiz funnel for [product category] that:\n\n1. Quiz structure:\n   - 5-10 engaging questions that segment users\n   - Question types: multiple choice, image selection, slider scales\n   - Logic branching based on answers\n   - Personality/product match algorithm\n\n2. Personalized results:\n   - Custom product recommendations\n   - Explanation of why products match\n   - Social sharing capabilities\n   - Email capture for detailed results\n\n3. Implementation:\n   - Quiz builder tool recommendations\n   - Code structure for custom builds\n   - Design mockups and user flow\n   - Mobile optimization considerations\n\n4. Conversion optimization:\n   - Progress indicators\n   - Compelling result page with CTAs\n   - Follow-up email sequence\n   - Retargeting strategy for quiz takers\n\nProvide complete quiz copy, result templates, and technical implementation guide. Target: 40%+ quiz completion rate.",
+    "category": "Lead Generation",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "Typeform"],
+    "prompt_type": "Design",
+    "description": "Creates engaging interactive experience that qualifies leads while collecting data. Quizzes typically have 30-50% higher engagement than static forms. Excellent for personalized product recommendations."
+  },
+  {
+    "use_case": "Optimizing checkout process to reduce cart abandonment",
+    "prompt": "Redesign the checkout/signup flow for [product/service] to minimize friction and maximize completions:\n\n1. Flow optimization:\n   - Reduce form fields to absolute minimum\n   - Implement autofill and smart validation\n   - Add progress indicator for multi-step forms\n   - Enable guest checkout option\n   - Optimize payment gateway integration\n\n2. Trust elements:\n   - Security badges and SSL indicators\n   - Money-back guarantee prominence\n   - Clear pricing and no hidden fees\n   - Customer support visibility\n\n3. Mobile optimization:\n   - One-column layouts\n   - Large input fields and buttons\n   - Native mobile payment options (Apple Pay, Google Pay)\n   - Minimal typing required\n\n4. Abandonment prevention:\n   - Exit-intent popups with offers\n   - Cart abandonment email sequence\n   - SMS recovery campaigns\n   - Retargeting ad strategy\n\nProvide wireframes, code examples, and before/after conversion projections. Target: <10% abandonment rate.",
+    "category": "Conversion Optimization",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "Stripe"],
+    "prompt_type": "Design",
+    "description": "Streamlines the final conversion step to reduce abandonment. Focuses on removing friction and building trust. Can increase completion rates by 20-40% with proper optimization."
+  },
+  {
+    "use_case": "Creating value ladder funnel with multiple product tiers",
+    "prompt": "Design a value ladder funnel for [business type] with multiple offers at increasing price points:\n\n1. Funnel structure:\n   - Free lead magnet (entry point)\n   - Tripwire offer: $7-27 (commitment device)\n   - Core offer: $47-197 (main product)\n   - Upsell 1: $197-497 (enhanced version)\n   - Upsell 2: $497-997 (premium/done-for-you)\n   - Continuity: $X/month (recurring revenue)\n\n2. Offer positioning:\n   - Unique value proposition for each tier\n   - Logical progression and relationship between offers\n   - Pricing psychology and anchoring strategies\n\n3. Implementation:\n   - Sales page templates for each offer\n   - Order bump strategies\n   - One-click upsell sequences\n   - Downsell fallback offers\n\n4. Automation:\n   - Email sequences between tiers\n   - Behavioral triggers for upgrade offers\n   - Segmentation based on purchase history\n\nProvide complete funnel map, offer descriptions, and projected average order value calculations.",
+    "category": "Funnel Design",
+    "tool_compatibility": ["ChatGPT", "ClickFunnels", "Lovable", "Stripe"],
+    "prompt_type": "Strategy",
+    "description": "Creates multi-tier funnel that maximizes customer lifetime value. Uses psychological pricing and logical progression. Can increase average order value by 2-5x compared to single-product funnels."
+  },
+  {
+    "use_case": "Implementing chatbot for automated lead qualification",
+    "prompt": "Design an AI chatbot conversation flow for [business type] that qualifies leads and books appointments:\n\n1. Conversation structure:\n   - Welcoming greeting and value proposition\n   - Qualifying questions sequence (5-7 questions)\n   - Pain point identification\n   - Budget/timeline qualification\n   - Next step recommendation\n\n2. Branching logic:\n   - Qualified lead → Book appointment\n   - Unqualified lead → Nurture sequence\n   - Hot lead → Immediate call option\n   - Needs more info → Resource library\n\n3. Personality and tone:\n   - Brand voice guidelines\n   - Response templates for common scenarios\n   - Empathy and relationship-building phrases\n   - Handling objections and FAQs\n\n4. Technical implementation:\n   - Platform recommendations (ManyChat, Drift, custom)\n   - Integration with CRM and calendar\n   - Lead scoring and routing rules\n   - Handoff to human agents protocol\n\nProvide complete conversation scripts, flowcharts, and performance metrics to track. Target: 30%+ lead qualification rate.",
+    "category": "Lead Generation",
+    "tool_compatibility": ["ChatGPT", "ManyChat", "Replit", "Dialogflow"],
+    "prompt_type": "Strategy",
+    "description": "Automates initial lead qualification 24/7 while maintaining personalized experience. Frees up sales team for high-value conversations. Can handle 80%+ of initial inquiries without human intervention."
+  },
+  {
+    "use_case": "Designing webinar funnel for high-ticket sales",
+    "prompt": "Create a complete webinar funnel for [high-ticket offer $1000+] including:\n\n1. Pre-webinar sequence:\n   - Registration page copy and design\n   - Confirmation email with value building\n   - Reminder sequence (3 days, 1 day, 1 hour, 15 min)\n   - Pre-webinar content to increase show-up rate\n\n2. Webinar structure:\n   - Hook and introduction (5 min)\n   - Origin story and credibility (10 min)\n   - Content delivery (30-40 min teaching)\n   - Transition to pitch (5 min)\n   - Offer presentation (15-20 min)\n   - Q&A and close (10 min)\n\n3. Post-webinar sequence:\n   - Replay availability strategy\n   - Application/booking emails\n   - Scarcity and urgency messaging\n   - Follow-up call scheduling\n\n4. Technical setup:\n   - Platform recommendations (Zoom, Demio, etc.)\n   - Slide deck templates\n   - Chat engagement strategies\n   - Conversion tracking setup\n\nProvide complete scripts, email sequences, and conversion optimization tactics. Target: 5-15% conversion to high-ticket offer.",
+    "category": "Funnel Design",
+    "tool_compatibility": ["ChatGPT", "Lovable", "Zoom", "Demio"],
+    "prompt_type": "Content",
+    "description": "Creates comprehensive webinar funnel for selling premium offers. Includes all touchpoints from registration to sale. Effective for building trust and demonstrating value before asking for significant commitment."
+  },
+  {
+    "use_case": "Building viral referral loop into existing funnel",
+    "prompt": "Design a referral program for [product/service] that creates viral growth:\n\n1. Incentive structure:\n   - Reward for referrer (discount, cash, points)\n   - Reward for referee (welcome bonus)\n   - Tier system for multiple referrals\n   - Special rewards for high-value referrers\n\n2. Mechanics:\n   - Unique referral link generation\n   - Easy sharing options (email, social, SMS)\n   - Tracking and attribution system\n   - Automated reward fulfillment\n\n3. Promotional strategy:\n   - In-app/website referral prompts\n   - Email campaigns encouraging sharing\n   - Post-purchase referral requests\n   - Gamification elements (leaderboards, badges)\n\n4. Technical implementation:\n   - Referral tracking code\n   - Dashboard for users to track referrals\n   - Integration with existing funnel\n   - Anti-fraud measures\n\nProvide code examples, promotional copy templates, and viral coefficient calculations. Target: 1.5+ viral coefficient (each user brings 1.5 new users).",
+    "category": "Growth & Scaling",
+    "tool_compatibility": ["Replit", "ChatGPT", "ReferralCandy", "Lovable"],
+    "prompt_type": "Strategy",
+    "description": "Creates self-perpetuating growth engine through customer referrals. Reduces customer acquisition costs while increasing trust through word-of-mouth. Can contribute 20-40% of new customer acquisition."
+  },
+  {
+    "use_case": "Optimizing funnel for different traffic temperatures",
+    "prompt": "Create customized funnel experiences for different audience temperatures:\n\n1. Cold traffic (unaware):\n   - Educational content-first approach\n   - Longer nurture sequences\n   - Low-commitment first offers\n   - Trust-building emphasis\n\n2. Warm traffic (problem-aware):\n   - Solution-focused messaging\n   - Comparison and alternatives content\n   - Social proof prominence\n   - Mid-level engagement asks\n\n3. Hot traffic (solution-aware):\n   - Direct offer presentation\n   - Strong CTAs and urgency\n   - Streamlined path to purchase\n   - Immediate value demonstration\n\n4. Implementation:\n   - URL parameter tracking for source\n   - Dynamic content based on referrer\n   - Segmented email sequences\n   - Ad creative variations\n\nFor each temperature, provide: Landing page structure, headline formulas, offer positioning, and expected conversion rates. Include code for dynamic content switching.",
+    "category": "Personalization",
+    "tool_compatibility": ["ChatGPT", "Lovable", "Replit", "Unbounce"],
+    "prompt_type": "Strategy",
+    "description": "Matches funnel experience to visitor awareness level for maximum relevance. Dramatically improves conversion rates by meeting users where they are. Essential for multi-channel marketing campaigns."
+  },
+  {
+    "use_case": "Creating micro-commitment funnel for complex products",
+    "prompt": "Design a micro-commitment funnel for [complex/high-consideration product] that builds trust gradually:\n\n1. Commitment ladder:\n   - Level 1: Content consumption (blog read, video watch)\n   - Level 2: Lead magnet download (email capture)\n   - Level 3: Tool/calculator usage (engagement)\n   - Level 4: Quiz/assessment completion (qualification)\n   - Level 5: Free trial/demo signup\n   - Level 6: Purchase decision\n\n2. Psychology:\n   - Consistency principle application\n   - Progressive profiling strategy\n   - Value delivery at each step\n   - Trust-building sequence\n\n3. Content for each stage:\n   - Educational assets\n   - Interactive tools\n   - Case studies and proof\n   - Trial/demo materials\n\n4. Automation:\n   - Behavioral email triggers\n   - Scoring and segmentation\n   - Sales-ready notification system\n   - Nurture paths for non-advancing leads\n\nProvide complete funnel map, content outlines, and automation rules. Target: 60%+ progression through stages.",
+    "category": "Funnel Design",
+    "tool_compatibility": ["ChatGPT", "HubSpot", "Lovable", "Replit"],
+    "prompt_type": "Strategy",
+    "description": "Reduces resistance to high-commitment decisions through series of smaller commitments. Particularly effective for complex, expensive, or unfamiliar products. Increases final conversion by 40-60%."
+  },
+  {
+    "use_case": "Implementing exit-intent optimization strategies",
+    "prompt": "Create a comprehensive exit-intent strategy to recover abandoning visitors:\n\n1. Exit-intent popup variations:\n   - Discount offer popup (with urgency)\n   - Lead magnet offer (value-first)\n   - Survey popup (objection discovery)\n   - Content recommendation (engagement)\n   - Chat invitation (support offer)\n\n2. Segmentation:\n   - First-time vs returning visitors\n   - Time on site (engaged vs bounce)\n   - Pages visited (interest level)\n   - Cart value (for e-commerce)\n\n3. Copywriting:\n   - Attention-grabbing headlines\n   - Value propositions\n   - Urgency and scarcity language\n   - Clear CTA copy\n   - Easy dismissal option\n\n4. Technical implementation:\n   - Exit-intent detection code\n   - Display frequency rules\n   - Mobile optimization\n   - A/B testing framework\n   - Performance tracking\n\nProvide popup copy variations, design mockups, and code snippets. Include ethical considerations and best practices. Target: 10-15% conversion of exit-intent visitors.",
+    "category": "Conversion Optimization",
+    "tool_compatibility": ["Lovable", "Replit", "OptinMonster", "ChatGPT"],
+    "prompt_type": "Design",
+    "description": "Captures leaving visitors before they abandon the funnel. Provides last-chance conversion opportunity. Can recover 10-15% of abandoning traffic when implemented strategically."
+  },
+  {
+    "use_case": "Building community-driven funnel for brand loyalty",
+    "prompt": "Design a community-centric funnel that builds brand loyalty and reduces churn:\n\n1. Community structure:\n   - Onboarding to community (post-purchase)\n   - Engagement mechanisms (discussions, events)\n   - Gamification and rewards\n   - User-generated content encouragement\n\n2. Integration with funnel:\n   - Community as retention tool\n   - Member referral incentives\n   - Exclusive community offers\n   - Early access and beta testing\n\n3. Platform strategy:\n   - Platform selection (Facebook Group, Discord, Circle, custom)\n   - Moderation and management plan\n   - Content calendar for community\n   - Success metrics and KPIs\n\n4. Monetization:\n   - Premium community tiers\n   - Community-exclusive products\n   - Upsell opportunities within community\n   - Advocacy and ambassador programs\n\nProvide community guidelines, engagement strategies, and funnel integration points. Target: 30%+ increase in customer lifetime value.",
+    "category": "Retention & Re-engagement",
+    "tool_compatibility": ["ChatGPT", "Discord", "Circle", "Slack"],
+    "prompt_type": "Strategy",
+    "description": "Creates engaged community that drives retention, referrals, and repeat purchases. Transforms customers into brand advocates. Reduces churn by 25-40% and increases LTV significantly."
+  },
+  {
+    "use_case": "Optimizing for voice search and conversational commerce",
+    "prompt": "Adapt my sales funnel for voice search and conversational commerce:\n\n1. Voice search optimization:\n   - Natural language keyword targeting\n   - FAQ content optimization\n   - Featured snippet strategies\n   - Local SEO for voice queries\n\n2. Conversational commerce:\n   - Voice-activated ordering\n   - Smart speaker integration\n   - Conversational AI for recommendations\n   - Voice authentication for returning customers\n\n3. Content adaptation:\n   - Conversational tone and structure\n   - Question-based content organization\n   - Simplified navigation for voice\n   - Audio content strategy\n\n4. Technical implementation:\n   - Schema markup for voice results\n   - Voice app development (Alexa Skills, Google Actions)\n   - API integrations\n   - Testing and optimization\n\nProvide optimization checklist, content templates, and implementation guide. Include future-proofing strategies as voice commerce grows.",
+    "category": "Emerging Technologies",
+    "tool_compatibility": ["ChatGPT", "Replit", "Dialogflow", "Alexa Skills"],
+    "prompt_type": "Strategy",
+    "description": "Prepares funnel for voice-first interactions and smart speaker commerce. Positions business for emerging channel that's growing 35% annually. Essential for staying competitive as voice commerce expands."
+  },
+  {
+    "use_case": "Creating video funnel with interactive elements",
+    "prompt": "Design a video-centric sales funnel with interactive elements:\n\n1. Video strategy:\n   - Awareness: Educational/entertaining videos (1-3 min)\n   - Interest: Product demo/explainer videos (3-5 min)\n   - Consideration: Case study/testimonial videos (2-4 min)\n   - Decision: Personalized video messages\n\n2. Interactive elements:\n   - Clickable CTAs within videos\n   - Branching video paths based on choices\n   - Lead capture forms at key moments\n   - Quizzes and assessments in video\n\n3. Personalization:\n   - Dynamic video content based on viewer data\n   - Personalized thumbnails and titles\n   - Customized video messaging\n   - Automated video follow-ups\n\n4. Technical implementation:\n   - Interactive video platform selection (Wistia, Vidyard)\n   - Hosting and delivery optimization\n   - Analytics and engagement tracking\n   - Integration with email and CRM\n\nProvide video scripts, interactive element suggestions, and technical setup guide. Target: 2-3x engagement vs static content.",
+    "category": "Funnel Design",
+    "tool_compatibility": ["ChatGPT", "Wistia", "Vidyard", "Loom"],
+    "prompt_type": "Design",
+    "description": "Leverages video's high engagement rates with interactive conversion elements. Videos can increase conversion by 80%+ when interactive elements are added. Ideal for visual products and complex explanations."
+  },
+  {
+    "use_case": "Implementing progressive profiling in multi-step forms",
+    "prompt": "Design a progressive profiling strategy for [sales funnel] that collects user data gradually:\n\n1. Data collection strategy:\n   - Stage 1: Essential data only (name, email)\n   - Stage 2: Qualification data (company, role)\n   - Stage 3: Preference data (interests, goals)\n   - Stage 4: Behavioral data (actions, engagement)\n\n2. Form optimization:\n   - Multi-step form design\n   - Progress indicators\n   - Save and return functionality\n   - Smart field visibility rules\n\n3. Timing and triggers:\n   - When to ask for each data point\n   - Behavioral triggers for additional questions\n   - Value exchange for data sharing\n   - Balance between data collection and friction\n\n4. Technical implementation:\n   - Form builder tool selection\n   - CRM integration for data enrichment\n   - Cookie-based returning user detection\n   - Data security and privacy compliance\n\nProvide form structures, field prioritization, and code examples. Target: 40%+ higher completion rates than single-step forms.",
+    "category": "Lead Generation",
+    "tool_compatibility": ["Lovable", "Replit", "Typeform", "ChatGPT"],
+    "prompt_type": "Design",
+    "description": "Reduces form abandonment by collecting data over time rather than all at once. Respects user privacy while building complete profiles. Can increase form completion by 40-60%."
+  },
+  {
+    "use_case": "Designing subscription box funnel with retention focus",
+    "prompt": "Create a subscription funnel for [product category] optimized for retention:\n\n1. Acquisition funnel:\n   - Quiz for personalization\n   - Trial offer structure\n   - Onboarding sequence\n   - First box experience optimization\n\n2. Retention strategies:\n   - Skip/pause options to reduce churn\n   - Customization and flexibility\n   - Surprise and delight elements\n   - Regular communication and engagement\n\n3. Monetization:\n   - Upsell opportunities (add-ons, upgrades)\n   - Gift subscriptions\n   - Referral incentives\n   - Annual plan conversions\n\n4. Churn prevention:\n   - At-risk customer identification\n   - Win-back campaigns\n   - Cancellation flow optimization (save offers)\n   - Feedback collection and action\n\nProvide complete funnel documentation, email sequences, and retention playbook. Target: <5% monthly churn rate.",
+    "category": "Subscription & Recurring Revenue",
+    "tool_compatibility": ["ChatGPT", "ReCharge", "Lovable", "Klaviyo"],
+    "prompt_type": "Strategy",
+    "description": "Builds sustainable subscription business with focus on long-term retention. Addresses unique challenges of recurring revenue model. Proper retention strategies can increase LTV by 3-5x."
+  },
+  {
+    "use_case": "Creating partner/affiliate funnel for channel expansion",
+    "prompt": "Design a partner/affiliate program funnel that scales lead generation:\n\n1. Partner recruitment:\n   - Partner landing page and application\n   - Qualification criteria\n   - Onboarding process\n   - Training materials\n\n2. Partner enablement:\n   - Marketing asset library\n   - Swipe copy and creatives\n   - Unique tracking links and codes\n   - Performance dashboard\n\n3. Commission structure:\n   - Tiered commission rates\n   - Performance bonuses\n   - Recurring commissions\n   - Payment terms and methods\n\n4. Management system:\n   - Affiliate tracking software\n   - Communication cadence\n   - Performance monitoring\n   - Top partner recognition program\n\nProvide partner recruitment materials, commission calculator, and program documentation. Target: 20-30% of revenue from partner channel.",
+    "category": "Growth & Scaling",
+    "tool_compatibility": ["ChatGPT", "PartnerStack", "Rewardful", "Lovable"],
+    "prompt_type": "Strategy",
+    "description": "Creates scalable channel for customer acquisition through partners. Leverages other people's audiences for growth. Can become 30-50% of customer acquisition at maturity."
+  },
+  {
+    "use_case": "Implementing AI-powered dynamic pricing in funnel",
+    "prompt": "Create a dynamic pricing strategy using AI for [product/service]:\n\n1. Pricing intelligence:\n   - Competitor price monitoring\n   - Demand forecasting\n   - Customer willingness to pay analysis\n   - Seasonal and trend adjustments\n\n2. Personalization:\n   - User segment-based pricing\n   - Behavioral pricing triggers\n   - Location-based adjustments\n   - Time-sensitive offers\n\n3. Implementation:\n   - AI pricing algorithm design\n   - A/B testing framework\n   - Price display strategies\n   - Anchor pricing techniques\n\n4. Optimization:\n   - Revenue vs conversion balance\n   - Price sensitivity testing\n   - Psychological pricing rules ($99 vs $100)\n   - Bundle and tier pricing\n\nProvide pricing algorithm logic, implementation code, and ethical guidelines. Include profit margin and conversion rate projections.",
+    "category": "Conversion Optimization",
+    "tool_compatibility": ["ChatGPT", "Replit", "Price Intelligently", "Custom AI"],
+    "prompt_type": "Strategy",
+    "description": "Uses AI to optimize pricing for maximum revenue while maintaining conversions. Balances profit margins with conversion rates dynamically. Can increase revenue by 15-25% compared to static pricing."
+  },
+  {
+    "use_case": "Building omnichannel funnel with consistent experience",
+    "prompt": "Design an omnichannel sales funnel with seamless experience across platforms:\n\n1. Channel strategy:\n   - Website/landing pages\n   - Email marketing\n   - Social media (Facebook, Instagram, LinkedIn)\n   - SMS/WhatsApp\n   - In-app experiences\n   - Offline touchpoints\n\n2. Consistency framework:\n   - Unified messaging and brand voice\n   - Design system across channels\n   - Customer data synchronization\n   - Cross-channel attribution\n\n3. Customer journey mapping:\n   - Entry points for each channel\n   - Cross-channel progression paths\n   - Handoff optimization\n   - Preference management\n\n4. Technical integration:\n   - CDP (Customer Data Platform) selection\n   - API integrations\n   - Unified analytics\n   - Marketing automation workflows\n\nProvide channel-specific strategies, integration architecture, and customer journey maps. Target: 30%+ higher conversion for omnichannel customers.",
+    "category": "Funnel Design",
+    "tool_compatibility": ["ChatGPT", "HubSpot", "Salesforce", "Segment"],
+    "prompt_type": "Strategy",
+    "description": "Creates seamless experience across all customer touchpoints. Omnichannel customers typically have 30% higher lifetime value. Essential for modern marketing in multi-device world."
+  },
+  {
+    "use_case": "Optimizing thank you page for post-purchase engagement",
+    "prompt": "Transform the thank you page into a revenue and engagement driver:\n\n1. Immediate upsells:\n   - One-click order bumps\n   - Complementary product recommendations\n   - Upgrade offers\n   - Time-limited bonuses\n\n2. Engagement mechanisms:\n   - Social media follow encourages\n   - Referral program introduction\n   - Community/group invitations\n   - Content recommendations\n\n3. Value delivery:\n   - Next steps and expectations\n   - Onboarding resource links\n   - Support contact information\n   - Personal video message\n\n4. Data collection:\n   - Feedback and survey requests\n   - Additional profile information\n   - Preference center\n   - Communication opt-ins\n\nProvide thank you page templates for different offer types, upsell strategies, and implementation code. Target: 20-30% take rate on post-purchase offers.",
+    "category": "Conversion Optimization",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "ClickFunnels"],
+    "prompt_type": "Design",
+    "description": "Maximizes value of high-intent moment post-purchase. Most neglected but highest-converting page in funnel. Can increase average order value by 15-25% with strategic optimization."
+  },
+  {
+    "use_case": "Creating SaaS free trial funnel with activation focus",
+    "prompt": "Design a free trial funnel for [SaaS product] optimized for activation and conversion:\n\n1. Trial signup:\n   - Frictionless signup (no credit card vs credit card required)\n   - Trial length optimization (7, 14, or 30 days)\n   - Feature access strategy (full vs limited)\n   - Onboarding questionnaire\n\n2. Activation sequence:\n   - Welcome email with quick wins\n   - In-app onboarding tour\n   - Time-to-value optimization\n   - Success milestone tracking\n\n3. Nurture during trial:\n   - Educational email sequence\n   - Feature spotlight messages\n   - Use case examples\n   - Success team touchpoints\n\n4. Conversion optimization:\n   - Upgrade prompts and timing\n   - Trial expiration strategy\n   - Discount offers for immediate upgrade\n   - Post-trial follow-up sequence\n\nProvide complete trial funnel documentation, email sequences, and in-app messaging. Target: 15-25% trial-to-paid conversion rate.",
+    "category": "SaaS Funnel",
+    "tool_compatibility": ["ChatGPT", "Lovable", "Replit", "Intercom"],
+    "prompt_type": "Strategy",
+    "description": "Optimizes SaaS trial experience for maximum activation and conversion. Focuses on demonstrating value quickly. Proper trial funnel can double conversion rates from industry averages."
+  },
+  {
+    "use_case": "Implementing account-based marketing funnel for B2B",
+    "prompt": "Create an account-based marketing (ABM) funnel for [B2B product/service]:\n\n1. Account selection:\n   - Ideal customer profile definition\n   - Account scoring and prioritization\n   - Stakeholder mapping within accounts\n   - Research and intelligence gathering\n\n2. Personalized engagement:\n   - Account-specific landing pages\n   - Personalized content and messaging\n   - Multi-threaded outreach strategy\n   - Executive-level engagement tactics\n\n3. Channel orchestration:\n   - LinkedIn advertising to target accounts\n   - Direct mail campaigns\n   - Personalized email sequences\n   - Events and networking\n\n4. Sales enablement:\n   - Account insights and intelligence\n   - Trigger event notifications\n   - Buying committee engagement tracking\n   - Handoff optimization to sales\n\nProvide ABM playbook, personalization templates, and account journey maps. Target: 3x higher close rates vs traditional funnel.",
+    "category": "B2B Funnel",
+    "tool_compatibility": ["ChatGPT", "6sense", "Demandbase", "LinkedIn"],
+    "prompt_type": "Strategy",
+    "description": "Creates highly targeted funnel for specific high-value accounts. More effective than broad funnel for enterprise sales. Can reduce sales cycles by 40% and increase deal sizes significantly."
+  },
+  {
+    "use_case": "Building content marketing funnel with SEO focus",
+    "prompt": "Design a content-driven funnel optimized for organic search:\n\n1. Content strategy:\n   - Top of funnel: Informational keywords and blog posts\n   - Middle of funnel: Comparison and solution content\n   - Bottom of funnel: Product and buying guide content\n   - Topic cluster architecture\n\n2. SEO optimization:\n   - Keyword research and mapping\n   - On-page SEO elements\n   - Internal linking strategy\n   - Technical SEO requirements\n\n3. Conversion optimization:\n   - Content upgrades and lead magnets\n   - Strategic CTA placement\n   - Email capture strategies\n   - Retargeting pixel implementation\n\n4. Content promotion:\n   - Initial traffic generation\n   - Link building strategy\n   - Social media amplification\n   - Email newsletter integration\n\nProvide content calendar, SEO checklist, and funnel mapping. Target: 50,000+ monthly organic visitors within 12 months.",
+    "category": "Content Marketing",
+    "tool_compatibility": ["ChatGPT", "Surfer SEO", "Ahrefs", "Lovable"],
+    "prompt_type": "Strategy",
+    "description": "Creates sustainable organic traffic source that feeds sales funnel. SEO content can have 10x better ROI than paid advertising. Essential for long-term, scalable growth."
+  },
+  {
+    "use_case": "Optimizing for accessibility and inclusive design",
+    "prompt": "Audit and optimize my sales funnel for accessibility and inclusion:\n\n1. Technical accessibility:\n   - WCAG 2.1 AA compliance\n   - Screen reader optimization\n   - Keyboard navigation\n   - Color contrast requirements\n\n2. Content accessibility:\n   - Alt text for images\n   - Video captions and transcripts\n   - Clear and simple language\n   - Semantic HTML structure\n\n3. Form accessibility:\n   - Clear labels and instructions\n   - Error message clarity\n   - Fieldset and legend use\n   - Progressive enhancement\n\n4. Testing and validation:\n   - Automated accessibility testing tools\n   - Manual testing with assistive technologies\n   - User testing with disabled users\n   - Ongoing monitoring and improvement\n\nProvide accessibility audit checklist, remediation guide, and implementation code. Include legal compliance considerations (ADA, Section 508).",
+    "category": "Funnel Optimization",
+    "tool_compatibility": ["ChatGPT", "Lovable", "Replit", "WAVE Tool"],
+    "prompt_type": "Design",
+    "description": "Ensures funnel is usable by people with disabilities, expanding addressable market by 15-20%. Also improves overall UX for all users. Reduces legal risk and demonstrates social responsibility."
+  },
+  {
+    "use_case": "Creating crisis/objection handling content library",
+    "prompt": "Build a comprehensive objection handling library for [product/service]:\n\n1. Objection identification:\n   - Survey existing customers and prospects\n   - Analyze sales call recordings\n   - Review support tickets and FAQs\n   - Competitor comparison concerns\n\n2. Response framework:\n   - For each objection, create:\n     * Empathy statement\n     * Educational response\n     * Evidence/proof points\n     * Reframe/perspective shift\n     * Call to action\n\n3. Content formats:\n   - FAQ page\n   - Objection handling scripts\n   - Email templates\n   - Video responses\n   - Case studies addressing specific concerns\n\n4. Strategic placement:\n   - Pre-emptive objection handling in copy\n   - Chat bot responses\n   - Sales enablement materials\n   - Targeted content for different funnel stages\n\nProvide complete objection library with 15-20 common objections and responses. Include testing methodology to improve over time.",
+    "category": "Conversion Optimization",
+    "tool_compatibility": ["ChatGPT", "Gong", "Lovable", "Notion"],
+    "prompt_type": "Content",
+    "description": "Addresses concerns proactively to reduce friction and increase trust. Proper objection handling can increase conversions by 30-50%. Essential resource for sales team and automated touchpoints."
+  },
+  {
+    "use_case": "Implementing predictive analytics for funnel optimization",
+    "prompt": "Set up predictive analytics system to optimize [sales funnel]:\n\n1. Data collection:\n   - User behavior tracking\n   - Conversion event logging\n   - Feature usage monitoring\n   - Customer attribute data\n\n2. Predictive models:\n   - Lead scoring (conversion probability)\n   - Churn prediction\n   - Lifetime value forecasting\n   - Next best action recommendations\n\n3. Activation and automation:\n   - Real-time scoring and segmentation\n   - Automated nurture path assignment\n   - Dynamic content personalization\n   - Sales alert triggers\n\n4. Continuous improvement:\n   - Model performance monitoring\n   - Feedback loop implementation\n   - Regular retraining schedule\n   - A/B testing of predictions\n\nProvide technical architecture, implementation guide with code samples, and KPI dashboard design. Include tool recommendations (Python, TensorFlow, cloud ML services).",
+    "category": "Analytics & Tracking",
+    "tool_compatibility": ["ChatGPT", "Replit", "Google Cloud AI", "AWS SageMaker"],
+    "prompt_type": "Analysis",
+    "description": "Uses machine learning to predict outcomes and optimize funnel in real-time. Can increase conversion rates by 20-40% through better targeting. Requires data infrastructure but provides significant competitive advantage."
+  },
+  {
+    "use_case": "Designing local business funnel with geo-targeting",
+    "prompt": "Create a location-based funnel for [local business type] with multiple locations:\n\n1. Local SEO strategy:\n   - Google Business Profile optimization\n   - Location-specific landing pages\n   - Local keyword targeting\n   - Local link building\n\n2. Geo-targeted advertising:\n   - Radius targeting for each location\n   - Location-specific ad copy\n   - Mobile optimization for 'near me' searches\n   - Call and direction extensions\n\n3. Conversion optimization:\n   - Click-to-call prominently displayed\n   - Map integration and directions\n   - Local testimonials and reviews\n   - Location-specific offers\n\n4. Multi-location management:\n   - Centralized tracking and reporting\n   - Location-specific promotions\n   - Local inventory displays\n   - Franchise/multi-location best practices\n\nProvide local funnel blueprint, location page templates, and local marketing playbook. Target: Top 3 ranking for key local searches.",
+    "category": "Local Marketing",
+    "tool_compatibility": ["ChatGPT", "Google My Business", "Lovable", "BrightLocal"],
+    "prompt_type": "Strategy",
+    "description": "Optimizes funnel for local search and foot traffic. Local SEO delivers 28% conversion rate (vs 1-3% for traditional). Critical for businesses with physical locations."
+  },
+  {
+    "use_case": "Creating emotional connection storytelling funnel",
+    "prompt": "Build a story-driven funnel for [brand] that creates emotional connection:\n\n1. Brand story framework:\n   - Origin story and 'why'\n   - Founder journey and struggles\n   - Customer transformation stories\n   - Brand values and mission\n\n2. Storytelling across funnel:\n   - Awareness: Share relatable problem stories\n   - Interest: Demonstrate transformation possibilities\n   - Consideration: Detailed case studies and journeys\n   - Decision: Personal connection and shared values\n   - Loyalty: Community and belonging\n\n3. Content formats:\n   - Written narratives\n   - Video testimonials and documentaries\n   - Audio stories/podcasts\n   - Interactive story experiences\n\n4. Emotional triggers:\n   - Identify key emotions to evoke\n   - Story arcs that resonate\n   - Authentic vulnerability\n   - Hero's journey framework\n\nProvide storytelling playbook, story templates, and content production guide. Include examples of emotional storytelling that drives conversions.",
+    "category": "Content Marketing",
+    "tool_compatibility": ["ChatGPT", "StoryBrand", "Lovable", "Vimeo"],
+    "prompt_type": "Content",
+    "description": "Creates deeper brand connection through narrative and emotion. Story-driven marketing can increase conversion by 30%+ and build lasting loyalty. Particularly effective for purpose-driven brands."
+  },
+  {
+    "use_case": "Implementing gamification in funnel for increased engagement",
+    "prompt": "Add gamification elements to [sales funnel] to boost engagement:\n\n1. Gamification mechanics:\n   - Points system for desired actions\n   - Badges and achievements\n   - Progress bars and levels\n   - Leaderboards and competition\n   - Rewards and unlockables\n\n2. Application across funnel:\n   - Awareness: Share and engagement points\n   - Interest: Content consumption rewards\n   - Consideration: Quiz and assessment games\n   - Decision: Purchase incentive games (spin to win)\n   - Loyalty: Repeat purchase rewards\n\n3. Psychology:\n   - Intrinsic vs extrinsic motivation\n   - Variable reward schedules\n   - Loss aversion mechanics\n   - Social proof and competition\n\n4. Technical implementation:\n   - Platform and tool selection\n   - Points tracking system\n   - Reward fulfillment automation\n   - Mobile app integration\n\nProvide gamification strategy document, mechanics design, and implementation guide. Include ethical considerations and addiction prevention.",
+    "category": "Engagement & Retention",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "Gleam"],
+    "prompt_type": "Design",
+    "description": "Uses game mechanics to increase engagement and motivation. Can boost conversion rates by 30% and improve retention significantly. Particularly effective for younger audiences and SaaS products."
+  },
+  {
+    "use_case": "Optimizing for different personality types (DISC/Myers-Briggs)",
+    "prompt": "Create personality-based funnel variations for different buyer types:\n\n1. Personality frameworks:\n   - DISC profiles (Dominant, Influential, Steady, Conscientious)\n   - Myers-Briggs types\n   - Customer temperaments\n   - Decision-making styles\n\n2. Funnel customization:\n   - For analytical buyers:\n     * Data-heavy content\n     * Detailed specifications\n     * Comparison charts\n     * ROI calculators\n   \n   - For emotional buyers:\n     * Story-driven content\n     * Social proof emphasis\n     * Visual and experiential\n     * Community and belonging\n   \n   - For action-oriented buyers:\n     * Quick decision paths\n     * Clear CTAs\n     * Minimal steps\n     * Results-focused messaging\n   \n   - For relationship buyers:\n     * Human connection emphasis\n     * Personalized communication\n     * Support availability\n     * Trust-building content\n\n3. Identification methods:\n   - Quiz or assessment\n   - Behavioral inference from actions\n   - Survey questions\n   - Purchase history analysis\n\n4. Implementation:\n   - Dynamic content switching\n   - Segmented email paths\n   - Personalized landing pages\n   - Sales script variations\n\nProvide personality mapping guide, content variations, and identification quiz. Target: 25%+ conversion improvement through personalization.",
+    "category": "Personalization",
+    "tool_compatibility": ["ChatGPT", "Lovable", "Replit", "Crystal"],
+    "prompt_type": "Strategy",
+    "description": "Matches funnel experience to buyer personality for maximum resonance. Addresses how different people make decisions. Sophisticated personalization that can significantly improve conversion rates."
+  },
+  {
+    "use_case": "Creating post-purchase satisfaction survey for continuous improvement",
+    "prompt": "Design a post-purchase feedback system that drives funnel optimization:\n\n1. Survey design:\n   - Net Promoter Score (NPS) question\n   - Customer Satisfaction (CSAT) rating\n   - Customer Effort Score (CES)\n   - Open-ended feedback questions\n   - Specific funnel touchpoint ratings\n\n2. Timing and delivery:\n   - Immediate post-purchase survey\n   - Post-delivery/onboarding survey\n   - 30-day experience survey\n   - Channel selection (email, SMS, in-app)\n\n3. Data analysis:\n   - Sentiment analysis\n   - Common theme identification\n   - Correlation with conversion metrics\n   - Detractor follow-up protocol\n\n4. Action and optimization:\n   - Feedback-driven funnel improvements\n   - Quick wins implementation\n   - Long-term optimization roadmap\n   - Closing the loop with respondents\n\nProvide survey templates, analysis framework, and action planning guide. Include code for automated survey delivery and analysis.",
+    "category": "Analytics & Tracking",
+    "tool_compatibility": ["ChatGPT", "Typeform", "SurveyMonkey", "Replit"],
+    "prompt_type": "Analysis",
+    "description": "Creates systematic process for capturing customer feedback and using it for optimization. Identifies blind spots and improvement opportunities. Essential for continuous funnel improvement and customer-centric approach."
+  },
+  {
+    "use_case": "Building marketplace/platform two-sided funnel",
+    "prompt": "Design a two-sided funnel for [marketplace/platform] balancing supply and demand:\n\n1. Supply side (sellers/service providers):\n   - Recruitment and onboarding\n   - Quality standards and vetting\n   - Incentive structure\n   - Success enablement\n\n2. Demand side (buyers/users):\n   - Discovery and browsing experience\n   - Trust and safety mechanisms\n   - Purchase/booking flow\n   - Repeat usage drivers\n\n3. Balance mechanisms:\n   - Dynamic pricing and incentives\n   - Supply/demand monitoring\n   - Geographic expansion strategy\n   - Quality control systems\n\n4. Network effects:\n   - Viral growth loops\n   - Cross-side referrals\n   - Value creation at scale\n   - Defensibility and moats\n\nProvide marketplace funnel architecture, chicken-and-egg solution strategies, and growth playbook. Include metrics for monitoring marketplace health.",
+    "category": "Platform & Marketplace",
+    "tool_compatibility": ["ChatGPT", "Replit", "Lovable", "Sharetribe"],
+    "prompt_type": "Strategy",
+    "description": "Addresses unique challenges of two-sided marketplaces. Requires careful balancing of supply and demand. Successful marketplace funnels create powerful network effects and sustainable competitive advantages."
+  },
+  {
+    "use_case": "Implementing seasonal campaign funnels with urgency",
+    "prompt": "Create seasonal/holiday campaign funnel for [product/service] maximizing limited-time urgency:\n\n1. Campaign planning:\n   - Calendar of key dates (Black Friday, holidays, etc.)\n   - Campaign themes and angles\n   - Offer structure and discounting strategy\n   - Inventory and capacity planning\n\n2. Pre-launch sequence:\n   - Teaser campaigns building anticipation\n   - Early access for VIP customers\n   - Waitlist and notification signup\n   - Countdown and reminder sequence\n\n3. Launch execution:\n   - High-impact launch messaging\n   - Multi-channel coordination\n   - Real-time inventory and urgency updates\n   - Deal progression (increasing urgency)\n\n4. Post-campaign:\n   - Last chance messaging\n   - Non-buyer win-back attempts\n   - Thank you and retention focus\n   - Data analysis and lessons learned\n\nProvide campaign calendar, email sequences, ad creative briefs, and performance tracking dashboard. Include year-round promotional calendar template.",
+    "category": "Campaign Strategy",
+    "tool_compatibility": ["ChatGPT", "Klaviyo", "Lovable", "Google Analytics"],
+    "prompt_type": "Strategy",
+    "description": "Maximizes revenue during key seasonal periods. Seasonal campaigns can drive 30-50% of annual revenue for many businesses. Requires careful planning and execution across multiple channels."
+  },
+  {
+    "use_case": "Creating crisis management funnel for reputation recovery",
+    "prompt": "Design a crisis response funnel for reputation management and customer recovery:\n\n1. Crisis identification:\n   - Monitoring systems for negative sentiment\n   - Trigger thresholds for activation\n   - Crisis categorization (severity levels)\n   - Response team and protocols\n\n2. Immediate response:\n   - Acknowledgment messaging\n   - Transparency and honesty approach\n   - Action plan communication\n   - Channel selection and coordination\n\n3. Recovery funnel:\n   - Affected customer identification\n   - Personalized outreach and compensation\n   - Trust rebuilding content\n   - Positive story amplification\n\n4. Prevention systems:\n   - Regular reputation monitoring\n   - Proactive issue resolution\n   - Customer satisfaction improvements\n   - Crisis simulation and preparation\n\nProvide crisis response playbook, message templates, and monitoring dashboard. Include case studies of successful crisis management.",
+    "category": "Reputation Management",
+    "tool_compatibility": ["ChatGPT", "Mention", "Brandwatch", "Zendesk"],
+    "prompt_type": "Strategy",
+    "description": "Prepares for and responds to reputation crises that can damage funnel performance. Quick, transparent response can minimize damage and even strengthen brand. Essential insurance policy for digital businesses."
+  },
+  {
+    "use_case": "Building AI-first funnel with full automation",
+    "prompt": "Design a fully AI-automated sales funnel for [product/service] with minimal human intervention:\n\n1. AI components:\n   - Chatbot for lead qualification (24/7)\n   - Predictive lead scoring and routing\n   - Dynamic content personalization\n   - Automated email responses\n   - AI-powered recommendations\n   - Smart scheduling and follow-ups\n\n2. Human handoff points:\n   - High-value opportunity thresholds\n   - Complex question escalation\n   - Final negotiation and closing\n   - VIP customer handling\n\n3. AI training and optimization:\n   - Initial training data requirements\n   - Continuous learning from interactions\n   - Performance monitoring and tuning\n   - Edge case handling\n\n4. Technical architecture:\n   - AI platform selection (OpenAI, Anthropic, etc.)\n   - Integration with existing tools\n   - Data pipeline and storage\n   - Security and privacy considerations\n\nProvide complete AI funnel architecture, implementation roadmap, and code examples. Include ROI calculations and scaling projections. Target: 80%+ automation of funnel interactions.",
+    "category": "AI & Automation",
+    "tool_compatibility": ["ChatGPT", "Replit", "Lovable", "Make.com"],
+    "prompt_type": "Strategy",
+    "description": "Creates cutting-edge funnel leveraging latest AI capabilities. Can handle 80%+ of interactions without human involvement while maintaining personalization. Represents future of sales funnel automation and scalability."
+  }
+]

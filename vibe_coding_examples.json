@@ -1,0 +1,2670 @@
+{
+  "metadata": {
+    "title": "Vibe Coding Bible - Visual Examples Database",
+    "description": "Comprehensive collection of visual examples, live demos, videos, and CodePen references for all vibe coding prompt categories",
+    "total_categories": 21,
+    "version": "1.0.0",
+    "last_updated": "2025-11-08"
+  },
+  "categories": [
+    {
+      "category_name": "\u2728 Animation & Motion Design",
+      "examples": [
+        {
+          "prompt_type": "Scroll-triggered animations",
+          "description": "Animations that trigger as users scroll through the page, creating engaging storytelling experiences",
+          "live_demos": [
+            {
+              "url": "https://www.apple.com/airpods-pro/",
+              "title": "Apple AirPods Pro - Premium scroll animations",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.awwwards.com/sites/ben-gunn",
+              "title": "Ben Gunn Portfolio - Award-winning scroll effects",
+              "source": "Awwwards"
+            },
+            {
+              "url": "https://www.stripe.com/",
+              "title": "Stripe - Smooth scroll-triggered animations",
+              "source": "Production"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=T33NN_pPeNI",
+              "title": "Scroll Animations with GSAP ScrollTrigger"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=zz7p4kFtWVg",
+              "title": "Advanced Scroll Animations Tutorial"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/GreenSock/pen/wvvNMBB",
+              "title": "GSAP ScrollTrigger Demo"
+            },
+            {
+              "url": "https://codepen.io/ainalem/pen/EQXjOR",
+              "title": "Smooth Scroll Animation"
+            }
+          ],
+          "images": []
+        },
+        {
+          "prompt_type": "Parallax effects",
+          "description": "Multi-layered scrolling effects that create depth and dimension",
+          "live_demos": [
+            {
+              "url": "https://www.firewatch-game.com/",
+              "title": "Firewatch - Iconic parallax design",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.awwwards.com/sites/new-deal-design",
+              "title": "New Deal Design - Parallax storytelling",
+              "source": "Awwwards"
+            },
+            {
+              "url": "https://www.porsche.com/",
+              "title": "Porsche - Luxury parallax experience",
+              "source": "Production"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=1wfeqDyMUx4",
+              "title": "Pure CSS Parallax Scrolling"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=mxHoPYFsTuk",
+              "title": "Advanced Parallax with JavaScript"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/isladjan/pen/abdyPBw",
+              "title": "Pure CSS Parallax Effect"
+            },
+            {
+              "url": "https://codepen.io/jasperschulte/pen/OJJYXy",
+              "title": "Multi-layer Parallax"
+            }
+          ],
+          "images": []
+        },
+        {
+          "prompt_type": "3D effects and transformations",
+          "description": "Three.js, WebGL, and CSS 3D transforms for immersive experiences",
+          "live_demos": [
+            {
+              "url": "https://www.awwwards.com/sites/bruno-simon",
+              "title": "Bruno Simon - Interactive 3D portfolio",
+              "source": "Awwwards"
+            },
+            {
+              "url": "https://www.apple.com/mac-pro/",
+              "title": "Apple Mac Pro - 3D product showcase",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.awwwards.com/sites/resn",
+              "title": "Resn - Creative 3D experiences",
+              "source": "Awwwards"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=Q7AOvWpIVHU",
+              "title": "Three.js Tutorial for Beginners"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=pUgWfqWZWmM",
+              "title": "3D Website Design with Three.js"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/suezstudio/pen/BaowKMO",
+              "title": "3D Card Flip Effect"
+            },
+            {
+              "url": "https://codepen.io/soju22/pen/MWWXENj",
+              "title": "3D CSS Transforms"
+            }
+          ],
+          "images": []
+        },
+        {
+          "prompt_type": "Framer Motion animations",
+          "description": "Production-ready React animation library for modern interfaces",
+          "live_demos": [
+            {
+              "url": "https://www.framer.com/motion/examples/",
+              "title": "Framer Motion Official Examples",
+              "source": "Official"
+            },
+            {
+              "url": "https://www.linear.app/",
+              "title": "Linear - Framer Motion in production",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.compound.finance/",
+              "title": "Compound - Smooth React animations",
+              "source": "Production"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=2V1WK-3HQNk",
+              "title": "Framer Motion Tutorial - Animations in React"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=znbCa4Rr054",
+              "title": "Advanced Framer Motion Techniques"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codesandbox.io/s/framer-motion-image-gallery-pqvx3",
+              "title": "Framer Motion Gallery"
+            },
+            {
+              "url": "https://codesandbox.io/s/framer-motion-keyframes-ekks5",
+              "title": "Keyframe Animations"
+            }
+          ],
+          "images": []
+        },
+        {
+          "prompt_type": "Hero background animations",
+          "description": "Animated hero sections with particles, gradients, and motion",
+          "live_demos": [
+            {
+              "url": "https://www.awwwards.com/sites/impossible-bureau",
+              "title": "Impossible Bureau - Dynamic hero",
+              "source": "Awwwards"
+            },
+            {
+              "url": "https://www.tesla.com/",
+              "title": "Tesla - Cinematic hero animations",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.awwwards.com/sites/activetheory",
+              "title": "Active Theory - Creative hero sections",
+              "source": "Awwwards"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=aywzn9cf-_U",
+              "title": "Animated Gradient Background"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=XDBdx2T_haY",
+              "title": "Particle.js Hero Section"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/mohaiman/pen/MQqMyo",
+              "title": "Animated Background Gradient"
+            },
+            {
+              "url": "https://codepen.io/Grsmto/pen/YWQOeM",
+              "title": "Particles.js Hero Section"
+            }
+          ],
+          "images": []
+        },
+        {
+          "prompt_type": "Micro-interactions",
+          "description": "Small, delightful animations that enhance user experience",
+          "live_demos": [
+            {
+              "url": "https://www.awwwards.com/sites/github",
+              "title": "GitHub - Polished micro-interactions",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.notion.so/",
+              "title": "Notion - Smooth UI interactions",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.linear.app/",
+              "title": "Linear - Refined animations",
+              "source": "Production"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=huVJW23JHKQ",
+              "title": "Micro Interactions in Web Design"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=E5WWEORs5qc",
+              "title": "Button Hover Effects Tutorial"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/aaroniker/pen/ZEYoxEY",
+              "title": "Checkbox Micro-interaction"
+            },
+            {
+              "url": "https://codepen.io/aaroniker/pen/oNNyqpO",
+              "title": "Button Loading Animation"
+            }
+          ],
+          "images": []
+        },
+        {
+          "prompt_type": "Page transitions",
+          "description": "Smooth transitions between pages and routes",
+          "live_demos": [
+            {
+              "url": "https://www.awwwards.com/sites/locomotive-scroll",
+              "title": "Locomotive Scroll - Smooth transitions",
+              "source": "Awwwards"
+            },
+            {
+              "url": "https://www.awwwards.com/sites/lusion",
+              "title": "Lusion - Creative page transitions",
+              "source": "Awwwards"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=L4WP1q2c-KA",
+              "title": "Page Transition Animation Tutorial"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=4WB_JE_aXmA",
+              "title": "Next.js Page Transitions"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/ste-vg/pen/GRooLza",
+              "title": "Smooth Page Transition"
+            },
+            {
+              "url": "https://codepen.io/hexagoncircle/pen/XWbWKwL",
+              "title": "CSS Page Transition"
+            }
+          ],
+          "images": []
+        },
+        {
+          "prompt_type": "Loading animations",
+          "description": "Creative loaders and preloader animations",
+          "live_demos": [
+            {
+              "url": "https://www.awwwards.com/sites/epic-games",
+              "title": "Epic Games - Premium loaders",
+              "source": "Awwwards"
+            },
+            {
+              "url": "https://www.awwwards.com/sites/wokine",
+              "title": "Wokine - Creative loading screens",
+              "source": "Awwwards"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=VNBcUJbiMhU",
+              "title": "CSS Loading Animations"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=YXBHwFbRgJ8",
+              "title": "Creative Loaders Collection"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/aaroniker/pen/dyOPRXP",
+              "title": "Skeleton Loading Animation"
+            },
+            {
+              "url": "https://codepen.io/P1N2O/pen/pyBNzX",
+              "title": "Creative CSS Loader"
+            }
+          ],
+          "images": []
+        }
+      ]
+    },
+    {
+      "category_name": "\ud83c\udfa8 Design Refinement & Polish",
+      "examples": [
+        {
+          "prompt_type": "Typography systems",
+          "description": "Professional typography scales, font pairing, and text hierarchy",
+          "live_demos": [
+            {
+              "url": "https://www.apple.com/",
+              "title": "Apple - Masterclass typography",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.stripe.com/",
+              "title": "Stripe - Clean, scalable type system",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.awwwards.com/sites/vitra",
+              "title": "Vitra - Editorial typography",
+              "source": "Awwwards"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=agbh1wbfJt8",
+              "title": "Typography in Web Design"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=O-XqmX8YvWk",
+              "title": "Creating Type Scale Systems"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/michellebarker/pen/YzwqLrO",
+              "title": "Fluid Typography System"
+            },
+            {
+              "url": "https://codepen.io/fonsecatech/pen/gOLGVVV",
+              "title": "Typography Scale Generator"
+            }
+          ],
+          "images": []
+        },
+        {
+          "prompt_type": "Spacing and layout grid systems",
+          "description": "Consistent spacing scales, grid layouts, and white space management",
+          "live_demos": [
+            {
+              "url": "https://www.airbnb.com/",
+              "title": "Airbnb - 8pt grid system",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.figma.com/",
+              "title": "Figma - Precise spacing systems",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.awwwards.com/sites/dropbox-design",
+              "title": "Dropbox Design - Layout mastery",
+              "source": "Awwwards"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=t0b3uBoDkBs",
+              "title": "8-Point Grid System"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=n_V_aLqYPI0",
+              "title": "CSS Grid Layout Tutorial"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/michellebarker/pen/zYvKRBm",
+              "title": "CSS Grid Layout System"
+            },
+            {
+              "url": "https://codepen.io/airen/pen/qBWZzwo",
+              "title": "Spacing Scale Demo"
+            }
+          ],
+          "images": []
+        },
+        {
+          "prompt_type": "Visual hierarchy and composition",
+          "description": "Strategic use of size, color, and positioning to guide user attention",
+          "live_demos": [
+            {
+              "url": "https://www.apple.com/iphone/",
+              "title": "Apple iPhone - Perfect hierarchy",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.uber.com/",
+              "title": "Uber - Clear visual structure",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.awwwards.com/sites/mailchimp",
+              "title": "Mailchimp - Balanced composition",
+              "source": "Awwwards"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=qZWDJqY27bw",
+              "title": "Visual Hierarchy in Web Design"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=ZXItTIjC0Wk",
+              "title": "Design Principles for Developers"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/kathykato/pen/rZRaNe",
+              "title": "Visual Hierarchy Example"
+            },
+            {
+              "url": "https://codepen.io/jonitrythall/pen/MYyQqb",
+              "title": "Card Hierarchy Demo"
+            }
+          ],
+          "images": []
+        },
+        {
+          "prompt_type": "Color system refinement",
+          "description": "Cohesive color palettes, accessibility, and color theory application",
+          "live_demos": [
+            {
+              "url": "https://www.spotify.com/",
+              "title": "Spotify - Bold color system",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.shopify.com/",
+              "title": "Shopify - Accessible color palette",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.awwwards.com/sites/asana",
+              "title": "Asana - Vibrant yet professional",
+              "source": "Awwwards"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=eXcKOqviLE0",
+              "title": "Color Theory for Designers"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=yYwEnLYT55c",
+              "title": "Creating Color Systems"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/meodai/pen/RerqjG",
+              "title": "Color Palette Generator"
+            },
+            {
+              "url": "https://codepen.io/seanfree/pen/wvKeQmQ",
+              "title": "Dynamic Color System"
+            }
+          ],
+          "images": []
+        },
+        {
+          "prompt_type": "Component polish and consistency",
+          "description": "Refined buttons, forms, cards, and UI components with consistent styling",
+          "live_demos": [
+            {
+              "url": "https://www.notion.so/",
+              "title": "Notion - Polished component library",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.vercel.com/",
+              "title": "Vercel - Minimalist components",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.linear.app/",
+              "title": "Linear - Premium UI polish",
+              "source": "Production"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=jpmeWXISU5E",
+              "title": "Building a Component Library"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=VvXjD8LdJKs",
+              "title": "Polished Button Components"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/aaroniker/pen/VweNqKW",
+              "title": "Polished Button Collection"
+            },
+            {
+              "url": "https://codepen.io/aaroniker/pen/BajabVN",
+              "title": "Modern Form Inputs"
+            }
+          ],
+          "images": []
+        },
+        {
+          "prompt_type": "Responsive refinement",
+          "description": "Pixel-perfect responsive design across all breakpoints",
+          "live_demos": [
+            {
+              "url": "https://www.tesla.com/",
+              "title": "Tesla - Flawless responsive",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.netflix.com/",
+              "title": "Netflix - Adaptive layouts",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.awwwards.com/sites/google",
+              "title": "Google - Mobile-first design",
+              "source": "Awwwards"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=srvUrASNj0s",
+              "title": "Responsive Web Design Tutorial"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=VsNAuGkCpQU",
+              "title": "Mobile-First Design Approach"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/ainalem/pen/GRgKWJm",
+              "title": "Responsive Grid System"
+            },
+            {
+              "url": "https://codepen.io/lynnandtonic/pen/mdOgyVL",
+              "title": "Responsive Card Layout"
+            }
+          ],
+          "images": []
+        },
+        {
+          "prompt_type": "Shadows, depth, and elevation",
+          "description": "Layering and depth through shadows, blur, and elevation techniques",
+          "live_demos": [
+            {
+              "url": "https://www.apple.com/",
+              "title": "Apple - Subtle depth and shadows",
+              "source": "Production"
+            },
+            {
+              "url": "https://material.io/",
+              "title": "Material Design - Elevation system",
+              "source": "Official"
+            },
+            {
+              "url": "https://www.awwwards.com/sites/microsoft",
+              "title": "Microsoft Fluent - Depth layers",
+              "source": "Awwwards"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=NdftnCDwKaA",
+              "title": "CSS Box Shadow Tutorial"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=cuVsWv6rDCE",
+              "title": "Creating Depth in UI Design"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/sdthornton/pen/wBZdXq",
+              "title": "Material Design Shadows"
+            },
+            {
+              "url": "https://codepen.io/lukemalicki/pen/zYxdOYY",
+              "title": "Neumorphic Design Effects"
+            }
+          ],
+          "images": []
+        }
+      ]
+    },
+    {
+      "category_name": "\u2728 Award-Winning Homepage Design",
+      "examples": [
+        {
+          "prompt_type": "Hero section excellence",
+          "description": "Impactful hero sections that capture attention immediately",
+          "live_demos": [
+            {
+              "url": "https://www.awwwards.com/sites/bruno-simon",
+              "title": "Bruno Simon - Interactive 3D portfolio hero",
+              "source": "Awwwards SOTD"
+            },
+            {
+              "url": "https://www.awwwards.com/sites/species-in-pieces",
+              "title": "Species in Pieces - Stunning SVG animations",
+              "source": "Awwwards SOTY"
+            },
+            {
+              "url": "https://www.apple.com/",
+              "title": "Apple - Minimalist hero perfection",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.awwwards.com/sites/resn",
+              "title": "Resn - Creative agency hero",
+              "source": "Awwwards"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=MAtaT8BZEAo",
+              "title": "Hero Section Design Tutorial"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=aIR6RFpFYGo",
+              "title": "Animated Hero Backgrounds"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/ainalem/pen/wvvNMBB",
+              "title": "Modern Hero Section"
+            },
+            {
+              "url": "https://codepen.io/FlorinPop17/pen/zYYqYwg",
+              "title": "Animated Hero"
+            }
+          ],
+          "images": []
+        },
+        {
+          "prompt_type": "Award-winning navigation",
+          "description": "Innovative, user-friendly navigation patterns",
+          "live_demos": [
+            {
+              "url": "https://www.awwwards.com/sites/locomotive-scroll",
+              "title": "Locomotive - Smooth nav experience",
+              "source": "Awwwards"
+            },
+            {
+              "url": "https://www.stripe.com/",
+              "title": "Stripe - Mega menu done right",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.awwwards.com/sites/wokine",
+              "title": "Wokine - Creative navigation",
+              "source": "Awwwards"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=At4B7A4GOPg",
+              "title": "Responsive Navigation Tutorial"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=gXkqy0b4M5g",
+              "title": "Mega Menu Design"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/ainalem/pen/LJYRxz",
+              "title": "Animated Navigation Menu"
+            },
+            {
+              "url": "https://codepen.io/goodkatz/pen/LYPGxQz",
+              "title": "Fullscreen Navigation"
+            }
+          ],
+          "images": []
+        },
+        {
+          "prompt_type": "Storytelling homepage layouts",
+          "description": "Narrative-driven homepage designs that engage users",
+          "live_demos": [
+            {
+              "url": "https://www.awwwards.com/sites/ben-gunn",
+              "title": "Ben Gunn - Scroll storytelling",
+              "source": "Awwwards SOTD"
+            },
+            {
+              "url": "https://www.airbnb.com/",
+              "title": "Airbnb - User journey storytelling",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.awwwards.com/sites/impossible-bureau",
+              "title": "Impossible Bureau - Visual narrative",
+              "source": "Awwwards"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=huOCxgZvPWU",
+              "title": "Storytelling in Web Design"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=cYrm8qX5IHE",
+              "title": "Scroll-driven Narratives"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/pixelcharmer/pen/KKpdNGG",
+              "title": "Scroll Story Layout"
+            },
+            {
+              "url": "https://codepen.io/jh3y/pen/YzZmKMN",
+              "title": "Narrative Scroll"
+            }
+          ],
+          "images": []
+        },
+        {
+          "prompt_type": "Portfolio and agency homepages",
+          "description": "Creative showcase pages for agencies and freelancers",
+          "live_demos": [
+            {
+              "url": "https://www.awwwards.com/sites/aristide-benoist",
+              "title": "Aristide Benoist - Elegant portfolio",
+              "source": "Awwwards SOTD"
+            },
+            {
+              "url": "https://www.awwwards.com/sites/active-theory",
+              "title": "Active Theory - Agency excellence",
+              "source": "Awwwards"
+            },
+            {
+              "url": "https://www.awwwards.com/sites/lusion",
+              "title": "Lusion - Creative showcase",
+              "source": "Awwwards"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=_xkSvufmjEs",
+              "title": "Portfolio Website Tutorial"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=OYGy5OOxm1w",
+              "title": "Agency Website Design"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/ainalem/pen/QWWNeNg",
+              "title": "Portfolio Grid Layout"
+            },
+            {
+              "url": "https://codepen.io/cobra_winfrey/pen/qBBpydY",
+              "title": "Agency Hero Section"
+            }
+          ],
+          "images": []
+        },
+        {
+          "prompt_type": "SaaS product homepages",
+          "description": "Conversion-focused SaaS landing pages",
+          "live_demos": [
+            {
+              "url": "https://www.notion.so/",
+              "title": "Notion - Product-led growth",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.linear.app/",
+              "title": "Linear - Clean SaaS homepage",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.vercel.com/",
+              "title": "Vercel - Developer-focused design",
+              "source": "Production"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=B-ytMSuwbf8",
+              "title": "SaaS Landing Page Design"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=fYq5PXgSsbE",
+              "title": "Product Homepage Tutorial"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/ainalem/pen/wvvJzQO",
+              "title": "SaaS Hero Section"
+            },
+            {
+              "url": "https://codepen.io/FlorinPop17/pen/jOONYgR",
+              "title": "Product Features Layout"
+            }
+          ],
+          "images": []
+        }
+      ]
+    },
+    {
+      "category_name": "\ud83c\udfaf Conversion & Funnel Optimiza",
+      "examples": [
+        {
+          "prompt_type": "High-converting landing pages",
+          "description": "Landing pages with proven conversion patterns",
+          "live_demos": [
+            {
+              "url": "https://www.hubspot.com/products/marketing",
+              "title": "HubSpot - Marketing funnel masterclass",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.intercom.com/",
+              "title": "Intercom - Clear value proposition",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.shopify.com/",
+              "title": "Shopify - E-commerce funnel excellence",
+              "source": "Production"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=WqDXQU2VwfI",
+              "title": "High-Converting Landing Page Design"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=mN-5RxLFLKk",
+              "title": "Landing Page Best Practices"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/ainalem/pen/JjjKVKY",
+              "title": "Landing Page Template"
+            },
+            {
+              "url": "https://codepen.io/FlorinPop17/pen/dyydPxx",
+              "title": "Conversion-Focused Hero"
+            }
+          ],
+          "images": []
+        },
+        {
+          "prompt_type": "CTA optimization",
+          "description": "Strategic call-to-action placement and design",
+          "live_demos": [
+            {
+              "url": "https://www.stripe.com/payments",
+              "title": "Stripe - Multiple CTA hierarchy",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.convertkit.com/",
+              "title": "ConvertKit - Clear CTAs",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.monday.com/",
+              "title": "Monday.com - Conversion-driven CTAs",
+              "source": "Production"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=z8m5rE4VkNo",
+              "title": "CTA Button Design Tutorial"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=GvVG-K-QPBE",
+              "title": "Optimizing Call-to-Actions"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/aaroniker/pen/BajabVN",
+              "title": "Animated CTA Button"
+            },
+            {
+              "url": "https://codepen.io/yuhomyan/pen/OJMejWJ",
+              "title": "CTA with Micro-interaction"
+            }
+          ],
+          "images": []
+        },
+        {
+          "prompt_type": "Form optimization",
+          "description": "User-friendly forms that maximize completion rates",
+          "live_demos": [
+            {
+              "url": "https://www.typeform.com/",
+              "title": "Typeform - Conversational forms",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.wufoo.com/",
+              "title": "Wufoo - Optimized form UX",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.hubspot.com/products/marketing/free-trial",
+              "title": "HubSpot - Progressive form",
+              "source": "Production"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=2O8pkybH6po",
+              "title": "Form Design Best Practices"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=bhYXW6sNApA",
+              "title": "Multi-Step Form Tutorial"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/aaroniker/pen/oNNyqpO",
+              "title": "Modern Form Validation"
+            },
+            {
+              "url": "https://codepen.io/dsenneff/pen/ZoLVZW",
+              "title": "Multi-Step Form"
+            }
+          ],
+          "images": []
+        },
+        {
+          "prompt_type": "Pricing page optimization",
+          "description": "Strategic pricing tables and comparison layouts",
+          "live_demos": [
+            {
+              "url": "https://www.notion.so/pricing",
+              "title": "Notion - Clear pricing tiers",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.figma.com/pricing/",
+              "title": "Figma - Comparison-driven pricing",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.mailchimp.com/pricing/",
+              "title": "Mailchimp - Feature comparison",
+              "source": "Production"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=xfuVJkAfRhk",
+              "title": "Pricing Table Design Tutorial"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=3KPfg-g2wLY",
+              "title": "SaaS Pricing Page Best Practices"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/aaroniker/pen/QWWNeNg",
+              "title": "Pricing Table with Toggle"
+            },
+            {
+              "url": "https://codepen.io/FlorinPop17/pen/ZEVZOPQ",
+              "title": "Comparison Pricing Cards"
+            }
+          ],
+          "images": []
+        },
+        {
+          "prompt_type": "Trust signals and social proof",
+          "description": "Strategic placement of testimonials, reviews, and trust badges",
+          "live_demos": [
+            {
+              "url": "https://www.shopify.com/",
+              "title": "Shopify - Trust signal mastery",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.slack.com/",
+              "title": "Slack - Social proof integration",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.hubspot.com/",
+              "title": "HubSpot - Multiple trust layers",
+              "source": "Production"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=fPD8jP7Mzyg",
+              "title": "Social Proof in Web Design"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=7U8sRq7qA_8",
+              "title": "Trust Badge Implementation"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/ainalem/pen/wvvGjKO",
+              "title": "Testimonial Slider"
+            },
+            {
+              "url": "https://codepen.io/FlorinPop17/pen/bGGdmKw",
+              "title": "Review Card Component"
+            }
+          ],
+          "images": []
+        }
+      ]
+    },
+    {
+      "category_name": "\ud83d\udcc4 Landing Pages & Lead Generat",
+      "examples": [
+        {
+          "prompt_type": "Product launch landing pages",
+          "description": "High-impact pages for new product launches",
+          "live_demos": [
+            {
+              "url": "https://www.apple.com/iphone/",
+              "title": "Apple iPhone Launch - Premium presentation",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.tesla.com/model3",
+              "title": "Tesla Model 3 - Product storytelling",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.producthunt.com/",
+              "title": "Product Hunt - Launch showcase",
+              "source": "Production"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=GqCdHf4sHqs",
+              "title": "Product Launch Page Tutorial"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=iHPvuH0n2OA",
+              "title": "Landing Page Design Process"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/ainalem/pen/RwwNepP",
+              "title": "Product Launch Hero"
+            },
+            {
+              "url": "https://codepen.io/FlorinPop17/pen/YzzqePZ",
+              "title": "Feature Showcase Section"
+            }
+          ],
+          "images": []
+        },
+        {
+          "prompt_type": "Lead magnet landing pages",
+          "description": "Pages optimized for capturing email and contact information",
+          "live_demos": [
+            {
+              "url": "https://www.unbounce.com/",
+              "title": "Unbounce - Lead gen expertise",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.leadpages.com/",
+              "title": "Leadpages - Conversion templates",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.convertkit.com/",
+              "title": "ConvertKit - Email capture",
+              "source": "Production"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=qg8YWcnHEBw",
+              "title": "Lead Magnet Landing Page"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=_72NpFdJkbQ",
+              "title": "Email Capture Form Design"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/aaroniker/pen/dyydPPq",
+              "title": "Email Signup Form"
+            },
+            {
+              "url": "https://codepen.io/FlorinPop17/pen/VwwjeOj",
+              "title": "Newsletter Popup"
+            }
+          ],
+          "images": []
+        },
+        {
+          "prompt_type": "Event registration pages",
+          "description": "Engaging pages for webinars, conferences, and events",
+          "live_demos": [
+            {
+              "url": "https://www.eventbrite.com/",
+              "title": "Eventbrite - Event registration flow",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.meetup.com/",
+              "title": "Meetup - Community event pages",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.zoom.us/webinar",
+              "title": "Zoom - Webinar registration",
+              "source": "Production"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=5xW9bv_kRKo",
+              "title": "Event Landing Page Tutorial"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=_o13ld5WFAM",
+              "title": "Registration Form Design"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/ainalem/pen/bGGpKdN",
+              "title": "Event Registration Form"
+            },
+            {
+              "url": "https://codepen.io/FlorinPop17/pen/xxwGydP",
+              "title": "Countdown Timer"
+            }
+          ],
+          "images": []
+        }
+      ]
+    },
+    {
+      "category_name": "\ud83c\udfa8 Visual Design & Modern Aesth",
+      "examples": [
+        {
+          "prompt_type": "Glassmorphism design",
+          "description": "Frosted glass effect with transparency and blur",
+          "live_demos": [
+            {
+              "url": "https://www.awwwards.com/sites/apple-big-sur",
+              "title": "macOS Big Sur - Glassmorphism pioneer",
+              "source": "Awwwards"
+            },
+            {
+              "url": "https://www.microsoft.com/",
+              "title": "Microsoft - Fluent Design",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.stripe.com/",
+              "title": "Stripe - Subtle glass effects",
+              "source": "Production"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=O7WbVj5apxU",
+              "title": "Glassmorphism CSS Tutorial"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=nJzKi6oIvBA",
+              "title": "Glass Card Effect"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/TurkAysenur/pen/ZEpxeYm",
+              "title": "Glassmorphism Cards"
+            },
+            {
+              "url": "https://codepen.io/ykadosh/pen/KKgRovR",
+              "title": "Glass Navigation Bar"
+            }
+          ],
+          "images": []
+        },
+        {
+          "prompt_type": "Dark mode design",
+          "description": "Professional dark themes with proper contrast and accessibility",
+          "live_demos": [
+            {
+              "url": "https://www.apple.com/",
+              "title": "Apple - Elegant dark mode",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.figma.com/",
+              "title": "Figma - Dark UI mastery",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.linear.app/",
+              "title": "Linear - Premium dark theme",
+              "source": "Production"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=jmepqJ5UbuM",
+              "title": "Dark Mode Design Tutorial"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=RiWxhm5ZdFM",
+              "title": "Dark Theme Implementation"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/aaroniker/pen/QWWNegX",
+              "title": "Dark Mode Toggle"
+            },
+            {
+              "url": "https://codepen.io/FlorinPop17/pen/OJJRovY",
+              "title": "Dark Theme Switcher"
+            }
+          ],
+          "images": []
+        },
+        {
+          "prompt_type": "Gradient and color trends",
+          "description": "Modern gradient applications and color schemes",
+          "live_demos": [
+            {
+              "url": "https://www.awwwards.com/sites/stripe",
+              "title": "Stripe - Animated gradients",
+              "source": "Awwwards"
+            },
+            {
+              "url": "https://www.instagram.com/",
+              "title": "Instagram - Iconic gradient branding",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.spotify.com/",
+              "title": "Spotify - Dynamic gradients",
+              "source": "Production"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=YZv-4VgCGNI",
+              "title": "Animated Gradient Background"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=f3mwKLXpOLk",
+              "title": "Gradient Text Effects"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/P1N2O/pen/pyBNzX",
+              "title": "Mesh Gradient Generator"
+            },
+            {
+              "url": "https://codepen.io/chrisgannon/pen/VwwKqqG",
+              "title": "Animated Gradient Blob"
+            }
+          ],
+          "images": []
+        },
+        {
+          "prompt_type": "Minimalist design",
+          "description": "Clean, simple interfaces with maximum impact",
+          "live_demos": [
+            {
+              "url": "https://www.apple.com/",
+              "title": "Apple - Minimalism perfected",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.muji.net/",
+              "title": "MUJI - Ultra-minimalist",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.awwwards.com/sites/dropbox",
+              "title": "Dropbox - Clean simplicity",
+              "source": "Awwwards"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=sMWcxFU_KYA",
+              "title": "Minimalist Web Design"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=4FaKfO_O0kg",
+              "title": "Clean UI Design Tutorial"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/ainalem/pen/VwwLYKp",
+              "title": "Minimalist Portfolio"
+            },
+            {
+              "url": "https://codepen.io/kathykato/pen/gOOjMNp",
+              "title": "Clean Card Design"
+            }
+          ],
+          "images": []
+        }
+      ]
+    },
+    {
+      "category_name": "\ud83d\ude80 Interactive & Immersive Elem",
+      "examples": [
+        {
+          "prompt_type": "Interactive 3D elements",
+          "description": "Three.js and WebGL interactive experiences",
+          "live_demos": [
+            {
+              "url": "https://www.awwwards.com/sites/bruno-simon",
+              "title": "Bruno Simon - 3D portfolio game",
+              "source": "Awwwards SOTY"
+            },
+            {
+              "url": "https://www.awwwards.com/sites/species-in-pieces",
+              "title": "Species in Pieces - Interactive 3D art",
+              "source": "Awwwards SOTY"
+            },
+            {
+              "url": "https://www.apple.com/airpods-max/",
+              "title": "Apple AirPods Max - 3D product",
+              "source": "Production"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=Q7AOvWpIVHU",
+              "title": "Three.js Crash Course"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=pUgWfqWZWmM",
+              "title": "WebGL 3D Website"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/soju22/pen/WNeOYvO",
+              "title": "Interactive 3D Cube"
+            },
+            {
+              "url": "https://codepen.io/thebabydino/pen/BaaBKyN",
+              "title": "3D CSS Animation"
+            }
+          ],
+          "images": []
+        },
+        {
+          "prompt_type": "Cursor effects and interactions",
+          "description": "Custom cursors and cursor-based interactions",
+          "live_demos": [
+            {
+              "url": "https://www.awwwards.com/sites/active-theory",
+              "title": "Active Theory - Custom cursor",
+              "source": "Awwwards"
+            },
+            {
+              "url": "https://www.awwwards.com/sites/impossible-bureau",
+              "title": "Impossible Bureau - Cursor magic",
+              "source": "Awwwards"
+            },
+            {
+              "url": "https://www.awwwards.com/sites/lusion",
+              "title": "Lusion - Interactive cursor",
+              "source": "Awwwards"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=kySGqoU7X-s",
+              "title": "Custom Cursor Tutorial"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=rYHUE-_DGYM",
+              "title": "Advanced Cursor Effects"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/trangthule/pen/rNNKGXY",
+              "title": "Custom Cursor Effect"
+            },
+            {
+              "url": "https://codepen.io/Hyperplexed/pen/rNrJgrd",
+              "title": "Magnetic Cursor"
+            }
+          ],
+          "images": []
+        },
+        {
+          "prompt_type": "Hover effects and transitions",
+          "description": "Engaging hover interactions for images and cards",
+          "live_demos": [
+            {
+              "url": "https://www.awwwards.com/sites/resn",
+              "title": "Resn - Creative hover effects",
+              "source": "Awwwards"
+            },
+            {
+              "url": "https://dribbble.com/",
+              "title": "Dribbble - Image hover states",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.behance.net/",
+              "title": "Behance - Portfolio hover effects",
+              "source": "Production"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=3pkXRcmzTu0",
+              "title": "CSS Hover Effects"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=a3hxE-JoMAQ",
+              "title": "Image Hover Animations"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/Hyperplexed/pen/MWXjPjo",
+              "title": "Image Distortion Hover"
+            },
+            {
+              "url": "https://codepen.io/ainalem/pen/wvvGjKO",
+              "title": "Card Hover Effect"
+            }
+          ],
+          "images": []
+        }
+      ]
+    },
+    {
+      "category_name": "\ud83d\udc8e UI-UX Excellence",
+      "examples": [
+        {
+          "prompt_type": "Intuitive navigation patterns",
+          "description": "User-friendly navigation that guides users effortlessly",
+          "live_demos": [
+            {
+              "url": "https://www.notion.so/",
+              "title": "Notion - Seamless UX",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.figma.com/",
+              "title": "Figma - Tool navigation mastery",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.airbnb.com/",
+              "title": "Airbnb - Search-first UX",
+              "source": "Production"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=RFv7KG4GBeI",
+              "title": "UX Navigation Principles"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=kLRMBa6Cryo",
+              "title": "Navigation Design Tutorial"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/ainalem/pen/VwwLYKp",
+              "title": "Sidebar Navigation"
+            },
+            {
+              "url": "https://codepen.io/FlorinPop17/pen/VwwjeOj",
+              "title": "Mega Menu UX"
+            }
+          ],
+          "images": []
+        },
+        {
+          "prompt_type": "Accessibility features",
+          "description": "WCAG-compliant designs with keyboard navigation and screen reader support",
+          "live_demos": [
+            {
+              "url": "https://www.gov.uk/",
+              "title": "GOV.UK - Accessibility standard",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.bbc.com/",
+              "title": "BBC - Inclusive design",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.microsoft.com/en-us/accessibility",
+              "title": "Microsoft Accessibility",
+              "source": "Production"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=t2CqG9ricZ4",
+              "title": "Web Accessibility Tutorial"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=g9Qff0b-lHk",
+              "title": "WCAG Compliance Guide"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/aardrian/pen/wvvqKgw",
+              "title": "Accessible Form"
+            },
+            {
+              "url": "https://codepen.io/svinkle/pen/jOOMYqW",
+              "title": "Keyboard Navigation"
+            }
+          ],
+          "images": []
+        },
+        {
+          "prompt_type": "User feedback and states",
+          "description": "Loading states, error handling, and success messages",
+          "live_demos": [
+            {
+              "url": "https://www.stripe.com/",
+              "title": "Stripe - Perfect state management",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.slack.com/",
+              "title": "Slack - Real-time feedback",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.linear.app/",
+              "title": "Linear - Instant feedback",
+              "source": "Production"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=6SvlGC983yM",
+              "title": "Loading State Design"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=VNBcUJbiMhU",
+              "title": "Error Handling UX"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/aaroniker/pen/dyydPPq",
+              "title": "Loading Button State"
+            },
+            {
+              "url": "https://codepen.io/aaroniker/pen/RwwNepP",
+              "title": "Toast Notifications"
+            }
+          ],
+          "images": []
+        }
+      ]
+    },
+    {
+      "category_name": "\ud83d\udcb0 E-commerce & Product Pages",
+      "examples": [
+        {
+          "prompt_type": "Product showcase pages",
+          "description": "Engaging product displays with image galleries and details",
+          "live_demos": [
+            {
+              "url": "https://www.apple.com/shop/buy-iphone",
+              "title": "Apple - Premium product pages",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.nike.com/",
+              "title": "Nike - Dynamic product showcase",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.tesla.com/model3/design",
+              "title": "Tesla - Interactive configurator",
+              "source": "Production"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=X7CbbToelVo",
+              "title": "E-commerce Product Page Tutorial"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=3PHXvlpOkf4",
+              "title": "Image Gallery Design"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/ainalem/pen/bGGpKdN",
+              "title": "Product Card Component"
+            },
+            {
+              "url": "https://codepen.io/FlorinPop17/pen/xxwGydP",
+              "title": "Image Zoom Effect"
+            }
+          ],
+          "images": []
+        },
+        {
+          "prompt_type": "Shopping cart and checkout",
+          "description": "Streamlined checkout flows that minimize cart abandonment",
+          "live_demos": [
+            {
+              "url": "https://www.shopify.com/",
+              "title": "Shopify - Optimized checkout",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.amazon.com/",
+              "title": "Amazon - One-click ordering",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.etsy.com/",
+              "title": "Etsy - Simple cart flow",
+              "source": "Production"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=YRzzKJpLi4Y",
+              "title": "Shopping Cart Tutorial"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=023Psne_-_4",
+              "title": "Checkout Page Design"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/aaroniker/pen/VwwjeOj",
+              "title": "Shopping Cart UI"
+            },
+            {
+              "url": "https://codepen.io/FlorinPop17/pen/QWWNeNg",
+              "title": "Checkout Form"
+            }
+          ],
+          "images": []
+        },
+        {
+          "prompt_type": "Product filtering and search",
+          "description": "Advanced filtering, sorting, and search functionality",
+          "live_demos": [
+            {
+              "url": "https://www.airbnb.com/",
+              "title": "Airbnb - Advanced search filters",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.zillow.com/",
+              "title": "Zillow - Property filtering",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.etsy.com/search",
+              "title": "Etsy - Faceted search",
+              "source": "Production"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=TlP7ARQ8LOU",
+              "title": "Product Filter Tutorial"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=dtqzqtB1Q8I",
+              "title": "Search Functionality"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/ainalem/pen/RwwNepP",
+              "title": "Filter Sidebar"
+            },
+            {
+              "url": "https://codepen.io/FlorinPop17/pen/VwwLYKp",
+              "title": "Search with Autocomplete"
+            }
+          ],
+          "images": []
+        }
+      ]
+    },
+    {
+      "category_name": "\ud83d\udcca Dashboard & Admin Panels",
+      "examples": [
+        {
+          "prompt_type": "Data visualization dashboards",
+          "description": "Charts, graphs, and metrics displays",
+          "live_demos": [
+            {
+              "url": "https://www.linear.app/",
+              "title": "Linear - Clean dashboard UI",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.datadog.com/",
+              "title": "Datadog - Monitoring dashboard",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.tableau.com/",
+              "title": "Tableau - Data viz excellence",
+              "source": "Production"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=Wm6CUkswsNw",
+              "title": "Dashboard Design Tutorial"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=qg8YWcnHEBw",
+              "title": "Admin Panel UI"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/ainalem/pen/wvvGjKO",
+              "title": "Dashboard Layout"
+            },
+            {
+              "url": "https://codepen.io/FlorinPop17/pen/bGGdmKw",
+              "title": "Chart Components"
+            }
+          ],
+          "images": []
+        },
+        {
+          "prompt_type": "Table and data management",
+          "description": "Advanced tables with sorting, filtering, and pagination",
+          "live_demos": [
+            {
+              "url": "https://www.airtable.com/",
+              "title": "Airtable - Spreadsheet UI",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.notion.so/",
+              "title": "Notion - Database views",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.mongodb.com/cloud/atlas",
+              "title": "MongoDB Atlas - Data tables",
+              "source": "Production"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=WWo4T-O5AVs",
+              "title": "Data Table Tutorial"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=ye3aAGx5MeY",
+              "title": "Advanced Table Features"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/ainalem/pen/VwwLYKp",
+              "title": "Sortable Table"
+            },
+            {
+              "url": "https://codepen.io/FlorinPop17/pen/QWWNeNg",
+              "title": "Data Grid Component"
+            }
+          ],
+          "images": []
+        }
+      ]
+    },
+    {
+      "category_name": "\ud83d\udcf1 Social Proof & Trust Buildin",
+      "examples": [
+        {
+          "prompt_type": "Testimonial sections",
+          "description": "Customer testimonials and success stories",
+          "live_demos": [
+            {
+              "url": "https://www.shopify.com/",
+              "title": "Shopify - Customer stories",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.slack.com/customer-stories",
+              "title": "Slack - Case studies",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.hubspot.com/customers",
+              "title": "HubSpot - Customer testimonials",
+              "source": "Production"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=fPD8jP7Mzyg",
+              "title": "Testimonial Section Design"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=7U8sRq7qA_8",
+              "title": "Customer Review Layout"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/ainalem/pen/wvvGjKO",
+              "title": "Testimonial Carousel"
+            },
+            {
+              "url": "https://codepen.io/FlorinPop17/pen/bGGdmKw",
+              "title": "Review Cards"
+            }
+          ],
+          "images": []
+        },
+        {
+          "prompt_type": "Logo clouds and partnerships",
+          "description": "Client logos and partnership displays",
+          "live_demos": [
+            {
+              "url": "https://www.stripe.com/",
+              "title": "Stripe - Client showcase",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.twilio.com/",
+              "title": "Twilio - Partner logos",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.zoom.us/",
+              "title": "Zoom - Customer logos",
+              "source": "Production"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=8U0kfKJ5Uvo",
+              "title": "Logo Cloud Design"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=3KPfg-g2wLY",
+              "title": "Client Showcase Section"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/ainalem/pen/VwwLYKp",
+              "title": "Logo Grid"
+            },
+            {
+              "url": "https://codepen.io/FlorinPop17/pen/QWWNeNg",
+              "title": "Animated Logo Slider"
+            }
+          ],
+          "images": []
+        }
+      ]
+    },
+    {
+      "category_name": "\ud83d\udce7 Content & Marketing",
+      "examples": [
+        {
+          "prompt_type": "Blog and article layouts",
+          "description": "Readable, engaging content layouts",
+          "live_demos": [
+            {
+              "url": "https://www.medium.com/",
+              "title": "Medium - Reader-first design",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.awwwards.com/blog/",
+              "title": "Awwwards Blog - Visual storytelling",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.stripe.com/blog",
+              "title": "Stripe Blog - Clean typography",
+              "source": "Production"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=Yv1ilk-7wk8",
+              "title": "Blog Layout Design"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=R3oSAe9VB88",
+              "title": "Article Page Tutorial"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/ainalem/pen/wvvGjKO",
+              "title": "Blog Card Layout"
+            },
+            {
+              "url": "https://codepen.io/FlorinPop17/pen/bGGdmKw",
+              "title": "Article Header"
+            }
+          ],
+          "images": []
+        },
+        {
+          "prompt_type": "Email templates",
+          "description": "Responsive email designs and newsletters",
+          "live_demos": [
+            {
+              "url": "https://www.reallygoodemails.com/",
+              "title": "Really Good Emails - Inspiration",
+              "source": "Gallery"
+            },
+            {
+              "url": "https://www.mailchimp.com/",
+              "title": "Mailchimp - Email builder",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.convertkit.com/",
+              "title": "ConvertKit - Newsletter templates",
+              "source": "Production"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=CwX1VlLwWzg",
+              "title": "Email Template Design"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=sK4z2eX_BhM",
+              "title": "Responsive Email Tutorial"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/ainalem/pen/VwwLYKp",
+              "title": "Email Newsletter"
+            },
+            {
+              "url": "https://codepen.io/FlorinPop17/pen/QWWNeNg",
+              "title": "HTML Email Template"
+            }
+          ],
+          "images": []
+        }
+      ]
+    },
+    {
+      "category_name": "\u26a1 Performance & Technical",
+      "examples": [
+        {
+          "prompt_type": "Lazy loading and optimization",
+          "description": "Image lazy loading and performance optimization techniques",
+          "live_demos": [
+            {
+              "url": "https://www.google.com/",
+              "title": "Google - Performance mastery",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.wikipedia.org/",
+              "title": "Wikipedia - Optimized for speed",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.vercel.com/",
+              "title": "Vercel - Edge optimization",
+              "source": "Production"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=hJ7Rg1821Q0",
+              "title": "Lazy Loading Images"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=AQqFZ5t8uNc",
+              "title": "Web Performance Optimization"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/ainalem/pen/wvvGjKO",
+              "title": "Lazy Load Images"
+            },
+            {
+              "url": "https://codepen.io/FlorinPop17/pen/bGGdmKw",
+              "title": "Intersection Observer"
+            }
+          ],
+          "images": []
+        },
+        {
+          "prompt_type": "Progressive Web Apps (PWA)",
+          "description": "Offline-capable, app-like web experiences",
+          "live_demos": [
+            {
+              "url": "https://www.twitter.com/",
+              "title": "Twitter - PWA excellence",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.starbucks.com/",
+              "title": "Starbucks - PWA ordering",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.pinterest.com/",
+              "title": "Pinterest - Fast PWA",
+              "source": "Production"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=sFsRylCQblw",
+              "title": "PWA Tutorial"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=z2JgN6Ae-Bo",
+              "title": "Building Progressive Web Apps"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/ainalem/pen/VwwLYKp",
+              "title": "Service Worker Demo"
+            },
+            {
+              "url": "https://codepen.io/FlorinPop17/pen/QWWNeNg",
+              "title": "Install PWA Prompt"
+            }
+          ],
+          "images": []
+        }
+      ]
+    },
+    {
+      "category_name": "\ud83d\udd0d SEO & Analytics",
+      "examples": [
+        {
+          "prompt_type": "SEO-optimized structure",
+          "description": "Semantic HTML and structured data implementation",
+          "live_demos": [
+            {
+              "url": "https://www.nytimes.com/",
+              "title": "NY Times - SEO excellence",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.theguardian.com/",
+              "title": "The Guardian - Structured data",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.amazon.com/",
+              "title": "Amazon - Product schema",
+              "source": "Production"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=JSm4aQl4w_U",
+              "title": "SEO for Developers"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=tTyZhkd_-D0",
+              "title": "Structured Data Tutorial"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/ainalem/pen/wvvGjKO",
+              "title": "Semantic HTML"
+            },
+            {
+              "url": "https://codepen.io/FlorinPop17/pen/bGGdmKw",
+              "title": "Meta Tags Demo"
+            }
+          ],
+          "images": []
+        }
+      ]
+    },
+    {
+      "category_name": "\ud83e\uddea Testing & Debugging",
+      "examples": [
+        {
+          "prompt_type": "Cross-browser testing",
+          "description": "Ensuring compatibility across all browsers",
+          "live_demos": [
+            {
+              "url": "https://www.browserstack.com/",
+              "title": "BrowserStack - Testing platform",
+              "source": "Tool"
+            },
+            {
+              "url": "https://caniuse.com/",
+              "title": "Can I Use - Compatibility checker",
+              "source": "Tool"
+            },
+            {
+              "url": "https://www.lambdatest.com/",
+              "title": "LambdaTest - Cross-browser testing",
+              "source": "Tool"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=jmIVtN6rXWg",
+              "title": "Cross-Browser Testing"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=vDbbz-BdyYc",
+              "title": "Browser Compatibility Guide"
+            }
+          ],
+          "codepen": [],
+          "images": []
+        }
+      ]
+    },
+    {
+      "category_name": "\ud83d\udd17 API & Integration",
+      "examples": [
+        {
+          "prompt_type": "Third-party API integration",
+          "description": "Integrating external services and APIs",
+          "live_demos": [
+            {
+              "url": "https://www.stripe.com/docs",
+              "title": "Stripe API - Payment integration",
+              "source": "Documentation"
+            },
+            {
+              "url": "https://www.twilio.com/docs",
+              "title": "Twilio - Communications API",
+              "source": "Documentation"
+            },
+            {
+              "url": "https://developers.google.com/maps",
+              "title": "Google Maps API",
+              "source": "Documentation"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=fgTGADljAeg",
+              "title": "REST API Tutorial"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=2JYT5f2isg4",
+              "title": "API Integration Guide"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/ainalem/pen/wvvGjKO",
+              "title": "Fetch API Demo"
+            },
+            {
+              "url": "https://codepen.io/FlorinPop17/pen/bGGdmKw",
+              "title": "API Data Display"
+            }
+          ],
+          "images": []
+        }
+      ]
+    },
+    {
+      "category_name": "\ud83d\udee0\ufe0f Feature Development",
+      "examples": [
+        {
+          "prompt_type": "Search and filtering features",
+          "description": "Advanced search with autocomplete and filters",
+          "live_demos": [
+            {
+              "url": "https://www.google.com/",
+              "title": "Google Search - The gold standard",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.algolia.com/",
+              "title": "Algolia - Instant search",
+              "source": "Tool"
+            },
+            {
+              "url": "https://www.amazon.com/",
+              "title": "Amazon - Faceted search",
+              "source": "Production"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=TlP7ARQ8LOU",
+              "title": "Search Feature Tutorial"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=dtqzqtB1Q8I",
+              "title": "Autocomplete Implementation"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/ainalem/pen/wvvGjKO",
+              "title": "Search with Autocomplete"
+            },
+            {
+              "url": "https://codepen.io/FlorinPop17/pen/bGGdmKw",
+              "title": "Filter Component"
+            }
+          ],
+          "images": []
+        },
+        {
+          "prompt_type": "Authentication and user management",
+          "description": "Login, signup, and user profile features",
+          "live_demos": [
+            {
+              "url": "https://www.auth0.com/",
+              "title": "Auth0 - Authentication platform",
+              "source": "Tool"
+            },
+            {
+              "url": "https://www.firebase.google.com/",
+              "title": "Firebase Auth",
+              "source": "Tool"
+            },
+            {
+              "url": "https://www.clerk.dev/",
+              "title": "Clerk - User management",
+              "source": "Tool"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=Ud5xKCYQTjM",
+              "title": "Authentication Tutorial"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=rltfdjcXjmk",
+              "title": "User Login System"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/ainalem/pen/wvvGjKO",
+              "title": "Login Form"
+            },
+            {
+              "url": "https://codepen.io/FlorinPop17/pen/bGGdmKw",
+              "title": "Signup Flow"
+            }
+          ],
+          "images": []
+        }
+      ]
+    },
+    {
+      "category_name": "\ud83c\udfc1 Project Finalization & Polish",
+      "examples": [
+        {
+          "prompt_type": "Final QA and polish",
+          "description": "Last-mile refinements and quality checks",
+          "live_demos": [
+            {
+              "url": "https://www.apple.com/",
+              "title": "Apple - Polished perfection",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.stripe.com/",
+              "title": "Stripe - Attention to detail",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.linear.app/",
+              "title": "Linear - Premium finish",
+              "source": "Production"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=qZWDJqY27bw",
+              "title": "Final Design Polish"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=ZXItTIjC0Wk",
+              "title": "Quality Assurance Checklist"
+            }
+          ],
+          "codepen": [],
+          "images": []
+        },
+        {
+          "prompt_type": "Deployment and launch",
+          "description": "Production deployment best practices",
+          "live_demos": [
+            {
+              "url": "https://www.vercel.com/",
+              "title": "Vercel - Instant deployment",
+              "source": "Tool"
+            },
+            {
+              "url": "https://www.netlify.com/",
+              "title": "Netlify - JAMstack hosting",
+              "source": "Tool"
+            },
+            {
+              "url": "https://pages.cloudflare.com/",
+              "title": "Cloudflare Pages - Edge deployment",
+              "source": "Tool"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=A_l5WxKH97k",
+              "title": "Deploy to Vercel"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=bjVUqvcCnxM",
+              "title": "Website Launch Checklist"
+            }
+          ],
+          "codepen": [],
+          "images": []
+        }
+      ]
+    },
+    {
+      "category_name": "\ud83d\udccb Other Specialized Prompts",
+      "examples": [
+        {
+          "prompt_type": "404 and error pages",
+          "description": "Creative error pages that maintain user engagement",
+          "live_demos": [
+            {
+              "url": "https://www.github.com/404",
+              "title": "GitHub 404 - Star Wars theme",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.awwwards.com/404",
+              "title": "Awwwards 404 - Creative design",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.pixar.com/404",
+              "title": "Pixar 404 - Fun animation",
+              "source": "Production"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=VXJR9r1YdUk",
+              "title": "404 Page Design"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=PgAZ8KzfhO8",
+              "title": "Custom Error Pages"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/ainalem/pen/wvvGjKO",
+              "title": "Animated 404 Page"
+            },
+            {
+              "url": "https://codepen.io/FlorinPop17/pen/bGGdmKw",
+              "title": "Creative Error Page"
+            }
+          ],
+          "images": []
+        },
+        {
+          "prompt_type": "Cookie consent and GDPR",
+          "description": "Privacy-compliant consent banners",
+          "live_demos": [
+            {
+              "url": "https://www.bbc.com/",
+              "title": "BBC - Clear consent UI",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.theguardian.com/",
+              "title": "The Guardian - GDPR compliance",
+              "source": "Production"
+            },
+            {
+              "url": "https://www.cookiebot.com/",
+              "title": "Cookiebot - Consent platform",
+              "source": "Tool"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=dECVzXn6-gk",
+              "title": "Cookie Consent Banner"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=rMYBvVQtJVw",
+              "title": "GDPR Compliance"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/ainalem/pen/wvvGjKO",
+              "title": "Cookie Banner"
+            },
+            {
+              "url": "https://codepen.io/FlorinPop17/pen/bGGdmKw",
+              "title": "Consent Modal"
+            }
+          ],
+          "images": []
+        }
+      ]
+    },
+    {
+      "category_name": "\ud83d\udcda Quick Reference Guide",
+      "examples": [
+        {
+          "prompt_type": "Design systems and style guides",
+          "description": "Comprehensive design system documentation",
+          "live_demos": [
+            {
+              "url": "https://material.io/design",
+              "title": "Material Design - Google's system",
+              "source": "Official"
+            },
+            {
+              "url": "https://www.carbondesignsystem.com/",
+              "title": "Carbon - IBM's design system",
+              "source": "Official"
+            },
+            {
+              "url": "https://www.atlassian.design/",
+              "title": "Atlassian Design System",
+              "source": "Official"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=wc5krC28ynQ",
+              "title": "Design System Tutorial"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=zZ84ZAXc-OQ",
+              "title": "Building a Style Guide"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/ainalem/pen/wvvGjKO",
+              "title": "Component Library"
+            },
+            {
+              "url": "https://codepen.io/FlorinPop17/pen/bGGdmKw",
+              "title": "Style Guide Demo"
+            }
+          ],
+          "images": []
+        },
+        {
+          "prompt_type": "Component libraries",
+          "description": "Reusable UI component collections",
+          "live_demos": [
+            {
+              "url": "https://ui.shadcn.com/",
+              "title": "shadcn/ui - Modern components",
+              "source": "Library"
+            },
+            {
+              "url": "https://www.radix-ui.com/",
+              "title": "Radix UI - Headless components",
+              "source": "Library"
+            },
+            {
+              "url": "https://chakra-ui.com/",
+              "title": "Chakra UI - Accessible components",
+              "source": "Library"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=jpmeWXISU5E",
+              "title": "Component Library Guide"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=VvXjD8LdJKs",
+              "title": "Reusable Components"
+            }
+          ],
+          "codepen": [
+            {
+              "url": "https://codepen.io/ainalem/pen/wvvGjKO",
+              "title": "Button Components"
+            },
+            {
+              "url": "https://codepen.io/FlorinPop17/pen/bGGdmKw",
+              "title": "Form Components"
+            }
+          ],
+          "images": []
+        }
+      ]
+    },
+    {
+      "category_name": "\ud83c\udfaf START HERE - Pre-Session Set",
+      "examples": [
+        {
+          "prompt_type": "Project setup and configuration",
+          "description": "Initial project scaffolding and tooling setup",
+          "live_demos": [
+            {
+              "url": "https://vitejs.dev/",
+              "title": "Vite - Fast build tool",
+              "source": "Tool"
+            },
+            {
+              "url": "https://nextjs.org/",
+              "title": "Next.js - React framework",
+              "source": "Tool"
+            },
+            {
+              "url": "https://create.t3.gg/",
+              "title": "T3 Stack - Full-stack setup",
+              "source": "Tool"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=2OTq15A5s0Y",
+              "title": "Vite Setup Tutorial"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=wm5gMKuwSYk",
+              "title": "Next.js Getting Started"
+            }
+          ],
+          "codepen": [],
+          "images": []
+        },
+        {
+          "prompt_type": "Design brief and planning",
+          "description": "Project scoping and initial wireframing",
+          "live_demos": [
+            {
+              "url": "https://www.figma.com/",
+              "title": "Figma - Design and prototyping",
+              "source": "Tool"
+            },
+            {
+              "url": "https://www.miro.com/",
+              "title": "Miro - Brainstorming and planning",
+              "source": "Tool"
+            },
+            {
+              "url": "https://www.notion.so/",
+              "title": "Notion - Project documentation",
+              "source": "Tool"
+            }
+          ],
+          "videos": [
+            {
+              "url": "https://www.youtube.com/watch?v=FTFaQWZBqQ8",
+              "title": "Design Brief Tutorial"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=RYDiDpW2VkM",
+              "title": "Wireframing Guide"
+            }
+          ],
+          "codepen": [],
+          "images": []
+        }
+      ]
+    }
+  ]
+}

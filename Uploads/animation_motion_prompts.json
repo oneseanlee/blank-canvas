@@ -1,0 +1,322 @@
+[
+  {
+    "Use Case": "Creating an animated hero background with modern effects",
+    "Prompt": "Create a stunning animated hero background. Use: gradient animations, subtle particle effects, or animated mesh gradient. Keep it smooth (60fps), not distracting, modern and premium-feeling, with proper contrast for text overlay. Consider using CSS gradients with keyframe animations or canvas-based effects.",
+    "Category": "Hero Animations",
+    "Tool Compatibility": "Cursor, Lovable, Windsurf, Bolt.new",
+    "Prompt Type": "Implementation",
+    "Description/Notes": "Hero animations set the tone. This creates modern, smooth backgrounds that feel premium without being distracting."
+  },
+  {
+    "Use Case": "Adding scroll-triggered animations throughout the page",
+    "Prompt": "Implement scroll-triggered animations using Intersection Observer or a library like AOS (Animate On Scroll). Add: fade-in effects for content blocks, slide-up animations for cards, staggered animations for lists, and smooth reveals that trigger as users scroll. Keep animations subtle and performance-friendly.",
+    "Category": "Scroll Animations",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Implementation",
+    "Description/Notes": "Scroll animations create engagement and guide attention. Essential for modern, dynamic websites."
+  },
+  {
+    "Use Case": "Creating smooth parallax scrolling effects",
+    "Prompt": "Implement parallax scrolling where background and foreground elements move at different speeds. Apply to: hero sections, feature showcases, or image backgrounds. Keep it subtle (not nauseating), ensure mobile performance, use CSS transforms for smoothness, and create depth without sacrificing usability.",
+    "Category": "Scroll Animations",
+    "Tool Compatibility": "Cursor, Lovable, Windsurf",
+    "Prompt Type": "Implementation",
+    "Description/Notes": "Parallax adds depth and sophistication. This creates smooth, professional parallax without performance issues."
+  },
+  {
+    "Use Case": "Adding micro-interactions to buttons and UI elements",
+    "Prompt": "Implement delightful micro-interactions on buttons and interactive elements. Add: hover scale effects (1.05x), active state animations, ripple effects on click, smooth color transitions, subtle shadows on hover, and feedback that makes interactions feel responsive and premium.",
+    "Category": "Micro-interactions",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Implementation",
+    "Description/Notes": "Micro-interactions provide feedback and delight. Essential for making your UI feel alive and responsive."
+  },
+  {
+    "Use Case": "Creating animated text reveals and typography effects",
+    "Prompt": "Implement engaging text animations for headlines and key content. Use: character-by-character reveals, word fade-ins, split-text animations, gradient text animations, or typewriter effects. Keep it readable, not gimmicky, smooth (no jank), and attention-grabbing for hero headlines or key messages.",
+    "Category": "Text Animations",
+    "Tool Compatibility": "Cursor, Lovable, Windsurf, Bolt.new",
+    "Prompt Type": "Implementation",
+    "Description/Notes": "Animated text draws attention to key messages. This creates professional typography animations that enhance communication."
+  },
+  {
+    "Use Case": "Adding smooth page transition animations",
+    "Prompt": "Implement smooth transitions between pages or views. Create: fade transitions, slide animations, or creative wipe effects. Ensure transitions are quick (300-500ms), don't feel sluggish, work with routing, and create continuity. Add loading indicators if needed for data fetching.",
+    "Category": "Page Transitions",
+    "Tool Compatibility": "Cursor, Lovable, Windsurf",
+    "Prompt Type": "Implementation",
+    "Description/Notes": "Page transitions make navigation feel fluid and app-like. This creates smooth, professional transitions."
+  },
+  {
+    "Use Case": "Creating animated counters for statistics and numbers",
+    "Prompt": "Implement count-up animations for numbers and statistics that trigger on scroll or view. Use: smooth easing functions, appropriate duration (1-2 seconds), proper formatting with commas, decimal handling, and synchronized timing. Make numbers feel impactful and dynamic.",
+    "Category": "Animated Components",
+    "Tool Compatibility": "Cursor, Lovable, Windsurf, Bolt.new",
+    "Prompt Type": "Implementation",
+    "Description/Notes": "Animated counters make statistics more engaging and memorable. Essential for impact metrics and social proof."
+  },
+  {
+    "Use Case": "Adding progress indicators and animated loaders",
+    "Prompt": "Create professional animated loading states and progress indicators. Design: skeleton screens with shimmer effects, smooth progress bars, spinner animations, or creative branded loaders. Ensure they communicate progress, reduce perceived wait time, and match your brand aesthetic.",
+    "Category": "Loading Animations",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Implementation",
+    "Description/Notes": "Loading states manage user expectations. Make them smooth and on-brand to reduce perceived wait time."
+  },
+  {
+    "Use Case": "Implementing hover animations for cards and content blocks",
+    "Prompt": "Add engaging hover effects to cards and content blocks. Implement: lift effect with shadow increase, subtle scale (1.02-1.05x), image zoom within container, overlay reveals, or glow effects. Keep animations smooth (200-300ms), GPU-accelerated (use transform), and purposeful.",
+    "Category": "Hover Effects",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Implementation",
+    "Description/Notes": "Card hover effects provide feedback and make interfaces feel interactive and polished."
+  },
+  {
+    "Use Case": "Creating animated SVG icons and illustrations",
+    "Prompt": "Animate SVG icons and illustrations for engaging interactions. Implement: icon morphing, draw-on effects for lines, color transitions, scale/bounce on interaction, or complex illustration reveals. Use CSS animations or libraries like Vivus.js. Keep animations purposeful and performance-friendly.",
+    "Category": "Icon & SVG Animations",
+    "Tool Compatibility": "Cursor, Lovable, Windsurf",
+    "Prompt Type": "Implementation",
+    "Description/Notes": "Animated SVGs add personality and draw attention to important icons or illustrations."
+  },
+  {
+    "Use Case": "Adding smooth modal and dialog animations",
+    "Prompt": "Implement polished modal animations. Use: backdrop fade-in, modal slide-up or scale-in effect, smooth timing (300ms), spring physics for natural feel, proper focus management, and smooth exit animations. Make modals feel fluid, not jarring.",
+    "Category": "Component Animations",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Implementation",
+    "Description/Notes": "Modal animations reduce the jarring interruption of popups and create smooth, professional transitions."
+  },
+  {
+    "Use Case": "Creating animated form validation and feedback",
+    "Prompt": "Add smooth animations to form validation. Implement: shake animation for errors, success checkmark animations, smooth error message appearance, field highlight transitions, and progress indication for multi-step forms. Make validation feel helpful, not punishing.",
+    "Category": "Form Animations",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Implementation",
+    "Description/Notes": "Animated form feedback improves UX and makes forms feel more responsive and friendly."
+  },
+  {
+    "Use Case": "Implementing navigation menu animations",
+    "Prompt": "Add smooth animations to navigation menus. Create: mobile menu slide-in, dropdown fade/slide animations, hamburger to X transformation, staggered menu item reveals, and smooth link hover effects. Ensure 60fps performance and intuitive feel.",
+    "Category": "Navigation Animations",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Implementation",
+    "Description/Notes": "Animated navigation feels more app-like and premium. This creates smooth, performant menu animations."
+  },
+  {
+    "Use Case": "Adding animated background patterns or textures",
+    "Prompt": "Create subtle animated background patterns. Implement: moving gradients, animated noise textures, geometric pattern animations, or subtle particle systems. Keep animations very subtle (background role), performance-optimized, and enhancing without distracting from content.",
+    "Category": "Background Animations",
+    "Tool Compatibility": "Cursor, Lovable, Windsurf",
+    "Prompt Type": "Implementation",
+    "Description/Notes": "Animated backgrounds add depth and modernism. Must be subtle to avoid distraction from main content."
+  },
+  {
+    "Use Case": "Creating animated progress bars and step indicators",
+    "Prompt": "Implement animated progress visualization. Add: smooth fill animations for progress bars, step completion animations, circular progress indicators with count-up, or creative progress displays. Ensure smooth transitions, clear current state, and motivating visual feedback.",
+    "Category": "Progress Animations",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Implementation",
+    "Description/Notes": "Animated progress indicators build user confidence and make processes feel faster and clearer."
+  },
+  {
+    "Use Case": "Adding image reveal and gallery animations",
+    "Prompt": "Create engaging image animations and gallery interactions. Implement: image lazy-load fade-in, lightbox zoom animations, gallery slide transitions, Ken Burns effect (subtle zoom/pan), or masonry grid animations. Ensure smooth performance and professional feel.",
+    "Category": "Image Animations",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Implementation",
+    "Description/Notes": "Image animations make galleries and photo sections more engaging and professional."
+  },
+  {
+    "Use Case": "Implementing 3D card flip and rotate effects",
+    "Prompt": "Create 3D card flip effects for interactive content. Use CSS 3D transforms to: flip cards on hover/click, rotate product displays, create pricing table flips, or interactive feature reveals. Ensure smooth perspective, proper backface handling, and touch-friendly mobile behavior.",
+    "Category": "3D Effects",
+    "Tool Compatibility": "Cursor, Lovable, Windsurf, Bolt.new",
+    "Prompt Type": "Implementation",
+    "Description/Notes": "3D card flips add wow-factor and are great for before/after, pricing, or feature showcases."
+  },
+  {
+    "Use Case": "Adding smooth accordion expand/collapse animations",
+    "Prompt": "Implement smooth accordion animations. Create: height transitions with CSS max-height or JavaScript measurement, rotate icon indicators (chevron 180\u00b0), content fade-in, and stagger item animations if multiple accordions. Make expansions feel fluid and natural.",
+    "Category": "Component Animations",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Implementation",
+    "Description/Notes": "Smooth accordion animations make content exploration feel effortless and professional."
+  },
+  {
+    "Use Case": "Creating animated tabs and content switching",
+    "Prompt": "Add smooth animations to tab interfaces. Implement: active indicator sliding animation, content cross-fade or slide transitions, smooth height adjustments, and clear visual feedback. Ensure instant-feeling response with smooth visual transitions.",
+    "Category": "Component Animations",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Implementation",
+    "Description/Notes": "Tab animations provide feedback and make content switching feel smooth and intentional."
+  },
+  {
+    "Use Case": "Implementing toast notification animations",
+    "Prompt": "Create smooth toast/notification animations. Implement: slide-in from edge (top or bottom), auto-dismiss with progress bar, stack management for multiple toasts, smooth exit animations, and optional swipe-to-dismiss. Make notifications feel polished and unobtrusive.",
+    "Category": "Notification Animations",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Implementation",
+    "Description/Notes": "Toast animations make notifications feel professional and less jarring when they appear."
+  },
+  {
+    "Use Case": "Adding animated dropdown and select menu effects",
+    "Prompt": "Enhance dropdowns with smooth animations. Create: height expand animations, fade-in effects, option hover highlights, smooth open/close transitions, and custom select styling with animated chevrons. Ensure accessibility and keyboard navigation compatibility.",
+    "Category": "Form Animations",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Implementation",
+    "Description/Notes": "Animated dropdowns feel more premium than default browser selects and improve perceived responsiveness."
+  },
+  {
+    "Use Case": "Creating scroll progress indicators",
+    "Prompt": "Implement animated scroll progress bars. Add: fixed top bar showing read progress, circular progress indicator, or sidebar progress dots. Use smooth CSS transforms, accurate calculation based on scroll position, and subtle design that helps users track their position.",
+    "Category": "Scroll Animations",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Implementation",
+    "Description/Notes": "Progress indicators help users understand content length and their position, especially in long articles."
+  },
+  {
+    "Use Case": "Adding reveal animations for testimonials and reviews",
+    "Prompt": "Create engaging testimonial animations. Implement: carousel slide transitions, fade reveals on scroll, staggered testimonial card animations, quote mark animations, or rotating testimonial displays. Keep animations smooth and credibility-focused, not gimmicky.",
+    "Category": "Content Animations",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Implementation",
+    "Description/Notes": "Testimonial animations draw attention to social proof while maintaining credibility."
+  },
+  {
+    "Use Case": "Implementing Framer Motion for React components",
+    "Prompt": "Use Framer Motion library to add professional animations to React components. Implement: page transitions with AnimatePresence, gesture-based animations, layout animations for reordering, spring physics for natural feel, and orchestrated animation sequences. Follow Framer Motion best practices.",
+    "Category": "Framer Motion",
+    "Tool Compatibility": "Cursor, Lovable, Windsurf",
+    "Prompt Type": "Implementation",
+    "Description/Notes": "Framer Motion provides powerful, declarative animations for React. This prompt uses best practices for smooth results."
+  },
+  {
+    "Use Case": "Creating animated logo and brand element effects",
+    "Prompt": "Add subtle animations to logo and brand elements. Implement: logo draw-on effect for page load, hover animations, SVG path animations, or pulsing effect for call-to-action buttons. Keep it branded, subtle on repeat views, and professional.",
+    "Category": "Brand Animations",
+    "Tool Compatibility": "Cursor, Lovable, Windsurf",
+    "Prompt Type": "Implementation",
+    "Description/Notes": "Animated logos create memorable first impressions. Keep them subtle to avoid annoyance on repeat visits."
+  },
+  {
+    "Use Case": "Adding smooth chart and data visualization animations",
+    "Prompt": "Animate charts and graphs for engaging data presentation. Implement: progressive bar chart reveals, line chart drawing animations, pie chart segment animations, or count-up effects for data points. Use libraries like Chart.js or D3.js with proper easing and timing.",
+    "Category": "Data Visualization",
+    "Tool Compatibility": "Cursor, Lovable, Windsurf",
+    "Prompt Type": "Implementation",
+    "Description/Notes": "Animated charts make data more engaging and memorable while highlighting key insights."
+  },
+  {
+    "Use Case": "Creating cursor-follow effects and custom cursor animations",
+    "Prompt": "Implement custom cursor effects (desktop only). Create: cursor follower elements, hover state changes, magnetic cursor effect on buttons, trail effects, or glow following cursor. Ensure performance (use transforms), respect reduced-motion preferences, and disable on mobile.",
+    "Category": "Cursor Effects",
+    "Tool Compatibility": "Cursor, Windsurf, Bolt.new",
+    "Prompt Type": "Implementation",
+    "Description/Notes": "Custom cursor effects add personality and are trending in 2026. Must be performant and respect accessibility."
+  },
+  {
+    "Use Case": "Adding smooth infinity scroll animations",
+    "Prompt": "Implement smooth infinite scroll for logos, testimonials, or content feeds. Create: continuous horizontal/vertical scrolling, pause on hover, seamless loop without gaps or jumps, variable speed control, and GPU-accelerated animation. Perfect for logo marquees or feature showcases.",
+    "Category": "Scroll Animations",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Implementation",
+    "Description/Notes": "Infinite scroll is perfect for logos, social proof, or continuous content feeds. This creates smooth, jank-free loops."
+  },
+  {
+    "Use Case": "Creating animated feature comparison tables",
+    "Prompt": "Add animations to comparison tables and feature grids. Implement: row-by-row reveals on scroll, checkmark animations, highlight hover effects, smooth scrolling for wide tables, and progressive feature reveals. Make comparisons engaging and easy to scan.",
+    "Category": "Content Animations",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Implementation",
+    "Description/Notes": "Animated comparison tables guide attention and make feature differences more apparent and engaging."
+  },
+  {
+    "Use Case": "Implementing stagger animations for grids and lists",
+    "Prompt": "Create staggered reveal animations for grids and lists. Use: cascade timing (50-100ms delays), fade + slide combinations, intersection observer for scroll triggering, and smooth orchestration. Apply to product grids, blog post lists, or feature cards for dynamic reveals.",
+    "Category": "List Animations",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Implementation",
+    "Description/Notes": "Stagger animations make content reveals feel coordinated and professional, not all-at-once."
+  },
+  {
+    "Use Case": "Adding augmented reality (AR) or 3D model viewers",
+    "Prompt": "Integrate AR or 3D model viewing capabilities for products or features. Use libraries like Three.js, Model-Viewer, or AR.js to: display 3D models that users can rotate, zoom, and explore, or implement AR preview on mobile. Ensure proper loading states and performance optimization.",
+    "Category": "3D & AR",
+    "Tool Compatibility": "Cursor, Windsurf",
+    "Prompt Type": "Implementation",
+    "Description/Notes": "3D/AR is cutting-edge for 2026. Great for product visualization, interactive demos, or wow-factor experiences."
+  },
+  {
+    "Use Case": "Creating animated timeline visualizations",
+    "Prompt": "Implement animated timeline displays for company history, process steps, or roadmaps. Add: progressive reveals as user scrolls, animated connection lines, milestone pop-ins, and current position highlighting. Make timelines feel dynamic and engaging.",
+    "Category": "Content Animations",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Implementation",
+    "Description/Notes": "Animated timelines make sequential information more engaging and easier to follow."
+  },
+  {
+    "Use Case": "Adding smooth video background with proper optimization",
+    "Prompt": "Implement video backgrounds with proper performance. Use: heavily compressed video (under 2MB), poster images for fallback, lazy loading, autoplay muted, loop seamlessly, pause on mobile or use static alternative, and ensure text overlay remains readable. Keep it premium, not laggy.",
+    "Category": "Video Backgrounds",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Implementation",
+    "Description/Notes": "Video backgrounds create impact but can hurt performance. This implements them correctly with proper optimization."
+  },
+  {
+    "Use Case": "Creating animated call-to-action pulse effects",
+    "Prompt": "Add attention-grabbing pulse or glow animations to primary CTAs. Implement: subtle scale pulse (1.0 to 1.05), glow effect animation, or radial pulse waves. Keep it noticeable but not annoying, use sparingly (only primary CTA), and respect reduced-motion preferences.",
+    "Category": "CTA Animations",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Implementation",
+    "Description/Notes": "Pulsing CTAs draw attention to conversion actions. Must be subtle to avoid looking desperate or unprofessional."
+  },
+  {
+    "Use Case": "Implementing smooth skeleton screen loading animations",
+    "Prompt": "Create professional skeleton screens for loading states. Add: shimmer animation moving left to right, proper spacing matching final content, smooth fade-out when content loads, and realistic content block shapes. Make loading feel faster and less frustrating.",
+    "Category": "Loading Animations",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Implementation",
+    "Description/Notes": "Skeleton screens reduce perceived loading time and look much more professional than spinners alone."
+  },
+  {
+    "Use Case": "Adding animated pricing feature reveals",
+    "Prompt": "Create engaging pricing plan animations. Implement: plan card hover lifts, feature list check animations, recommended badge pulse, price flip animations for toggles (monthly/yearly), and smooth transitions. Make pricing tables feel interactive and conversion-focused.",
+    "Category": "Pricing Animations",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Implementation",
+    "Description/Notes": "Pricing animations draw attention to key plans and features, potentially increasing conversions."
+  },
+  {
+    "Use Case": "Creating smooth breadcrumb trail animations",
+    "Prompt": "Add subtle animations to breadcrumb navigation. Implement: fade-in on page load, separator slide effects, hover underline animations, and smooth responsive collapse behavior. Keep it subtle and functional, enhancing usability without distraction.",
+    "Category": "Navigation Animations",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Implementation",
+    "Description/Notes": "Breadcrumb animations make navigation feel more modern and provide visual feedback on interaction."
+  },
+  {
+    "Use Case": "Implementing morphing shapes and blob animations",
+    "Prompt": "Create organic morphing shape animations for backgrounds or accents. Use SVG with animated path data or CSS blend modes with gradient animations. Implement smooth, continuous morphing, appropriate for brand aesthetic, subtle enough for backgrounds, and performance-optimized.",
+    "Category": "Background Animations",
+    "Tool Compatibility": "Cursor, Lovable, Windsurf",
+    "Prompt Type": "Implementation",
+    "Description/Notes": "Morphing blobs are trendy in 2026. Perfect for abstract backgrounds that add movement without distraction."
+  },
+  {
+    "Use Case": "Adding smooth reveal animations for FAQ sections",
+    "Prompt": "Create engaging FAQ animations. Implement: smooth accordion expand/collapse, icon rotation (+ to -), answer text fade-in, stagger effect for multiple FAQs opening, and smooth height transitions. Make FAQs feel interactive and easy to navigate.",
+    "Category": "Content Animations",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Implementation",
+    "Description/Notes": "FAQ animations make information discovery feel smooth and reduce the overwhelm of long FAQ lists."
+  },
+  {
+    "Use Case": "Comprehensive motion design system implementation",
+    "Prompt": "Create a complete, cohesive motion design system for the entire site. Define: animation duration standards (150ms for micro, 300ms for medium, 500ms for major), easing curves for different contexts, consistent enter/exit patterns, loading state animations, interaction feedback patterns, and accessibility considerations (respect prefers-reduced-motion). Document all animation patterns for consistency.",
+    "Category": "Motion System",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Comprehensive",
+    "Description/Notes": "A unified motion system creates professional consistency. Use this for comprehensive animation implementation across your entire site."
+  }
+]

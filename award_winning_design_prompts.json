@@ -1,0 +1,450 @@
+[
+  {
+    "use_case": "Creating an Awwwards-style homepage with optimal visual hierarchy using F-pattern layout",
+    "prompt": "Design a homepage that implements the F-pattern reading flow with a focus on visual hierarchy. Start with a bold headline in the top-left corner (40-48px), followed by a compelling subheadline (18-24px). Place the primary CTA prominently in the upper-left hot spot with high-contrast colors. Use strategic white space (minimum 20% of layout) to guide the eye naturally through content. Include a secondary horizontal scan line with key benefits using icons and concise text. Ensure the design follows Awwwards' principles with size variations creating clear importance hierarchy - make headlines 2-3x larger than body text. Apply the rule of thirds for placing critical elements at grid intersections.",
+    "category": "Visual Hierarchy & Layout",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "v0", "Bolt"],
+    "prompt_type": "Design",
+    "description": "Creates award-winning homepage layouts following the F-pattern scanning behavior with optimal visual hierarchy, proven to improve comprehension by 20% through strategic spacing and element sizing. Based on NN/G research and Awwwards winners."
+  },
+  {
+    "use_case": "Designing a Z-pattern homepage layout for product showcases or portfolios",
+    "prompt": "Create a homepage using the Z-pattern layout optimized for guiding users through a visual journey. Position the logo and primary navigation in the top-left, with a striking hero image or video in the top-right. Place a diagonal content flow from top-right to bottom-left using directional cues like arrows, eye-gaze imagery, or pathway illustrations. Position the main CTA button in the bottom-right corner with contrasting colors (use green for trust or orange for urgency). Include 3-4 content blocks along the Z-path with progressive disclosure. Implement smooth scroll animations that follow the Z-flow. Design should be mobile-responsive, converting to a vertical flow on smaller screens.",
+    "category": "Visual Hierarchy & Layout",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "Cursor", "v0"],
+    "prompt_type": "Design",
+    "description": "Implements the Z-pattern visual hierarchy ideal for simpler layouts and storytelling, commonly used in CSS Design Award winners. Guides users' attention diagonally across the page for maximum engagement and conversion."
+  },
+  {
+    "use_case": "Building a conversion-focused homepage with 1:1 attention ratio",
+    "prompt": "Design a laser-focused homepage with a singular conversion goal and 1:1 attention ratio. Create a minimalist layout centered on one primary action (sign-up, purchase, or inquiry). Include: (1) A powerful above-the-fold hero section with a clear unique value proposition in 8-12 words, (2) One prominent CTA button using high-contrast colors with action-oriented copy like 'Start Your Free Trial' or 'Get Instant Access', (3) Benefit-focused subheadline addressing user pain points, (4) Trust signals (badges, testimonials, or social proof) positioned near the CTA, (5) Remove all distracting elements - no multiple CTAs or competing actions. Use ample white space (30%+ of layout) to direct focus. Ensure the CTA is above the fold and repeated once after key content. Mobile-optimized with sticky CTA.",
+    "category": "Conversion-Focused Elements",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "v0", "Bolt"],
+    "prompt_type": "Strategy",
+    "description": "Creates ultra-focused conversion-centered homepages following Unbounce's attention ratio principle. This approach can increase conversion rates by 20-50% by eliminating distractions and maintaining singular focus on one user action."
+  },
+  {
+    "use_case": "Creating a trust-building homepage with comprehensive credibility elements",
+    "prompt": "Design a homepage that maximizes trust and credibility through strategic placement of trust elements. Include: (1) Trust badges and security certifications in the header or near CTAs, (2) A dedicated testimonial section with authentic customer photos, names, and specific outcomes (not generic praise), (3) Prominent display of award logos (Awwwards, CSS Design Awards, Webby) in the footer or sidebar, (4) Real-time social proof like 'Join 50,000+ users' or live activity feed, (5) Case study previews with measurable results, (6) Media mentions or 'As Featured In' section, (7) Money-back guarantee or risk-reversal statement, (8) About Us preview with team photos for humanization. Use review stars at enlarged sizes (150%+) for visibility. Maintain consistent branding throughout with cohesive colors, logos, and typography.",
+    "category": "Trust & Credibility",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "Cursor", "v0"],
+    "prompt_type": "Strategy",
+    "description": "Implements comprehensive trust-building strategies proven to reduce friction and increase conversions by 33%+ (RubberStamps.net case study). Combines multiple credibility signals for maximum impact based on conversion optimization research."
+  },
+  {
+    "use_case": "Designing a mobile-first responsive homepage with optimal touch targets",
+    "prompt": "Create a fully responsive, mobile-first homepage that adapts seamlessly across all breakpoints. Design specifications: (1) Mobile layout (320px-767px): Single column, 44px minimum touch target size, thumb-zone optimized navigation, sticky header with hamburger menu, (2) Tablet layout (768px-1023px): Two-column grid with flexible images, (3) Desktop layout (1024px+): Multi-column with max-width container. Implement: Front-loaded key navigation elements, simplified mobile typography (16px body minimum for readability), optimized images with lazy loading, reduced animations on mobile for performance, easily tappable CTAs with adequate spacing (minimum 8px between elements). Use CSS Grid and Flexbox for fluid responsiveness. Test at breakpoints: 375px, 768px, 1024px, 1440px. Prioritize core web vitals: LCP under 2.5s, FID under 100ms.",
+    "category": "Responsive & Mobile-First Design",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "v0", "Bolt"],
+    "prompt_type": "Design",
+    "description": "Implements mobile-first design principles that can increase mobile transactions by 29% (Cocohanee case study). Follows Awwwards Mobile Excellence criteria requiring 70%+ mobile usability scores and ensures accessibility across all devices."
+  },
+  {
+    "use_case": "Creating a color psychology-driven homepage with strategic palette selection",
+    "prompt": "Design a homepage using color psychology principles tailored to the brand's emotional goals. Research-backed color applications: (1) For trust/security brands: Navy blue (#1E3A8A) primary with green (#10B981) accents for CTAs, (2) For energy/urgency brands: Orange (#F97316) primary with yellow (#FCD34D) highlights, (3) For luxury/sophistication: Black (#0F172A) with gold (#F59E0B) or silver (#94A3B8) accents, (4) For health/wellness: Sage green (#84CC16) with earth tones. Implement: 60-30-10 color rule (60% dominant, 30% secondary, 10% accent), high contrast ratio (minimum 4.5:1 for WCAG AA) between text and backgrounds, color gradients for depth, color blocking to group related content, consistent brand colors across all elements. Use bright colors sparingly for CTA emphasis. Include hover states with color transitions.",
+    "category": "Color Psychology & Design",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "Cursor", "v0"],
+    "prompt_type": "Design",
+    "description": "Applies evidence-based color psychology to evoke specific emotions and drive actions. Colors can increase brand recognition by 80% and improve readability when properly contrasted. Based on award-winning design patterns from Awwwards and CSSDA."
+  },
+  {
+    "use_case": "Optimizing typography for maximum readability and hierarchy",
+    "prompt": "Create a typography system that ensures optimal readability and establishes clear hierarchy. Specifications: (1) Heading hierarchy: H1 (40-48px, bold, 1.2 line-height), H2 (32-36px), H3 (24-28px), H4 (20-22px), (2) Body text: 16-18px with 1.6-1.8 line-height for comfortable reading, (3) Font pairing: Combine serif headlines (Georgia, Playfair Display) with sans-serif body (Inter, Roboto) or vice versa, (4) Maximum line length: 60-75 characters for optimal readability, (5) Paragraph spacing: 1.5em between paragraphs, (6) Use font weights for emphasis: bold (700) for headings, medium (500) for subheadings, regular (400) for body, (7) Ensure mobile typography scales proportionally (reduce by 15-20% on mobile). Implement responsive typography using clamp() or fluid type scales. Maintain consistent rhythm with modular scale (1.25 or 1.333 ratio).",
+    "category": "Typography & Readability",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "v0", "Bolt"],
+    "prompt_type": "Design",
+    "description": "Creates accessible, readable typography systems that improve comprehension and user experience. Award-winning sites typically use 18-29px for headings with carefully calculated line heights. Based on typography best practices from top design awards."
+  },
+  {
+    "use_case": "Designing an interactive hero section with micro-animations and scroll effects",
+    "prompt": "Create an immersive, award-winning hero section with sophisticated animations and scroll-triggered effects. Implementation: (1) Parallax scrolling background with foreground content moving at different speeds (z-axis depth), (2) Fade-in animations for headline and CTA on page load (0.5s delay with ease-out), (3) Micro-interactions on hover: CTA button with scale transform (1.05x) and shadow depth increase, (4) Scroll-triggered reveals: Elements fade in with upward slide animation as user scrolls (use Intersection Observer API), (5) Subtle floating animation for hero image or illustrations, (6) Mouse-tracking spotlight effect that follows cursor, (7) Smooth scroll for anchor links with offset, (8) Video background (muted autoplay) or animated gradient background. Ensure all animations respect prefers-reduced-motion for accessibility. Optimize performance: use CSS transforms (not position) and will-change property sparingly.",
+    "category": "Interactive & Immersive Elements",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "Cursor", "v0"],
+    "prompt_type": "Design",
+    "description": "Implements cutting-edge animation techniques seen in Awwwards Site of the Day winners. Creates engaging, delightful user experiences while maintaining performance. Animations should enhance, not overwhelm, with respect for accessibility preferences."
+  },
+  {
+    "use_case": "Building an intuitive navigation system with modern information architecture",
+    "prompt": "Design a comprehensive navigation system that balances simplicity with depth of content. Components: (1) Primary navigation: Horizontal menu with 5-7 main items, mega-menu dropdowns for complex hierarchies showing visual previews, (2) Mobile navigation: Hamburger menu that expands to full-screen overlay with large touch targets, (3) Sticky header that condenses on scroll, (4) Breadcrumbs for deep pages showing user location, (5) Search functionality with autocomplete, (6) Secondary footer navigation with sitemap structure, (7) Visual indicators for current page (active state highlighting). Organize content using card sorting principles: group related items, use clear labels (not clever/vague wording), limit dropdown depth to 2 levels maximum. Include icons beside navigation labels for visual recognition. Ensure keyboard navigation support (Tab key) and ARIA labels for screen readers.",
+    "category": "Navigation & Information Architecture",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "v0", "Bolt"],
+    "prompt_type": "Design",
+    "description": "Creates intuitive navigation following NN/G usability guidelines. Good navigation reduces bounce rates by up to 40% and helps users quickly find content. Based on patterns from CSS Design Award winners emphasizing usability and user flow."
+  },
+  {
+    "use_case": "Optimizing homepage for maximum performance and loading speed",
+    "prompt": "Create a performance-optimized homepage that loads in under 2 seconds. Implementation checklist: (1) Image optimization: Use WebP format with fallbacks, implement lazy loading for below-fold images, use responsive images with srcset for different screen sizes, compress images to under 100KB each, (2) Code optimization: Minimize CSS/JS files, remove unused code, defer non-critical JavaScript, inline critical CSS, (3) Font loading: Use font-display: swap, subset fonts to include only used characters, limit to 2 font families, (4) Reduce HTTP requests: Combine files where possible, use CSS sprites for small icons, (5) Enable compression (Gzip/Brotli), (6) Implement browser caching with appropriate cache headers, (7) Use CDN for static assets, (8) Optimize Core Web Vitals: LCP under 2.5s, FID under 100ms, CLS under 0.1. Monitor with Lighthouse and PageSpeed Insights.",
+    "category": "Performance & Optimization",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "Cursor", "v0"],
+    "prompt_type": "Strategy",
+    "description": "Implements comprehensive performance optimization strategies. Sites loading in under 3 seconds retain 70% more users. Fast loading is crucial for Awwwards recognition and user satisfaction. Based on Core Web Vitals and modern performance best practices."
+  },
+  {
+    "use_case": "Creating an accessible and inclusive homepage meeting WCAG AA standards",
+    "prompt": "Design a fully accessible homepage that meets WCAG 2.1 AA compliance and ensures inclusive user experiences. Requirements: (1) Color contrast: Minimum 4.5:1 for normal text, 3:1 for large text (18px+), never rely on color alone for information, (2) Keyboard navigation: All interactive elements accessible via Tab key, visible focus indicators with 3px outline, logical tab order, (3) Screen reader support: Semantic HTML5 elements, descriptive alt text for all images (or alt='' for decorative), ARIA labels for interactive components, heading hierarchy (H1-H6) properly structured, (4) Forms: Clear labels, error messages, and instructions, (5) Responsive to user preferences: Respect prefers-reduced-motion, support dark mode with prefers-color-scheme, (6) Minimum touch targets: 44x44px for mobile, (7) Readable typography: 16px minimum, resizable text up to 200% without breaking layout. Test with WAVE, axe DevTools, and actual screen readers.",
+    "category": "Accessibility & Inclusive Design",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "v0", "Bolt"],
+    "prompt_type": "Strategy",
+    "description": "Ensures homepage is usable by everyone, including users with disabilities. Accessibility is increasingly required for awards consideration and expands potential audience by 15%+. Based on WCAG standards and inclusive design principles."
+  },
+  {
+    "use_case": "Establishing strong brand identity and visual consistency across homepage",
+    "prompt": "Create a homepage that powerfully communicates brand identity with absolute consistency. Brand elements: (1) Logo: Prominent placement in top-left, consistent sizing across pages (150-200px width), proper spacing (minimum 20px clearance), (2) Color palette: Define primary brand colors (2-3 colors) used consistently across all elements, create a color system with documented hex codes, (3) Typography: Establish brand font families (heading + body), consistent sizes and weights, (4) Imagery style: Consistent photography style (e.g., lifestyle, product shots, illustrations), unified filters or color treatments, (5) Voice and tone: Consistent copywriting style reflecting brand personality (professional, playful, authoritative), (6) Design elements: Signature shapes, patterns, or graphic elements used throughout, (7) Spacing system: Consistent padding and margins using 8px baseline grid. Create a cohesive emotional experience that users can instantly recognize as your brand.",
+    "category": "Brand Identity & Consistency",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "Cursor", "v0"],
+    "prompt_type": "Design",
+    "description": "Builds strong brand recognition and trust through consistent visual identity. Consistent branding can increase revenue by 33% and improves memorability. Essential for award-winning designs that stand out while maintaining cohesion."
+  },
+  {
+    "use_case": "Designing a high-converting hero section with optimal above-the-fold content",
+    "prompt": "Create a hero section optimized for maximum impact and conversions, visible above the 1080px fold. Structure: (1) Headline: 8-12 words addressing the main user benefit, using power words and emotional triggers, 40-48px font size, (2) Subheadline: 15-25 words elaborating on the value proposition, addressing pain points, (3) Primary CTA: High-contrast button with action-oriented text ('Get Started Free', 'See It In Action'), positioned in F-pattern hot spot, 48-56px height for easy clicking, (4) Hero visual: High-quality image/video showing product in use or aspirational outcome, positioned on right side (Z-pattern) or as background, (5) Trust indicators: Display 'As seen in' logos, customer count ('Join 50,000+ users'), or 5-star rating, (6) Secondary CTA or social proof: Subtle 'Learn More' link or testimonial snippet. Ensure content is scannable in 3-5 seconds. A/B test CTA colors and copy.",
+    "category": "Hero Sections & Above-Fold",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "v0", "Bolt"],
+    "prompt_type": "Design",
+    "description": "Optimizes the most critical screen real estate for maximum conversion impact. Strong hero sections can increase sign-ups by 20-40%. Based on analysis of Apple, Mailchimp, and other conversion-optimized homepages."
+  },
+  {
+    "use_case": "Integrating social proof and testimonials for credibility boost",
+    "prompt": "Design a compelling social proof section that builds trust and drives conversions. Components: (1) Testimonial cards: Include authentic customer photo (not stock), full name and title/company, specific outcome or metric ('increased sales by 40%'), 3-4 lines of detailed feedback, 5-star rating displayed prominently, (2) Layout options: Carousel with auto-rotate (5s intervals) and manual controls, Masonry grid for varied testimonial lengths, Video testimonials with play buttons, (3) Strategic placement: Near primary CTA, after key features, in dedicated section mid-page, (4) Additional social proof: Customer logos in a separate 'Trusted by' section, Real-time notification popup ('John from NYC just signed up'), Total user count or satisfaction metric ('4.9/5 stars from 10,000+ reviews'), Case study preview cards with 'Read Full Story' links. Ensure testimonials feel authentic (avoid overly polished language). Link to third-party review sites like G2, Trustpilot for verification.",
+    "category": "Social Proof & Testimonials",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "Cursor", "v0"],
+    "prompt_type": "Design",
+    "description": "Leverages social proof to reduce purchase anxiety and increase conversions. Testimonials can increase conversion rates by 34% when displayed prominently with specific outcomes. Based on research from VWO and conversion optimization studies."
+  },
+  {
+    "use_case": "Implementing Awwwards-winning minimalist design with maximalist interactions",
+    "prompt": "Create a homepage that embodies the 2025 award-winning trend of minimalist aesthetics with rich interactions. Design approach: (1) Visual simplicity: Clean white/light backgrounds, ample whitespace (40%+ of layout), limited color palette (2-3 colors), simple geometric shapes, (2) Typography-focused: Large, bold typography as the main visual element, creative text animations (split text reveals, gradient fills), hierarchy through size and weight alone, (3) Sophisticated micro-interactions: Hover effects with smooth transitions (300ms ease-out), Cursor changes with custom cursors, Button morphing and ripple effects, Smooth page transitions between sections, (4) Subtle animations: Elements that respond to scroll position, Parallax effects on backgrounds, Staggered fade-ins for lists, (5) Performance: Despite rich interactions, maintain fast load times using CSS transforms, Respect prefers-reduced-motion. Reference: Apple's product pages, Stripe's homepage, Awwwards SOTD winners.",
+    "category": "Award-Winning Design Patterns",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "Cursor", "v0"],
+    "prompt_type": "Design",
+    "description": "Implements the leading trend in award-winning web design combining clean aesthetics with delightful interactions. This approach wins Awwwards recognition while maintaining usability and performance. Based on 2025 design trends from Seahawkmedia research."
+  },
+  {
+    "use_case": "Creating immersive storytelling homepage with scroll-triggered narrative",
+    "prompt": "Design a narrative-driven homepage that tells a compelling brand story through scroll interactions. Story structure: (1) Opening scene: Full-screen hero with bold statement or question, cinematic entrance animation, (2) Chapter-based sections: 4-6 distinct sections each telling part of the story, Full-screen or near-full-screen sections with scroll snap, Unique visual for each chapter (image, video, or illustration), (3) Scroll-triggered reveals: Text and images fade in as user scrolls, Parallax backgrounds at different speeds, Numbers counting up when in viewport, (4) Progressive disclosure: Information revealed gradually to maintain engagement, 'Show More' expansions for deeper content, (5) Story elements: Problem > Solution > Transformation narrative arc, Emotional connection through authentic imagery, Strong conclusion with CTA as the story resolution. Use smooth scrolling and Intersection Observer API for triggers. Optimize for mobile with adapted vertical storytelling.",
+    "category": "UX/UI Strategy",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "v0", "Bolt"],
+    "prompt_type": "Strategy",
+    "description": "Creates engaging narrative experiences that increase time-on-page by 50%+ and emotional connection with brands. Storytelling is a key differentiator in Awwwards winners like Nomadic Tribe. Based on immersive design patterns."
+  },
+  {
+    "use_case": "Designing a card-based layout system for content-heavy homepages",
+    "prompt": "Create a modern card-based homepage layout that organizes complex content intuitively. Card specifications: (1) Card structure: Rounded corners (8-12px border-radius), Subtle shadow for depth (0 2px 8px rgba(0,0,0,0.1)), Consistent padding (24-32px), White or light background on darker page background, (2) Layout options: CSS Grid with responsive columns (4 columns desktop, 2 tablet, 1 mobile), Masonry layout for varied card heights, Horizontal scroll cards on mobile for featured content, (3) Card anatomy: Icon or image at top (16:9 ratio), Headline (20-24px), Description (2-3 lines), CTA link or button at bottom, (4) Hover effects: Lift on hover (translateY(-4px)), Shadow intensification, Border color change or glow effect, (5) Content types: Feature cards, Product/service cards, Blog post previews, Team member cards, Case study cards. Ensure cards are keyboard accessible with focus states. Use semantic HTML with proper heading hierarchy within cards.",
+    "category": "Visual Hierarchy & Layout",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "Cursor", "v0"],
+    "prompt_type": "Design",
+    "description": "Implements versatile card-based design pattern that scales well for content-rich sites. Cards improve scanability and organization, commonly used in CSS Design Award winners. Provides flexible, responsive content structure."
+  },
+  {
+    "use_case": "Building a dark mode homepage with elegant light/dark theme switching",
+    "prompt": "Design a stunning dark mode homepage with smooth theme switching capability. Dark mode specifications: (1) Color palette: Background: #0F172A or #1E293B (dark navy), Text: #F1F5F9 or #E2E8F0 (light gray, not pure white), Accents: Vibrant colors (blue #3B82F6, purple #A855F7, green #10B981), (2) Contrast considerations: Ensure 4.5:1 contrast ratio for readability, Reduce pure white to prevent eye strain, Use subtle borders (#334155) instead of shadows, (3) Theme toggle: Sun/moon icon toggle in header, Smooth transition animation (300ms) on theme change, Remember user preference with localStorage, Respect prefers-color-scheme media query, (4) Adapted elements: Reduce shadow intensity in dark mode, Adjust image brightness (-10% to -20%), Invert icon colors automatically, Lighten card backgrounds (#1E293B), (5) Accessibility: Test contrast in both modes, Ensure all interactive elements visible in both themes. Popular in award-winning portfolio sites like David Langarica.",
+    "category": "Visual Design & UX",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "v0", "Bolt"],
+    "prompt_type": "Design",
+    "description": "Implements sophisticated dark mode design that's increasingly popular in award-winning sites. Dark mode reduces eye strain and is preferred by 70%+ of users in certain contexts. Shows design sophistication and user consideration."
+  },
+  {
+    "use_case": "Creating a split-screen homepage layout for dual offerings or before/after",
+    "prompt": "Design a dynamic split-screen homepage that showcases two distinct offerings or contrasts. Layout structure: (1) Screen division: 50/50 vertical split on desktop, Stack vertically on mobile/tablet (each section full-width), Use clip-path or CSS Grid for clean division, (2) Left section: Distinct background color or image, Headline, description, and CTA for first offering, Hover effect: Section expands slightly (55/45 ratio), (3) Right section: Contrasting background, Parallel content structure for comparison, Mirror hover effect, (4) Middle divider: Thin divider line (2px) or none for seamless look, Optional draggable slider to reveal more of either side, Logo or icon positioned at center split, (5) Use cases: Before/After transformations, Two product tiers (Free vs. Premium), Personal vs. Business offerings, Services comparison. Ensure each side is self-contained with all necessary info. Add subtle animations on scroll reveal.",
+    "category": "Visual Hierarchy & Layout",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "Cursor", "v0"],
+    "prompt_type": "Design",
+    "description": "Creates striking visual impact through symmetry and contrast. Split-screen layouts are popular in portfolio sites and dual-offering businesses. Provides clear differentiation while maintaining visual balance."
+  },
+  {
+    "use_case": "Implementing an editorial-style homepage with magazine layout aesthetics",
+    "prompt": "Design a content-rich, editorial-style homepage inspired by high-end digital magazines. Layout principles: (1) Asymmetrical grid: Mix of full-width, half-width, and offset content blocks, Featured content in large hero card, Secondary content in varied-size cards, (2) Typography emphasis: Large, serif headlines (48-64px) for editorial feel, Generous line spacing (1.8-2.0), Dropcaps for article intros, Pull quotes highlighted in larger font, (3) Rich media: High-quality editorial photography, Full-bleed images that break grid, Image galleries with lightbox, Inline videos or GIFs, (4) Content hierarchy: Featured story at top, Category sections (Latest, Trending, Editor's Picks), Tag-based filtering or navigation, Author bylines with photos, Publication dates, (5) White space: Generous margins and padding, Content max-width 720px for readability. Use serif fonts like Playfair Display or Lora for sophistication. Include subtle hover effects on article cards.",
+    "category": "Visual Design & Layout",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "v0", "Bolt"],
+    "prompt_type": "Design",
+    "description": "Creates sophisticated, content-forward homepages suitable for blogs, media sites, or thought-leadership brands. Editorial design elevates perceived quality and authority, commonly seen in CSS Design Award winners for content sites."
+  },
+  {
+    "use_case": "Designing a portfolio homepage with creative project showcase",
+    "prompt": "Create a stunning portfolio homepage that showcases creative work in an award-worthy presentation. Portfolio structure: (1) Hero introduction: Large name/brand as headline, Professional photo or logo, Concise positioning statement (one line), Animated tagline or role title, (2) Project grid: Masonry or equal-height grid layout, Hover effects revealing project titles and categories, Click-through to detailed case studies, Filter buttons by category/skill, (3) Project cards: High-quality cover images (3:2 or 16:9 ratio), Project title and client/company, Brief one-line description, Tech stack or tools used icons, (4) Case study previews: Before/after sliders, Featured metric or outcome, 'View Project' CTA, (5) About section: Personal photo, Expertise areas, Contact CTA. Include a downloadable resume/CV. Add smooth page transitions. Reference award winners: David Langarica's portfolio, Unseen Studio, Curious & Company websites for inspiration.",
+    "category": "Portfolio & Showcase Design",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "Cursor", "v0"],
+    "prompt_type": "Design",
+    "description": "Creates professional portfolio homepages that win design awards and attract clients. Portfolio design should showcase both work quality and design skills. Based on Awwwards-winning portfolio sites with innovative presentations."
+  },
+  {
+    "use_case": "Building a product-focused SaaS homepage with feature highlights",
+    "prompt": "Design a conversion-optimized SaaS homepage that clearly communicates product value. Page structure: (1) Above-fold hero: Product screenshot or demo GIF showing key interface, Benefit-driven headline (not feature list), 'Start Free Trial' CTA with no credit card required message, Trusted by logos of recognized brands, (2) Feature sections: 3-4 key features with icons, titles, descriptions, Each feature with supporting visual (screenshot, diagram, or illustration), Alternating left-right layout for visual variety, (3) How it works: 3-step process with numbered steps, Simple illustrations or icons, Progression arrows connecting steps, (4) Social proof section: Customer testimonials with specific metrics, Star rating with review count, ROI calculator or savings estimator, (5) Pricing preview: Simple tier comparison (Starter, Pro, Enterprise), Highlight most popular tier, Link to full pricing page, (6) FAQ section: 5-8 common objections addressed, Accordion format to save space. Include live demo or product tour CTA.",
+    "category": "SaaS & Product Design",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "v0", "Bolt"],
+    "prompt_type": "Strategy",
+    "description": "Creates high-converting SaaS homepages following proven patterns from successful products. Clear product communication and social proof can increase trial sign-ups by 40%+. Based on analysis of top SaaS homepages."
+  },
+  {
+    "use_case": "Creating an e-commerce homepage optimized for product discovery and sales",
+    "prompt": "Design a high-converting e-commerce homepage that maximizes product visibility and drives purchases. Homepage elements: (1) Hero banner: Seasonal promotion or new collection highlight, Large product images with lifestyle photography, 'Shop Now' CTA with urgency (limited time, while supplies last), (2) Category navigation: Visual category cards with images, Hover effects showing subcategories, Quick access to popular categories, (3) Featured products: Grid layout of best-sellers, Quick view modal on hover, Add to cart button, Product rating stars, Sale badges for discounted items, (4) Social proof: Customer photos in an Instagram-style grid, Reviews count and average rating, 'Shop the Look' functionality, (5) Trust signals: Free shipping threshold banner, Return policy highlight, Secure checkout badges, Payment method icons, (6) Email capture: Exit-intent popup with discount offer. Ensure fast loading with optimized product images. Include size guide links. Reference: Zillow's dynamic listing approach for inspiration.",
+    "category": "E-commerce & Conversion",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "Cursor", "v0"],
+    "prompt_type": "Strategy",
+    "description": "Implements e-commerce best practices that drive online sales. Optimized product presentation and trust signals can increase conversion rates by 25-50%. Based on successful e-commerce patterns and conversion optimization research."
+  },
+  {
+    "use_case": "Designing a restaurant/hospitality homepage with immersive atmosphere",
+    "prompt": "Create an atmospheric, reservation-driving homepage for restaurants or hospitality businesses. Design approach: (1) Visual hero: Full-screen video of dining experience or signature dish preparation, Overlay text with restaurant name and tagline, 'Reserve a Table' CTA prominently displayed, Current availability indicator, (2) Menu preview: Featured dishes with professional food photography, Prices displayed, Dietary indicator icons (vegan, gluten-free), Link to full menu PDF, (3) Atmosphere section: Gallery of interior and ambiance photos, Virtual tour option, Instagram feed integration, (4) Reservation system: Integrated booking widget (OpenTable, Resy), Time slot availability, Party size selector, Special occasion notes option, (5) Location & hours: Embedded map, Hours of operation, Parking information, Contact details, (6) Chef/story section: About the chef/establishment, Culinary philosophy, Awards and recognition. Use warm, appetizing color palette. Ensure mobile booking is seamless. Reference: Sirenis Hotels & Resorts (CSS Design Award winner).",
+    "category": "Hospitality & Service Design",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "v0", "Bolt"],
+    "prompt_type": "Design",
+    "description": "Creates immersive hospitality homepages that drive reservations and convey atmosphere. High-quality visuals and seamless booking increase online reservations by 30%+. Based on award-winning hospitality sites like Sirenis Hotels."
+  },
+  {
+    "use_case": "Implementing a full-screen video background homepage with overlay content",
+    "prompt": "Design a cinematic homepage featuring full-screen video background with content overlay. Technical implementation: (1) Video specifications: MP4 format for broad compatibility, 1920x1080 minimum resolution, 30-60 seconds loop, Muted autoplay on page load, Fallback image for mobile or slow connections, (2) Video optimization: Compress to under 5MB for fast loading, Lazy load video after critical content, Use poster attribute for instant display, (3) Content overlay: Semi-transparent dark overlay (rgba(0,0,0,0.5)) for text readability, White text for maximum contrast, Centered content: headline, subheadline, CTA, Minimal text to avoid competing with video, (4) Controls: Pause/play button in corner, Mute/unmute toggle, Skip to content anchor link, (5) Accessibility: Provide text alternative for video content, Ensure video doesn't trigger motion sickness (avoid rapid movement), Test with prefers-reduced-motion preference. Use cases: Brand storytelling, Product demonstrations, Lifestyle branding, Event promotion.",
+    "category": "Interactive & Immersive Elements",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "Cursor", "v0"],
+    "prompt_type": "Design",
+    "description": "Creates dramatic, engaging homepage experiences with full-screen video. Video backgrounds can increase engagement by 80% when properly optimized. Common in Awwwards winners, requires careful performance optimization."
+  },
+  {
+    "use_case": "Creating a geometric pattern and shape-based homepage design",
+    "prompt": "Design a modern homepage utilizing geometric shapes and patterns as core visual elements. Design system: (1) Shape library: Define 3-5 signature shapes (circles, triangles, hexagons, custom shapes), Use shapes as: Section dividers, Image masks/frames, Background patterns, Decorative accents, (2) Pattern application: Repeating geometric patterns as backgrounds, Gradient overlays on shapes, Shapes that respond to scroll or mouse position, Morphing shape transitions, (3) Color blocking: Use shapes for color section separation, Overlapping shapes with transparency, Contrast between shape colors and content, (4) Content integration: Text wrapped around custom shape paths, Images clipped to geometric shapes, Icons designed with consistent geometric style, (5) Animation: Shapes that float or rotate subtly, Entrance animations for shapes on scroll, Hover effects with shape transformations. Maintain balance - shapes should enhance, not distract from content. Use CSS clip-path and SVG for shapes. Create consistent shape system throughout design.",
+    "category": "Visual Design & Graphics",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "v0", "Bolt"],
+    "prompt_type": "Design",
+    "description": "Implements contemporary geometric design trends seen in award-winning sites. Geometric patterns add visual interest and modernity while maintaining professionalism. Popular in CSS Design Awards for innovative visual approaches."
+  },
+  {
+    "use_case": "Designing a one-page scrolling website with smooth section navigation",
+    "prompt": "Create a single-page scrolling website with distinct sections and smooth navigation. Structure: (1) Fixed navigation: Sticky header with anchor links to sections, Active section indicator in nav (current section highlighted), Logo that scales down on scroll, (2) Section design: Full-height sections (100vh) for impact, Distinct visual theme for each section (colors, backgrounds), Smooth scroll behavior with CSS scroll-snap, Scroll progress indicator (top or side), (3) Section types: Hero/intro, About/mission, Services/features, Portfolio/work, Team, Testimonials, Contact/footer, (4) Transitions: Fade-in animations as sections enter viewport, Parallax backgrounds between sections, Section dividers (angled edges, waves, curves), (5) Navigation aids: 'Scroll to explore' indicator on hero, Floating 'Back to top' button, Section pagination dots on side, Keyboard navigation support (arrow keys). Optimize for mobile with shorter sections. Ensure all content is accessible via keyboard Tab navigation.",
+    "category": "Navigation & UX",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "Cursor", "v0"],
+    "prompt_type": "Design",
+    "description": "Creates seamless one-page experiences that keep users engaged through smooth scrolling. Single-page sites reduce bounce rates and create cohesive narratives. Popular format for portfolios and small business sites."
+  },
+  {
+    "use_case": "Building a data-driven homepage with animated statistics and metrics",
+    "prompt": "Design a homepage that showcases impressive statistics and data through engaging visualizations. Data presentation: (1) Animated counters: Numbers that count up when scrolled into view, Large font size (48-72px) for impact, Supporting labels below numbers, Format: '50,000+ Customers', '$2M+ Revenue', '98% Satisfaction', (2) Progress bars: Animated skill bars or metric bars, Color-coded by category, Percentage labels, Smooth fill animation on reveal, (3) Charts and graphs: Simple, clean chart designs using Chart.js or similar, Bar charts for comparisons, Line graphs for growth trends, Pie charts for distributions, Interactive tooltips on hover, (4) Icon-based stats: Combine icons with numbers for visual interest, Grid layout of key metrics, Subtle entrance animations (fade + slide), (5) Live data: Real-time updates for dynamic metrics, 'Last updated' timestamp. Use data visualization best practices: limit decimals, use appropriate chart types, maintain consistent color coding. Ensure all data has text alternatives for accessibility.",
+    "category": "Data Visualization & Metrics",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "v0", "Bolt"],
+    "prompt_type": "Design",
+    "description": "Creates impactful data-driven homepages that build credibility through numbers. Animated statistics capture attention and communicate scale effectively. Increases trust and perceived success by showcasing impressive metrics."
+  },
+  {
+    "use_case": "Creating a blog-focused homepage with content discovery features",
+    "prompt": "Design a homepage optimized for blog content discovery and readership. Layout structure: (1) Featured post: Large hero card with cover image, Headline, excerpt (2-3 lines), Author, date, read time, Category tag, (2) Recent posts grid: 3-column grid on desktop, 1-column on mobile, Smaller cards with images, titles, excerpts, Hover effects (image zoom, shadow lift), (3) Category navigation: Horizontal category pills/tabs, Filter content by category without page reload, Visual category icons, (4) Sidebar elements: Author bio with photo, Newsletter signup form, Popular posts list, Social media links, Tag cloud or search, (5) Pagination or infinite scroll: 'Load More' button, Smooth loading animation, Progress indicator, (6) Post metadata: Reading time estimate, Comment count, Social share buttons. Optimize for content readability: use serif fonts for articles, maintain 720px max-width for post content, generous line height. Include RSS feed link.",
+    "category": "Content & Publishing Design",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "Cursor", "v0"],
+    "prompt_type": "Design",
+    "description": "Creates engaging blog homepages that maximize content discovery and readership. Well-designed blog homepages can increase pageviews by 40%+ and time-on-site. Based on successful publishing site patterns."
+  },
+  {
+    "use_case": "Implementing a terminal/command-line styled homepage for tech brands",
+    "prompt": "Design a unique terminal-style homepage that appeals to technical audiences. Terminal aesthetic: (1) Visual theme: Dark background (#0a0e14 or similar terminal black), Monospace font (Fira Code, Source Code Pro, Courier), Green (#00ff00) or amber (#ffb000) text for retro terminal feel, Blinking cursor animation, (2) Interactive command interface: Command input field that accepts typed commands, Auto-suggestions for available commands, Command history (up/down arrows), Help command listing available actions, (3) Homepage commands: 'about' - Display company info, 'projects' or 'portfolio' - Show work, 'skills' or 'services' - List offerings, 'contact' - Show contact form, 'help' - List all commands, 'clear' - Clear terminal screen, (4) ASCII art: Logo rendered in ASCII, Decorative ASCII borders or dividers, (5) Output formatting: Syntax-highlighted code blocks, Indented structured output, Loading animations with ASCII spinners. Include option to switch to 'GUI mode' for broader accessibility. Reference: Terminal-style portfolio in Codecademy Lovable article.",
+    "category": "Creative & Themed Design",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "v0", "Bolt"],
+    "prompt_type": "Design",
+    "description": "Creates memorable, distinctive homepages for developer tools, tech startups, or personal portfolios. Terminal interfaces resonate with technical audiences and demonstrate technical prowess. Unique approach that stands out in portfolios."
+  },
+  {
+    "use_case": "Designing a FAQ section with accordion interface and search",
+    "prompt": "Create a comprehensive, user-friendly FAQ section for homepage inclusion. FAQ structure: (1) Section header: 'Frequently Asked Questions' heading, Brief intro text, Search bar for FAQ filtering, (2) Accordion interface: Questions as clickable headers with + icon, Smooth expand/collapse animation (300ms), Only one open at a time or allow multiple, Answers in readable paragraph format with bullets if needed, (3) Organization: Group by category with category headers, Most asked questions at top, Logical flow from general to specific, (4) Content strategy: Questions written in natural language (how users ask), Answers concise but complete (100-200 words), Include links to detailed articles, Address common objections or concerns, (5) Functionality: Jump links from navigation to FAQ section, 'Was this helpful?' voting on answers, Contact CTA if question not answered, (6) Accessibility: Keyboard navigation (Enter to expand), ARIA labels for screen readers, Heading hierarchy for structure. Mobile-optimized with larger touch targets.",
+    "category": "Content & UX Strategy",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "Cursor", "v0"],
+    "prompt_type": "Design",
+    "description": "Creates efficient self-service support that reduces friction in the buying process. Well-designed FAQs can reduce support tickets by 30% and improve conversions by addressing objections. Essential for SaaS and e-commerce sites."
+  },
+  {
+    "use_case": "Building a contact section with interactive map and multiple contact methods",
+    "prompt": "Design a comprehensive contact section that makes reaching out easy and appealing. Contact components: (1) Contact form: Fields: Name, Email, Phone (optional), Subject dropdown, Message textarea, Submit button with loading state, Success message on submission, Email notification to business, Auto-reply to user, Form validation with helpful error messages, (2) Interactive map: Embedded Google Maps showing location, Custom pin with brand colors, 'Get Directions' link, Satellite/street view toggle, (3) Contact information grid: Office address with map icon, Phone number (clickable tel: link), Email (clickable mailto: link), Business hours with clock icon, Social media links with brand icons, (4) Alternative contact methods: Live chat widget integration, WhatsApp button (mobile), Schedule call/meeting button, (5) Design elements: Contact section with distinct background color, Office photo or team photo, Quick response time promise, 'We typically respond within 24 hours'. Ensure form is accessible and mobile-friendly. Implement reCAPTCHA for spam prevention.",
+    "category": "Contact & Engagement",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "v0", "Bolt"],
+    "prompt_type": "Design",
+    "description": "Creates effective contact sections that increase inquiry rates by making communication easy and trustworthy. Multiple contact options accommodate different user preferences. Well-designed contact forms can increase submissions by 120%."
+  },
+  {
+    "use_case": "Creating a mega-menu navigation for complex site hierarchies",
+    "prompt": "Design a sophisticated mega-menu that handles deep site hierarchies elegantly. Mega-menu structure: (1) Trigger: Hover or click on main nav item to reveal, Smooth dropdown animation (fade + slide down), Backdrop overlay dimming page content, (2) Menu layout: Full-width dropdown panel (or section-width), Multi-column grid layout (3-5 columns), Column categories with bold headers, Link lists under each category, Visual separator between columns, (3) Enhanced features: Thumbnail images for featured items, Icons beside links for visual recognition, Featured content card highlighting popular pages, 'View All' links at column bottoms, Recent or trending items section, (4) Design elements: Subtle background color difference, Consistent padding and spacing, Hover states on individual links, Smooth transitions on menu close, (5) Mobile adaptation: Convert to accordion-style menu, Category headers expandable, Nested levels revealed on tap. Ensure keyboard navigation works (Tab through links). Include close button in mobile version. Limit depth to 2-3 levels maximum for usability.",
+    "category": "Navigation & Information Architecture",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "Cursor", "v0"],
+    "prompt_type": "Design",
+    "description": "Creates powerful navigation for content-rich sites with many pages. Mega-menus improve discoverability and reduce clicks to content by 30%. Essential for large e-commerce sites, universities, and content portals."
+  },
+  {
+    "use_case": "Designing a homepage with 3D elements and immersive graphics",
+    "prompt": "Create a cutting-edge homepage featuring 3D graphics and interactive elements. 3D implementation: (1) Hero 3D element: 3D product model that rotates on mouse movement, Three.js or similar WebGL library, Smooth camera movements, Option to click and drag for manual rotation, (2) 3D illustrations: Floating isometric illustrations, Layered depth creating parallax effect, Shadows and lighting for realism, (3) Interactive scenes: Elements that respond to scroll position, Morphing 3D shapes, Particles or confetti effects on interactions, (4) Performance optimization: Lazy load 3D assets after page load, Reduced 3D complexity on mobile devices, Fallback to 2D images if WebGL unavailable, (5) Integration with content: 3D elements complement, not overwhelm content, Text overlays on 3D backgrounds remain readable, Smooth integration between 3D and flat sections. Use Spline, Three.js, or React Three Fiber for implementation. Ensure 3D doesn't block main content. Test performance across devices. Reference: Gallery of Emerging Species (Awwwards winner) for inspiration.",
+    "category": "Interactive & Immersive Elements",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "Cursor"],
+    "prompt_type": "Design",
+    "description": "Implements cutting-edge 3D design seen in 2025 award-winning sites. 3D elements create memorable experiences and demonstrate technical sophistication. Increases engagement but requires careful performance optimization."
+  },
+  {
+    "use_case": "Building a comparison table section for pricing or feature comparison",
+    "prompt": "Design a clear, conversion-optimized comparison table for homepage inclusion. Table structure: (1) Layout: 3-4 columns comparing options (tiers, products, plans), Highlight recommended or most popular option with: Different background color, 'Most Popular' badge, Slightly larger size or border, (2) Row organization: Header row with plan names and pricing, 'Sign Up' CTA button in each column, Feature rows with checkmarks/x marks, Category separators for grouped features, (3) Visual elements: Icon indicators (✓ checkmark, ✗ cross, ~ partial), Color coding (green for yes, gray for no), Tooltips for complex features on hover, Collapsible sections for extensive features, (4) Responsive design: Horizontal scroll on mobile with sticky first column, Or: Stack columns vertically on mobile, Card-style layout for mobile, (5) Interactive features: Toggle between monthly/annual pricing, 'See all features' expansion link, Highlight differences between tiers. Ensure high contrast for readability. Include summary row at bottom. Make CTAs prominent in popular column.",
+    "category": "Conversion & Comparison",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "v0", "Bolt"],
+    "prompt_type": "Design",
+    "description": "Creates effective comparison tables that aid decision-making and increase conversions. Clear feature comparison can reduce sales cycle time by 40%. Essential for SaaS, e-commerce, and service-based businesses."
+  },
+  {
+    "use_case": "Creating a countdown timer section for launches or limited offers",
+    "prompt": "Design an engaging countdown timer that creates urgency and drives action. Timer components: (1) Display format: Large numbers showing: Days, Hours, Minutes, Seconds, Labels below each unit, Use flip animation or smooth counting, (2) Visual design: Bold, large numbers (48-72px), High contrast colors, Background distinct from page (accent color or gradient), Optional circular progress rings around numbers, (3) Context: Headline explaining what's counting down ('Launch in', 'Offer ends in', 'Event starts in'), Subtext with date/time in words, CTA button below timer ('Notify Me', 'Reserve Spot'), (4) Functionality: Live JavaScript countdown, Time zone handling, Action when countdown reaches zero (reveal content, redirect, show message), Optional recurring countdown for regular sales, (5) Design variations: Inline timer in header bar, Full-section timer for major events, Floating timer badge. Save user's timezone preference. Include fallback for disabled JavaScript. Create urgency without being pushy.",
+    "category": "Conversion & Urgency",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "Cursor", "v0"],
+    "prompt_type": "Design",
+    "description": "Implements urgency tactics that can increase conversions by 20%+ through FOMO (fear of missing out). Countdown timers are effective for launches, sales, and event promotions. Based on conversion optimization research."
+  },
+  {
+    "use_case": "Designing a multi-step form or wizard interface for complex processes",
+    "prompt": "Create a user-friendly multi-step form that breaks complex processes into manageable steps. Wizard structure: (1) Progress indicator: Step numbers with labels (e.g., '1. Contact Info, 2. Preferences, 3. Payment'), Visual progress bar showing completion percentage, Highlight current step, completed steps, and upcoming steps, Allow clicking previous steps to return, (2) Step design: One clear step per screen, 3-5 steps maximum (break longer forms differently), Question or heading at top, Relevant form fields, 'Next' and 'Back' buttons, Auto-save progress locally, (3) Form optimization: Group related fields logically, Use appropriate input types (dropdown, radio, checkbox), Inline validation with helpful errors, Show character counts for text areas, Optional/required field indicators, (4) User experience: Prevent loss of data with browser navigation, 'Save and continue later' option for long forms, Summary/review step before submission, Success confirmation page, (5) Mobile optimization: Larger input fields, One field per row, Number pads for numeric inputs. Maintain state in URL or localStorage. Show time estimate ('2 minutes to complete').",
+    "category": "Forms & User Flow",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "v0", "Bolt"],
+    "prompt_type": "Strategy",
+    "description": "Creates frictionless multi-step experiences that increase completion rates by 30%+ compared to long single-page forms. Breaking forms into steps reduces cognitive load and abandonment. Essential for onboarding and applications."
+  },
+  {
+    "use_case": "Building an email newsletter signup section with lead magnet offer",
+    "prompt": "Design a high-converting email signup section that builds your subscriber list. Signup components: (1) Value proposition: Compelling headline (e.g., 'Get Weekly Design Tips'), Specific benefits of subscribing (list 2-3 bullets), Frequency promise ('Every Tuesday', 'Weekly', 'No spam ever'), (2) Lead magnet: Free resource offer (ebook, template, guide, checklist), Visual thumbnail of the resource, Clear title and description, Immediate delivery promise ('Instant access'), (3) Form design: Email input field only (reduce friction), Optional name field, Large, prominent 'Subscribe' button, Action-oriented button text ('Get My Free Guide'), Privacy assurance ('We respect your privacy'), (4) Visual elements: Relevant illustration or image, Background color to distinguish section, Icon of email or newsletter, (5) Post-signup: Thank you message, Confirmation email requirement notification, Social media follow options. Integrate with email service (Mailchimp, ConvertKit). Include GDPR-compliant checkbox if required. A/B test different lead magnets.",
+    "category": "Lead Generation & Conversion",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "Cursor", "v0"],
+    "prompt_type": "Strategy",
+    "description": "Creates effective email capture that can increase signup rates by 50%+ with compelling lead magnets. Email list building is crucial for long-term marketing success. Lead magnets increase perceived value exchange."
+  },
+  {
+    "use_case": "Creating a sticky header that transforms on scroll with smart behavior",
+    "prompt": "Design an intelligent sticky header that adapts as users scroll for optimal UX. Header behavior: (1) Initial state (top of page): Full-height header (80-100px), Large logo, Full navigation menu, Optional tagline or contact info, Background transparent or subtle, (2) Scrolled state: Condenses to 60-70px height, Logo scales down by 20-30%, Background becomes solid or gains shadow, Hide secondary elements (tagline, social icons), Smooth transition animation (300ms), (3) Smart features: Hide header on scroll down (save screen space), Show header on scroll up (quick access), Threshold: trigger after 100px scroll, Breakpoint: different behavior on mobile, (4) Navigation updates: Active page indicator, Search icon/bar in header, CTA button remains prominent, Mobile hamburger menu, (5) Additional elements: Progress bar showing page scroll position, Skip to content link for accessibility. Implement using Intersection Observer API or scroll event. Ensure no layout shift when header changes. Test on different scroll speeds.",
+    "category": "Navigation & UX",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "v0", "Bolt"],
+    "prompt_type": "Design",
+    "description": "Implements smart sticky navigation that improves UX by staying accessible while maximizing screen space. Smart headers reduce navigation time by 50% and improve mobile experience. Common pattern in award-winning responsive designs."
+  },
+  {
+    "use_case": "Designing a loading screen with branded animation and progress indicator",
+    "prompt": "Create an engaging loading screen that entertains users during page load. Loading design: (1) Loading animation: Branded spinner or logo animation, Smooth, looping animation, Represents brand personality (playful, professional, etc.), Use CSS animations or Lottie files, (2) Progress indication: Percentage counter (0-100%), Loading bar with smooth fill, Estimated time remaining (if calculable), Loading stage messages ('Loading assets...', 'Almost there...'), (3) Content priority: Show skeleton screens for main content, Progressive loading (show content as it loads), Fade out loading screen when ready, Don't block interaction if some content is ready, (4) Design elements: Background color matching site theme, Centered animation, Optional tagline or message, (5) Technical implementation: Lazy load non-critical assets, Preload critical resources, Set maximum loading time (5 seconds), Fallback for slow connections. Avoid splash screens on fast loads (show content immediately). Use loading screen only when necessary (initial load, large content). Test loading experience on slow connections.",
+    "category": "Performance & UX",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "Cursor", "v0"],
+    "prompt_type": "Design",
+    "description": "Creates branded loading experiences that reduce perceived wait time and maintain engagement. Well-designed loaders improve user patience and brand recall. Should complement overall performance optimization strategy."
+  },
+  {
+    "use_case": "Building an interactive product configurator or customizer on homepage",
+    "prompt": "Design an engaging product configurator that lets users customize products visually. Configurator components: (1) Product preview: Large, high-quality image of product, Live preview updating with selections, 360-degree view capability, Zoom functionality, Multiple angle views, (2) Configuration options: Categories of options (Color, Size, Material, Features), Visual selectors (color swatches, image thumbnails), Dropdown or radio buttons for text options, Option descriptions and upcharges, Dependency handling (some options affect others), (3) Pricing display: Base price clearly shown, Live price updates with selections, Subtotal and option breakdowns, Save/favorite configuration option, (4) User flow: Logical progression through options, Progress indicator for complex configurators, Summary of selections, 'Add to Cart' or 'Get Quote' CTA, Option to save/share configuration, (5) Mobile optimization: Swipe between product images, Collapsible option sections, Fixed footer with price and CTA. Save configuration to URL for sharing. Provide default/popular configurations as starting points. Include reset button.",
+    "category": "Interactive & E-commerce",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "Cursor"],
+    "prompt_type": "Design",
+    "description": "Creates powerful product customization experiences that increase engagement and average order value by 20%+. Interactive configurators reduce decision paralysis and increase confidence in purchases. Popular in furniture, fashion, and tech e-commerce."
+  },
+  {
+    "use_case": "Creating a cookie consent banner with GDPR compliance",
+    "prompt": "Design a user-friendly cookie consent banner that meets legal requirements. Banner components: (1) Placement options: Bottom banner (most common), Top banner, Modal overlay (for first visit), Corner popup, (2) Content: Clear headline ('We use cookies'), Brief explanation of cookie usage (1-2 sentences), Link to full Privacy Policy, Link to Cookie Policy, (3) Action buttons: 'Accept All' button (prominent, primary color), 'Reject All' or 'Necessary Only' option, 'Customize' or 'Manage Preferences' button, (4) Preferences modal (if customizable): Cookie categories: Necessary (always on), Analytics, Marketing, Personalization, Toggle switches for each category, Description of each category's purpose, Save preferences button, (5) Technical implementation: Set consent cookie on choice, Respect user's choice, Remember choice for X days/months, Load tracking scripts only after consent, Re-show banner if consent expires. Design should not obstruct critical content. Make consent genuine, not coercive. Include reject option equal to accept. Test across devices.",
+    "category": "Legal & Compliance",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "v0", "Bolt"],
+    "prompt_type": "Strategy",
+    "description": "Implements legally compliant cookie consent meeting GDPR and privacy requirements. Proper implementation protects from legal issues and builds user trust. Essential for sites serving EU visitors and increasingly important globally."
+  },
+  {
+    "use_case": "Designing a feature announcement banner for new products or updates",
+    "prompt": "Create an attention-grabbing announcement banner for homepage promotions. Banner design: (1) Placement: Top of page above header, Slide-in from top on page load, Optional dismissible close button, (2) Content: Concise announcement (10-15 words max), Use urgency ('Limited Time', 'New', 'Just Launched'), Action-oriented ('Learn More', 'Try Now'), Optional countdown timer, (3) Visual design: Background color contrasting with site (not matching), Icon or emoji for visual interest, Bold, readable typography, Subtle animation (slide, pulse), (4) User experience: Don't show on every page visit (use cookies), Auto-hide after X seconds with smooth exit, Reappear after X days if dismissed, Link to relevant landing page, (5) Mobile optimization: Shorter text for mobile, Collapsible on mobile, Sticky positioning option. Track click-through rates. A/B test different messages. Don't overuse - reserve for important announcements. Ensure banner doesn't significantly increase page height on mobile.",
+    "category": "Promotion & Conversion",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "Cursor", "v0"],
+    "prompt_type": "Design",
+    "description": "Creates effective announcement banners that can increase promotion awareness by 60%+ and drive traffic to new features. Temporary banners create urgency and highlight important updates without permanent site changes."
+  },
+  {
+    "use_case": "Building a homepage with Bento Grid layout for modern, modular design",
+    "prompt": "Design a contemporary homepage using the Bento Grid layout pattern popularized by Apple and modern design trends. Bento Grid structure: (1) Grid system: CSS Grid with varying cell sizes, Mix of 1x1, 1x2, 2x1, 2x2 cells, Asymmetrical but balanced layout, Consistent gap spacing (16-24px), (2) Card design: Each cell is a distinct card/module, Rounded corners (12-16px), Subtle shadows or borders for separation, Cohesive background colors (use 2-3 from palette), Padding: 24-32px, (3) Content types: Feature highlights, Product showcases, Testimonial snippets, Statistic cards, Image galleries, Video previews, CTA modules, Blog post previews, (4) Visual hierarchy: Larger cells for important content, Mix of text-heavy and image-heavy cards, Varied content types for interest, Hover effects (lift, glow) on interactive cards, (5) Responsive behavior: Reflow to fewer columns on tablet, Single column on mobile, Maintain card aspect ratios. Ensure consistent content density across cards. Use white space effectively. Reference: Apple's homepage, iOS design patterns.",
+    "category": "Visual Hierarchy & Layout",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "v0", "Bolt"],
+    "prompt_type": "Design",
+    "description": "Implements trendy Bento Grid layout that's dominating modern web design in 2025. Creates modular, scannable layouts that organize diverse content types elegantly. Popular in tech, portfolio, and design-forward brands."
+  },
+  {
+    "use_case": "Creating a language/region selector for international homepages",
+    "prompt": "Design an intuitive language and region selection interface for global sites. Selector components: (1) Trigger placement: Globe icon in header/footer, Flag icons showing current language, Text link ('EN | 中文 | ES'), Footer position common, (2) Selection modal: List of available languages, Region/country selection if relevant, Search/filter for long lists, Show language in native script (español, not Spanish), Flag icons for visual recognition, (3) User experience: Remember user's choice (cookie/localStorage), Redirect to appropriate language version, Preserve user's current page (switch language, not page), Show warning if content not available in chosen language, Option to auto-detect language from browser, (4) Design: Clean, simple modal or dropdown, Organized by regions if many languages, Current language highlighted, Hover/focus states, (5) Mobile optimization: Bottom sheet modal on mobile, Larger touch targets, Grouped by region for easier scanning. Update URL to reflect language (/en/, /es/). Include RTL support for Arabic, Hebrew. Test translations thoroughly. Default to browser language when possible.",
+    "category": "Internationalization & UX",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "v0", "Bolt"],
+    "prompt_type": "Strategy",
+    "description": "Implements effective internationalization that expands global reach. Proper language selection can increase international conversions by 30%+. Essential for global businesses and SaaS platforms serving multiple markets."
+  },
+  {
+    "use_case": "Designing a team or about section with engaging member profiles",
+    "prompt": "Create an appealing team section that humanizes your brand and builds connection. Team section structure: (1) Section header: 'Meet the Team' or 'Our Team' headline, Brief intro about team culture or values, Optional team photo/group shot, (2) Team member cards: Grid layout (3-4 columns desktop, 2 tablet, 1 mobile), Consistent card size and styling, Professional photos (same style/background), Member name and title, Brief bio or personal fun fact (2-3 lines), Social media links (LinkedIn, Twitter), Optional 'Meet [Name]' link to full bio, (3) Visual design: Circular or rounded square photos, Hover effects (color overlay, flip to reveal more info), Grayscale photos with color on hover, Consistent brand colors in card design, (4) Content strategy: Show personality (not just credentials), Diversity and inclusion representation, Behind-the-scenes candid photos option, Team values or culture highlights, (5) Interactive elements: Filter by department or role, Expandable cards for full bios, Photo gallery or carousel option. Ensure accessibility with proper alt text. Keep photos current and professional yet personable.",
+    "category": "About & Team Design",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "Cursor", "v0"],
+    "prompt_type": "Design",
+    "description": "Creates engaging team sections that build trust and human connection. Showing real team members increases trust by 25%+ and helps visitors connect with the brand. Important for service businesses and B2B companies."
+  },
+  {
+    "use_case": "Building a homepage with advanced search functionality and filters",
+    "prompt": "Design a powerful search interface that helps users find content quickly. Search components: (1) Search input: Prominent search bar in header or hero section, Magnifying glass icon, Placeholder text ('Search products, articles...'), Click to expand (if space-constrained), Keyboard shortcut (Cmd+K or Ctrl+K), (2) Search features: Autocomplete suggestions as user types, Search history (recent searches), Popular/trending searches, Typo tolerance and fuzzy matching, Category filters (Articles, Products, Pages), (3) Results display: Search results page or modal overlay, Highlighted search terms in results, Result previews (title, excerpt, image), Filter/sort options on results page, Faceted search (filter by category, date, price), Results count ('54 results for 'design''), Pagination or infinite scroll, (4) Advanced search: Boolean operators support (AND, OR, NOT), Filter by date ranges, Price range sliders for e-commerce, Multi-select category filters, 'Save search' or alert option, (5) Mobile optimization: Full-screen search modal on mobile, Voice search option, Recent searches for easy access. Use search analytics to improve results. Implement search API (Algolia, Elasticsearch). Show 'no results' page with alternatives.",
+    "category": "Search & Discovery",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "Cursor"],
+    "prompt_type": "Design",
+    "description": "Implements powerful search that improves content discovery and user satisfaction. Good search can increase conversions by 50% on content-heavy or e-commerce sites. Essential for large catalogs and knowledge bases."
+  },
+  {
+    "use_case": "Creating a homepage with integrated live chat or chatbot",
+    "prompt": "Design an effective live chat interface that provides instant support and improves conversions. Chat components: (1) Chat trigger: Floating button in bottom-right corner, Brand-colored circle with chat icon, Unread message indicator badge, Collapse/expand animation, Optional proactive message after X seconds, (2) Chat window: Slides up from trigger button, Header with agent name/photo or chatbot name, Chat history area with scroll, Message input field at bottom, Typing indicators ('Agent is typing...'), Timestamp on messages, (3) User experience: Greeting message on open, Quick reply buttons for common questions, File/image upload capability, Emoji support, Chat transcript option (email on close), Offline message form when unavailable, Mobile: Full-screen chat on small devices, (4) Visual design: Brand colors for agent messages, User messages in contrasting color, Avatar icons for participants, Smooth message animations, 'Sound on' notification option, (5) Functionality: Connect to support team or AI chatbot, Auto-responses for common queries, Route to specific departments, Collect user info before starting, Show business hours. Balance helpfulness with non-intrusiveness. Allow easy dismissal. Track chat-to-conversion rates.",
+    "category": "Support & Engagement",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "v0", "Bolt"],
+    "prompt_type": "Strategy",
+    "description": "Implements live chat that can increase conversions by 20% and improve customer satisfaction. Instant support reduces friction and abandonment. Popular in SaaS, e-commerce, and service industries for real-time assistance."
+  },
+  {
+    "use_case": "Designing a homepage footer with comprehensive navigation and information",
+    "prompt": "Create a feature-rich footer that serves as a sitemap and information hub. Footer structure: (1) Multi-column layout: 4-5 columns on desktop, Stack vertically on mobile, Column headers (bold, slightly larger), Link lists under each header (8-12 links max per column), (2) Column categories: Products/Services, Company (About, Careers, Press), Support (FAQ, Contact, Help), Legal (Privacy, Terms, Cookies), Resources (Blog, Guides, Case Studies), (3) Footer top section: Newsletter signup form, Social media icon links, Award badges or certifications, Trust signals or payment icons, (4) Footer bottom: Copyright notice, Business registration details, Language/region selector, Back to top button, (5) Visual design: Distinct background color (darker than body), Ample padding (60-80px top/bottom), Subtle divider line above footer, Consistent link styling with hover effects, (6) Additional elements: Contact information, Business hours, Map or location, Mobile app download buttons. Ensure all links are accessible and functional. Footer should be scannable and organized. Include sitemap link for SEO.",
+    "category": "Navigation & Information Architecture",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "v0", "Bolt"],
+    "prompt_type": "Design",
+    "description": "Creates comprehensive footers that improve navigation and SEO. Well-organized footers help users find information and can reduce support requests by 15%. Essential for larger sites with extensive page hierarchies."
+  },
+  {
+    "use_case": "Building a homepage with scroll-triggered number animations and data reveals",
+    "prompt": "Design an impactful statistics section with scroll-triggered animations that highlight key metrics. Animation implementation: (1) Number counter animations: Numbers that count up from 0 when scrolled into view, Use easing function for natural feel (start slow, accelerate, slow at end), Duration: 1.5-2.5 seconds depending on number size, Format large numbers with commas (1,000,000), Include + or % symbols where appropriate, (2) Trigger mechanics: Use Intersection Observer API for scroll detection, Trigger when element is 20-30% in viewport, Animate once (don't repeat on scroll up/down), Fallback: Show final numbers if JavaScript disabled, (3) Visual design: Large, bold numbers (56-80px), Descriptive labels below numbers (16-20px), Icons or illustrations accompanying stats, Grid layout for multiple stats (3-4 per row), Background section to highlight importance, (4) Additional effects: Fade-in animation combined with counting, Slide-up entrance animation, Progress bars that fill to percentage, Chart animations (bar heights, pie fills), (5) Content strategy: Use impressive, round numbers, Be specific with metrics ('50,000+', not 'thousands'), Include context or comparison. Ensure animations are smooth on all devices. Test performance with many animated elements.",
+    "category": "Animation & Data Visualization",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "Cursor", "v0"],
+    "prompt_type": "Design",
+    "description": "Creates engaging data presentations that capture attention and communicate scale. Animated statistics increase information retention by 40%+ and create wow moments. Commonly used in About pages and marketing homepages."
+  },
+  {
+    "use_case": "Creating a homepage with cursor-following interactive elements",
+    "prompt": "Design subtle, sophisticated cursor-following effects that enhance interactivity. Interactive cursor elements: (1) Custom cursor design: Replace default cursor with custom design, Scale changes on hover over interactive elements, Color changes based on element hovered, Smooth follow animation (use transform, not position), (2) Cursor follower elements: Circular element that follows cursor with delay, Size: 20-40px diameter, Opacity: 20-40% for subtlety, Blends with page content, Grows on hover over clickable elements, (3) Magnetic effects: Elements that slightly move toward cursor on hover, Buttons with magnetic pull effect (within 100px radius), Smooth animation using lerp (linear interpolation), (4) Spotlight effect: Circular highlight that follows cursor, Darkens rest of page slightly, Useful for image reveals or emphasis, Toggle on/off with button, (5) Implementation: Use requestAnimationFrame for smooth performance, Track mouse position with event listeners, Apply transforms for smooth animations, Disable on mobile (touch devices), Respect prefers-reduced-motion. Keep effects subtle - enhance, don't distract. Test performance impact. Ensure site is fully usable without effects.",
+    "category": "Interactive & Immersive Elements",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "Cursor"],
+    "prompt_type": "Design",
+    "description": "Implements sophisticated cursor interactions seen in award-winning portfolio sites. Custom cursors create unique brand experiences and demonstrate technical prowess. Popular in creative agency and designer portfolios."
+  },
+  {
+    "use_case": "Designing a homepage with glassmorphism and blur effects",
+    "prompt": "Create a modern homepage utilizing glassmorphism design trend with frosted glass aesthetics. Glassmorphism implementation: (1) Core glass effect: Semi-transparent background (rgba with 10-30% opacity), Backdrop blur filter (10-30px), Subtle border (1px with 20-40% opacity), Light background highlights on edges, Optional subtle shadow for depth, (2) Element application: Card components, Navigation header, Modal overlays, Feature sections, Button hover states, (3) Color considerations: Works best with gradient backgrounds, Use light colors for glass elements on dark backgrounds, Use dark glass on light/colorful backgrounds, Ensure sufficient text contrast (minimum 4.5:1), (4) Layering strategy: Create depth with multiple glass layers, Vary opacity levels for hierarchy, Use blur intensity to distinguish importance, Combine with regular solid elements for balance, (5) Performance: Use backdrop-filter (check browser support), Provide fallback for unsupported browsers (solid colors), Optimize number of blur effects for performance, Test on lower-end devices. Popular in 2025 design trends. Creates modern, elegant aesthetic. Use sparingly for maximum impact. Reference: Apple's design language, macOS Big Sur aesthetics.",
+    "category": "Visual Design Trends",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "v0", "Bolt"],
+    "prompt_type": "Design",
+    "description": "Implements trendy glassmorphism aesthetic that creates depth and sophistication. Glass effects are popular in modern UI design and award-winning sites. Creates visual interest while maintaining content readability."
+  },
+  {
+    "use_case": "Building a homepage with neumorphism soft UI elements",
+    "prompt": "Design a homepage featuring neumorphism (soft UI) design style with subtle depth and shadows. Neumorphism specifications: (1) Core aesthetic: Soft, extruded elements that appear to rise from background, Same color as background with subtle variation, Dual shadows: light source (top-left) and dark shadow (bottom-right), Subtle, low contrast overall appearance, Rounded corners for all elements (16-24px), (2) Shadow formula: Light shadow: -5px -5px 10px rgba(255,255,255,0.7), Dark shadow: 5px 5px 10px rgba(0,0,0,0.2), Adjust values based on element size, Combine shadows on single element, (3) Background colors: Light mode: #e0e5ec or similar light grays, Dark mode: #2c2f33 or similar dark grays, Avoid pure white or pure black, Use slight color tints for warmth, (4) Interactive states: Pressed state: inset shadows (reverse direction), Hover: slightly increase shadow intensity, Active elements: more prominent elevation, (5) Element application: Buttons and form inputs, Card containers, Icon backgrounds, Toggle switches, Sliders and progress bars. Ensure accessibility - neumorphism can have contrast issues. Use sparingly - full neumorphism sites can be hard to read. Combine with higher contrast elements for balance.",
+    "category": "Visual Design Trends",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "Cursor", "v0"],
+    "prompt_type": "Design",
+    "description": "Implements neumorphism soft UI trend that creates subtle, tactile interfaces. While trendy, requires careful implementation for accessibility. Best used for accent elements rather than entire layouts."
+  },
+  {
+    "use_case": "Creating a homepage with horizontal scrolling sections or galleries",
+    "prompt": "Design an engaging homepage with horizontal scrolling sections that create unique navigation experiences. Horizontal scroll implementation: (1) Section structure: Container with overflow-x: scroll or auto, Content wider than viewport, Flex or grid layout for items, Smooth scrolling behavior enabled, Snap points for item alignment (CSS scroll-snap), (2) Use cases: Project/portfolio gallery, Product showcase carousel, Timeline visualization, Feature comparison, Testimonial slider, Image galleries, (3) User experience: Scroll indicators (arrows, dots, or progress bar), Mouse wheel hijacking for horizontal scroll (optional), Drag to scroll functionality, Keyboard navigation (arrow keys), Touch/swipe gestures on mobile, 'Scroll to explore' indicator, (4) Visual design: Items with consistent sizing or varied for interest, Spacing between items (24-40px), Fade-out edges to indicate more content, Center-focused design (highlight middle item), Momentum scrolling for natural feel, (5) Responsive behavior: Maintain horizontal scroll on tablet, Convert to vertical stack on mobile, Or: Reduce items per view on smaller screens. Ensure keyboard accessibility. Provide alternative navigation for users who prefer it. Don't overuse - one horizontal section per page maximum.",
+    "category": "Interactive & Navigation",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "Cursor", "v0"],
+    "prompt_type": "Design",
+    "description": "Creates distinctive horizontal scrolling experiences that break traditional vertical flow. Horizontal sections add visual interest and are particularly effective for galleries and timelines. Popular in Awwwards winners like Nomadic Tribe."
+  },
+  {
+    "use_case": "Designing a homepage with gradient mesh and modern color transitions",
+    "prompt": "Create a visually stunning homepage utilizing gradient meshes and smooth color transitions. Gradient implementation: (1) Gradient types: Linear gradients for backgrounds, Radial gradients for focal points, Conic gradients for dynamic effects, Mesh gradients for complex multi-color blends, Animated gradients with CSS or canvas, (2) Color strategy: 2-4 colors maximum per gradient, Use brand colors as gradient base, Add complementary colors for depth, Consider color psychology, Ensure text readability on gradients (overlay or high contrast), (3) Application areas: Hero section background, Section dividers with gradient overlays, Button hover effects, Card backgrounds with subtle gradients, Text gradients for headlines, Border gradients for modern accents, (4) Animation effects: Gradient position shifts on scroll, Rotating gradient angles, Color value interpolation, Morphing between gradient states, (5) Technical implementation: Use CSS gradients for performance, Canvas or WebGL for complex effects, Optimize gradient stops (3-5 stops ideal), Test on different displays (gradients can look different), Provide fallback solid colors. Create depth without overwhelming content. Modern trend in 2025 web design. Reference: Stripe's website, modern SaaS homepages.",
+    "category": "Visual Design & Color",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "v0", "Bolt"],
+    "prompt_type": "Design",
+    "description": "Implements modern gradient aesthetics that create depth and visual interest. Gradient meshes are dominating 2025 design trends and appear in many award-winning sites. Creates dynamic, memorable visual experiences."
+  },
+  {
+    "use_case": "Building a homepage with variable fonts and dynamic typography",
+    "prompt": "Design a homepage leveraging variable fonts for dynamic, responsive typography. Variable font implementation: (1) Font selection: Choose variable font (Google Fonts variable or custom), Verify browser support (90%+ as of 2025), Include fallback fonts, Common variable fonts: Inter, Roboto Flex, Source Sans Variable, (2) Variable axes: Weight (wght): 100-900, Width (wdth): 75-125, Optical size (opsz): 8-144, Custom axes depending on font, (3) Dynamic applications: Headings that adjust weight on viewport size, Text that responds to user interaction (hover weight change), Animated weight transitions for emphasis, Responsive optical sizing based on font size, Width adjustments for better fit on mobile, (4) Implementation: Use font-variation-settings CSS property, Animate with transitions or keyframes, Respond to viewport with CSS clamp() or media queries, Fine-tune tracking and line-height with variable fonts, (5) Performance benefits: Single font file instead of multiple weights, Reduce file size compared to traditional font families, Faster loading and better performance. Create unique typographic experiences. Test thoroughly across browsers. Balance creativity with readability. Demonstrate technical sophistication.",
+    "category": "Typography & Innovation",
+    "tool_compatibility": ["Lovable", "Replit", "ChatGPT", "Cursor", "v0"],
+    "prompt_type": "Design",
+    "description": "Implements cutting-edge variable font technology for dynamic, efficient typography. Variable fonts reduce load times while enabling creative effects. Shows technical expertise and aligns with modern performance optimization."
+  }
+]

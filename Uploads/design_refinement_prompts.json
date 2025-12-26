@@ -1,0 +1,298 @@
+[
+  {
+    "Use Case": "Making an existing layout look more professional and polished",
+    "Prompt": "Review the current design and refine it to look more professional. Focus on: consistent spacing (use 8px grid system), proper visual hierarchy, balanced white space, refined typography (proper font weights and sizes), cohesive color application, and overall polish. Make it feel more premium without changing the core layout.",
+    "Category": "Design Refinement",
+    "Tool Compatibility": "Cursor, Lovable, Bolt.new, Windsurf, Replit",
+    "Prompt Type": "Enhancement",
+    "Description/Notes": "Comprehensive refinement prompt that elevates existing designs to professional quality. Use when your page works but needs visual polish."
+  },
+  {
+    "Use Case": "Improving visual hierarchy in an existing design",
+    "Prompt": "Analyze the current page and improve the visual hierarchy. Create clear distinction between primary, secondary, and tertiary elements. Adjust font sizes, weights, colors, and spacing to guide the user's eye naturally through the content. Ensure the most important elements stand out appropriately.",
+    "Category": "Design Refinement",
+    "Tool Compatibility": "Cursor, Lovable, Bolt.new, Windsurf",
+    "Prompt Type": "Enhancement",
+    "Description/Notes": "Fixes common hierarchy issues where everything looks equally important. Essential for improving readability and user flow."
+  },
+  {
+    "Use Case": "Refining color scheme consistency across pages",
+    "Prompt": "Audit the current color usage and create a consistent, professional color system. Ensure proper contrast ratios (WCAG AA minimum), use colors purposefully (primary for actions, secondary for support, neutrals for content), eliminate random color choices, and create a cohesive palette throughout all pages.",
+    "Category": "Design Refinement",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Enhancement",
+    "Description/Notes": "Establishes color consistency which is crucial for professional appearance. Use when colors feel random or inconsistent."
+  },
+  {
+    "Use Case": "Polishing typography across the entire site",
+    "Prompt": "Refine all typography to create a cohesive, professional type system. Set clear heading hierarchy (H1-H6), body text styles, optimal line heights (1.5-1.7 for body), appropriate letter spacing, consistent font weights, and proper paragraph spacing. Use maximum 2-3 font families. Make text scannable and elegant.",
+    "Category": "Design Refinement",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Enhancement",
+    "Description/Notes": "Typography is 95% of web design. This prompt creates professional, readable text throughout your site."
+  },
+  {
+    "Use Case": "Refining spacing and alignment issues",
+    "Prompt": "Review all spacing and alignment across the site. Implement consistent padding/margins using an 8px or 4px grid system. Fix alignment issues, ensure elements line up properly, create balanced white space, and remove cramped or overly spacious areas. Make the design feel intentional and well-structured.",
+    "Category": "Design Refinement",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Enhancement",
+    "Description/Notes": "Proper spacing is what separates amateur from professional design. Use this to create breathing room and structure."
+  },
+  {
+    "Use Case": "Enhancing button and CTA design consistency",
+    "Prompt": "Refine all buttons and CTAs for consistency and impact. Create clear primary, secondary, and tertiary button styles. Ensure proper sizing (min 44x44px for mobile), consistent hover/active states, appropriate spacing, clear visual distinction, and compelling design that encourages clicks.",
+    "Category": "Design Refinement",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Enhancement",
+    "Description/Notes": "CTAs drive conversions. This ensures your buttons look professional and consistent throughout the site."
+  },
+  {
+    "Use Case": "Polishing form design and user inputs",
+    "Prompt": "Review and refine all forms and input fields. Ensure: proper field sizing, clear labels, helpful placeholder text, obvious focus states, error state styling, success feedback, consistent styling across all forms, proper spacing, and a user-friendly experience. Make forms feel modern and trustworthy.",
+    "Category": "Design Refinement",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Enhancement",
+    "Description/Notes": "Forms are friction points. Polish them to reduce abandonment and increase completion rates."
+  },
+  {
+    "Use Case": "Refining card components and content blocks",
+    "Prompt": "Audit and enhance all card components and content blocks. Create consistent card styles with: proper shadows or borders, balanced internal spacing, aligned content, clear hierarchies within cards, consistent sizing, hover effects, and professional appearance. Ensure cards feel like a cohesive system.",
+    "Category": "Design Refinement",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Enhancement",
+    "Description/Notes": "Cards are common UI patterns. Consistent, polished cards make your entire site feel more professional."
+  },
+  {
+    "Use Case": "Improving navigation design and usability",
+    "Prompt": "Refine the navigation menu for clarity and usability. Ensure: clear active states, proper hover effects, logical grouping, mobile-friendly design, sufficient click targets, clear visual hierarchy, professional styling, and intuitive structure. Make navigation feel effortless.",
+    "Category": "Design Refinement",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Enhancement",
+    "Description/Notes": "Navigation is your site's map. Polish it to help users find what they need quickly and confidently."
+  },
+  {
+    "Use Case": "Refining footer design and information architecture",
+    "Prompt": "Polish the footer to look professional and organized. Include: logical link grouping, social media icons, contact info, clear visual separation from main content, proper spacing, trust signals (copyright, privacy policy), newsletter signup if applicable, and cohesive styling that matches the site.",
+    "Category": "Design Refinement",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Enhancement",
+    "Description/Notes": "Footers often get neglected but are important for trust and navigation. Make yours professional and complete."
+  },
+  {
+    "Use Case": "Enhancing icon usage and consistency",
+    "Prompt": "Review and refine all icon usage. Ensure: consistent icon style (all outline OR all filled, not mixed), appropriate sizing, proper alignment with text, meaningful icon choices, consistent stroke weights, professional appearance, and clear association with their labels or functions.",
+    "Category": "Design Refinement",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Enhancement",
+    "Description/Notes": "Mixed icon styles look unprofessional. This creates icon consistency that feels intentional and polished."
+  },
+  {
+    "Use Case": "Polishing image presentation and styling",
+    "Prompt": "Enhance how images are displayed throughout the site. Apply: consistent border radius, professional shadows or frames, proper aspect ratios, lazy loading, alt text, responsive sizing, quality optimization, and cohesive styling. Ensure images enhance rather than detract from the design.",
+    "Category": "Design Refinement",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Enhancement",
+    "Description/Notes": "Images should feel integrated into your design system, not like random insertions."
+  },
+  {
+    "Use Case": "Refining section breaks and page flow",
+    "Prompt": "Improve how sections transition and flow on each page. Add: subtle dividers or background changes, consistent section spacing, clear visual breaks between content areas, rhythm and pacing, and smooth visual flow that guides users naturally down the page.",
+    "Category": "Design Refinement",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Enhancement",
+    "Description/Notes": "Good section flow creates a pleasant scrolling experience and keeps users engaged."
+  },
+  {
+    "Use Case": "Enhancing contrast and readability",
+    "Prompt": "Audit and improve contrast throughout the site. Ensure: text meets WCAG AA standards (4.5:1 for normal text, 3:1 for large), important elements stand out, subtle elements recede appropriately, no eye strain, and clear distinction between interactive and non-interactive elements.",
+    "Category": "Design Refinement",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Enhancement",
+    "Description/Notes": "Proper contrast is crucial for accessibility and professional appearance. Fixes washed-out or hard-to-read designs."
+  },
+  {
+    "Use Case": "Polishing dark mode design (if applicable)",
+    "Prompt": "Refine dark mode implementation for a professional look. Ensure: true blacks are avoided (use dark grays), proper contrast ratios, reduced eye strain, consistent elevation with subtle highlights, smooth transitions between themes, and all elements work beautifully in dark mode.",
+    "Category": "Design Refinement",
+    "Tool Compatibility": "Cursor, Lovable, Windsurf",
+    "Prompt Type": "Enhancement",
+    "Description/Notes": "Dark mode done wrong looks amateurish. This polishes it for professional quality and eye comfort."
+  },
+  {
+    "Use Case": "Refining responsive design breakpoints",
+    "Prompt": "Review and improve responsive behavior at all breakpoints. Ensure: smooth transitions between sizes, no awkward in-between states, consistent spacing at each size, readable text at all viewports, properly sized touch targets on mobile, and a cohesive experience across all devices.",
+    "Category": "Design Refinement",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Enhancement",
+    "Description/Notes": "Responsive design should feel intentional at every size, not just desktop and mobile. This fills the gaps."
+  },
+  {
+    "Use Case": "Enhancing loading and empty states",
+    "Prompt": "Design professional loading and empty states. Create: skeleton screens for loading, helpful empty state messages with clear next actions, consistent styling with the main design, branded illustrations or icons, and states that maintain user confidence and reduce perceived wait time.",
+    "Category": "Design Refinement",
+    "Tool Compatibility": "Cursor, Lovable, Windsurf, Bolt.new",
+    "Prompt Type": "Enhancement",
+    "Description/Notes": "These in-between states are often overlooked but crucial for perceived performance and user experience."
+  },
+  {
+    "Use Case": "Polishing table design and data presentation",
+    "Prompt": "Refine all tables and data displays for clarity and professionalism. Implement: proper column headers, zebra striping or subtle row separators, responsive table behavior, proper alignment (numbers right, text left), sortable headers if applicable, and clean, scannable design.",
+    "Category": "Design Refinement",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Enhancement",
+    "Description/Notes": "Tables can look clunky. This makes them clean, professional, and easy to scan."
+  },
+  {
+    "Use Case": "Refining modal and dialog design",
+    "Prompt": "Polish all modals, dialogs, and popups. Ensure: proper backdrop/overlay, clear close buttons, mobile-friendly sizing, appropriate animations (fade in/slide up), focus management, logical button order (primary action on right), and professional appearance that doesn't feel jarring.",
+    "Category": "Design Refinement",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Enhancement",
+    "Description/Notes": "Modals interrupt the user flow, so they must be polished, clear, and user-friendly."
+  },
+  {
+    "Use Case": "Enhancing dropdown and select menu design",
+    "Prompt": "Refine all dropdown menus and select elements. Create: clear open/closed states, proper hover highlighting, sufficient padding, easy-to-read options, smooth open/close animations, mobile-friendly touch targets, and professional styling consistent with your design system.",
+    "Category": "Design Refinement",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Enhancement",
+    "Description/Notes": "Dropdowns should feel smooth and professional, not clunky. Essential for forms and navigation."
+  },
+  {
+    "Use Case": "Polishing notification and alert design",
+    "Prompt": "Refine all notifications, alerts, and toast messages. Implement: clear success/error/warning/info states with appropriate colors, proper icons, dismissible design, appropriate timing (3-5s for success, manual close for errors), non-intrusive positioning, and consistent styling.",
+    "Category": "Design Refinement",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Enhancement",
+    "Description/Notes": "Notifications communicate important info. Make them clear, professional, and appropriately styled."
+  },
+  {
+    "Use Case": "Refining badge and label design",
+    "Prompt": "Polish all badges, tags, and labels throughout the site. Ensure: consistent sizing, clear color coding (if used), appropriate contrast, proper spacing, professional pill or rounded rectangle shapes, and meaningful visual distinction from surrounding content.",
+    "Category": "Design Refinement",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Enhancement",
+    "Description/Notes": "Badges add context but can look cluttered if not refined. This creates clean, professional tags."
+  },
+  {
+    "Use Case": "Enhancing progress indicators and steppers",
+    "Prompt": "Refine progress bars, step indicators, and process flows. Create: clear current state highlighting, completed vs. upcoming distinction, progress percentage if applicable, smooth animations, professional styling, and clear visual feedback that builds user confidence.",
+    "Category": "Design Refinement",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Enhancement",
+    "Description/Notes": "Progress indicators reduce anxiety in multi-step processes. Make them clear and encouraging."
+  },
+  {
+    "Use Case": "Polishing testimonial and review sections",
+    "Prompt": "Enhance testimonial and review sections for trust and professionalism. Include: proper quote styling, clear attribution with photos if available, rating displays (stars), dates if relevant, consistent card design, credible formatting, and layout that makes testimonials feel authentic and impactful.",
+    "Category": "Design Refinement",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Enhancement",
+    "Description/Notes": "Testimonials build trust. Polish them to look credible and professional, not fake or forced."
+  },
+  {
+    "Use Case": "Refining pricing table design",
+    "Prompt": "Polish pricing tables and plan comparisons. Ensure: clear feature lists, highlighted recommended plans, proper alignment, scannable design, compelling CTAs, proper spacing, mobile-friendly stacking, clear price emphasis, and professional appearance that drives conversions.",
+    "Category": "Design Refinement",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Enhancement",
+    "Description/Notes": "Pricing tables directly impact revenue. Make them clear, scannable, and conversion-focused."
+  },
+  {
+    "Use Case": "Enhancing team/about page design",
+    "Prompt": "Refine team member displays and about sections. Create: consistent photo styling (shape, size, filters), clear role labels, professional layout (grid or cards), social links, balanced spacing, and design that makes the team look credible and approachable.",
+    "Category": "Design Refinement",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Enhancement",
+    "Description/Notes": "Team pages build trust and personality. Polish them for professional yet approachable appearance."
+  },
+  {
+    "Use Case": "Polishing blog/article layout and typography",
+    "Prompt": "Enhance blog post and article layouts for optimal readability. Implement: optimal line length (50-75 characters), comfortable line height, clear heading hierarchy, proper paragraph spacing, styled blockquotes, code block formatting if needed, and professional typography that encourages reading.",
+    "Category": "Design Refinement",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Enhancement",
+    "Description/Notes": "Long-form content needs careful typography. This creates an enjoyable, professional reading experience."
+  },
+  {
+    "Use Case": "Refining search functionality design",
+    "Prompt": "Polish search bars and results pages. Create: clear input design with search icon, autocomplete suggestions if applicable, professional results layout, highlighting of search terms, empty state for no results, loading states, and intuitive, fast-feeling search experience.",
+    "Category": "Design Refinement",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Enhancement",
+    "Description/Notes": "Search is critical for user navigation. Make it feel fast, professional, and helpful."
+  },
+  {
+    "Use Case": "Enhancing video and media player integration",
+    "Prompt": "Refine embedded videos and media players. Ensure: proper aspect ratios (16:9), custom controls if applicable, professional thumbnail images, smooth loading, proper sizing across devices, accessible controls, and integration that feels native to your design.",
+    "Category": "Design Refinement",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Enhancement",
+    "Description/Notes": "Video players should feel integrated, not like iframe afterthoughts. Polish them for cohesive design."
+  },
+  {
+    "Use Case": "Polishing accordion and collapsible sections",
+    "Prompt": "Refine accordion menus and collapsible content sections. Create: clear open/closed indicators, smooth expand/collapse animations, proper spacing, professional styling, clear headers, and intuitive behavior that makes content exploration feel natural and organized.",
+    "Category": "Design Refinement",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Enhancement",
+    "Description/Notes": "Accordions help organize content without overwhelming users. Make them smooth and professional."
+  },
+  {
+    "Use Case": "Refining tab navigation and content switching",
+    "Prompt": "Polish tabbed interfaces and content switchers. Ensure: clear active tab indication, proper hover states, smooth content transitions, consistent styling, mobile-friendly behavior, logical tab order, and professional appearance that makes navigation obvious.",
+    "Category": "Design Refinement",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Enhancement",
+    "Description/Notes": "Tabs organize related content. Make them clear and easy to use with professional styling."
+  },
+  {
+    "Use Case": "Enhancing breadcrumb navigation",
+    "Prompt": "Refine breadcrumb trails for better navigation. Create: clear hierarchy display, clickable links, proper separators (/ or >), appropriate sizing and positioning, mobile behavior, and subtle styling that helps without cluttering the design.",
+    "Category": "Design Refinement",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Enhancement",
+    "Description/Notes": "Breadcrumbs help users understand site structure. Make them clear but unobtrusive."
+  },
+  {
+    "Use Case": "Polishing stat counters and metrics displays",
+    "Prompt": "Enhance number displays, stat counters, and key metrics sections. Use: large, bold numbers, clear labels, appropriate animations (count-up effects), professional layout (grid or cards), proper units, and design that makes numbers impactful and credible.",
+    "Category": "Design Refinement",
+    "Tool Compatibility": "Cursor, Lovable, Windsurf, Bolt.new",
+    "Prompt Type": "Enhancement",
+    "Description/Notes": "Numbers and stats prove value. Display them prominently with professional design that builds credibility."
+  },
+  {
+    "Use Case": "Refining tooltip and popover design",
+    "Prompt": "Polish all tooltips and popovers throughout the site. Ensure: appropriate timing (appear on hover after 0.5s), clear arrow pointing to trigger, dark background with light text or vice versa, concise helpful text, proper positioning that doesn't go off-screen, and smooth fade in/out.",
+    "Category": "Design Refinement",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Enhancement",
+    "Description/Notes": "Tooltips provide helpful context. Make them clear, well-timed, and visually polished."
+  },
+  {
+    "Use Case": "Enhancing sidebar and auxiliary navigation",
+    "Prompt": "Refine sidebar navigation and auxiliary menus. Create: clear hierarchy, collapsible sections if needed, proper active state highlighting, professional styling, smooth show/hide behavior on mobile, consistent with main navigation, and helpful organization that aids discovery.",
+    "Category": "Design Refinement",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Enhancement",
+    "Description/Notes": "Sidebars provide secondary navigation. Polish them for clarity and professional appearance."
+  },
+  {
+    "Use Case": "Polishing error page design (404, 500, etc.)",
+    "Prompt": "Enhance error pages for a better user experience. Include: clear error message, helpful next steps or navigation, search bar if applicable, branded illustration or image, consistent styling with main site, touch of personality, and design that maintains trust even when things go wrong.",
+    "Category": "Design Refinement",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Enhancement",
+    "Description/Notes": "Error pages are opportunities to maintain brand trust. Make them helpful and on-brand, not generic."
+  },
+  {
+    "Use Case": "Comprehensive design audit and polish pass",
+    "Prompt": "Perform a complete design audit and refinement pass across the entire site. Review: spacing consistency, color usage, typography, component styling, alignment, visual hierarchy, responsive behavior, and overall cohesion. Fix inconsistencies, enhance weak areas, and elevate the entire site to a professional, polished standard. Document any design system decisions.",
+    "Category": "Design Refinement",
+    "Tool Compatibility": "All Tools",
+    "Prompt Type": "Comprehensive",
+    "Description/Notes": "Final comprehensive polish prompt. Use this for a thorough review and refinement of the entire site before launch."
+  }
+]

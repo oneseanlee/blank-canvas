@@ -1,0 +1,42 @@
+{
+  "total_tabs": 19,
+  "total_prompts": 306,
+  "new_tabs": 2,
+  "new_prompts": 77,
+  "existing_tabs": 17,
+  "existing_prompts": 229,
+  "top_5_tabs": [
+    {
+      "Tab": "\u2728 Award-Winning Homepage Design",
+      "Prompts": 40
+    },
+    {
+      "Tab": "\u2728 Animation & Motion Design",
+      "Prompts": 40
+    },
+    {
+      "Tab": "\ud83d\udee0\ufe0f Feature Development",
+      "Prompts": 40
+    },
+    {
+      "Tab": "\ud83c\udfa8 Design Refinement & Polish",
+      "Prompts": 37
+    },
+    {
+      "Tab": "\ud83c\udfc1 Project Finalization & Polish",
+      "Prompts": 30
+    }
+  ],
+  "new_categories": [
+    {
+      "name": "Design Refinement & Polish",
+      "prompts": 37,
+      "icon": "\ud83c\udfa8"
+    },
+    {
+      "name": "Animation & Motion Design",
+      "prompts": 40,
+      "icon": "\u2728"
+    }
+  ]
+}

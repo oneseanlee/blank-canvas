@@ -1,0 +1,242 @@
+[
+  {
+    "Use Case": "Comprehensive mobile responsiveness audit and fixes",
+    "Prompt": "Perform a complete mobile responsiveness audit and fix all issues:\n\n1. Test all pages at breakpoints: 320px, 375px, 390px, 428px, 768px, 1024px\n2. Check and fix:\n   - Text readability (font sizes 16px minimum on mobile)\n   - Touch targets (44x44px minimum)\n   - Horizontal scrolling issues\n   - Image scaling and aspect ratios\n   - Navigation menu functionality\n   - Form field usability on small screens\n   - Table responsiveness (scroll or stack)\n   - Modal/popup mobile behavior\n3. Test portrait and landscape orientations\n4. Verify tap/click events work on mobile\n5. Check mobile browser compatibility (Safari, Chrome Mobile)\n6. Fix any overlapping elements or z-index issues\n\nProvide specific fixes for each issue found with code examples.",
+    "Category": "Mobile Optimization",
+    "Tool Compatibility": "Lovable, Replit, Cursor, Bolt, Windsurf",
+    "Prompt Type": "Training Wheels",
+    "Description/Notes": "Comprehensive mobile audit for final polish. Test on actual devices if possible. Mobile accounts for 50%+ of traffic for most sites."
+  },
+  {
+    "Use Case": "Mobile menu and navigation optimization",
+    "Prompt": "Optimize mobile navigation for final polish:\n\n1. Hamburger menu improvements:\n   - Smooth animation (300ms)\n   - Close on link click or outside tap\n   - Accessible close button with clear label\n   - Prevent body scroll when menu is open\n2. Touch-friendly navigation:\n   - Larger tap targets (minimum 44x44px)\n   - Visual feedback on tap/touch\n   - Smooth transitions between states\n3. Mobile-specific features:\n   - Sticky header that hides on scroll down, shows on scroll up\n   - Simplified menu structure (collapse nested items)\n   - Call-to-action buttons prominently placed\n4. Test and fix:\n   - Submenu functionality on mobile\n   - Touch gestures (swipe to close if applicable)\n   - Deep linking to sections\n\nMake navigation effortless on mobile devices.",
+    "Category": "Mobile Optimization",
+    "Tool Compatibility": "Lovable, Replit, Cursor, v0, Bolt",
+    "Prompt Type": "Design",
+    "Description/Notes": "Mobile navigation is critical for user experience. Poor mobile nav is a top reason for high bounce rates."
+  },
+  {
+    "Use Case": "Mobile performance optimization final checks",
+    "Prompt": "Optimize mobile performance for production:\n\n1. Image optimization for mobile:\n   - Serve smaller images on mobile breakpoints\n   - Implement lazy loading for all images\n   - Use WebP format with fallbacks\n   - Compress images (aim for <200KB each)\n2. Code optimization:\n   - Minimize JavaScript bundles\n   - Remove unused CSS\n   - Defer non-critical JavaScript\n   - Inline critical CSS\n3. Mobile-specific optimizations:\n   - Reduce server response time (<200ms)\n   - Enable compression (gzip/brotli)\n   - Implement service worker for offline access\n   - Minimize redirects\n4. Test mobile PageSpeed score (aim for 90+)\n\nProvide specific optimizations with before/after metrics.",
+    "Category": "Mobile Optimization & Performance",
+    "Tool Compatibility": "Replit, Cursor, Windsurf, Bolt",
+    "Prompt Type": "Training Wheels",
+    "Description/Notes": "Mobile performance directly impacts conversions. 1-second delay can reduce conversions by 7%."
+  },
+  {
+    "Use Case": "Mobile form usability enhancement",
+    "Prompt": "Optimize all forms for mobile completion:\n\n1. Input field improvements:\n   - Appropriate input types (tel, email, number)\n   - Autocomplete attributes for faster filling\n   - Larger input fields (minimum 44px height)\n   - Clear, visible labels\n   - Helpful placeholder text\n2. Mobile keyboard optimization:\n   - Correct keyboard opens for each field type\n   - Next/Submit button on keyboard\n   - Proper tab order through fields\n3. Error handling:\n   - Inline validation with clear error messages\n   - Error messages visible without scrolling\n   - Success confirmation clear and prominent\n4. Form UX:\n   - Multi-step forms with progress indicator\n   - Minimize required fields\n   - Save progress option for long forms\n   - One-click social autofill if applicable\n\nTest form completion on actual mobile devices.",
+    "Category": "Mobile Optimization & Forms",
+    "Tool Compatibility": "Lovable, Replit, Cursor, Bolt",
+    "Prompt Type": "Design",
+    "Description/Notes": "Mobile form completion rates can be 50% lower than desktop. Optimize aggressively for mobile."
+  },
+  {
+    "Use Case": "Mobile touch interactions and gestures",
+    "Prompt": "Enhance mobile touch interactions throughout the site:\n\n1. Touch target optimization:\n   - Ensure all clickable elements are minimum 44x44px\n   - Add adequate spacing between touch targets (8px minimum)\n   - Make entire card/row clickable, not just text\n2. Touch feedback:\n   - Visual feedback on touch (highlight, scale, color change)\n   - Haptic feedback for important actions (if supported)\n   - Loading states for buttons after tap\n3. Gesture support:\n   - Swipe gestures for carousels/galleries\n   - Pull-to-refresh where appropriate\n   - Pinch-to-zoom for images\n   - Long-press for additional options (if needed)\n4. Prevent common issues:\n   - Disable accidental double-tap zoom\n   - Prevent text selection on buttons\n   - Fix touch delay (use touch-action CSS)\n\nMake touch interactions feel native and responsive.",
+    "Category": "Mobile Optimization & Interactivity",
+    "Tool Compatibility": "Lovable, Replit, Cursor, Bolt",
+    "Prompt Type": "Design",
+    "Description/Notes": "Good touch interactions make mobile experience feel polished and professional."
+  },
+  {
+    "Use Case": "Comprehensive button and link functionality audit",
+    "Prompt": "Test every button and link on the site for functionality:\n\n1. Audit checklist:\n   - Test every button on every page (click and verify action)\n   - Test all navigation links (internal and external)\n   - Verify external links open in new tab with rel=\"noopener\"\n   - Check all form submit buttons work correctly\n   - Test CTA buttons trigger correct actions\n   - Verify download links work and file downloads\n   - Test anchor links scroll to correct sections smoothly\n2. Check for broken functionality:\n   - Dead links (404 errors)\n   - Buttons with no onClick handlers\n   - Links pointing to wrong destinations\n   - Disabled buttons that should be enabled\n3. Verify states:\n   - Hover states work on desktop\n   - Active/pressed states visible\n   - Disabled state styled appropriately\n   - Loading states show when processing\n4. Test edge cases:\n   - Rapid clicking (prevent double submissions)\n   - Button behavior when offline\n   - Link behavior with browser back button\n\nCreate a spreadsheet of all interactive elements tested.",
+    "Category": "Functionality Testing",
+    "Tool Compatibility": "All tools",
+    "Prompt Type": "Training Wheels",
+    "Description/Notes": "Broken buttons/links destroy credibility and conversions. Test everything before launch."
+  },
+  {
+    "Use Case": "Form validation and submission testing",
+    "Prompt": "Thoroughly test all form functionality:\n\n1. Validation testing:\n   - Test each required field (try to submit without filling)\n   - Test format validation (email, phone, URL, etc.)\n   - Test character limits and minimum lengths\n   - Verify error messages are clear and helpful\n   - Test that errors show inline near fields\n2. Submission testing:\n   - Verify form submits successfully with valid data\n   - Check submission confirmation (message, redirect, or email)\n   - Test that form data reaches destination (email, database, CRM)\n   - Verify form can't be submitted twice (disable after first submit)\n3. Edge case testing:\n   - Submit with special characters in fields\n   - Test with very long input values\n   - Try SQL injection attempts (security)\n   - Test file uploads (size limits, file types)\n4. User experience:\n   - Test autofill functionality\n   - Verify tab order through fields is logical\n   - Check that success message is clear\n   - Test form reset/clear functionality\n\nDocument all test cases and results.",
+    "Category": "Functionality Testing & Forms",
+    "Tool Compatibility": "All tools",
+    "Prompt Type": "Training Wheels",
+    "Description/Notes": "Forms are critical conversion points. A broken form = lost leads/sales. Test exhaustively."
+  },
+  {
+    "Use Case": "Interactive element functionality testing",
+    "Prompt": "Test all interactive elements for proper functionality:\n\n1. Dropdowns and selects:\n   - All options selectable\n   - Selected value displays correctly\n   - Can be cleared/reset if applicable\n   - Works on mobile devices\n2. Modals and popups:\n   - Open/close correctly\n   - Close on outside click or ESC key\n   - Content displays properly\n   - Scroll locked on body when modal open\n   - Accessible (focus trap, keyboard nav)\n3. Tabs and accordions:\n   - All tabs/sections accessible\n   - Content displays correctly when selected\n   - Only one section open at a time (if accordion)\n   - Active state clearly visible\n4. Sliders and carousels:\n   - Navigation arrows work (previous/next)\n   - Dot indicators work\n   - Auto-play functions correctly (with pause on hover)\n   - Swipe gestures work on mobile\n   - Images load properly\n5. Other interactive elements:\n   - Search functionality works\n   - Filters apply correctly\n   - Sort options function properly\n   - Pagination works\n\nTest across different browsers and devices.",
+    "Category": "Functionality Testing",
+    "Tool Compatibility": "All tools",
+    "Prompt Type": "Training Wheels",
+    "Description/Notes": "Interactive elements engage users. Broken interactions frustrate users and increase bounce rates."
+  },
+  {
+    "Use Case": "Cross-browser functionality testing",
+    "Prompt": "Test site functionality across major browsers:\n\n1. Browser testing matrix:\n   - Chrome (latest)\n   - Firefox (latest)\n   - Safari (latest, Mac and iOS)\n   - Edge (latest)\n   - Mobile browsers (Chrome Mobile, Safari iOS)\n2. Test for each browser:\n   - All buttons and links work\n   - Forms submit correctly\n   - CSS renders properly\n   - JavaScript functions execute\n   - Animations play smoothly\n   - Media (images, videos) load correctly\n3. Document browser-specific issues:\n   - Layout differences\n   - Feature support gaps\n   - Performance variations\n   - Console errors unique to browser\n4. Implement fixes:\n   - Add browser-specific CSS prefixes\n   - Provide fallbacks for unsupported features\n   - Use polyfills where needed\n   - Test fixes in all browsers\n\nAim for consistent experience across all browsers.",
+    "Category": "Functionality Testing & Compatibility",
+    "Tool Compatibility": "All tools",
+    "Prompt Type": "Training Wheels",
+    "Description/Notes": "Different browsers render differently. Safari especially requires thorough testing. Test on real devices."
+  },
+  {
+    "Use Case": "User flow and navigation testing",
+    "Prompt": "Test complete user journeys through the site:\n\n1. Map critical user flows:\n   - Homepage \u2192 Product/Service \u2192 Contact/Purchase\n   - Blog post \u2192 Related content \u2192 Newsletter signup\n   - Landing page \u2192 Lead capture \u2192 Thank you page\n2. Test each flow end-to-end:\n   - All links work along the path\n   - Navigation is intuitive\n   - No dead ends or confusing redirects\n   - Back button works properly\n   - Progress is saved if applicable\n3. Test from different entry points:\n   - Direct URL entry\n   - Search engine landing\n   - Social media links\n   - Email campaign links\n4. Verify conversion points:\n   - CTAs are visible and working\n   - Forms submit successfully\n   - Payment processing works (if e-commerce)\n   - Confirmation/thank you pages display\n5. Test error scenarios:\n   - 404 page has helpful navigation\n   - Error messages guide users back on track\n   - Failed form submissions show clear instructions\n\nDocument the complete user experience.",
+    "Category": "Functionality Testing & UX",
+    "Tool Compatibility": "All tools",
+    "Prompt Type": "Strategy",
+    "Description/Notes": "User flow testing ensures visitors can complete goals. Map and test all critical conversion paths."
+  },
+  {
+    "Use Case": "Visual design polish and refinement",
+    "Prompt": "Refine visual design for award-winning polish:\n\n1. Visual hierarchy enhancement:\n   - Ensure clear focal points on each section\n   - Improve heading size contrast (H1 significantly larger than H2, etc.)\n   - Add strategic white space around important elements\n   - Guide eye flow with visual cues (arrows, colors, spacing)\n2. Color refinement:\n   - Ensure sufficient contrast ratios (WCAG AA: 4.5:1 for text)\n   - Create cohesive color palette with brand colors\n   - Use color strategically for CTAs (high contrast)\n   - Ensure consistency across all pages\n3. Typography polish:\n   - Optimize line-height (1.5-1.7 for body text)\n   - Perfect letter-spacing for headings\n   - Ensure readable font sizes (16px minimum for body)\n   - Limit to 2-3 font families maximum\n4. Visual consistency:\n   - Consistent button styles throughout\n   - Uniform spacing system (8px or 4px grid)\n   - Consistent border radius values\n   - Aligned elements (use grid/flexbox)\n5. Micro-improvements:\n   - Add subtle shadows for depth\n   - Smooth rounded corners on appropriate elements\n   - Consistent icon style (all outline or all filled)\n\nMake every pixel intentional.",
+    "Category": "Design Enhancement",
+    "Tool Compatibility": "Lovable, Replit, Figma, v0, Cursor",
+    "Prompt Type": "Design",
+    "Description/Notes": "Visual polish separates good from great. Small details create perception of quality and professionalism."
+  },
+  {
+    "Use Case": "Modern design trends implementation",
+    "Prompt": "Modernize the design with current 2025 trends:\n\n1. Contemporary design elements:\n   - Glassmorphism effects on cards/sections (subtle blur + transparency)\n   - Smooth gradient backgrounds (not harsh gradients)\n   - Organic shapes and blob backgrounds\n   - Micro-animations on scroll and hover\n   - Dark mode support (toggle or system preference)\n2. Layout modernization:\n   - Generous white space (don't cram content)\n   - Asymmetric layouts for visual interest\n   - Overlapping elements for depth\n   - Large, bold typography for headings\n   - Grid-based layouts with creative breaks\n3. Interactive elements:\n   - Smooth scroll animations (fade in, slide in)\n   - Hover effects on cards (lift, glow, scale)\n   - Cursor-following elements (subtle)\n   - Parallax scrolling on hero sections\n   - Loading states with skeleton screens\n4. Visual effects:\n   - Subtle gradient overlays on images\n   - Soft box shadows (avoid harsh shadows)\n   - Smooth transitions (300-400ms)\n   - Backdrop filters for depth\n5. Keep it tasteful:\n   - Don't overdo animations\n   - Maintain fast performance\n   - Ensure accessibility isn't compromised\n\nMake the design feel current and premium.",
+    "Category": "Design Enhancement & Modernization",
+    "Tool Compatibility": "Lovable, Replit, Cursor, v0, Bolt",
+    "Prompt Type": "Design",
+    "Description/Notes": "Modern design creates trust and positions brand as current. Balance trends with timeless principles."
+  },
+  {
+    "Use Case": "Award-winning design element suggestions",
+    "Prompt": "Suggest and implement award-winning design enhancements:\n\n1. Hero section upgrades:\n   - Large, impactful headline with motion blur or split-text animation\n   - High-quality hero image or video background\n   - Subtle particle effects or animated gradients\n   - Strong CTA with hover animation\n   - Scroll indicator with smooth animation\n2. Visual storytelling:\n   - Add data visualization for statistics\n   - Implement scroll-triggered number counters\n   - Create timeline for company story or process\n   - Add before/after comparisons (slider)\n   - Use case studies with compelling visuals\n3. Interactive elements:\n   - Hover reveal for additional information\n   - Animated icons that respond to scroll\n   - Interactive comparison tools\n   - 3D product viewers or mockups\n   - Video testimonials with play on hover\n4. Unique design touches:\n   - Custom illustrations matching brand\n   - Animated SVG icons\n   - Morphing shapes between sections\n   - Creative section transitions\n   - Signature brand element repeated tastefully\n5. Awwwards-inspired features:\n   - Smooth page transitions\n   - Creative cursor effects (only where it enhances)\n   - Horizontal scroll sections (use sparingly)\n   - Parallax depth effects\n   - Cinematic spacing and pacing\n\nReference specific award-winning sites for inspiration.",
+    "Category": "Design Enhancement & Excellence",
+    "Tool Compatibility": "Lovable, Replit, ChatGPT, Figma, Cursor",
+    "Prompt Type": "Design",
+    "Description/Notes": "Award-winning elements create memorable experiences. Balance creativity with usability and performance."
+  },
+  {
+    "Use Case": "Image and media optimization for visual impact",
+    "Prompt": "Optimize all images and media for maximum visual impact:\n\n1. Image quality enhancement:\n   - Use high-resolution images (2x for retina displays)\n   - Ensure images are properly cropped and framed\n   - Apply subtle filters for consistency\n   - Compress without visible quality loss (<200KB ideally)\n   - Use WebP format with JPG fallback\n2. Image presentation:\n   - Add subtle hover effects (zoom, overlay)\n   - Implement lazy loading for performance\n   - Use proper aspect ratios (no stretching)\n   - Add image captions where helpful\n   - Implement lightbox for galleries\n3. Hero images/videos:\n   - Optimize hero images for fast loading\n   - Compress videos heavily (aim for <5MB)\n   - Add poster frame for videos\n   - Implement autoplay with mute (if appropriate)\n   - Provide pause/play controls\n4. Background images:\n   - Optimize large background images\n   - Use CSS background-size: cover properly\n   - Add overlay for text readability\n   - Implement parallax tastefully\n5. Icons and graphics:\n   - Use SVG for icons (scalable, smaller size)\n   - Ensure consistent icon style\n   - Add meaningful alt text for accessibility\n   - Optimize icon sizes for performance\n\nMake every image purposeful and optimized.",
+    "Category": "Design Enhancement & Media",
+    "Tool Compatibility": "Lovable, Replit, Cursor, Figma",
+    "Prompt Type": "Design",
+    "Description/Notes": "Images are powerful but often the heaviest assets. Optimize for both impact and performance."
+  },
+  {
+    "Use Case": "Spacing and layout consistency refinement",
+    "Prompt": "Perfect spacing and layout consistency across the site:\n\n1. Implement spacing system:\n   - Use consistent spacing scale (4px, 8px, 16px, 24px, 32px, 48px, 64px)\n   - Apply spacing system to margins and padding\n   - Use CSS custom properties for spacing values\n   - Ensure consistent section spacing\n2. Layout alignment:\n   - Align all text to baseline grid where possible\n   - Center-align elements properly\n   - Ensure buttons align horizontally\n   - Verify images align with grid\n3. Container widths:\n   - Consistent max-width for content (1280px typical)\n   - Proper padding on mobile (16px minimum)\n   - Symmetric padding on larger screens\n   - Breakpoint consistency\n4. Visual rhythm:\n   - Consistent heading spacing (margin-top larger than margin-bottom)\n   - Paragraph spacing optimal for readability\n   - Section spacing creates clear separation\n   - List item spacing consistent\n5. Grid system:\n   - Use CSS Grid or Flexbox consistently\n   - Ensure responsive behavior is predictable\n   - Verify no layout shifts on load\n   - Test all breakpoints for layout consistency\n\nCreate visual harmony through consistent spacing.",
+    "Category": "Design Enhancement & Consistency",
+    "Tool Compatibility": "Lovable, Replit, Cursor, v0, Bolt",
+    "Prompt Type": "Design",
+    "Description/Notes": "Consistent spacing is the foundation of professional design. Use a spacing system religiously."
+  },
+  {
+    "Use Case": "Conversion rate optimization audit and improvements",
+    "Prompt": "Analyze and optimize for maximum conversions:\n\n1. CTA optimization:\n   - Make primary CTAs highly visible (contrasting colors)\n   - Use action-oriented text (\"Get Started Free\" vs \"Submit\")\n   - Ensure CTAs above the fold on key pages\n   - Add urgency where appropriate (limited time, spots)\n   - Test multiple CTA placements\n2. Reduce friction:\n   - Minimize form fields (ask only essential info)\n   - Remove unnecessary navigation from landing pages\n   - Add trust signals near CTAs (security badges, testimonials)\n   - Simplify checkout process\n   - Offer guest checkout (if e-commerce)\n3. Build trust:\n   - Add prominent testimonials with photos\n   - Show client logos prominently\n   - Display security badges on forms\n   - Add guarantee/return policy clearly\n   - Show real-time social proof (if available)\n4. Improve value proposition:\n   - Make benefits crystal clear in headline\n   - Use bullet points for key features/benefits\n   - Add comparison table if appropriate\n   - Highlight unique selling points\n   - Show pricing/value upfront (no hidden costs)\n5. Address objections:\n   - Add FAQ section near CTAs\n   - Provide live chat or easy contact\n   - Show money-back guarantee\n   - Offer free trial or demo\n   - Display return/cancellation policy\n\nImplement A/B testing for key changes.",
+    "Category": "Conversion Optimization",
+    "Tool Compatibility": "Lovable, Replit, ChatGPT, Figma",
+    "Prompt Type": "Strategy",
+    "Description/Notes": "Small CRO improvements can have massive impact. Even 1% improvement compounds over time."
+  },
+  {
+    "Use Case": "Landing page conversion optimization",
+    "Prompt": "Optimize landing page for maximum conversions:\n\n1. Above-the-fold optimization:\n   - Clear, benefit-driven headline (what's in it for them)\n   - Supporting subheadline explaining value\n   - Prominent, contrasting CTA button\n   - Hero image/video showing product in use\n   - Trust signals immediately visible\n2. Social proof placement:\n   - Testimonials with faces near CTAs\n   - Client logos prominently displayed\n   - Real numbers (customers, reviews, etc.)\n   - Case study results highlighted\n   - Awards/certifications shown\n3. Lead capture optimization:\n   - Minimal form fields (name + email often enough)\n   - Clear privacy statement\n   - Compelling lead magnet offer\n   - Show form value (\"Get Your Free...\")\n   - Confirmation that's worth sharing\n4. Scarcity and urgency:\n   - Limited-time offer with countdown timer\n   - Limited spots available (if true)\n   - Seasonal/event-based urgency\n   - Early-bird pricing\n5. Remove distractions:\n   - Simplified navigation or remove it entirely\n   - Remove footer links on lead gen pages\n   - Single conversion goal per page\n   - Focused content supporting one action\n\nTest variations with A/B testing.",
+    "Category": "Conversion Optimization & Landing Pages",
+    "Tool Compatibility": "Lovable, Replit, ChatGPT, Unbounce",
+    "Prompt Type": "Strategy",
+    "Description/Notes": "Landing pages have one job: convert. Remove everything that doesn't support the goal."
+  },
+  {
+    "Use Case": "Checkout and sign-up flow optimization",
+    "Prompt": "Optimize checkout/signup process for completion:\n\n1. Simplify the flow:\n   - Reduce steps (multi-step can be good, but not too many)\n   - Show progress indicator clearly\n   - Allow going back without losing data\n   - Save progress for later completion\n   - Offer guest checkout option\n2. Form optimization:\n   - Minimize required fields\n   - Use smart defaults where possible\n   - Implement autofill and autocomplete\n   - Show inline validation (green checks for correct)\n   - Clear, helpful error messages\n3. Build confidence:\n   - Display security badges prominently\n   - Show accepted payment methods\n   - Clear refund/return policy link\n   - No hidden costs (show total upfront)\n   - Add testimonials on checkout page\n4. Reduce cart abandonment:\n   - Exit-intent popup with incentive\n   - Send abandoned cart emails\n   - Allow saving cart for later\n   - One-click checkout for returning users\n   - Multiple payment options\n5. Confirmation optimization:\n   - Clear success message\n   - Email confirmation immediately\n   - Next steps clearly explained\n   - Encourage social sharing\n   - Provide easy contact for issues\n\nTrack abandonment rate at each step.",
+    "Category": "Conversion Optimization & E-commerce",
+    "Tool Compatibility": "Replit, Cursor, Shopify, WooCommerce",
+    "Prompt Type": "Strategy",
+    "Description/Notes": "Average cart abandonment rate is 70%. Every friction point removed increases completions significantly."
+  },
+  {
+    "Use Case": "Mobile conversion optimization",
+    "Prompt": "Optimize specifically for mobile conversions:\n\n1. Mobile CTA optimization:\n   - Large, thumb-friendly CTAs (minimum 48px tall)\n   - CTAs always visible (sticky button at bottom)\n   - Use action verbs clearly visible\n   - High contrast colors for CTAs\n   - Loading states prevent double-taps\n2. Mobile form optimization:\n   - Minimal fields (cut in half for mobile if possible)\n   - One field per row for easy completion\n   - Large input fields (16px font minimum)\n   - Appropriate keyboards for each field type\n   - Avoid dropdowns when possible (use buttons/radio)\n3. Mobile trust signals:\n   - Show trust badges prominently\n   - Keep testimonials visible\n   - Add click-to-call button prominently\n   - Display security features clearly\n   - Show mobile-optimized reviews\n4. Reduce mobile friction:\n   - One-tap autofill options (Apple/Google Pay)\n   - Minimize typing required\n   - Use device features (camera for ID, location)\n   - Save payment info for next time\n   - Offer SMS confirmation\n5. Mobile-specific optimizations:\n   - Fast load time (under 3 seconds)\n   - No accidental clicks (proper spacing)\n   - Easy back navigation\n   - Clear error recovery\n   - Offline form saving\n\nMobile conversion rates are lower - optimize aggressively.",
+    "Category": "Conversion Optimization & Mobile",
+    "Tool Compatibility": "Lovable, Replit, Cursor, Bolt",
+    "Prompt Type": "Strategy",
+    "Description/Notes": "Mobile conversions lag desktop by 30-50%. Mobile-specific CRO can close this gap significantly."
+  },
+  {
+    "Use Case": "Comprehensive accessibility audit and fixes",
+    "Prompt": "Ensure WCAG 2.1 AA compliance for accessibility:\n\n1. Semantic HTML audit:\n   - Use proper heading hierarchy (H1 \u2192 H2 \u2192 H3)\n   - Add semantic HTML5 tags (nav, main, article, aside, footer)\n   - Ensure forms use proper labels\n   - Use button elements for buttons (not divs)\n   - Add ARIA labels where needed\n2. Keyboard accessibility:\n   - All interactive elements accessible via Tab\n   - Visible focus indicators (outline or highlight)\n   - Logical tab order through page\n   - ESC key closes modals\n   - Skip to main content link\n3. Screen reader optimization:\n   - Alt text on all images (descriptive, not \"image\")\n   - ARIA labels on icon buttons\n   - Form error messages associated with fields\n   - Status messages announced\n   - Hidden content properly marked (aria-hidden)\n4. Visual accessibility:\n   - Color contrast ratios meet WCAG AA (4.5:1 for text, 3:1 for UI)\n   - Don't rely on color alone to convey meaning\n   - Text resizable up to 200% without loss of function\n   - No flashing content (seizure risk)\n5. Test with tools:\n   - WAVE browser extension\n   - Lighthouse accessibility audit\n   - Screen reader testing (NVDA, VoiceOver)\n   - Keyboard-only navigation test\n\nAccessibility benefits everyone, not just disabled users.",
+    "Category": "Accessibility",
+    "Tool Compatibility": "All tools",
+    "Prompt Type": "Training Wheels",
+    "Description/Notes": "Accessibility is legal requirement in many places and improves UX for everyone. 15% of population has some disability."
+  },
+  {
+    "Use Case": "Performance optimization for production",
+    "Prompt": "Optimize site performance for fast loading:\n\n1. Image optimization:\n   - Compress all images (TinyPNG, ImageOptim)\n   - Convert to WebP with fallbacks\n   - Implement lazy loading for below-fold images\n   - Use responsive images (srcset)\n   - Serve properly sized images per breakpoint\n2. Code optimization:\n   - Minify CSS, JavaScript, HTML\n   - Remove unused CSS (PurgeCSS)\n   - Tree-shake JavaScript dependencies\n   - Split code into smaller chunks\n   - Defer non-critical JavaScript\n3. Loading optimization:\n   - Implement critical CSS inline\n   - Preload critical fonts\n   - Use font-display: swap for web fonts\n   - Implement CDN for static assets\n   - Enable browser caching\n4. Performance best practices:\n   - Reduce third-party scripts\n   - Lazy load YouTube embeds\n   - Minimize redirects\n   - Use HTTP/2 or HTTP/3\n   - Implement service worker for caching\n5. Measure and monitor:\n   - Test with PageSpeed Insights (aim for 90+ score)\n   - Check Lighthouse performance\n   - Monitor Core Web Vitals (LCP, FID, CLS)\n   - Test on slow 3G network\n\nFast sites convert better and rank higher in search.",
+    "Category": "Performance Optimization",
+    "Tool Compatibility": "All tools",
+    "Prompt Type": "Training Wheels",
+    "Description/Notes": "Speed is a feature. 1-second delay = 7% reduction in conversions. Amazon loses $1.6B for each second of delay."
+  },
+  {
+    "Use Case": "SEO optimization final checks",
+    "Prompt": "Perform final SEO optimization before launch:\n\n1. On-page SEO:\n   - Unique, descriptive title tags (50-60 chars)\n   - Compelling meta descriptions (150-160 chars)\n   - Proper heading hierarchy (one H1 per page)\n   - Keyword optimization (natural, not stuffed)\n   - Internal linking between related pages\n2. Technical SEO:\n   - XML sitemap generated and submitted\n   - Robots.txt configured correctly\n   - Canonical tags for duplicate content\n   - 301 redirects for old URLs\n   - 404 page with helpful navigation\n3. Schema markup:\n   - Organization schema\n   - Product schema (if e-commerce)\n   - Article schema (for blog posts)\n   - FAQ schema where applicable\n   - Review schema for testimonials\n4. Social meta tags:\n   - Open Graph tags for Facebook\n   - Twitter Card tags\n   - Social share images (1200x630px)\n   - Accurate titles and descriptions\n5. SEO tools audit:\n   - Google Search Console setup\n   - Test with Screaming Frog\n   - Check mobile-friendliness\n   - Verify page speed\n   - Test rich results\n\nSEO is long-term investment - get it right from launch.",
+    "Category": "SEO Optimization",
+    "Tool Compatibility": "All tools",
+    "Prompt Type": "Training Wheels",
+    "Description/Notes": "SEO brings sustainable, free traffic. Getting technical SEO right at launch prevents issues later."
+  },
+  {
+    "Use Case": "Final quality assurance and polish",
+    "Prompt": "Perform comprehensive final QA before launch:\n\n1. Content review:\n   - Spell check all text content\n   - Grammar check with tools (Grammarly)\n   - Verify all links work (no 404s)\n   - Check contact information accuracy\n   - Verify dates are current\n2. Visual consistency:\n   - Consistent font usage throughout\n   - Color scheme consistent across pages\n   - Button styles uniform\n   - Spacing consistent (use spacing system)\n   - Images properly sized and aligned\n3. Functionality testing:\n   - Test all forms submit correctly\n   - Verify emails are received\n   - Test all buttons and links\n   - Check search functionality\n   - Verify filters and sorting work\n4. Cross-browser/device testing:\n   - Test on Chrome, Firefox, Safari, Edge\n   - Test on iOS and Android mobile\n   - Test on tablet breakpoint\n   - Verify all features work on each\n5. Final checks:\n   - Remove console errors and warnings\n   - Remove \"lorem ipsum\" placeholder text\n   - Update copyright year\n   - Test contact forms deliver to correct email\n   - Verify analytics tracking works\n   - Check favicon displays correctly\n   - Test social sharing\n\nCreate comprehensive QA checklist document.",
+    "Category": "Quality Assurance & Finalization",
+    "Tool Compatibility": "All tools",
+    "Prompt Type": "Training Wheels",
+    "Description/Notes": "Final QA catches embarrassing mistakes before customers see them. Take time to be thorough."
+  },
+  {
+    "Use Case": "Animation and interaction polish",
+    "Prompt": "Add subtle animations and interactions for polish:\n\n1. Micro-interactions:\n   - Hover effects on buttons (subtle scale or color change)\n   - Loading animations (not just spinners)\n   - Success animations (checkmarks, confetti)\n   - Form field focus animations\n   - Menu open/close animations\n2. Scroll animations:\n   - Fade in elements as they scroll into view\n   - Slide in from sides (use sparingly)\n   - Parallax effects on background images\n   - Reveal animations on sections\n   - Sticky navigation that appears on scroll up\n3. Page transitions:\n   - Smooth navigation between pages\n   - Loading states between routes\n   - Modal enter/exit animations\n   - Tab switching animations\n4. Animation best practices:\n   - Keep animations subtle and fast (200-400ms)\n   - Use easing functions (ease-out for most)\n   - Respect user's motion preferences (prefers-reduced-motion)\n   - Don't animate too many elements at once\n   - Ensure animations don't impact performance\n5. Testing:\n   - Test animations on various devices\n   - Verify performance on mobile\n   - Check that animations enhance, not distract\n   - Ensure accessibility isn't compromised\n\nPolish with purpose - every animation should enhance UX.",
+    "Category": "UX Enhancement & Polish",
+    "Tool Compatibility": "Lovable, Replit, Cursor, v0, Bolt",
+    "Prompt Type": "Design",
+    "Description/Notes": "Micro-animations make experiences feel polished and professional. Use to provide feedback and delight."
+  },
+  {
+    "Use Case": "Loading states and skeleton screens",
+    "Prompt": "Implement proper loading states for better UX:\n\n1. Skeleton screens:\n   - Replace loading spinners with skeleton screens\n   - Mimic layout of actual content\n   - Animate shimmer effect across skeletons\n   - Show progressive loading (header first, then content)\n2. Button loading states:\n   - Disable button during processing\n   - Show loading spinner or text change\n   - Prevent double-click submissions\n   - Show success state after completion\n   - Revert to original state if error\n3. Image loading:\n   - Use blur-up technique (tiny blurred preview)\n   - Show placeholder while loading\n   - Lazy load images below the fold\n   - Handle loading failures gracefully\n4. Page transitions:\n   - Show loading bar at top of page\n   - Indicate when content is loading\n   - Provide cancel option for long operations\n   - Avoid jarring content shifts (CLS)\n5. Optimistic UI:\n   - Update UI immediately, sync in background\n   - Show user action succeeded instantly\n   - Handle failures gracefully with retry\n   - Provide feedback for all interactions\n\nNever leave users wondering if something is happening.",
+    "Category": "UX Enhancement & Polish",
+    "Tool Compatibility": "Lovable, Replit, Cursor, Bolt",
+    "Prompt Type": "Design",
+    "Description/Notes": "Loading states manage expectations and reduce perceived wait time. Users tolerate loading better when informed."
+  },
+  {
+    "Use Case": "Error handling and empty states polish",
+    "Prompt": "Design helpful error and empty states:\n\n1. Error messages:\n   - Clear, friendly language (not technical jargon)\n   - Explain what went wrong\n   - Provide specific fix instructions\n   - Add contact option for persistent errors\n   - Use appropriate tone (serious for serious errors)\n2. Empty states:\n   - Design beautiful empty states (not just \"No items found\")\n   - Explain why it's empty\n   - Provide clear action to populate\n   - Add illustration or icon\n   - Use opportunity to educate or onboard\n3. 404 page:\n   - Fun, on-brand design\n   - Clear message that page doesn't exist\n   - Search functionality to find what they need\n   - Links to popular pages\n   - Contact option if they believe it's an error\n4. Form validation errors:\n   - Show errors inline near fields\n   - Use clear icons (red X or warning)\n   - Explain requirements clearly\n   - Show valid state (green check) when correct\n   - Summarize errors at top for accessibility\n5. Network errors:\n   - Offline detection with helpful message\n   - Retry button for failed requests\n   - Save work locally to prevent loss\n   - Clear indication when back online\n\nTurn frustrating moments into helpful experiences.",
+    "Category": "UX Enhancement & Polish",
+    "Tool Compatibility": "Lovable, Replit, Cursor, v0",
+    "Prompt Type": "Design",
+    "Description/Notes": "Error and empty states are often overlooked but critically important. They define your brand during frustration."
+  },
+  {
+    "Use Case": "Typography and readability optimization",
+    "Prompt": "Perfect typography for maximum readability:\n\n1. Font selection:\n   - Use web-safe or properly loaded fonts\n   - Limit to 2-3 font families maximum\n   - Ensure fonts load quickly (subset, preload)\n   - Provide fallback fonts\n2. Sizing and hierarchy:\n   - Minimum 16px for body text (18px ideal)\n   - Clear size hierarchy (H1 > H2 > H3 by significant margin)\n   - Scale headings appropriately for mobile\n   - Consistent sizing across similar elements\n3. Line height and spacing:\n   - Line height 1.5-1.7 for body text\n   - Tighter line height for headings (1.2-1.3)\n   - Adequate letter-spacing for uppercase text\n   - Comfortable paragraph spacing\n4. Line length:\n   - Optimal 50-75 characters per line\n   - Max 90 characters for readability\n   - Use max-width on text containers\n   - Ensure readable on all screen sizes\n5. Color and contrast:\n   - High contrast for body text (dark on light or vice versa)\n   - Avoid pure black (#000) - use dark gray\n   - Ensure WCAG AA contrast ratios (4.5:1 minimum)\n   - Use color for emphasis, not primary distinction\n\nTypography is the foundation of good design.",
+    "Category": "UX Enhancement & Typography",
+    "Tool Compatibility": "Lovable, Replit, Cursor, v0, Figma",
+    "Prompt Type": "Design",
+    "Description/Notes": "95% of web design is typography. Get this right and design already looks professional."
+  },
+  {
+    "Use Case": "Footer optimization and polish",
+    "Prompt": "Create comprehensive, polished footer:\n\n1. Essential footer elements:\n   - Logo or brand name\n   - Brief company description\n   - Contact information (email, phone, address)\n   - Social media links\n   - Copyright notice with current year\n2. Navigation organization:\n   - Organized into logical columns (Products, Company, Resources, Legal)\n   - Links to all important pages\n   - Sitemap-like structure\n   - Consistent with header navigation\n3. Legal and compliance:\n   - Privacy Policy link\n   - Terms of Service link\n   - Cookie policy (if applicable)\n   - GDPR compliance statement (if EU traffic)\n   - Accessibility statement\n4. Value-added elements:\n   - Newsletter signup form\n   - Language selector (if multi-language)\n   - Region selector (if multi-region)\n   - Trust badges (payment, security, certifications)\n   - Awards or recognition\n5. Design polish:\n   - Subtle background color or gradient\n   - Adequate padding and spacing\n   - Responsive design (stack columns on mobile)\n   - Hover effects on links\n   - Mobile-friendly touch targets\n\nFooter is often last thing users see - make it count.",
+    "Category": "UX Enhancement & Completeness",
+    "Tool Compatibility": "Lovable, Replit, Cursor, v0, Bolt",
+    "Prompt Type": "Design",
+    "Description/Notes": "Footer provides important navigation and trust signals. Users often scroll to footer to verify legitimacy."
+  },
+  {
+    "Use Case": "Call-to-action optimization and placement",
+    "Prompt": "Optimize CTAs for maximum visibility and action:\n\n1. CTA design:\n   - High contrast with surrounding elements\n   - Large enough to be prominent (not overwhelming)\n   - Rounded corners feel more friendly\n   - Subtle shadow or gradient for depth\n   - Clear hover state (darken, lift, scale)\n2. CTA copy optimization:\n   - Start with strong action verb (\"Get,\" \"Start,\" \"Claim,\" \"Join\")\n   - Be specific (\"Get My Free Trial\" vs \"Submit\")\n   - Create urgency when appropriate (\"Start Today,\" \"Claim Now\")\n   - Keep it short (2-5 words ideal)\n   - First-person often converts better (\"Start My Trial\")\n3. Strategic placement:\n   - Above the fold on key pages\n   - After every major benefit/feature\n   - At end of compelling content\n   - Sticky CTA on mobile (bottom of screen)\n   - In header navigation\n4. Supporting elements:\n   - Add micro-copy below CTA (risk reversal, no credit card, free forever)\n   - Place trust signals near CTAs\n   - Use arrows or directional cues\n   - Add social proof near CTAs\n5. Multiple CTAs:\n   - Primary CTA highly visible\n   - Secondary CTA less prominent (outline button)\n   - Repeat primary CTA strategically through page\n   - Ensure CTAs don't compete with each other\n\nCTAs drive conversions - optimize relentlessly.",
+    "Category": "UX Enhancement & Conversion",
+    "Tool Compatibility": "Lovable, Replit, ChatGPT, Figma",
+    "Prompt Type": "Design",
+    "Description/Notes": "CTA optimization can improve conversions by 200%+. Test copy, color, placement, and design variations."
+  },
+  {
+    "Use Case": "Final user experience walkthrough and polish",
+    "Prompt": "Conduct final UX review as a new user:\n\n1. First-time user experience:\n   - Clear what the site/product is about immediately\n   - Value proposition obvious within 5 seconds\n   - Easy to understand what to do next\n   - No confusing jargon or technical terms\n   - Intuitive navigation without needing instructions\n2. User journey optimization:\n   - Map and test critical user flows\n   - Remove friction points\n   - Minimize steps to conversion\n   - Provide clear progress indicators\n   - Easy to undo or go back\n3. Feedback and communication:\n   - Immediate feedback for all actions\n   - Loading states for anything taking >200ms\n   - Success confirmations clearly visible\n   - Error messages helpful and actionable\n   - Tooltips for complex features\n4. Delight factors:\n   - Add subtle animations that feel good\n   - Easter eggs for engaged users (optional)\n   - Personalization where possible\n   - Anticipate user needs\n   - Surprise and delight moments\n5. Final polish items:\n   - No lorem ipsum or placeholder content\n   - All images have proper alt text\n   - No broken links or images\n   - Consistent voice and tone in copy\n   - Professional, polished feel throughout\n\nExperience your site as a first-time user would.",
+    "Category": "UX Enhancement & Final Polish",
+    "Tool Compatibility": "All tools",
+    "Prompt Type": "Strategy",
+    "Description/Notes": "You can't optimize what you don't measure. Walk through as a new user and document every friction point."
+  }
+]
