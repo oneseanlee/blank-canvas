@@ -2,6 +2,27 @@
 import * as XLSX from 'xlsx';
 import { Prompt, ProcessedData, CategoryExamples } from './types';
 
+const DEFAULT_PROMPT_TYPE = 'Library';
+
+function normalizeStringList(value: unknown): string[] {
+  if (!value) return [];
+  if (Array.isArray(value)) {
+    return value
+      .map(item => String(item || '').trim())
+      .filter(Boolean);
+  }
+  return String(value)
+    .split(',')
+    .map(item => item.trim())
+    .filter(Boolean);
+}
+
+function normalizeDateString(value: unknown): string | undefined {
+  if (!value) return undefined;
+  if (value instanceof Date) return value.toISOString();
+  return String(value);
+}
+
 // Function to process Excel data from all sheets
 export async function processExcelData(): Promise<{prompts: Prompt[], categories: string[]}> {
   try {
@@ -80,6 +101,77 @@ export async function processExcelData(): Promise<{prompts: Prompt[], categories
   }
 }
 
+// Load prompts from the exported database spreadsheet (client-safe fallback)
+export async function loadDatabaseExportPrompts(): Promise<Prompt[]> {
+  try {
+    const response = await fetch('/database_export.xlsx');
+    if (!response?.ok) {
+      throw new Error(`Failed to fetch database export: ${response?.status}`);
+    }
+
+    const arrayBuffer = await response.arrayBuffer();
+    const workbook = XLSX.read(arrayBuffer, { type: 'array', cellDates: true });
+    const worksheet = workbook.Sheets?.['All Prompts'] || workbook.Sheets?.[workbook.SheetNames?.[0] || ''];
+
+    if (!worksheet) {
+      return [];
+    }
+
+    const rows = XLSX.utils.sheet_to_json<Record<string, unknown>>(worksheet, { defval: '' });
+
+    return rows
+      .map((row, index) => {
+        const promptText = String(
+          row.prompt ?? row.Prompt ?? row['Prompt'] ?? ''
+        ).trim();
+
+        if (!promptText) return null;
+
+        const categoryName = String(
+          row.category ?? row.Category ?? 'Uncategorized'
+        ).trim() || 'Uncategorized';
+
+        const toolCompatibility = normalizeStringList(
+          row.toolsNeeded ??
+          row.toolCompatibility ??
+          row['Tool Compatibility'] ??
+          row.tool_compatibility
+        );
+
+        const tags = normalizeStringList(row.tags);
+
+        return {
+          id: String(row.id ?? `export-${index}`),
+          useCase: String(
+            row.useCase ??
+            row['Use Case'] ??
+            row.title ??
+            row.Title ??
+            categoryName
+          ),
+          prompt: promptText,
+          category: categoryName,
+          toolCompatibility,
+          promptType: String(
+            row.promptType ?? row['Prompt Type'] ?? DEFAULT_PROMPT_TYPE
+          ),
+          description: String(
+            row.description ?? row['Description/Notes'] ?? ''
+          ),
+          sheet: 'Database Export',
+          title: row.title ? String(row.title) : undefined,
+          tags: tags.length ? tags : undefined,
+          createdAt: normalizeDateString(row.createdAt),
+          usagePhase: row.usagePhase ? String(row.usagePhase) : undefined,
+        } as Prompt;
+      })
+      .filter((prompt): prompt is Prompt => Boolean(prompt));
+  } catch (error) {
+    console.error('Error loading database export:', error);
+    return [];
+  }
+}
+
 // Function to load visual examples
 export async function loadVisualExamples(): Promise<CategoryExamples[]> {
   try {
@@ -129,14 +221,12 @@ export async function loadCustomPrompts(): Promise<Prompt[]> {
 // Function to process all data
 export async function loadAllData(): Promise<ProcessedData> {
   try {
-    // Load only from database and visual examples (no more Excel file loading)
-    const [visualExamples, customPrompts] = await Promise.all([
+    const [visualExamples, exportPrompts] = await Promise.all([
       loadVisualExamples(),
-      loadCustomPrompts()
+      loadDatabaseExportPrompts()
     ]);
-    
-    // All prompts now come from the database
-    const allPrompts = customPrompts;
+
+    const allPrompts = exportPrompts;
     
     const allToolCompatibility = new Set<string>();
     const allPromptTypes = new Set<string>();

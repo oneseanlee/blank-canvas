@@ -15,7 +15,6 @@ import {
   ArrowRight,
   Image as ImageIcon
 } from 'lucide-react'
-import Image from 'next/image'
 import { Button } from './ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card'
 import { Badge } from './ui/badge'
@@ -115,12 +114,11 @@ export function VisualExamples({ prompt, examples, onClose }: VisualExamplesProp
                           <Card key={index} className="group hover:shadow-lg transition-shadow overflow-hidden">
                             <CardContent className="p-4">
                               <div className="relative aspect-video bg-muted rounded-lg overflow-hidden mb-3">
-                                <Image
+                                <img
                                   src={img.url}
                                   alt={img.title}
-                                  fill
-                                  className="object-cover"
-                                  sizes="(max-width: 768px) 100vw, 50vw"
+                                  className="h-full w-full object-cover"
+                                  loading="lazy"
                                 />
                               </div>
                               <h4 className="font-medium text-sm text-slate-900 dark:text-slate-100 mb-1">
