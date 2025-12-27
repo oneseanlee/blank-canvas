@@ -1,19 +1,36 @@
-import { Suspense } from 'react'
-import { VibeCodingBible } from '@/components/vibe-coding-bible'
-import { LoadingSpinner } from '@/components/loading-spinner'
-import { MatrixBackground } from '@/components/matrix-background'
-import { Toaster } from '@/components/ui/toaster'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { AuthProvider } from '@/lib/auth-context';
+import { ProtectedRoute } from '@/components/auth/ProtectedRoute';
+import { Landing } from '@/pages/Landing';
+import { Auth } from '@/pages/Auth';
+import { Dashboard } from '@/pages/Dashboard';
+import { NotFound } from '@/pages/NotFound';
+import { Toaster } from '@/components/ui/toaster';
 
 export default function App() {
   return (
-    <div className="min-h-screen relative z-0 bg-black/60">
-      <MatrixBackground />
-      <main className="min-h-screen">
-        <Suspense fallback={<LoadingSpinner />}>
-          <VibeCodingBible />
-        </Suspense>
-      </main>
-      <Toaster />
-    </div>
-  )
+    <BrowserRouter>
+      <AuthProvider>
+        <Routes>
+          {/* Public routes */}
+          <Route path="/" element={<Landing />} />
+          <Route path="/auth" element={<Auth />} />
+          
+          {/* Protected routes */}
+          <Route
+            path="/app"
+            element={
+              <ProtectedRoute>
+                <Dashboard />
+              </ProtectedRoute>
+            }
+          />
+          
+          {/* 404 */}
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+        <Toaster />
+      </AuthProvider>
+    </BrowserRouter>
+  );
 }
