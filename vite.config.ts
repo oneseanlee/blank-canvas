@@ -20,6 +20,10 @@ export default defineConfig(async ({ mode }) => {
       alias: {
         '@': path.resolve(__dirname, '.'),
       },
+      dedupe: ['react', 'react-dom'],
+    },
+    optimizeDeps: {
+      include: ['react', 'react-dom', 'react-router-dom'],
     },
   }
 })
