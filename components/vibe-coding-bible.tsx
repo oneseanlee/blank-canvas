@@ -1,18 +1,25 @@
-
 'use client'
 
-import { useState, useEffect, useMemo, useRef, useCallback } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import { SearchBar } from './search-bar'
 import { CategoryFilter } from './category-filter'
 import { PromptCard } from './prompt-card'
 import { VisualExamples } from './visual-examples'
 import { StatsHeader } from './stats-header'
-import { LoadingSpinner } from './loading-spinner'
+import { MatrixLoadingSpinner } from './matrix-loading-spinner'
+import { SkeletonList } from './skeleton-card'
 import { UsageGuide } from './usage-guide'
-import { useFavorites } from '@/lib/favorites'
+import { UnifiedHeader } from './layout/UnifiedHeader'
+import { FilterPills } from './filter-pills'
+import { BackToTop } from './back-to-top'
+import { MobileFilterDrawer } from './mobile-filter-drawer'
+import { CompactPromptList } from './compact-prompt-list'
+import { OnboardingModal } from './onboarding-modal'
+import { useCloudFavorites } from '@/lib/hooks/use-cloud-favorites'
+import { useUserPreferences } from '@/lib/hooks/use-user-preferences'
 import { loadAllData, searchPrompts, getUniqueUseCases, findRelatedExamples } from '@/lib/data-processor'
 import { ProcessedData, Prompt, FilterState } from '@/lib/types'
-import { Book, Heart, RefreshCw, Keyboard, Clock, Map } from 'lucide-react'
+import { Book, RefreshCw } from 'lucide-react'
 import { Button } from './ui/button'
 import { useToast } from '@/hooks/use-toast'
 
@@ -21,7 +28,7 @@ export function VibeCodingBible() {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
   const [selectedPrompt, setSelectedPrompt] = useState<Prompt | null>(null)
-  const [showGuide, setShowGuide] = useState(true) // Show guide by default
+  const [showGuide, setShowGuide] = useState(true)
   const { toast } = useToast()
 
   const [filters, setFilters] = useState<FilterState>({
@@ -37,9 +44,29 @@ export function VibeCodingBible() {
     favorites, 
     isLoaded: favoritesLoaded, 
     isFavorite, 
-    toggleFavorite, 
-    clearFavorites 
-  } = useFavorites()
+    toggleFavorite
+  } = useCloudFavorites()
+
+  const {
+    preferences,
+    isLoaded: preferencesLoaded,
+    completeOnboarding,
+    setPreferredView
+  } = useUserPreferences()
+
+  // Show onboarding modal for new users
+  const [showOnboarding, setShowOnboarding] = useState(false)
+  
+  useEffect(() => {
+    if (preferencesLoaded && !preferences.hasCompletedOnboarding) {
+      setShowOnboarding(true)
+    }
+  }, [preferencesLoaded, preferences.hasCompletedOnboarding])
+
+  const handleCompleteOnboarding = () => {
+    setShowOnboarding(false)
+    completeOnboarding()
+  }
 
   // Load data on mount
   useEffect(() => {
@@ -62,45 +89,43 @@ export function VibeCodingBible() {
   // Keyboard shortcuts
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      // Ignore if user is typing in an input
       if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) {
         return
       }
 
-      // / - Focus search
       if (e.key === '/') {
         e.preventDefault()
         const searchInput = document.querySelector('input[type="text"]') as HTMLInputElement
-        if (searchInput) {
-          searchInput.focus()
-        }
+        if (searchInput) searchInput.focus()
       }
 
-      // f - Toggle favorites
       if (e.key === 'f') {
         e.preventDefault()
         handleToggleFavorites()
       }
 
-      // r - Toggle recently added
       if (e.key === 'r') {
         e.preventDefault()
         handleToggleRecentlyAdded()
       }
 
-      // ? - Show keyboard shortcuts (toast notification)
+      if (e.key === 'v') {
+        e.preventDefault()
+        setPreferredView(preferences.preferredView === 'card' ? 'compact' : 'card')
+      }
+
       if (e.key === '?') {
         e.preventDefault()
         toast({
           title: '⌨️ Keyboard Shortcuts',
-          description: '/ - Focus search • f - Toggle favorites • r - Recently added • ? - Show shortcuts',
+          description: '/ search • f favorites • r recent • v toggle view • ? help',
         })
       }
     }
 
     window.addEventListener('keydown', handleKeyDown)
     return () => window.removeEventListener('keydown', handleKeyDown)
-  }, [filters, toast])
+  }, [filters, toast, preferences.preferredView, setPreferredView])
 
   // Filter and search prompts
   const filteredPrompts = useMemo(() => {
@@ -136,6 +161,15 @@ export function VibeCodingBible() {
     return counts
   }, [data])
 
+  // Count active filters for mobile badge
+  const activeFilterCount = useMemo(() => {
+    let count = 0
+    if (filters.searchQuery) count++
+    count += filters.selectedCategories.length
+    if (filters.selectedUsagePhase) count++
+    return count
+  }, [filters])
+
   // Handle copy to clipboard
   const handleCopyPrompt = async (prompt: string) => {
     try {
@@ -162,10 +196,6 @@ export function VibeCodingBible() {
     setFilters(prev => ({ ...prev, selectedCategories: categories }))
   }
 
-  const handleUseCaseChange = (useCases: string[]) => {
-    setFilters(prev => ({ ...prev, selectedUseCases: useCases }))
-  }
-
   const handleToggleFavorites = () => {
     setFilters(prev => ({ ...prev, showFavoritesOnly: !prev.showFavoritesOnly }))
   }
@@ -175,7 +205,6 @@ export function VibeCodingBible() {
   }
 
   const handleSelectPhase = (phase: string) => {
-    // Toggle phase: if same phase is clicked, clear it; otherwise set it
     setFilters(prev => ({ 
       ...prev, 
       selectedUsagePhase: prev.selectedUsagePhase === phase ? '' : phase 
@@ -194,20 +223,20 @@ export function VibeCodingBible() {
   }
 
   if (loading) {
-    return <LoadingSpinner />
+    return <MatrixLoadingSpinner />
   }
 
   if (error || !data) {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center space-y-4 max-w-md mx-auto p-6">
-          <div className="text-red-500 mb-4">
+          <div className="text-destructive mb-4">
             <RefreshCw className="h-12 w-12 mx-auto" />
           </div>
-          <h1 className="text-xl font-semibold text-white">
+          <h1 className="text-xl font-semibold text-foreground">
             {error || 'Failed to load data'}
           </h1>
-          <p className="text-gray-300 mb-4">
+          <p className="text-muted-foreground mb-4">
             There was an issue loading the Vibe Coding Bible. Please try refreshing the page.
           </p>
           <Button onClick={() => window.location.reload()}>
@@ -221,77 +250,25 @@ export function VibeCodingBible() {
 
   return (
     <div className="min-h-screen">
-      {/* Header */}
-      <header className="sticky top-0 z-50 bg-black/95 backdrop-blur-lg border-b-2 border-green-500/30 shadow-lg shadow-green-500/10">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-20">
-            <div className="flex items-center space-x-3">
-              <div className="bg-green-600 p-3 rounded-xl shadow-lg shadow-green-500/50">
-                <Book className="h-8 w-8 text-white" />
-              </div>
-              <div>
-                <h1 className="text-2xl font-bold text-green-400">
-                  Vibe Coding Bible
-                </h1>
-                <p className="text-sm font-medium text-white hidden sm:block">
-                  Your AI coding companion
-                </p>
-              </div>
-            </div>
-            
-            <div className="flex items-center space-x-2">
-              <Button
-                variant={showGuide ? "default" : "outline"}
-                size="sm"
-                onClick={() => setShowGuide(!showGuide)}
-                className="shadow-md"
-              >
-                <Map className={`h-4 w-4 mr-2 ${showGuide ? 'fill-current' : ''}`} />
-                <span className="hidden sm:inline">SOP Guide</span>
-                <span className="sm:hidden">SOP</span>
-              </Button>
-              
-              <Button
-                variant={filters.showRecentlyAdded ? "default" : "outline"}
-                size="sm"
-                onClick={handleToggleRecentlyAdded}
-                className="shadow-md"
-              >
-                <Clock className={`h-4 w-4 mr-2 ${filters.showRecentlyAdded ? 'fill-current' : ''}`} />
-                <span className="hidden sm:inline">Recently Added</span>
-                <span className="sm:hidden">Recent</span>
-              </Button>
-              
-              <Button
-                variant={filters.showFavoritesOnly ? "default" : "outline"}
-                size="sm"
-                onClick={handleToggleFavorites}
-                disabled={!favoritesLoaded}
-                className="shadow-md"
-              >
-                <Heart className={`h-4 w-4 mr-2 ${filters.showFavoritesOnly ? 'fill-current' : ''}`} />
-                <span className="hidden sm:inline">Favorites ({favorites.size})</span>
-                <span className="sm:hidden">({favorites.size})</span>
-              </Button>
-              
-              <Button
-                variant="outline"
-                size="sm"
-                onClick={() => {
-                  toast({
-                    title: '⌨️ Keyboard Shortcuts',
-                    description: '/ - Focus search • f - Toggle favorites • r - Recently added • ? - Show shortcuts',
-                  })
-                }}
-                className="shadow-md hidden md:flex"
-              >
-                <Keyboard className="h-4 w-4 mr-2" />
-                Shortcuts
-              </Button>
-            </div>
-          </div>
-        </div>
-      </header>
+      {/* Onboarding Modal */}
+      <OnboardingModal 
+        open={showOnboarding} 
+        onComplete={handleCompleteOnboarding} 
+      />
+
+      {/* Unified Header */}
+      <UnifiedHeader
+        showGuide={showGuide}
+        onToggleGuide={() => setShowGuide(!showGuide)}
+        showFavoritesOnly={filters.showFavoritesOnly}
+        onToggleFavorites={handleToggleFavorites}
+        showRecentlyAdded={filters.showRecentlyAdded}
+        onToggleRecentlyAdded={handleToggleRecentlyAdded}
+        favoritesCount={favorites.size}
+        favoritesLoaded={favoritesLoaded}
+        preferredView={preferences.preferredView}
+        onViewChange={setPreferredView}
+      />
 
       {/* Stats Header */}
       <StatsHeader 
@@ -313,18 +290,48 @@ export function VibeCodingBible() {
 
       {/* Main Content */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        {/* Mobile Filter Button */}
+        <div className="lg:hidden mb-4">
+          <MobileFilterDrawer
+            searchQuery={filters.searchQuery}
+            onSearchChange={handleSearchChange}
+            categories={data?.metadata?.categories || []}
+            selectedCategories={filters.selectedCategories}
+            onCategoryChange={handleCategoryChange}
+            categoryCounts={categoryCounts}
+            onClearFilters={handleClearFilters}
+            activeFilterCount={activeFilterCount}
+          />
+        </div>
+
+        {/* Active Filter Pills */}
+        <FilterPills
+          searchQuery={filters.searchQuery}
+          selectedCategories={filters.selectedCategories}
+          selectedUsagePhase={filters.selectedUsagePhase}
+          showFavoritesOnly={filters.showFavoritesOnly}
+          showRecentlyAdded={filters.showRecentlyAdded}
+          onClearSearch={() => setFilters(prev => ({ ...prev, searchQuery: '' }))}
+          onRemoveCategory={(cat) => setFilters(prev => ({ 
+            ...prev, 
+            selectedCategories: prev.selectedCategories.filter(c => c !== cat) 
+          }))}
+          onClearPhase={() => setFilters(prev => ({ ...prev, selectedUsagePhase: '' }))}
+          onClearFavorites={() => setFilters(prev => ({ ...prev, showFavoritesOnly: false }))}
+          onClearRecent={() => setFilters(prev => ({ ...prev, showRecentlyAdded: false }))}
+          onClearAll={handleClearFilters}
+        />
+
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
-          {/* Sidebar - Search & Filters */}
-          <div className="lg:col-span-1 space-y-6">
-            <div className="bg-black/90 rounded-xl shadow-lg border-2 border-green-500/30 backdrop-blur-sm p-6 space-y-6">
-              {/* Search */}
+          {/* Sidebar - Search & Filters (Desktop) */}
+          <div className="hidden lg:block lg:col-span-1 space-y-6">
+            <div className="bg-card rounded-xl shadow-lg border border-border backdrop-blur-sm p-6 space-y-6 sticky top-20">
               <SearchBar 
                 searchQuery={filters.searchQuery}
                 onSearchChange={handleSearchChange}
                 placeholder="Search prompts, use cases, or tools..."
               />
 
-              {/* Category Filter */}
               <CategoryFilter
                 categories={data?.metadata?.categories || []}
                 selectedCategories={filters.selectedCategories || []}
@@ -332,7 +339,6 @@ export function VibeCodingBible() {
                 categoryCounts={categoryCounts}
               />
 
-              {/* Clear Filters */}
               <Button 
                 variant="outline" 
                 size="sm" 
@@ -349,12 +355,12 @@ export function VibeCodingBible() {
             {/* Results */}
             <div className="space-y-4">
               {(!filteredPrompts || filteredPrompts.length === 0) ? (
-                <div className="text-center py-12 bg-black/90 rounded-xl shadow-lg border-2 border-green-500/30 backdrop-blur-sm">
-                  <Book className="h-12 w-12 mx-auto text-green-400 mb-4" />
-                  <h3 className="text-lg font-semibold text-white mb-2">
+                <div className="text-center py-12 bg-card rounded-xl shadow-lg border border-border backdrop-blur-sm">
+                  <Book className="h-12 w-12 mx-auto text-primary mb-4" />
+                  <h3 className="text-lg font-semibold text-foreground mb-2">
                     {loading ? 'Loading prompts...' : 'No prompts found'}
                   </h3>
-                  <p className="text-gray-300 mb-4">
+                  <p className="text-muted-foreground mb-4">
                     {loading ? 'Please wait while we load your data.' : 'Try adjusting your search or filters to find more prompts.'}
                   </p>
                   {!loading && (
@@ -363,6 +369,15 @@ export function VibeCodingBible() {
                     </Button>
                   )}
                 </div>
+              ) : preferences.preferredView === 'compact' ? (
+                <CompactPromptList
+                  prompts={filteredPrompts}
+                  isFavorite={isFavorite}
+                  onToggleFavorite={toggleFavorite}
+                  onCopy={handleCopyPrompt}
+                  onViewExamples={setSelectedPrompt}
+                  findRelatedExamples={(prompt) => findRelatedExamples(prompt, data?.visualExamples || [])}
+                />
               ) : (
                 <div className="grid gap-6">
                   {filteredPrompts?.map?.((prompt) => {
@@ -387,11 +402,14 @@ export function VibeCodingBible() {
         </div>
       </div>
 
+      {/* Back to Top Button */}
+      <BackToTop />
+
       {/* Visual Examples Modal */}
       {selectedPrompt && (
         <VisualExamples
           prompt={selectedPrompt}
-          examples={findRelatedExamples(selectedPrompt, data.visualExamples)}
+          examples={findRelatedExamples(selectedPrompt, data.visualExamples) || []}
           onClose={() => setSelectedPrompt(null)}
         />
       )}

@@ -1,16 +1,14 @@
 import { Suspense } from 'react';
 import { VibeCodingBible } from '@/components/vibe-coding-bible';
-import { LoadingSpinner } from '@/components/loading-spinner';
+import { MatrixLoadingSpinner } from '@/components/matrix-loading-spinner';
 import { MatrixBackground } from '@/components/matrix-background';
-import { UserHeader } from '@/components/layout/UserHeader';
 
 export function Dashboard() {
   return (
-    <div className="min-h-screen relative z-0 bg-background">
+    <div className="min-h-screen relative z-0 bg-background dark">
       <MatrixBackground />
-      <UserHeader />
-      <main className="min-h-screen pt-16">
-        <Suspense fallback={<LoadingSpinner />}>
+      <main className="min-h-screen">
+        <Suspense fallback={<MatrixLoadingSpinner />}>
           <VibeCodingBible />
         </Suspense>
       </main>

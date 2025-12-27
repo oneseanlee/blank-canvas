@@ -14,6 +14,35 @@ export type Database = {
   }
   public: {
     Tables: {
+      collection_items: {
+        Row: {
+          added_at: string
+          collection_id: string
+          id: string
+          prompt_id: string
+        }
+        Insert: {
+          added_at?: string
+          collection_id: string
+          id?: string
+          prompt_id: string
+        }
+        Update: {
+          added_at?: string
+          collection_id?: string
+          id?: string
+          prompt_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "collection_items_collection_id_fkey"
+            columns: ["collection_id"]
+            isOneToOne: false
+            referencedRelation: "user_collections"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
       profiles: {
         Row: {
           avatar_url: string | null
@@ -38,6 +67,108 @@ export type Database = {
           full_name?: string | null
           id?: string
           updated_at?: string | null
+        }
+        Relationships: []
+      }
+      prompt_views: {
+        Row: {
+          id: string
+          prompt_id: string
+          user_id: string
+          viewed_at: string
+        }
+        Insert: {
+          id?: string
+          prompt_id: string
+          user_id: string
+          viewed_at?: string
+        }
+        Update: {
+          id?: string
+          prompt_id?: string
+          user_id?: string
+          viewed_at?: string
+        }
+        Relationships: []
+      }
+      user_collections: {
+        Row: {
+          color: string | null
+          created_at: string
+          description: string | null
+          icon: string | null
+          id: string
+          name: string
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          color?: string | null
+          created_at?: string
+          description?: string | null
+          icon?: string | null
+          id?: string
+          name: string
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          color?: string | null
+          created_at?: string
+          description?: string | null
+          icon?: string | null
+          id?: string
+          name?: string
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
+      user_favorites: {
+        Row: {
+          created_at: string
+          id: string
+          prompt_id: string
+          user_id: string
+        }
+        Insert: {
+          created_at?: string
+          id?: string
+          prompt_id: string
+          user_id: string
+        }
+        Update: {
+          created_at?: string
+          id?: string
+          prompt_id?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
+      user_preferences: {
+        Row: {
+          created_at: string
+          has_completed_onboarding: boolean | null
+          id: string
+          preferred_view: string | null
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          created_at?: string
+          has_completed_onboarding?: boolean | null
+          id?: string
+          preferred_view?: string | null
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          created_at?: string
+          has_completed_onboarding?: boolean | null
+          id?: string
+          preferred_view?: string | null
+          updated_at?: string
+          user_id?: string
         }
         Relationships: []
       }
