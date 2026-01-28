@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { MatrixBackground } from '@/components/matrix-background';
-import { ArrowLeft, Loader2, Mail, Lock, User } from 'lucide-react';
+import { ArrowLeft, Loader2, Mail, Lock, User, PlayCircle } from 'lucide-react';
 import { z } from 'zod';
 
 const loginSchema = z.object({
@@ -18,17 +18,44 @@ const signupSchema = loginSchema.extend({
   fullName: z.string().trim().min(2, { message: 'Name must be at least 2 characters' }).max(100),
 });
 
+// Demo credentials - safe to expose as this is a read-only demo account
+const DEMO_EMAIL = 'demo@vibecodingbible.com';
+const DEMO_PASSWORD = 'demo123456';
+
 export function Auth() {
   const [isLogin, setIsLogin] = useState(true);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [fullName, setFullName] = useState('');
   const [isLoading, setIsLoading] = useState(false);
+  const [isDemoLoading, setIsDemoLoading] = useState(false);
   const [errors, setErrors] = useState<Record<string, string>>({});
 
   const { signIn, signUp, user, loading } = useAuth();
   const navigate = useNavigate();
   const { toast } = useToast();
+
+  const handleDemoLogin = async () => {
+    setIsDemoLoading(true);
+    try {
+      const { error } = await signIn(DEMO_EMAIL, DEMO_PASSWORD);
+      if (error) {
+        toast({
+          variant: 'destructive',
+          title: 'Demo login failed',
+          description: 'Please try again or create your own account.',
+        });
+      } else {
+        toast({
+          title: 'Welcome to the demo!',
+          description: 'Explore the Vibe Coding Bible with demo access.',
+        });
+        navigate('/app', { replace: true });
+      }
+    } finally {
+      setIsDemoLoading(false);
+    }
+  };
 
   // Redirect if already authenticated
   useEffect(() => {
@@ -226,6 +253,40 @@ export function Auth() {
               )}
             </Button>
           </form>
+          
+          {/* Divider */}
+          <div className="relative">
+            <div className="absolute inset-0 flex items-center">
+              <span className="w-full border-t border-primary/20" />
+            </div>
+            <div className="relative flex justify-center text-xs uppercase">
+              <span className="bg-card px-2 text-muted-foreground">or</span>
+            </div>
+          </div>
+          
+          {/* Demo Login Button */}
+          <Button
+            type="button"
+            variant="outline"
+            onClick={handleDemoLogin}
+            disabled={isDemoLoading || isLoading}
+            className="w-full border-primary/30 hover:bg-primary/10 font-semibold py-5"
+          >
+            {isDemoLoading ? (
+              <>
+                <Loader2 className="w-4 h-4 mr-2 animate-spin" />
+                Loading demo...
+              </>
+            ) : (
+              <>
+                <PlayCircle className="w-4 h-4 mr-2" />
+                Try Demo Account
+              </>
+            )}
+          </Button>
+          <p className="text-xs text-center text-muted-foreground">
+            No signup required — explore the app instantly
+          </p>
           
           {/* Toggle */}
           <div className="text-center text-sm">
