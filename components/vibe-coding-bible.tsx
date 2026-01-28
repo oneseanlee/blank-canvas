@@ -409,7 +409,7 @@ export function VibeCodingBible() {
       {selectedPrompt && (
         <VisualExamples
           prompt={selectedPrompt}
-          examples={findRelatedExamples(selectedPrompt, data.visualExamples) || []}
+          examples={findRelatedExamples(selectedPrompt, data.visualExamples)}
           onClose={() => setSelectedPrompt(null)}
         />
       )}
