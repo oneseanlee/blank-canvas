@@ -12,7 +12,7 @@ interface CompactPromptListProps {
   onToggleFavorite: (id: string) => void;
   onCopy: (prompt: string) => void;
   onViewExamples: (prompt: Prompt) => void;
-  findRelatedExamples: (prompt: Prompt) => CategoryExamples[];
+  findRelatedExamples: (prompt: Prompt) => CategoryExamples | null;
 }
 
 export function CompactPromptList({
@@ -29,7 +29,8 @@ export function CompactPromptList({
     <div className="space-y-2">
       {prompts.map(prompt => {
         const isExpanded = expandedId === prompt.id;
-        const hasExamples = findRelatedExamples(prompt).length > 0;
+        const relatedExamples = findRelatedExamples(prompt);
+        const hasExamples = relatedExamples && relatedExamples.examples?.length > 0;
 
         return (
           <div
