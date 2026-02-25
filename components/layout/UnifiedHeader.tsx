@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { LogOut, User, Book, Heart, Clock, Keyboard, Map, Menu, X, LayoutGrid, List } from 'lucide-react';
+import { LogOut, User, Book, Heart, Clock, Keyboard, Map, Menu, X, LayoutGrid, List, Download } from 'lucide-react';
 import { useAuth } from '@/lib/auth-context';
 import { Button } from '@/components/ui/button';
 import { useNavigate } from 'react-router-dom';
@@ -23,6 +23,7 @@ interface UnifiedHeaderProps {
   favoritesLoaded: boolean;
   preferredView: 'card' | 'compact';
   onViewChange: (view: 'card' | 'compact') => void;
+  onExportExcel?: () => void;
 }
 
 export function UnifiedHeader({
@@ -35,7 +36,8 @@ export function UnifiedHeader({
   favoritesCount,
   favoritesLoaded,
   preferredView,
-  onViewChange
+  onViewChange,
+  onExportExcel
 }: UnifiedHeaderProps) {
   const { user, signOut } = useAuth();
   const navigate = useNavigate();
@@ -135,6 +137,17 @@ export function UnifiedHeader({
               <Keyboard className="h-4 w-4" />
             </Button>
 
+            {onExportExcel && (
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={onExportExcel}
+                title="Download all prompts as Excel"
+              >
+                <Download className="h-4 w-4" />
+              </Button>
+            )}
+
             {/* User Menu */}
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
@@ -226,6 +239,18 @@ export function UnifiedHeader({
               <Heart className="h-4 w-4 mr-2" />
               Favorites ({favoritesCount})
             </Button>
+
+            {onExportExcel && (
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => { onExportExcel(); setMobileMenuOpen(false); }}
+                className="w-full justify-start"
+              >
+                <Download className="h-4 w-4 mr-2" />
+                Download Excel
+              </Button>
+            )}
 
             <div className="pt-2 border-t border-border/50">
               <div className="flex items-center gap-2 px-2 py-1 text-sm text-muted-foreground">
