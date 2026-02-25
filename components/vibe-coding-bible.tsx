@@ -1,6 +1,7 @@
 'use client'
 
-import { useState, useEffect, useMemo } from 'react'
+import { useState, useEffect, useMemo, useCallback } from 'react'
+import * as XLSX from 'xlsx'
 import { SearchBar } from './search-bar'
 import { CategoryFilter } from './category-filter'
 import { PromptCard } from './prompt-card'
@@ -222,6 +223,60 @@ export function VibeCodingBible() {
     })
   }
 
+  const handleExportExcel = useCallback(() => {
+    if (!data?.prompts?.length) return
+
+    // Sheet 1: All Prompts
+    const promptRows = data.prompts.map(p => ({
+      'Use Case': p.useCase || '',
+      'Prompt': p.prompt || '',
+      'Category': p.category || '',
+      'Usage Phase': p.usagePhase || '',
+      'Tool Compatibility': (p.toolCompatibility || []).join(', '),
+      'Prompt Type': p.promptType || '',
+      'Description': p.description || '',
+      'Tags': (p.tags || []).join(', '),
+    }))
+    const ws1 = XLSX.utils.json_to_sheet(promptRows)
+
+    // Auto-size columns
+    const colWidths = Object.keys(promptRows[0] || {}).map(key => ({
+      wch: Math.min(60, Math.max(key.length, ...promptRows.map(r => String((r as any)[key] || '').length).slice(0, 50)))
+    }))
+    ws1['!cols'] = colWidths
+
+    // Sheet 2: Summary
+    const catCounts: Record<string, number> = {}
+    const phaseCounts: Record<string, number> = {}
+    data.prompts.forEach(p => {
+      if (p.category) catCounts[p.category] = (catCounts[p.category] || 0) + 1
+      if (p.usagePhase) phaseCounts[p.usagePhase] = (phaseCounts[p.usagePhase] || 0) + 1
+    })
+
+    const summaryRows = [
+      { 'Metric': 'Total Prompts', 'Value': data.prompts.length },
+      { 'Metric': 'Total Categories', 'Value': Object.keys(catCounts).length },
+      { 'Metric': '', 'Value': '' },
+      { 'Metric': '--- By Category ---', 'Value': '' },
+      ...Object.entries(catCounts).sort((a, b) => b[1] - a[1]).map(([k, v]) => ({ 'Metric': k, 'Value': v })),
+      { 'Metric': '', 'Value': '' },
+      { 'Metric': '--- By Usage Phase ---', 'Value': '' },
+      ...Object.entries(phaseCounts).sort((a, b) => b[1] - a[1]).map(([k, v]) => ({ 'Metric': k, 'Value': v })),
+    ]
+    const ws2 = XLSX.utils.json_to_sheet(summaryRows)
+    ws2['!cols'] = [{ wch: 40 }, { wch: 15 }]
+
+    const wb = XLSX.utils.book_new()
+    XLSX.utils.book_append_sheet(wb, ws1, 'All Prompts')
+    XLSX.utils.book_append_sheet(wb, ws2, 'Summary')
+    XLSX.writeFile(wb, 'vibe_coding_bible_prompts.xlsx')
+
+    toast({
+      title: '📥 Excel Downloaded!',
+      description: `Exported ${data.prompts.length} prompts to Excel.`,
+    })
+  }, [data, toast])
+
   if (loading) {
     return <MatrixLoadingSpinner />
   }
@@ -268,6 +323,7 @@ export function VibeCodingBible() {
         favoritesLoaded={favoritesLoaded}
         preferredView={preferences.preferredView}
         onViewChange={setPreferredView}
+        onExportExcel={handleExportExcel}
       />
 
       {/* Stats Header */}
